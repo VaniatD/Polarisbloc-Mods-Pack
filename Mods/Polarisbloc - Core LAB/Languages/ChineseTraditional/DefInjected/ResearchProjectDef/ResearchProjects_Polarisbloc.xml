@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Industrial -->
+
+  <PolarisAntibioticProduction.label>聯合抗生素</PolarisAntibioticProduction.label>
+  <PolarisAntibioticProduction.description>學會如何製作聯合抗生素。</PolarisAntibioticProduction.description>
+
+  <PolarisHealingPotionProduction.label>強效治療藥水</PolarisHealingPotionProduction.label>
+  <PolarisHealingPotionProduction.description>學會如何製作強效治療藥水。</PolarisHealingPotionProduction.description>
+
+  <PolarisTransGenderSurgery.label>變性手術</PolarisTransGenderSurgery.label>
+  <PolarisTransGenderSurgery.description>學會如何進行變性手術。</PolarisTransGenderSurgery.description>
+
+
+  <!-- spacer -->
+
+  <PolarisCureScarsSurgery.label>疤痕治療</PolarisCureScarsSurgery.label>
+  <PolarisCureScarsSurgery.description>研究如何治療舊傷口和疤痕。</PolarisCureScarsSurgery.description>
+
+  <PolarisLyraeCurer.label>天琴座治療器</PolarisLyraeCurer.label>
+  <PolarisLyraeCurer.description>學會製作能夠治療附近生物的治療器。</PolarisLyraeCurer.description>
+
+  <PolarisLongevityResearch.label>生理年齡研究</PolarisLongevityResearch.label>
+  <PolarisLongevityResearch.description>研究如何改變生物生理年齡。</PolarisLongevityResearch.description>
+
+
+  <!-- ultra -->
+
+  <PolarisRestoreMissingPartSurgery.label>治療殘疾</PolarisRestoreMissingPartSurgery.label>
+  <PolarisRestoreMissingPartSurgery.description>研究如何修復缺失的身體部位。</PolarisRestoreMissingPartSurgery.description>
+
+  <ResearchProject_PolarisCartridge.label>彈藥包</ResearchProject_PolarisCartridge.label>
+  <ResearchProject_PolarisCartridge.description>彈藥包會在穿戴者死亡時復活他。生命是平等的嗎？把一個人的生命換成另一個人的生命真的很好嗎？（這是通過手術獲得的）。\n\n*你只能通過解讀黎明卿的日記來獲取此項技術。</ResearchProject_PolarisCartridge.description>
+
+  <PolarisTraitreleaserProduction.label>特性釋放器製作</PolarisTraitreleaserProduction.label>
+  <PolarisTraitreleaserProduction.description>學會如何製作特性釋放器。\n\n*在藥物實驗台進行製作。</PolarisTraitreleaserProduction.description>
+
+
+</LanguageData>

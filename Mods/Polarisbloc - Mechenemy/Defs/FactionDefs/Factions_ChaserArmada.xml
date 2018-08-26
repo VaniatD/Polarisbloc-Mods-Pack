@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef>
+    <defName>Vanya_ChaserArmada</defName>
+    <label>Chaser Armada</label>
+    <description>It is human's elite armada, stayed in rimworld for a long time trying to wipe out mechanoids. Chaser Armada is the guardian of the human borderland. They do not have any positive feeling about those tiny factions who have no will to fight against mechanoids.</description>
+    <pawnSingular>Galaxy Warrior</pawnSingular>
+    <pawnsPlural>Galaxy Warriors</pawnsPlural>
+    <settlementGenerationWeight>0.34</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>Captain</leaderTitle>
+    <fixedName>Chaser Armada</fixedName>
+    <expandingIconTexture>Vanya/World/Vanya_ChaserArmada</expandingIconTexture>
+    <colorSpectrum>
+      <li>(1, 1, 1)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-100</min>
+      <max>-77</max>
+    </startingGoodwill>
+    <naturalColonyGoodwill>
+      <min>30</min>
+      <max>80</max>
+    </naturalColonyGoodwill>
+    <techLevel>Ultra</techLevel>
+    <geneticVariance>0.8</geneticVariance>
+    <hairTags>
+      <li>VanyaArmada</li>
+      <li>Urban</li>
+    </hairTags>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Vanya_Caravan_BootyTrader</li>
+    </caravanTraderKinds>
+    <baseTraderKinds>
+      <li>Vanya_MTCA_FactionBase</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-80</min>
+      <max>110</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,200)</li>
+        <li>(70, 250)</li>
+        <li>(1300, 250)</li>
+        <li>(2000, 300)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <VanyaPK_CAFighter>50</VanyaPK_CAFighter>
+          <VanyaPK_CAGunner>120</VanyaPK_CAGunner>
+          <VanyaPK_CAElite>32</VanyaPK_CAElite>
+          <VanyaPK_CASlugger>8</VanyaPK_CASlugger>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>37</commonality>
+        <disallowedStrategies>
+          <li>ImmediateAttack</li>
+          <li>ImmediateAttackSmart</li>
+          <li>StageThenAttack</li>
+          <li>ImmediateAttackSappers</li>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <VanyaPK_CAFighter>200</VanyaPK_CAFighter>
+          <VanyaPK_CAGunner>50</VanyaPK_CAGunner>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <VanyaPK_CAFighter>50</VanyaPK_CAFighter>
+          <VanyaPK_CAGunner>120</VanyaPK_CAGunner>
+          <VanyaPK_CAElite>32</VanyaPK_CAElite>
+          <VanyaPK_CASlugger>8</VanyaPK_CASlugger>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <VanyaPK_CAElite>1</VanyaPK_CAElite>
+        </traders>
+        <carriers>
+          <Muffalo>1</Muffalo>
+          <Dromedary>1</Dromedary>
+        </carriers>
+        <guards>
+          <VanyaPK_CAFighter>50</VanyaPK_CAFighter>
+          <VanyaPK_CAGunner>100</VanyaPK_CAGunner>
+          <VanyaPK_CAElite>25</VanyaPK_CAElite>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <VanyaPK_CAGunner>200</VanyaPK_CAGunner>
+          <VanyaPK_CAElite>50</VanyaPK_CAElite>
+          <VanyaPK_CASlugger>150</VanyaPK_CASlugger>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+    <autoFlee>false</autoFlee>
+    <earliestRaidDays>75</earliestRaidDays>
+    <rescueesCanJoin>true</rescueesCanJoin>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(1000, 0)</li>
+        <li>(4000, 1)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <backstoryCategories>
+      <li>Raider</li>
+    </backstoryCategories>
+    <goodwillDailyGain>0.20</goodwillDailyGain>
+    <goodwillDailyFall>0.50</goodwillDailyFall>
+  </FactionDef>
+</Defs>

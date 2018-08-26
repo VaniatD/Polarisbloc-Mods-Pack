@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PolarisLyraeCurer.label>天琴座治療器</PolarisLyraeCurer.label>
+  <PolarisLyraeCurer.description>它會自動為附近的生物包紮傷口，不過效果並不太好。</PolarisLyraeCurer.description>
+  <PolarisLyraeCurer_Blueprint.label>天琴座治療器（藍圖）</PolarisLyraeCurer_Blueprint.label>
+  <PolarisLyraeCurer_Blueprint_Install.label>天琴座治療器（藍圖）</PolarisLyraeCurer_Blueprint_Install.label>
+  <PolarisLyraeCurer_Frame.label>天琴座治療器（建造中）</PolarisLyraeCurer_Frame.label>
+  <PolarisLyraeCurer_Frame.description>它會自動為附近的生物包紮傷口，不過效果並不太好。</PolarisLyraeCurer_Frame.description>
+
+  <PolarisShipReactor.label>機械飛船反應堆</PolarisShipReactor.label>
+  <PolarisShipReactor.description>機械飛船反應堆。</PolarisShipReactor.description>
+  <PolarisShipReactor_Blueprint_Install.label>機械飛船反應堆（藍圖）</PolarisShipReactor_Blueprint_Install.label>
+
+  <PolarisThermostat.label>polarisbloc thermostat</PolarisThermostat.label>
+  <PolarisThermostat.description>A device that can control the temperature near the target value.</PolarisThermostat.description>
+  <PolarisThermostat_Blueprint.label>polarisbloc thermostat (blueprint)</PolarisThermostat_Blueprint.label>
+  <PolarisThermostat_Blueprint_Install.label>polarisbloc thermostat (blueprint)</PolarisThermostat_Blueprint_Install.label>
+  <PolarisThermostat_Frame.label>polarisbloc thermostat (building)</PolarisThermostat_Frame.label>
+  <PolarisThermostat_Frame.description>A device that can control the temperature near the target value.</PolarisThermostat_Frame.description>
+
+
+</LanguageData>

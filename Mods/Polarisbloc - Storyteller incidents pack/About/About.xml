@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Polarisbloc - Storyteller incidents pack</name>
+  <author>Vaniat</author>
+  <targetVersion>0.19.0</targetVersion>
+  <description>
+  This mod adds 3 storytellers and 7 incidents.
+  
+  Storytells:「Wild AI」Vanya ,「Beserker」No.13 and 「Boffin」Gloria.
+  
+  Incidents:
+  [Misc]Trade ship crash - A trader ship crashed into your map with all storaged things.
+  [World Quest]Trade ship crash quest - A trader ship chashed nearby your map, you need form a caravan to get the storaged things.
+  [Misc]Demeter's Blessing - Your plant will gain a lot life power, some of them will be harvestable directly.
+  [Threat Small]Turret disturbed - One of your turrents has been disturbed by mechanoids, so it will distinguish you as enemy.
+  [Threat Small]Dekigokoro - One of your colonists will give up job is doing and going to gaze sky.
+  [Threat Small]power conduit fusing - One or more power conduits were overwhelmed and destoryed.
+  [Threat Small]overload - One of your all electric device has taken a lot of current and burn itself out.
+
+  Enjoy it! XD
+  </description>
+</ModMetaData>

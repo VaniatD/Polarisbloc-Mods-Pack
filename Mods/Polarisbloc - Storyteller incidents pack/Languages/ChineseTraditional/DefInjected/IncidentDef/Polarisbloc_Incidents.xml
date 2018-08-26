@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Polaris_TradeShipCrash.label>貿易船墜毀</Polaris_TradeShipCrash.label>
+
+  <Polaris_QuestTradeShipPodCrash.label>軌道貿易船墜毀機會</Polaris_QuestTradeShipPodCrash.label>
+  <Polaris_QuestTradeShipPodCrash.letterText>{2}的{1}，{0}，告知我們一艘軌道貿易船墜毀在了我們附近的位置，我們可以前往此處來獲取這艘飛船的貨艙物資。\n\n這艘飛船是{3}\n\n遺憾的是，時間並不充裕——如果我們不接收這批物品，其他人會在{4}天后來接收。\n\n機會往往伴隨著風險，務必當心。\n\n{5}</Polaris_QuestTradeShipPodCrash.letterText>
+  <Polaris_QuestTradeShipPodCrash.letterLabel>貿易船墜毀機會</Polaris_QuestTradeShipPodCrash.letterLabel>
+
+  <Polaris_HarvestBenediction.label>豐收祝福</Polaris_HarvestBenediction.label>
+  <Polaris_HarvestBenediction.letterText>受到了未知存在的祝福，你的作物獲得了大量生命力。</Polaris_HarvestBenediction.letterText>
+  <Polaris_HarvestBenediction.letterLabel>豐收祝福</Polaris_HarvestBenediction.letterLabel>
+
+  <Polaris_TurretDisturbed.label>炮台干擾</Polaris_TurretDisturbed.label>
+  <Polaris_TurretDisturbed.letterText>你的一個炮台受到來自機械的干擾，現在它將視你為敵人。</Polaris_TurretDisturbed.letterText>
+  <Polaris_TurretDisturbed.letterLabel>炮台干擾</Polaris_TurretDisturbed.letterLabel>
+
+
+</LanguageData>

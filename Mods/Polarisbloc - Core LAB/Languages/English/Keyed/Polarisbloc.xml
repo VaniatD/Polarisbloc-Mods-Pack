@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Cartridge-->
+  <PolarisMessageSomeoneResurrected>{0} has successfully pulled {1} back from a dead.</PolarisMessageSomeoneResurrected>
+  <PolarisMessageFailedMakeCartridge>{0} must have more than 60 opinion points to {1}.</PolarisMessageFailedMakeCartridge>
+  <!--CombatChip-->
+  <PolarisConvertCombatChipTitle>Chose combat chip</PolarisConvertCombatChipTitle>
+  <PolarisConvertCombatChipDESC>Please chose the one what you want in the following options.</PolarisConvertCombatChipDESC>
+  <PolarisMessageFailedConvertCombatChip>{0} has no available combat chips.</PolarisMessageFailedConvertCombatChip>
+  <!--orbital trader caller-->
+  <PolarisOrbitalTraderCouldNotArrival>The nearby orbit has no room to hold a new orbital ship.</PolarisOrbitalTraderCouldNotArrival>
+  <!--heal old wounds-->
+  <PolarisMessageSuccessfullyRemovedHediffIsOld>{0} has successfully cured {1}'s {2}.</PolarisMessageSuccessfullyRemovedHediffIsOld>
+  <!--age-->
+  <PolarisMessageSuccessfullyAgeDecrease>{0}'s age has been decreased {1}.</PolarisMessageSuccessfullyAgeDecrease>
+  <!--Traitreleaser-->
+  <PolarisTraitreleaserEffectDESC>You can chose to get a trait or record a trait to traitreleaser what the user have.</PolarisTraitreleaserEffectDESC>
+  <PolarisTraitreleaserAddTraitOption>Add {0}</PolarisTraitreleaserAddTraitOption>
+  <PolarisTraitreleaserAlreadyHadTrait>already had</PolarisTraitreleaserAlreadyHadTrait>
+  <PolarisTraitreleaserHasNoEnoughSlots>no enough slots</PolarisTraitreleaserHasNoEnoughSlots>
+  <PolarisTraitreleaserRemoveTraitOption>Record trait ( available times: {0} )</PolarisTraitreleaserRemoveTraitOption>
+  <PolarisTraitreleaserChoseRemoveTrait>The trait you chosen will be removed form the user.</PolarisTraitreleaserChoseRemoveTrait>
+  <PolarisTraitreleaserUsedRemovedTrait>{0} has successfully abandoned {1}</PolarisTraitreleaserUsedRemovedTrait>
+  <PolarisTraitreleaserUsedReplaceConflitTraits>In order to gain {1},{0} has to abandon : {2}.</PolarisTraitreleaserUsedReplaceConflitTraits>
+  <PolarisTraitreleaserUsedAddTrait>{0} has successfully gained {1}.</PolarisTraitreleaserUsedAddTrait>
+  <PolarisTraitreleaserTraitConflictingTraits>Conflicting with : {0}</PolarisTraitreleaserTraitConflictingTraits>
+  <PolarisTraitreleaserTraitDisabledWorkTypes>Disabled work types : {0}</PolarisTraitreleaserTraitDisabledWorkTypes>
+  <!--momery rester-->
+  <PolarisMomeryResterHaveNoAvaliableOption>*No avaliable options</PolarisMomeryResterHaveNoAvaliableOption>
+  <PolarisMomeryResterStoryDisabledWorkTypes>Disabled work types : {0}</PolarisMomeryResterStoryDisabledWorkTypes>
+  <PolarisMomeryResterChildhoodModeActiveLabel>Mode: childhood story</PolarisMomeryResterChildhoodModeActiveLabel>
+  <PolarisMomeryResterChildhoodModeActiveDesc>On this mode,It will change your childhood story.You can click the icon switch to adulthood mode.</PolarisMomeryResterChildhoodModeActiveDesc>
+  <PolarisMomeryResterAdulthoodModeActiveLabel>Mode: adulthood story</PolarisMomeryResterAdulthoodModeActiveLabel>
+  <PolarisMomeryResterAdulthoodModeActiveDesc>On this mode,It will change your adulthood story.You can click the icon switch to childhood mode.</PolarisMomeryResterAdulthoodModeActiveDesc>
+  <PolarisMomeryResterStorySuccessfullyChanged>{0}'s {1} has been changed to {2}.</PolarisMomeryResterStorySuccessfullyChanged>
+  <PolarisMomeryResterHaveNoAvaliableStory>{0} has no avaliable story could be changed.</PolarisMomeryResterHaveNoAvaliableStory>
+  <PolarisMomeryResterUnknownError>*Unknow error</PolarisMomeryResterUnknownError>
+  <!--curer-->
+  <PolarisCurerApplyToHumanLabel>apply to human</PolarisCurerApplyToHumanLabel>
+  <PolarisCurerApplyToHumanDESC>If actived, the curer will tend humans' wounds.</PolarisCurerApplyToHumanDESC>
+  <!--restorer-->
+  <PolarisRestorerIngest>{0} has ingested polaris restorer.</PolarisRestorerIngest>
+</LanguageData>

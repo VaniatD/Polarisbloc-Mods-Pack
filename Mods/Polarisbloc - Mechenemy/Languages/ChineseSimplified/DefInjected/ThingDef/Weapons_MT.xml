@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- grenades -->
+
+  <Vanya_Grenade.label>小型冲击炸弹</Vanya_Grenade.label>
+  <Vanya_Grenade.description>一次性使用的小型炸弹，用于破坏建筑。</Vanya_Grenade.description>
+  <Vanya_Grenade.verbs.0.label>投掷冲击炸弹</Vanya_Grenade.verbs.0.label>
+
+  <Proj_Vanya_Grenade.label>小型冲击炸弹</Proj_Vanya_Grenade.label>
+
+
+  <!-- Melees -->
+
+  <Vanya_PlasmaSword.label>等离子光剑</Vanya_PlasmaSword.label>
+  <Vanya_PlasmaSword.description>释放能量形成稳定的等离子体剑刃，伤害非常可观。</Vanya_PlasmaSword.description>
+  <Vanya_PlasmaSword.tools.0.label>剑柄</Vanya_PlasmaSword.tools.0.label>
+  <Vanya_PlasmaSword.tools.1.label>砍</Vanya_PlasmaSword.tools.1.label>
+  <Vanya_PlasmaSword.tools.2.label>刺</Vanya_PlasmaSword.tools.2.label>
+
+  <Vanya_VibrateKnife.label>电磁震荡刀</Vanya_VibrateKnife.label>
+  <Vanya_VibrateKnife.description>刀刃以超高的频率形成震动，能够轻易切开所有防御，震荡形成的破坏会让肉体大量出血。</Vanya_VibrateKnife.description>
+  <Vanya_VibrateKnife.tools.0.label>剑柄</Vanya_VibrateKnife.tools.0.label>
+  <Vanya_VibrateKnife.tools.1.label>砍</Vanya_VibrateKnife.tools.1.label>
+  <Vanya_VibrateKnife.tools.2.label>刺</Vanya_VibrateKnife.tools.2.label>
+
+
+  <!-- MechanoidGuns -->
+
+  <Bullet_Vanya_KineticLancer.label>动能标枪</Bullet_Vanya_KineticLancer.label>
+
+  <Vanya_KineticLancer.label>动能标枪</Vanya_KineticLancer.label>
+  <Vanya_KineticLancer.description>以电磁驱动的加速器来发射钨芯标枪，能够对生物造成大面积创伤。</Vanya_KineticLancer.description>
+
+  <Bullet_Vanya_SplitRifle.label>子弹</Bullet_Vanya_SplitRifle.label>
+
+  <Vanya_SplitRifle.label>撕裂者步枪</Vanya_SplitRifle.label>
+  <Vanya_SplitRifle.description>以电磁驱动的加速器来发射子弹，射速很快，精度很高。</Vanya_SplitRifle.description>
+
+  <Bullet_Vanya_CTMinigun.label>子弹</Bullet_Vanya_CTMinigun.label>
+
+  <Vanya_CTMinigun.label>镇暴重机枪</Vanya_CTMinigun.label>
+  <Vanya_CTMinigun.description>大型的中距离火力压制武器，就算只有一把也非常有效。</Vanya_CTMinigun.description>
+
+
+  <!-- MechanoidDogsGun -->
+
+  <Bullet_Vanya_BundlingBlaster.label>电磁炮</Bullet_Vanya_BundlingBlaster.label>
+
+  <Vanya_BundlingBlaster.label>集束电磁炮</Vanya_BundlingBlaster.label>
+  <Vanya_BundlingBlaster.description>一种一次性使用的多发重炮，造成广范围的多次伤害。</Vanya_BundlingBlaster.description>
+
+  <Bullet_Vanya_DestoryerShocker.label>毁灭者冲击炮</Bullet_Vanya_DestoryerShocker.label>
+
+  <Vanya_DestoryerShocker.label>毁灭者冲击炮</Vanya_DestoryerShocker.label>
+  <Vanya_DestoryerShocker.description>一种一次性使用的大型单管炮，造成大范围伤害。</Vanya_DestoryerShocker.description>
+
+
+  <!-- MechanoidRulerGun -->
+
+  <Bullet_Vanya_RailGun.label>钨芯高爆弹</Bullet_Vanya_RailGun.label>
+
+  <Vanya_RailGun.label>裁决者轨道炮</Vanya_RailGun.label>
+  <Vanya_RailGun.description>使用钨芯高爆弹，一种长距离范围攻击武器。</Vanya_RailGun.description>
+
+
+  <!-- MechanoidFortressGun -->
+
+  <Bullet_Vanya_CompRocketLauncher.label>火箭</Bullet_Vanya_CompRocketLauncher.label>
+
+  <Vanya_CompRocketLauncher.label>复合火箭巢</Vanya_CompRocketLauncher.label>
+  <Vanya_CompRocketLauncher.description>大型的连续飞弹发射器，对较大范围进行饱和性打击。</Vanya_CompRocketLauncher.description>
+
+
+  <!-- ChaserArmadaGun -->
+
+  <Bullet_Vanya_StalkerRifle.label>子弹</Bullet_Vanya_StalkerRifle.label>
+
+  <Vanya_StalkerRifle.label>追猎者步枪</Vanya_StalkerRifle.label>
+  <Vanya_StalkerRifle.description>猎人舰队陆军制式步枪，在保证精度的同时提高有效范围，稳定性极佳。</Vanya_StalkerRifle.description>
+  <Vanya_StalkerRifle.tools.0.label>弹匣</Vanya_StalkerRifle.tools.0.label>
+  <Vanya_StalkerRifle.tools.1.label>枪管</Vanya_StalkerRifle.tools.1.label>
+
+  <Bullet_Vanya_HunterSniper.label>子弹</Bullet_Vanya_HunterSniper.label>
+
+  <Vanya_HunterSniper.label>猎手狙击枪</Vanya_HunterSniper.label>
+  <Vanya_HunterSniper.description>猎人舰队的精英狙击步枪，用于猎杀大型机械。</Vanya_HunterSniper.description>
+  <Vanya_HunterSniper.tools.0.label>弹匣</Vanya_HunterSniper.tools.0.label>
+  <Vanya_HunterSniper.tools.1.label>枪管</Vanya_HunterSniper.tools.1.label>
+
+  <Bullet_Vanya_HellSong.label>地狱之歌</Bullet_Vanya_HellSong.label>
+
+  <Vanya_HellSong.label>地狱之歌</Vanya_HellSong.label>
+  <Vanya_HellSong.description>猎人舰队的重型武器，覆盖性的火力打击，用于猎杀小而隐蔽的灵活型机械体。</Vanya_HellSong.description>
+  <Vanya_HellSong.tools.0.label>弹匣</Vanya_HellSong.tools.0.label>
+  <Vanya_HellSong.tools.1.label>枪管</Vanya_HellSong.tools.1.label>
+
+
+  <!-- MakeableGun -->
+  <!--<Bullet_Vanya_KineticRifleLite.label>子弹</Bullet_Vanya_KineticRifleLite.label>-->
+  <!--<Vanya_KineticRifleLite.label>轻型动能步枪</Vanya_KineticRifleLite.label>-->
+  <!--<Vanya_KineticRifleLite.description>使用机械族科技制成的电磁加速步枪，发射钨芯穿甲弹。可以攻击位于墙后的敌人。</Vanya_KineticRifleLite.description>-->
+  <!--<Bullet_Vanya_RailGunLite.label>钨芯高爆弹</Bullet_Vanya_RailGunLite.label>-->
+  <!--<Vanya_RailGunLite.label>轻型裁决者轨道炮</Vanya_RailGunLite.label>-->
+  <!--<Vanya_RailGunLite.description>破译制裁者轨道炮制作的人类使用版本，增加了射程，同时让伤害更凝聚。</Vanya_RailGunLite.description>-->
+  <!-- MechKiller -->
+  <!--<Bullet_Vanya_MechKillerLauncher.label>机械杀手</Bullet_Vanya_MechKillerLauncher.label>-->
+  <!--<Vanya_MechKillerLauncher.label>机械杀手</Vanya_MechKillerLauncher.label>-->
+  <!--<Vanya_MechKillerLauncher.description>获取高等机械体身体数据之后应用机械族科技研制的新锐武器，用于应对高等机械体十分有效。</Vanya_MechKillerLauncher.description>-->
+
+</LanguageData>

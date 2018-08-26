@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--<Polaris_Gene.label>基因調整劑</Polaris_Gene.label>-->
+  <!--<Polaris_Gene.description>核心世界的黑市上開始出現一種不明來歷的基因藥劑，能夠使人類的身體獲得進化，甚至能讓仿生體也產生變化。但是這種藥劑必須保持活性，在失活的時候會引起基因崩潰。太短時間內連續服用也可能會導致死亡。\n注意：容器很脆弱，需要小心保存。\n\n（斷藥之後已經產生進化的身體部位不會受影響，但不會有新的進化產生。）\n\n\n“這玩意不應該出現在世界上！趕緊毀了它！”——Vanya.D</Polaris_Gene.description>-->
+  <!--<Polaris_Gene.ingestible.ingestCommandString>注射{0}</Polaris_Gene.ingestible.ingestCommandString>-->
+  <!--<Polaris_Gene.ingestible.ingestReportString>正在注射{0}。</Polaris_Gene.ingestible.ingestReportString>-->
+
+
+</LanguageData>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Temporary item stash -->
+  <PolarisTitleTradeShipPodCrash>坠毁</PolarisTitleTradeShipPodCrash>
+  <PolarisTradeShipPodCrash>一艘商船在抵达你所在的位置时由于计算失误坠毁了。\n\n他们被称作{0}。是{1}。</PolarisTradeShipPodCrash>
+</LanguageData>

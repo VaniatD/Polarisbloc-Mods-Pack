@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>Polaris_GetPloarisblocSecretArchives</defName>
+    <label>mystical letter</label>
+    <workerClass>Polarisbloc.IncidentWorker_GetPloarisblocSecretArchives</workerClass>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <baseChance>3</baseChance>
+    <earliestDay>60</earliestDay>
+    <minRefireDays>99999</minRefireDays>
+    <category>Misc</category>
+    <letterLabel>mystical letter</letterLabel>
+    <letterText>We recived a letter from unknown, but it recorded many useful informations. We should try to use them.</letterText>
+    <letterDef>PositiveEvent</letterDef>
+  </IncidentDef>
+</Defs>

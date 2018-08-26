@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Cartridge-->
+  <PolarisMessageSomeoneResurrected>{0}成功讓{1}撿回了一條命。</PolarisMessageSomeoneResurrected>
+  <PolarisMessageFailedMakeCartridge>{0}必須對{1}有至少60的好感度。</PolarisMessageFailedMakeCartridge>
+  <!--CombatChip-->
+  <PolarisConvertCombatChipTitle>選擇戰術芯片</PolarisConvertCombatChipTitle>
+  <PolarisConvertCombatChipDESC>請在以下選項中選擇一個。</PolarisConvertCombatChipDESC>
+  <PolarisMessageFailedConvertCombatChip>{0}沒有可用的戰術芯片。</PolarisMessageFailedConvertCombatChip>
+  <!--orbital trader caller-->
+  <PolarisOrbitalTraderCouldNotArrival>附近的軌道沒有足夠的空間來容納新的軌道商。</PolarisOrbitalTraderCouldNotArrival>
+  <!--heal old wounds-->
+  <PolarisMessageSuccessfullyRemovedHediffIsOld>{0}成功治療了{1}的{2}。</PolarisMessageSuccessfullyRemovedHediffIsOld>
+  <!--age-->
+  <PolarisMessageSuccessfullyAgeDecrease>{0}的年齡減少了{1}歲。</PolarisMessageSuccessfullyAgeDecrease>
+  <!--Traitreleaser-->
+  <PolarisTraitreleaserEffectDESC>你可以選擇獲取一個新特性或者將使用者的某個特性記錄到特性釋放器。</PolarisTraitreleaserEffectDESC>
+  <PolarisTraitreleaserAddTraitOption>獲取{0}</PolarisTraitreleaserAddTraitOption>
+  <PolarisTraitreleaserAlreadyHadTrait>已擁有</PolarisTraitreleaserAlreadyHadTrait>
+  <PolarisTraitreleaserHasNoEnoughSlots>沒有足夠槽位</PolarisTraitreleaserHasNoEnoughSlots>
+  <PolarisTraitreleaserRemoveTraitOption>記錄特性（ 可用次數：{0} ）</PolarisTraitreleaserRemoveTraitOption>
+  <PolarisTraitreleaserChoseRemoveTrait>你選擇的特性會從使用者身上移除。</PolarisTraitreleaserChoseRemoveTrait>
+  <PolarisTraitreleaserUsedRemovedTrait>{0}成功捨棄了{1}</PolarisTraitreleaserUsedRemovedTrait>
+  <PolarisTraitreleaserUsedReplaceConflitTraits>為了獲取{1}，{0}不得不放棄了：{2}。</PolarisTraitreleaserUsedReplaceConflitTraits>
+  <PolarisTraitreleaserUsedAddTrait>{0}成功獲取了{1}。</PolarisTraitreleaserUsedAddTrait>
+  <PolarisTraitreleaserTraitConflictingTraits>衝突：{0}</PolarisTraitreleaserTraitConflictingTraits>
+  <PolarisTraitreleaserTraitDisabledWorkTypes>無法從事：{0}</PolarisTraitreleaserTraitDisabledWorkTypes>
+  <!--momery rester-->
+  <PolarisMomeryResterHaveNoAvaliableOption>*沒有可用選項</PolarisMomeryResterHaveNoAvaliableOption>
+  <PolarisMomeryResterStoryDisabledWorkTypes>無法從事：{0}</PolarisMomeryResterStoryDisabledWorkTypes>
+  <PolarisMomeryResterChildhoodModeActiveLabel>模式：幼年背景</PolarisMomeryResterChildhoodModeActiveLabel>
+  <PolarisMomeryResterChildhoodModeActiveDesc>在這個模式下，會改變你的幼年背景故事。點擊按鈕以切換至成年背景模式。</PolarisMomeryResterChildhoodModeActiveDesc>
+  <PolarisMomeryResterAdulthoodModeActiveLabel>模式：成年背景</PolarisMomeryResterAdulthoodModeActiveLabel>
+  <PolarisMomeryResterAdulthoodModeActiveDesc>在這個模式下，會改變你的成年背景故事。點擊按鈕以切換至幼年背景模式。</PolarisMomeryResterAdulthoodModeActiveDesc>
+  <PolarisMomeryResterStorySuccessfullyChanged>{0}的{1}已重置為{2}。</PolarisMomeryResterStorySuccessfullyChanged>
+  <PolarisMomeryResterHaveNoAvaliableStory>{0}沒有可以改變的背景故事。</PolarisMomeryResterHaveNoAvaliableStory>
+  <PolarisMomeryResterUnknownError>*未知錯誤</PolarisMomeryResterUnknownError>
+  <!--curer-->
+  <PolarisCurerApplyToHumanLabel>應用於人類</PolarisCurerApplyToHumanLabel>
+  <PolarisCurerApplyToHumanDESC>如果激活，則治療器會自動為人類包紮傷口。</PolarisCurerApplyToHumanDESC>
+  <!--restorer-->
+  <PolarisRestorerIngest>{0}注射了北極星恢復劑。</PolarisRestorerIngest>
+</LanguageData>

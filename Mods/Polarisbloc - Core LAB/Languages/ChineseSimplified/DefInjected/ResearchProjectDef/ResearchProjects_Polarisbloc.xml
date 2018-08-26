@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--base-->
+  <PolarisSecretArchives.label>机密档案</PolarisSecretArchives.label>
+  <PolarisSecretArchives.description>天轴集团一些特殊实验的档案，这些应该能帮到我们。\n\n*不要急，在游戏开始一年后就有机会获得这项科技。</PolarisSecretArchives.description>
+  <!--medicines-->
+  <PolarisDrugFormula.label>药物配方</PolarisDrugFormula.label>
+  <PolarisDrugFormula.description>这个项目记录了一些药物是如何合成的。</PolarisDrugFormula.description>
+  <PolarisAntibioticProduction.label>联合抗生素</PolarisAntibioticProduction.label>
+  <PolarisAntibioticProduction.description>学会如何制作联合抗生素。</PolarisAntibioticProduction.description>
+  <PolarisHealingPotionProduction.label>强效治疗药水</PolarisHealingPotionProduction.label>
+  <PolarisHealingPotionProduction.description>学会如何制作强效治疗药水。</PolarisHealingPotionProduction.description>
+  <!--surgical program-->
+  <PolarisSurgicalProgram.label>手术方案</PolarisSurgicalProgram.label>
+  <PolarisSurgicalProgram.description>这个项目记录了一些特殊的手术。</PolarisSurgicalProgram.description>
+  <PolarisTransGenderSurgery.label>变性手术</PolarisTransGenderSurgery.label>
+  <PolarisTransGenderSurgery.description>学会如何进行变性手术。</PolarisTransGenderSurgery.description>
+  <PolarisCureScarsSurgery.label>疤痕治疗</PolarisCureScarsSurgery.label>
+  <PolarisCureScarsSurgery.description>研究如何治疗旧伤口和疤痕。</PolarisCureScarsSurgery.description>
+  <PolarisRestoreMissingPartSurgery.label>治愈残疾</PolarisRestoreMissingPartSurgery.label>
+  <PolarisRestoreMissingPartSurgery.description>研究如何修复缺失的身体部位。</PolarisRestoreMissingPartSurgery.description>
+  <PolarisLongevityResearch.label>生理年龄研究</PolarisLongevityResearch.label>
+  <PolarisLongevityResearch.description>研究如何改变生物生理年龄。</PolarisLongevityResearch.description>
+  <PolarisRemoveImplants.label>植入物移除</PolarisRemoveImplants.label>
+  <PolarisRemoveImplants.description>可以移除某些植入后无法移除的植入物。</PolarisRemoveImplants.description>
+  <PolarisPsionwire.label>灵能芯片</PolarisPsionwire.label>
+  <PolarisPsionwire.description>获取灵能芯片的制作方法。</PolarisPsionwire.description>
+  <!--special device-->
+  <PolarisSpecialDevice.label>特殊装置</PolarisSpecialDevice.label>
+  <PolarisSpecialDevice.description>这个项目记录了一些有特殊功能的装置。</PolarisSpecialDevice.description>
+  <PolarisLyraeCurer.label>天琴座治疗器</PolarisLyraeCurer.label>
+  <PolarisLyraeCurer.description>学会制作能够治疗附近生物的治疗器。</PolarisLyraeCurer.description>
+  <PolarisThermostat.label>恒温器</PolarisThermostat.label>
+  <PolarisThermostat.description>学会如何制作恒温器，这个恒温器能够将房间内温度稳定在目标范围。</PolarisThermostat.description>
+  <PolarisTraitreleaserProduction.label>特性释放器制作</PolarisTraitreleaserProduction.label>
+  <PolarisTraitreleaserProduction.description>学会如何制作特性释放器。\n\n*在药物实验台进行制作。</PolarisTraitreleaserProduction.description>
+  <!--cant research-->
+  <ResearchProject_PolarisCartridge.label>弹药包</ResearchProject_PolarisCartridge.label>
+  <ResearchProject_PolarisCartridge.description>弹药包会在穿戴者死亡时复活他。生命是平等的吗？把一个人的生命换成另一个人的生命真的很好吗？（这是通过手术获得的）。\n\n*你只能通过解读黎明卿的日记来获取此项技术。</ResearchProject_PolarisCartridge.description>
+</LanguageData>
