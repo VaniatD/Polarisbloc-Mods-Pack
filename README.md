@@ -1,2 +1,2 @@
 # Polarisbloc-Mods-Pack
-This is a mod
+This is a mods pack of the RimWorld.
