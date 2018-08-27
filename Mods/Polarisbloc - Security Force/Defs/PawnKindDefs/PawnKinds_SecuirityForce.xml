@@ -88,8 +88,8 @@
     <label>captain</label>
     <combatPower>184</combatPower>
     <weaponMoney>
-      <min>4000</min>
-      <max>8000</max>
+      <min>6000</min>
+      <max>10000</max>
     </weaponMoney>
     <weaponTags>
       <li>Polarisbloc_CaniculaSniper</li>

@@ -161,26 +161,17 @@ namespace Polarisbloc
         public override bool CheckPreAbsorbDamage(DamageInfo dinfo)
         {
             if (dinfo.Instigator == base.Wearer) return true;
-            if (this.ShieldState == ShieldState.Active && (dinfo.Instigator != null || dinfo.Def.isExplosive))
+            if (dinfo.Def == DamageDefOf.SurgicalCut) return false;
+            if (this.ShieldState == ShieldState.Active)
             {
                 if (dinfo.Instigator != null && dinfo.Instigator.Position.AdjacentTo8WayOrInside(base.Wearer.Position))
                 {
-                    this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage;
-                }
-                this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage;
-                if (this.energy < 0f )
-                {
-                    this.Break();
+                    this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage * 2f;
                 }
                 else
                 {
-                    this.AbsorbedDamage(dinfo);
+                    this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage;
                 }
-                return true;
-            }
-            if (this.ShieldState == ShieldState.Active && dinfo.Instigator == null && dinfo.Def != DamageDefOf.SurgicalCut)
-            {
-                this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage;
                 if (this.energy < 0f)
                 {
                     this.Break();
@@ -240,13 +231,13 @@ namespace Polarisbloc
 		{
 			if (this.ShieldState == ShieldState.Active && this.ShouldDisplay)
 			{
-				float num = Mathf.Lerp(1.2f, 1.55f, this.energy);
+				float num = Mathf.Lerp(PolarisShieldBelt_II.MinDrawSize, PolarisShieldBelt_II.MaxDrawSize, this.energy);
 				Vector3 vector = base.Wearer.Drawer.DrawPos;
 				vector.y = Altitudes.AltitudeFor(AltitudeLayer.MoteOverhead);
 				int num2 = Find.TickManager.TicksGame - this.lastAbsorbDamageTick;
-				if (num2 < 8)
+				if (num2 < PolarisShieldBelt_II.JitterDurationTicks)
 				{
-					float num3 = (float)(8 - num2) / 8f * 0.05f;
+					float num3 = (float)(PolarisShieldBelt_II.JitterDurationTicks - num2) / 8f * PolarisShieldBelt_II.MaxDamagedJitterDist;
 					vector += this.impactAngleVect * num3;
 					num -= num3;
 				}

@@ -106,7 +106,7 @@
     </raidCommonalityFromPointsCurve>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
     <backstoryCategories>
-      <li>Civil</li>
+      <li>Raid</li>
     </backstoryCategories>
     <goodwillDailyGain>0.40</goodwillDailyGain>
     <goodwillDailyFall>0.30</goodwillDailyFall>

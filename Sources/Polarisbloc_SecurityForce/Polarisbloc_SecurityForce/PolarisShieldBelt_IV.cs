@@ -44,9 +44,21 @@ namespace Polarisbloc_SecurityForce
 
         private int LightningColdDownTicks = 120;
 
-        private int ColdDownTick;
+        private float absorbMeleeDamageFactor = 2f;
+
+        private float maxDamageTakeOnce = 10f;
+
+        //private int ColdDownTick;
 
         private bool canLightning = true;
+
+        private bool CanLightning
+        {
+            get
+            {
+                return this.lastAbsorbDamageTick <= Find.TickManager.TicksGame - this.LightningColdDownTicks && this.canLightning;
+            }
+        }
 
 		private float EnergyMax
 		{
@@ -183,10 +195,10 @@ namespace Polarisbloc_SecurityForce
 				this.energy = 0f;
 				return;
 			}
-            if (!CheckLightningAvaliable())
+            /*if (!CheckLightningAvaliable())
             {
                 this.ColdDownTick++;
-            }
+            }*/
 			if (this.ShieldState == ShieldState.Resetting)
 			{
 				this.ticksToReset--;
@@ -211,27 +223,29 @@ namespace Polarisbloc_SecurityForce
             if (dinfo.Def == DamageDefOf.SurgicalCut) return false;
             if (this.ShieldState == ShieldState.Active)
             {
-                if(CheckLightningAvaliable() && dinfo.Instigator != null)
-                {
-                    if (dinfo.Instigator.def != ThingDefOf.Fire && dinfo.Instigator.Faction != base.Wearer.Faction)
-                    {
-                        Map map = dinfo.Instigator.MapHeld;
-                        map.weatherManager.eventHandler.AddEvent(new WeatherEvent_LightningStrike(map, dinfo.Instigator.PositionHeld));
-                        this.ColdDownTick = 0;
-                    }
-                }
+                this.TryShotLightning(dinfo);
                 if (dinfo.Instigator != null && dinfo.Instigator.Position.AdjacentTo8WayOrInside(base.Wearer.Position))
                 {
-                    this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage;
+                    if (dinfo.Amount > this.maxDamageTakeOnce)
+                    {
+                        this.energy -= this.maxDamageTakeOnce * this.EnergyLossPerDamage * this.absorbMeleeDamageFactor;
+                    }
+                    else
+                    {
+                        this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage * this.absorbMeleeDamageFactor;
+                    }
                 }
-                this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage;
-                if (dinfo.Instigator is Building building && dinfo.Amount <= 10)
+                else
                 {
-                    this.energy += (float)dinfo.Amount * this.EnergyLossPerDamage;
-                    Map map = dinfo.Instigator.MapHeld;
-                    map.weatherManager.eventHandler.AddEvent(new WeatherEvent_LightningStrike(map, dinfo.Instigator.PositionHeld));
+                    if (dinfo.Amount > this.maxDamageTakeOnce)
+                    {
+                        this.energy -= this.maxDamageTakeOnce * this.EnergyLossPerDamage;
+                    }
+                    else
+                    {
+                        this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage;
+                    }
                 }
-                if (dinfo.Amount > 10) this.energy += (float)dinfo.Amount * this.EnergyLossPerDamage - 0.15f;
                 if (this.energy < 0f )
                 {
                     this.Break();
@@ -294,13 +308,13 @@ namespace Polarisbloc_SecurityForce
 		{
 			if (this.ShieldState == ShieldState.Active && this.ShouldDisplay)
 			{
-				float num = Mathf.Lerp(1.2f, 1.55f, this.energy);
+				float num = Mathf.Lerp(PolarisShieldBelt_IV.MinDrawSize, PolarisShieldBelt_IV.MaxDrawSize, this.energy);
 				Vector3 vector = base.Wearer.Drawer.DrawPos;
 				vector.y = Altitudes.AltitudeFor(AltitudeLayer.MoteOverhead);
 				int num2 = Find.TickManager.TicksGame - this.lastAbsorbDamageTick;
-				if (num2 < 8)
+				if (num2 < PolarisShieldBelt_IV.JitterDurationTicks)
 				{
-					float num3 = (float)(8 - num2) / 8f * 0.05f;
+					float num3 = (float)(PolarisShieldBelt_IV.JitterDurationTicks - num2) / 8f * PolarisShieldBelt_IV.MaxDamagedJitterDist;
 					vector += this.impactAngleVect * num3;
 					num -= num3;
 				}
@@ -312,23 +326,44 @@ namespace Polarisbloc_SecurityForce
 			}
 		}
 
-        private bool CheckLightningAvaliable()
+        private void TryShotLightning(DamageInfo dinfo)
         {
-            if (this.ColdDownTick >= this.LightningColdDownTicks && this.canLightning) return true;
-            else return false;
+            if (dinfo.Instigator != null)
+            {
+                if (dinfo.Instigator.def == ThingDefOf.Fire)
+                {
+                    return;
+                }
+                else if (dinfo.Instigator.Faction != null)
+                {
+                    if (dinfo.Instigator.Faction != base.Wearer.Faction)
+                    {
+                        if (dinfo.Instigator is Building)
+                        {
+                            Map map = dinfo.Instigator.MapHeld;
+                            map.weatherManager.eventHandler.AddEvent(new WeatherEvent_LightningStrike(map, dinfo.Instigator.PositionHeld));
+                        }
+                        else if (this.CanLightning)
+                        {
+                            Map map = dinfo.Instigator.MapHeld;
+                            map.weatherManager.eventHandler.AddEvent(new WeatherEvent_LightningStrike(map, dinfo.Instigator.PositionHeld));
+                        }
+                    }
+                }
+                else
+                {
+                    if (dinfo.Instigator is Building)
+                    {
+                        Map map = dinfo.Instigator.MapHeld;
+                        map.weatherManager.eventHandler.AddEvent(new WeatherEvent_LightningStrike(map, dinfo.Instigator.PositionHeld));
+                    }
+                    else if (this.CanLightning)
+                    {
+                        Map map = dinfo.Instigator.MapHeld;
+                        map.weatherManager.eventHandler.AddEvent(new WeatherEvent_LightningStrike(map, dinfo.Instigator.PositionHeld));
+                    }
+                }
+            }
         }
-        
-        /*private void SelfDestory(Pawn pawn)
-        {
-            this.Destroy(DestroyMode.Vanish);
-            pawn.apparel.Remove(this);
-            GenExplosion.DoExplosion(pawn.PositionHeld, pawn.MapHeld, 5, DamageDefOf.Flame, this, 50, SoundDefOf.BulletImpactGround, null, null, null, 0, 1, false, null, 0, 1, 0.5f, false);
-            string text = "MessageSuccessfullySelfDestoryActive".Translate(new object[]
-                            {
-                            pawn.LabelShort,
-                            this.LabelShort
-                            });
-            Messages.Message(text, pawn, MessageTypeDefOf.NegativeEvent);
-        }*/
 	}
 }

@@ -142,7 +142,6 @@
       <texPath>PolarisblocSF/Projectile/Bullet_CaniculaSniper</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
-      <drawSize>(3,3)</drawSize>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
