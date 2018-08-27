@@ -12,4 +12,5 @@
   <PlrsDoExplosionDESC>You can pay 50 energy to do an explosion around you.Don't worry,it won't hurt yourself.</PlrsDoExplosionDESC>
   <PlrsLightningActiveLabel>Lightning!</PlrsLightningActiveLabel>
   <PlrsLightningActiveDESC>When you active it,a lightning will strike  back to the damage instigator.</PlrsLightningActiveDESC>
+  <PlrsTextMote_Absorbed>Absorbed</PlrsTextMote_Absorbed>
 </LanguageData>

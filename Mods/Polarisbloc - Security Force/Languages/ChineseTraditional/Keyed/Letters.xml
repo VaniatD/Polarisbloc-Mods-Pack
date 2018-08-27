@@ -12,4 +12,5 @@
   <PlrsDoExplosionDESC>你可以消耗50點能量在周圍製造小規模的爆炸，別擔心，這不會傷到你自己。</PlrsDoExplosionDESC>
   <PlrsLightningActiveLabel>閃電</PlrsLightningActiveLabel>
   <PlrsLightningActiveDESC>激活時，會對傷害來源進行雷擊。</PlrsLightningActiveDESC>
+  <PlrsTextMote_Absorbed>吸收</PlrsTextMote_Absorbed>
 </LanguageData>
