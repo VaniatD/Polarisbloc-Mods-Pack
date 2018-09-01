@@ -43,7 +43,7 @@
   <!-- remove implant -->
 
   <PolarisRemoveImplant.label>移除植入物</PolarisRemoveImplant.label>
-  <PolarisRemoveImplant.description>一次性移除同一身體部位的全部植入物。</PolarisRemoveImplant.description>
+  <PolarisRemoveImplant.description>一次性移除同一個身體部位的全部植入物。</PolarisRemoveImplant.description>
   <PolarisRemoveImplant.jobString>正在移除植入物。</PolarisRemoveImplant.jobString>
 
 
@@ -67,9 +67,9 @@
 
   <!-- special administer -->
 
-  <PolarisAdministerMechSerumTraitreleaser.label>administer traitreleaser mech serum</PolarisAdministerMechSerumTraitreleaser.label>
-  <PolarisAdministerMechSerumTraitreleaser.description>Administer a healer mech serum.</PolarisAdministerMechSerumTraitreleaser.description>
-  <PolarisAdministerMechSerumTraitreleaser.jobString>Administering traitreleaser mech serum.</PolarisAdministerMechSerumTraitreleaser.jobString>
+  <PolarisAdministerMechSerumTraitreleaser.label>施用特性釋放器</PolarisAdministerMechSerumTraitreleaser.label>
+  <PolarisAdministerMechSerumTraitreleaser.description>施用特性釋放器。</PolarisAdministerMechSerumTraitreleaser.description>
+  <PolarisAdministerMechSerumTraitreleaser.jobString>正在施用特性釋放器。</PolarisAdministerMechSerumTraitreleaser.jobString>
 
 
 </LanguageData>

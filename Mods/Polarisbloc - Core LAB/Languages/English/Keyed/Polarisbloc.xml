@@ -25,6 +25,7 @@
   <PolarisTraitreleaserUsedAddTrait>{0} has successfully gained {1}.</PolarisTraitreleaserUsedAddTrait>
   <PolarisTraitreleaserTraitConflictingTraits>Conflicting with : {0}</PolarisTraitreleaserTraitConflictingTraits>
   <PolarisTraitreleaserTraitDisabledWorkTypes>Disabled work types : {0}</PolarisTraitreleaserTraitDisabledWorkTypes>
+  <PolarisTraitreleaserUsedbyHasNullTraits>The colonist could not change traits</PolarisTraitreleaserUsedbyHasNullTraits>
   <!--momery rester-->
   <PolarisMomeryResterHaveNoAvaliableOption>*No avaliable options</PolarisMomeryResterHaveNoAvaliableOption>
   <PolarisMomeryResterStoryDisabledWorkTypes>Disabled work types : {0}</PolarisMomeryResterStoryDisabledWorkTypes>
@@ -40,4 +41,17 @@
   <PolarisCurerApplyToHumanDESC>If actived, the curer will tend humans' wounds.</PolarisCurerApplyToHumanDESC>
   <!--restorer-->
   <PolarisRestorerIngest>{0} has ingested polaris restorer.</PolarisRestorerIngest>
+  <!--net chip-->
+  <PolarisForceCalmDown>{0} has been calm down by {1}.</PolarisForceCalmDown>
+  <!--void key-->
+  <PolarisVoidKeyLinkedTo>Linked</PolarisVoidKeyLinkedTo>
+  <PolarisVoidKeyTryLinkGizmoLabel>Link to...</PolarisVoidKeyTryLinkGizmoLabel>
+  <PolarisVoidKeyTryLinkGizmoDesc>Try to get a missing pawn's data which was your colonist or animal.</PolarisVoidKeyTryLinkGizmoDesc>
+  <PolarisVoidKeyWindowTitle>Void key</PolarisVoidKeyWindowTitle>
+  <PolarisVoidKeyWindowInformation>You could view all of the missing pawn were your colonist or animal, and choose one which you want to resurrect.</PolarisVoidKeyWindowInformation>
+  <PolarisVoidKeyPullVoidPawnData>Let the pawn link to {0}'s data.</PolarisVoidKeyPullVoidPawnData>
+  <PolarisVoidKeyPullDataDone>Got {0}'s data from void.</PolarisVoidKeyPullDataDone>
+  <PolarisVoidKeyFoundNoColonist>found no data</PolarisVoidKeyFoundNoColonist>
+  <PolarisVoidKeyITabChoosePawn>Link to...</PolarisVoidKeyITabChoosePawn>
+  <PolarisVoidKeyITabPawnInfo>Details</PolarisVoidKeyITabPawnInfo>
 </LanguageData>

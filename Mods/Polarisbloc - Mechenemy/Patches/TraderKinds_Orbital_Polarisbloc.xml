@@ -2,6 +2,7 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <xpath>/Defs/TraderKindDef[defName = "Orbital_Polarisbloc"]</xpath>
+    <success>Always</success>
     <match Class="PatchOperationAdd">
       <xpath>/Defs/TraderKindDef[defName = "Orbital_Polarisbloc"]/stockGenerators</xpath>
       <value>

@@ -2,6 +2,7 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <xpath>/Defs/ThingDef[defName = "Sandbags"]/damageMultipliers</xpath>
+    <success>Always</success>
     <match Class="PatchOperationAdd">
       <xpath>/Defs/ThingDef[defName = "Sandbags"]/damageMultipliers</xpath>
       <value>

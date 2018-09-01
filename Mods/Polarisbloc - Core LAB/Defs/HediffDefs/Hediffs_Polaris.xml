@@ -86,6 +86,7 @@
     <spawnThingOnRemoved>PolarisVirtualNetChip</spawnThingOnRemoved>
     <comps>
       <li Class="Polarisbloc.HediffCompProperties_JoyFiller"></li>
+      <li Class="Polarisbloc.HediffCompProperties_ForceCalmDown"></li>
     </comps>
   </HediffDef>
   <HediffDef ParentName="PolarisHediffBase">

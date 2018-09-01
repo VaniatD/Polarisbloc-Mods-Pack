@@ -5,7 +5,7 @@
   <PolarisMessageFailedMakeCartridge>{0}必須對{1}有至少60的好感度。</PolarisMessageFailedMakeCartridge>
   <!--CombatChip-->
   <PolarisConvertCombatChipTitle>選擇戰術芯片</PolarisConvertCombatChipTitle>
-  <PolarisConvertCombatChipDESC>請在以下選項中選擇一個。</PolarisConvertCombatChipDESC>
+  <PolarisConvertCombatChipDESC>請在以下條目中選擇你想要的芯片種類。</PolarisConvertCombatChipDESC>
   <PolarisMessageFailedConvertCombatChip>{0}沒有可用的戰術芯片。</PolarisMessageFailedConvertCombatChip>
   <!--orbital trader caller-->
   <PolarisOrbitalTraderCouldNotArrival>附近的軌道沒有足夠的空間來容納新的軌道商。</PolarisOrbitalTraderCouldNotArrival>
@@ -14,7 +14,7 @@
   <!--age-->
   <PolarisMessageSuccessfullyAgeDecrease>{0}的年齡減少了{1}歲。</PolarisMessageSuccessfullyAgeDecrease>
   <!--Traitreleaser-->
-  <PolarisTraitreleaserEffectDESC>你可以選擇獲取一個新特性或者將使用者的某個特性記錄到特性釋放器。</PolarisTraitreleaserEffectDESC>
+  <PolarisTraitreleaserEffectDESC>你可以選擇直接獲取一個新特性或者將使用者的某個特性記錄到特性釋放器。</PolarisTraitreleaserEffectDESC>
   <PolarisTraitreleaserAddTraitOption>獲取{0}</PolarisTraitreleaserAddTraitOption>
   <PolarisTraitreleaserAlreadyHadTrait>已擁有</PolarisTraitreleaserAlreadyHadTrait>
   <PolarisTraitreleaserHasNoEnoughSlots>沒有足夠槽位</PolarisTraitreleaserHasNoEnoughSlots>
@@ -25,6 +25,7 @@
   <PolarisTraitreleaserUsedAddTrait>{0}成功獲取了{1}。</PolarisTraitreleaserUsedAddTrait>
   <PolarisTraitreleaserTraitConflictingTraits>衝突：{0}</PolarisTraitreleaserTraitConflictingTraits>
   <PolarisTraitreleaserTraitDisabledWorkTypes>無法從事：{0}</PolarisTraitreleaserTraitDisabledWorkTypes>
+  <PolarisTraitreleaserUsedbyHasNullTraits>這個殖民者無法改變特性</PolarisTraitreleaserUsedbyHasNullTraits>
   <!--momery rester-->
   <PolarisMomeryResterHaveNoAvaliableOption>*沒有可用選項</PolarisMomeryResterHaveNoAvaliableOption>
   <PolarisMomeryResterStoryDisabledWorkTypes>無法從事：{0}</PolarisMomeryResterStoryDisabledWorkTypes>
@@ -40,4 +41,17 @@
   <PolarisCurerApplyToHumanDESC>如果激活，則治療器會自動為人類包紮傷口。</PolarisCurerApplyToHumanDESC>
   <!--restorer-->
   <PolarisRestorerIngest>{0}注射了北極星恢復劑。</PolarisRestorerIngest>
+  <!--net chip-->
+  <PolarisForceCalmDown>{0}在{1}作用下冷靜了</PolarisForceCalmDown>
+  <!--void key-->
+  <PolarisVoidKeyLinkedTo>已連接</PolarisVoidKeyLinkedTo>
+  <PolarisVoidKeyTryLinkGizmoLabel>鏈接至...</PolarisVoidKeyTryLinkGizmoLabel>
+  <PolarisVoidKeyTryLinkGizmoDesc>嘗試獲取一個失蹤殖民者或者動物的信息。</PolarisVoidKeyTryLinkGizmoDesc>
+  <PolarisVoidKeyWindowTitle>虛空之鑰</PolarisVoidKeyWindowTitle>
+  <PolarisVoidKeyWindowInformation>你可以看到曾經是殖民者或者動物的所有生物，然後選擇其中你想要復活的一個下載。</PolarisVoidKeyWindowInformation>
+  <PolarisVoidKeyPullVoidPawnData>將這個生物鏈接至{0}的數據。</PolarisVoidKeyPullVoidPawnData>
+  <PolarisVoidKeyPullDataDone>已獲取{0}的數據。</PolarisVoidKeyPullDataDone>
+  <PolarisVoidKeyFoundNoColonist>找不到對象</PolarisVoidKeyFoundNoColonist>
+  <PolarisVoidKeyITabChoosePawn>鏈接至...</PolarisVoidKeyITabChoosePawn>
+  <PolarisVoidKeyITabPawnInfo>詳情</PolarisVoidKeyITabPawnInfo>
 </LanguageData>

@@ -25,6 +25,7 @@
   <PolarisTraitreleaserUsedAddTrait>{0}成功获取了{1}。</PolarisTraitreleaserUsedAddTrait>
   <PolarisTraitreleaserTraitConflictingTraits>冲突：{0}</PolarisTraitreleaserTraitConflictingTraits>
   <PolarisTraitreleaserTraitDisabledWorkTypes>无法从事：{0}</PolarisTraitreleaserTraitDisabledWorkTypes>
+  <PolarisTraitreleaserUsedbyHasNullTraits>这个殖民者无法改变特性</PolarisTraitreleaserUsedbyHasNullTraits>
   <!--momery rester-->
   <PolarisMomeryResterHaveNoAvaliableOption>*没有可用选项</PolarisMomeryResterHaveNoAvaliableOption>
   <PolarisMomeryResterStoryDisabledWorkTypes>无法从事：{0}</PolarisMomeryResterStoryDisabledWorkTypes>
@@ -40,4 +41,17 @@
   <PolarisCurerApplyToHumanDESC>如果激活，则治疗器会自动为人类包扎伤口。</PolarisCurerApplyToHumanDESC>
   <!--restorer-->
   <PolarisRestorerIngest>{0}注射了北极星恢复剂。</PolarisRestorerIngest>
+  <!--net chip-->
+  <PolarisForceCalmDown>{0}在{1}作用下冷静了</PolarisForceCalmDown>
+  <!--void key-->
+  <PolarisVoidKeyLinkedTo>已连接</PolarisVoidKeyLinkedTo>
+  <PolarisVoidKeyTryLinkGizmoLabel>链接至...</PolarisVoidKeyTryLinkGizmoLabel>
+  <PolarisVoidKeyTryLinkGizmoDesc>尝试获取一个失踪殖民者或者动物的信息。</PolarisVoidKeyTryLinkGizmoDesc>
+  <PolarisVoidKeyWindowTitle>虚空之钥</PolarisVoidKeyWindowTitle>
+  <PolarisVoidKeyWindowInformation>你可以看到曾经是殖民者或者动物的所有生物，然后选择其中你想要复活的一个下载。</PolarisVoidKeyWindowInformation>
+  <PolarisVoidKeyPullVoidPawnData>将这个生物链接至{0}的数据。</PolarisVoidKeyPullVoidPawnData>
+  <PolarisVoidKeyPullDataDone>已获取{0}的数据。</PolarisVoidKeyPullDataDone>
+  <PolarisVoidKeyFoundNoColonist>找不到对象</PolarisVoidKeyFoundNoColonist>
+  <PolarisVoidKeyITabChoosePawn>链接至...</PolarisVoidKeyITabChoosePawn>
+  <PolarisVoidKeyITabPawnInfo>详情</PolarisVoidKeyITabPawnInfo>
 </LanguageData>

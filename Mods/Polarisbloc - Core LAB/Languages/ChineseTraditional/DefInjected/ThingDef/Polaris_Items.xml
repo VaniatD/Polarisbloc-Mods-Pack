@@ -68,7 +68,7 @@
   <!-- traitreleaser -->
 
   <PolarisMechSerumTraitreleaser.label>特性釋放器</PolarisMechSerumTraitreleaser.label>
-  <PolarisMechSerumTraitreleaser.description>調整為獲取特定特性的一次性超級藥劑納米機器人。你可以選擇直接添加新的特性或者將已有特性記錄到特性釋放器。</PolarisMechSerumTraitreleaser.description>
+  <PolarisMechSerumTraitreleaser.description>調整為獲取特定特性的一次性超級藥劑納米機器人。你可以選擇獲取指定特性或者將使用者的某個特性記錄到特性釋放器。</PolarisMechSerumTraitreleaser.description>
   <PolarisMechSerumTraitreleaser.comps.1.useLabel>使用特性釋放器來獲取{0}</PolarisMechSerumTraitreleaser.comps.1.useLabel>
 
 
@@ -77,6 +77,24 @@
   <PolarisMomeryRester.label>記憶重置器</PolarisMomeryRester.label>
   <PolarisMomeryRester.description>調整為獲取特定背景故事的一次性超級藥劑納米機器人。可以在改變幼年故事或者成年故事之間切換功能。</PolarisMomeryRester.description>
   <PolarisMomeryRester.comps.1.useLabel>使用記憶重置器來獲取{0}</PolarisMomeryRester.comps.1.useLabel>
+
+
+  <!-- devil cookie -->
+
+  <PolarisDevilCookie.label>惡魔曲奇</PolarisDevilCookie.label>
+  <PolarisDevilCookie.description>當你饑餓的時候會想著和惡魔做個交易麼？\n\n這是一塊神秘的曲奇，沒有人知道它是怎麼出現在世界上的。當你吃下它的時候它會重新完整地出現在你手裡。\n\n根據天軸集團的研究記錄，這塊曲奇會奪取食用者的壽命，或許這就是它能暫時讓你填飽肚子的緣故。\n\n——&lt;天軸集團666號文件&gt; #公開版本</PolarisDevilCookie.description>
+
+
+  <!-- void key -->
+
+  <PolarisVoidKey.label>虛空之鑰</PolarisVoidKey.label>
+  <PolarisVoidKey.description>項目193\n\n最初，我們製造了一個能夠鏈接死者靈魂的東西，儘管必須是我們所認識的。\n然後，我們想到，為什麼我們不能復活死者迷失的靈魂呢？\n我們嘗試使用項目013“彈藥包”來做這件事，但是這失敗了。\n一些額外的嘗試也失敗了，我們甚至用上了活著的人，但是這些都無法提供一個迷失靈魂回歸所需的模因和能量。\n最後，我們無可奈何地使用了賢者之石，這種萬能的等價物成功地換回了我們死去的同伴（儘管他好像有些神志不清）。\n\n——&lt;天軸集團193號文件&gt; #公開版本</PolarisVoidKey.description>
+  <PolarisVoidKey.comps.1.useLabel>使用虛空之鑰</PolarisVoidKey.comps.1.useLabel>
+
+
+  <!-- special thing -->
+
+  <VanyaDataCenter.label>數據中心</VanyaDataCenter.label>
 
 
 </LanguageData>

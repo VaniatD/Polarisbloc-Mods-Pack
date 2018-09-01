@@ -718,6 +718,52 @@
     </thingSetMakerTags>
     <generateCommonality>0.1</generateCommonality>
   </ThingDef>
+  <!--void key-->
+  <ThingDef ParentName="PolarisResourceBase">
+    <defName>PolarisVoidKey</defName>
+    <label>void key</label>
+    <thingClass>Polarisbloc.VoidKeyThing</thingClass>
+    <description>Project.193\n\nAll the first, we made a thing could link to soul who was dead, although the linked must be our knowledge.\nAnd then, we thought that why we can't resurrect the lost soul?\nWe try to use the Proj.013"cartridge" to do this, but it was failed.\nSome tries all failed, even if we used living man. All of them could not provide enough meme and power to support a soul's resurrect.\nFinally, we have no choice but to use the Philosopher's ston to get our colleague back(although he was a little bit unconsciousness).\n\n--&lt;No.193 file of Polarisbloc&gt; #public version</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/VoidKey</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>1350</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <techLevel>Ultra</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use void key</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>Polarisbloc.CompUseEffect_ResurrectVoidPawn</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <inspectorTabs>
+      <li>Polarisbloc.ITab_VoidPawn_Character</li>
+    </inspectorTabs>
+  </ThingDef>
   <!--special thing-->
   <ThingDef>
     <defName>VanyaDataCenter</defName>

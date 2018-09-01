@@ -79,4 +79,22 @@
   <PolarisMomeryRester.comps.1.useLabel>使用记忆重置器来获取{0}</PolarisMomeryRester.comps.1.useLabel>
 
 
+  <!-- devil cookie -->
+
+  <PolarisDevilCookie.label>恶魔曲奇</PolarisDevilCookie.label>
+  <PolarisDevilCookie.description>当你饥饿的时候会想着和恶魔做个交易么？\n\n这是一块神秘的曲奇，没有人知道它是怎么出现在世界上的。当你吃下它的时候它会重新完整地出现在你手里。\n\n根据天轴集团的研究记录，这块曲奇会夺取食用者的寿命，或许这就是它能暂时让你填饱肚子的缘故。\n\n——&lt;天轴集团666号文件&gt; #公开版本</PolarisDevilCookie.description>
+
+
+  <!-- void key -->
+
+  <PolarisVoidKey.label>虚空之钥</PolarisVoidKey.label>
+  <PolarisVoidKey.description>项目193\n\n最初，我们制造了一个能够链接死者灵魂的东西，尽管必须是我们所认识的。\n然后，我们想到，为什么我们不能复活死者迷失的灵魂呢？\n我们尝试使用项目013“弹药包”来做这件事，但是这失败了。\n一些额外的尝试也失败了，我们甚至用上了活着的人，但是这些都无法提供一个迷失灵魂回归所需的模因和能量。\n最后，我们无可奈何地使用了贤者之石，这种万能的等价物成功地换回了我们死去的同伴（尽管他好像有些神志不清）。\n\n——&lt;天轴集团193号文件&gt; #公开版本</PolarisVoidKey.description>
+  <PolarisVoidKey.comps.1.useLabel>使用虚空之钥</PolarisVoidKey.comps.1.useLabel>
+
+
+  <!-- special thing -->
+
+  <VanyaDataCenter.label>数据中心</VanyaDataCenter.label>
+
+
 </LanguageData>

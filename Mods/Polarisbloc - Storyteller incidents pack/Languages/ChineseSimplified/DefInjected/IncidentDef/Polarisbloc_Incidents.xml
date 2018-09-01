@@ -1,19 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <Polaris_TradeShipCrash.label>贸易船坠毁</Polaris_TradeShipCrash.label>
-
   <Polaris_QuestTradeShipPodCrash.label>轨道贸易船坠毁机会</Polaris_QuestTradeShipPodCrash.label>
   <Polaris_QuestTradeShipPodCrash.letterText>{2}的{1}，{0}，告知我们一艘轨道贸易船坠毁在了我们附近的位置，我们可以前往此处来获取这艘飞船的货舱物资。\n\n这艘飞船是{3}\n\n遗憾的是，时间并不充裕——如果我们不接收这批物品，其他人会在{4}天后来接收。\n\n机会往往伴随着风险，务必当心。\n\n{5}</Polaris_QuestTradeShipPodCrash.letterText>
   <Polaris_QuestTradeShipPodCrash.letterLabel>贸易船坠毁机会</Polaris_QuestTradeShipPodCrash.letterLabel>
-
   <Polaris_HarvestBenediction.label>丰收祝福</Polaris_HarvestBenediction.label>
   <Polaris_HarvestBenediction.letterText>受到了未知存在的祝福，你的作物获得了大量生命力。</Polaris_HarvestBenediction.letterText>
   <Polaris_HarvestBenediction.letterLabel>丰收祝福</Polaris_HarvestBenediction.letterLabel>
-
   <Polaris_TurretDisturbed.label>炮台干扰</Polaris_TurretDisturbed.label>
   <Polaris_TurretDisturbed.letterText>你的一个炮台受到来自机械的干扰，现在它将视你为敌人。</Polaris_TurretDisturbed.letterText>
   <Polaris_TurretDisturbed.letterLabel>炮台干扰</Polaris_TurretDisturbed.letterLabel>
-
-
+  <Polaris_Dekigokoro.label>心血来潮</Polaris_Dekigokoro.label>
+  <Polaris_Dekigokoro.letterText>“生活不应该是这样的”—— {0}这么想到，决定先出门散散心。</Polaris_Dekigokoro.letterText>
+  <Polaris_Dekigokoro.letterLabel>心血来潮</Polaris_Dekigokoro.letterLabel>
+  <Polaris_ConduitFusing.label>电缆熔断</Polaris_ConduitFusing.label>
+  <Polaris_ConduitFusing.letterText>你的几处电缆因为过大的电网负载熔断了。</Polaris_ConduitFusing.letterText>
+  <Polaris_ConduitFusing.letterLabel>电缆熔断</Polaris_ConduitFusing.letterLabel>
+  <Polaris_PowerOverload.label>过载</Polaris_PowerOverload.label>
+  <Polaris_PowerOverload.letterText>一个电器突然承受了大量电流导致其着火了。</Polaris_PowerOverload.letterText>
+  <Polaris_PowerOverload.letterLabel>过载</Polaris_PowerOverload.letterLabel>
 </LanguageData>

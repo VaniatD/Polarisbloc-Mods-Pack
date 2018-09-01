@@ -10,6 +10,19 @@ namespace Polarisbloc
 {
     public class CompUseEffect_ReleaseTrait : CompUseEffect
     {
+        public override bool CanBeUsedBy(Pawn p, out string failReason)
+        {
+            bool result = false;
+            if (p.story != null)
+            {
+                if (p.def == ThingDefOf.Human || p.story.traits != null)
+                {
+                    result = true;
+                }
+            }
+            failReason = "PolarisTraitreleaserUsedbyHasNullTraits".Translate();
+            return result;
+        }
 
         public override void DoEffect(Pawn usedBy)
         {

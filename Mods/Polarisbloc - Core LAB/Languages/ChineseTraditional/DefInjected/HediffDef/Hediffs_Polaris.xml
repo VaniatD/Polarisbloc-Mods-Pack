@@ -10,7 +10,6 @@
 
   <PolarisHealingPotion.label>強效治療藥水</PolarisHealingPotion.label>
   <PolarisAntibiotic.label>聯合抗生素</PolarisAntibiotic.label>
-  <PolarisRestorer.label>北極星恢復劑</PolarisRestorer.label>
 
 
   <!-- Implants -->
@@ -21,5 +20,7 @@
   <PolarisPsionwire.label>靈能芯片</PolarisPsionwire.label>
   <PolarisPsionwire.labelNoun>一塊靈能芯片</PolarisPsionwire.labelNoun>
 
+
+  <!--<PolarisRestorer.label>北極星恢復劑</PolarisRestorer.label>-->
 
 </LanguageData>
