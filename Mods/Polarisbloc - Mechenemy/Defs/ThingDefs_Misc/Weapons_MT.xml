@@ -29,7 +29,7 @@
     </graphicData>
     <tradeability>Sellable</tradeability>
     <tradeTags>
-      <li>Exotic</li>
+      <li>ExoticMisc</li>
     </tradeTags>
     <smeltable>false</smeltable>
   </ThingDef>
@@ -450,7 +450,7 @@
       <li>MTVMechGunC</li>
     </weaponTags>
     <tradeTags>
-      <li>Exotic</li>
+      <li>ExoticMisc</li>
     </tradeTags>
     <verbs>
       <li>
@@ -511,7 +511,7 @@
       <li>MTVMechGunD</li>
     </weaponTags>
     <tradeTags>
-      <li>Exotic</li>
+      <li>ExoticMisc</li>
     </tradeTags>
     <verbs>
       <li>
@@ -845,7 +845,7 @@
       <li>MTVCARocket</li>
     </weaponTags>
     <tradeTags>
-      <li>Exotic</li>
+      <li>ExoticMisc</li>
     </tradeTags>
     <verbs>
       <li>

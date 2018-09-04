@@ -244,17 +244,6 @@
         </customCountRanges>
       </li>
       <li Class="StockGenerator_Tag">
-        <tradeTag>Exotic</tradeTag>
-        <thingDefCountRange>
-          <min>3</min>
-          <max>5</max>
-        </thingDefCountRange>
-        <countRange>
-          <min>1</min>
-          <max>2</max>
-        </countRange>
-      </li>
-      <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
         <thingDefCountRange>
           <min>1</min>

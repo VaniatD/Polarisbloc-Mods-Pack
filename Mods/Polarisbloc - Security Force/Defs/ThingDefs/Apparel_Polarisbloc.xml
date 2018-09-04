@@ -29,7 +29,7 @@
     </comps>
     <tradeability>Sellable</tradeability>
     <tradeTags>
-      <li>Exotic</li>
+      <li>ExoticMisc</li>
     </tradeTags>
     <smeltable>false</smeltable>
   </ThingDef>

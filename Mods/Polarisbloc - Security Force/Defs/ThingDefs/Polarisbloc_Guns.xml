@@ -44,7 +44,7 @@
     </comps>
     <tradeability>Sellable</tradeability>
     <tradeTags>
-      <li>Exotic</li>
+      <li>ExoticMisc</li>
     </tradeTags>
   </ThingDef>
   <ThingDef Name="PolarisblocBaseBullet" Abstract="True">

@@ -37,7 +37,7 @@ namespace Polarisbloc
         {
             if (need != null)
             {
-                if (need.CurLevelPercentage < 0.4f)
+                if (need.CurLevelPercentage < 0.85f)
                 {
                     need.CurLevelPercentage = 0.9f;
                 }

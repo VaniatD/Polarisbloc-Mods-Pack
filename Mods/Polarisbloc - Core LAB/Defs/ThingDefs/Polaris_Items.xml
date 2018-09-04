@@ -257,7 +257,7 @@
     <drawGUIOverlay>false</drawGUIOverlay>
     <techLevel>Spacer</techLevel>
     <tradeTags>
-      <li>Exotic</li>
+      <li>ExoticMisc</li>
     </tradeTags>
     <comps>
       <!--<li Class="CompProperties_Usable"><compClass>Polarisbloc.CompCombatChip</compClass><useJob>UsePolarisConverter</useJob><useLabel>Use converter to set {0}</useLabel><useDuration>600</useDuration></li>-->
@@ -541,7 +541,7 @@
       </li>
     </comps>
     <tradeTags>
-      <li>Exotic</li>
+      <li>ExoticMisc</li>
     </tradeTags>
     <thingSetMakerTags>
       <li>RewardSpecial</li>
@@ -580,7 +580,7 @@
     <drawGUIOverlay>false</drawGUIOverlay>
     <techLevel>Spacer</techLevel>
     <tradeTags>
-      <li>Exotic</li>
+      <li>ExoticMisc</li>
     </tradeTags>
     <comps>
       <li Class="CompProperties_Usable">
@@ -646,7 +646,7 @@
     <drawGUIOverlay>false</drawGUIOverlay>
     <techLevel>Spacer</techLevel>
     <tradeTags>
-      <li>Exotic</li>
+      <li>ExoticMisc</li>
     </tradeTags>
     <comps>
       <li Class="CompProperties_Usable">
@@ -740,7 +740,6 @@
     <thingCategories>
       <li>Items</li>
     </thingCategories>
-    <tradeability>Sellable</tradeability>
     <techLevel>Ultra</techLevel>
     <tradeTags>
       <li>ExoticMisc</li>

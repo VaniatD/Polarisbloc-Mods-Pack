@@ -7,7 +7,7 @@
     <targetTags>
       <li>Map_PlayerHome</li>
     </targetTags>
-    <baseChance>3</baseChance>
+    <baseChance>4</baseChance>
     <earliestDay>60</earliestDay>
     <minRefireDays>99999</minRefireDays>
     <category>Misc</category>

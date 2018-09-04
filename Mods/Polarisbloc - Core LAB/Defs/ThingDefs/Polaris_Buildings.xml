@@ -130,7 +130,7 @@
     </killedLeavings>
     <tradeability>Sellable</tradeability>
     <tradeTags>
-      <li>Exotic</li>
+      <li>ExoticMisc</li>
     </tradeTags>
     <canOverlapZones>false</canOverlapZones>
     <thingCategories>
