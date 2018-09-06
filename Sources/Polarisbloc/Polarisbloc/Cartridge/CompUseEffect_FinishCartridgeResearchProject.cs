@@ -16,21 +16,25 @@ namespace Polarisbloc
             {
                 this.FinishInstantly(PolarisblocDefOf.ResearchProject_PolarisCartridge);
             }
-            else
+            else if (this.TryRandomlyUnfinishedResearch(out ResearchProjectDef researchProj))
             {
-                if ((from x in DefDatabase<ResearchProjectDef>.AllDefs
-                    where !x.IsFinished
-                    select x).TryRandomElement(out ResearchProjectDef researchProj))
-                {
-                    this.FinishInstantly(researchProj);
-                }
+                this.FinishInstantly(researchProj);
             }
         }
 
         public override bool CanBeUsedBy(Pawn p, out string failReason)
         {
-            failReason = null;
-            return true;
+            bool result = this.TryRandomlyUnfinishedResearch(out ResearchProjectDef researchProj);
+            failReason = "PolarisFoundNoResearchProject".Translate();
+            return result;
+        }
+
+        private bool TryRandomlyUnfinishedResearch(out ResearchProjectDef researchProj)
+        {
+            bool result = (from x in DefDatabase<ResearchProjectDef>.AllDefs
+                           where !x.IsFinished
+                           select x).TryRandomElement(out researchProj);
+            return result;
         }
 
         private void FinishInstantly(ResearchProjectDef proj)

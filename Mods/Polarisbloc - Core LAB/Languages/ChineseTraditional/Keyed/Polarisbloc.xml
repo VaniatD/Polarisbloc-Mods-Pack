@@ -3,6 +3,7 @@
   <!--Cartridge-->
   <PolarisMessageSomeoneResurrected>{0}成功讓{1}撿回了一條命。</PolarisMessageSomeoneResurrected>
   <PolarisMessageFailedMakeCartridge>{0}必須對{1}有至少60的好感度。</PolarisMessageFailedMakeCartridge>
+  <PolarisFoundNoResearchProject>未找到可用研究項目</PolarisFoundNoResearchProject>
   <!--CombatChip-->
   <PolarisConvertCombatChipTitle>選擇戰術芯片</PolarisConvertCombatChipTitle>
   <PolarisConvertCombatChipDESC>請在以下條目中選擇你想要的芯片種類。</PolarisConvertCombatChipDESC>

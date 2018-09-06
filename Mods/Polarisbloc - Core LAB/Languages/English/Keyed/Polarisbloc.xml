@@ -3,6 +3,7 @@
   <!--Cartridge-->
   <PolarisMessageSomeoneResurrected>{0} has successfully pulled {1} back from a dead.</PolarisMessageSomeoneResurrected>
   <PolarisMessageFailedMakeCartridge>{0} must have more than 60 opinion points to {1}.</PolarisMessageFailedMakeCartridge>
+  <PolarisFoundNoResearchProject>found no research proj</PolarisFoundNoResearchProject>
   <!--CombatChip-->
   <PolarisConvertCombatChipTitle>Chose combat chip</PolarisConvertCombatChipTitle>
   <PolarisConvertCombatChipDESC>Please chose the one what you want in the following options.</PolarisConvertCombatChipDESC>

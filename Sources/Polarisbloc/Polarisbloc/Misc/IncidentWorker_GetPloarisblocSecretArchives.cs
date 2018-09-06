@@ -25,10 +25,9 @@ namespace Polarisbloc
 
         protected override bool TryExecuteWorker(IncidentParms parms)
         {
-            bool result = false;
             Find.ResearchManager.FinishProject(PolarisblocDefOf.PolarisSecretArchives, false, null);
             Find.LetterStack.ReceiveLetter(this.def.letterLabel, this.def.letterText, this.def.letterDef);
-            return result;
+            return true;
         }
 
 

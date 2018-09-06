@@ -16,19 +16,14 @@ namespace RimWorld
             base.DoEffect(usedBy);
             if (Rand.Chance(0.12f))
             {
-                ResearchProjectDef cartredgeProj = DefDatabase<ResearchProjectDef>.GetNamed("PolarisShield", true);
-                if (cartredgeProj != null && !cartredgeProj.IsFinished)
+                ResearchProjectDef shieldProj = DefDatabase<ResearchProjectDef>.GetNamed("PolarisShield", true);
+                if (shieldProj != null && !shieldProj.IsFinished)
                 {
-                    FinishInstantly(cartredgeProj);
+                    this.FinishInstantly(shieldProj);
                 }
-                else
+                else if (this.TryRandomlyUnfinishedResearch(out ResearchProjectDef researchProj))
                 {
-                    if ((from x in DefDatabase<ResearchProjectDef>.AllDefs
-                         where !x.IsFinished
-                         select x).TryRandomElement(out ResearchProjectDef researchProj))
-                    {
-                        this.FinishInstantly(researchProj);
-                    }
+                    this.FinishInstantly(researchProj);
                 }
             }
             else
@@ -65,8 +60,17 @@ namespace RimWorld
 
         public override bool CanBeUsedBy(Pawn p, out string failReason)
         {
-            failReason = null;
-            return true;
+            bool result = this.TryRandomlyUnfinishedResearch(out ResearchProjectDef researchProj);
+            failReason = "PolarisFoundNoResearchProject".Translate();
+            return result;
+        }
+
+        private bool TryRandomlyUnfinishedResearch(out ResearchProjectDef researchProj)
+        {
+            bool result = (from x in DefDatabase<ResearchProjectDef>.AllDefs
+                           where !x.IsFinished
+                           select x).TryRandomElement(out researchProj);
+            return result;
         }
 
         private void FinishInstantly(ResearchProjectDef proj)
