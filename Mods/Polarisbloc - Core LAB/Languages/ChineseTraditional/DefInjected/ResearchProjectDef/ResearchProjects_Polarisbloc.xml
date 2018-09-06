@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- base -->
-  <PolarisSecretArchives.label>機密檔案</PolarisSecretArchives.label>
-  <PolarisSecretArchives.description>天軸集團一些特殊實驗的檔案，這些應該能幫到我們。\n\n*不要急，在遊戲開始一年後就有機會獲得這項科技。</PolarisSecretArchives.description>
+  <PolarisSecretArchives.label>檔案副本</PolarisSecretArchives.label>
+  <PolarisSecretArchives.description>天軸集團一些特殊實驗的檔案，這些應該能幫到我們。</PolarisSecretArchives.description>
   <!-- medicines -->
   <PolarisDrugFormula.label>藥物配方</PolarisDrugFormula.label>
   <PolarisDrugFormula.description>這個項目記錄了一些藥物是如何合成的。</PolarisDrugFormula.description>

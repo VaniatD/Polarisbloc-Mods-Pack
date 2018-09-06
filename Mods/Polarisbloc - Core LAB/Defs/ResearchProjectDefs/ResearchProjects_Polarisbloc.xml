@@ -4,16 +4,16 @@
   <ResearchProjectDef>
     <tab>Polarisbloc</tab>
     <defName>PolarisSecretArchives</defName>
-    <label>polarisbloc secret archives</label>
-    <description>Some special test records were recorded from Polarisbloc, Maybe it will help us.\n\n*Don't hurry, you will got this after a year past.</description>
-    <baseCost>2000</baseCost>
+    <label>polarisbloc archives copy</label>
+    <description>Some special test records were recorded from Polarisbloc, Maybe it will help us.</description>
+    <baseCost>1600</baseCost>
     <techLevel>Ultra</techLevel>
     <researchViewX>0</researchViewX>
     <researchViewY>1.5</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <requiredResearchFacilities>
-      <li>VanyaDataCenter</li>
-    </requiredResearchFacilities>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
   </ResearchProjectDef>
   <!--medicines-->
   <ResearchProjectDef>

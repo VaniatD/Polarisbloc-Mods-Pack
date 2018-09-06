@@ -58,7 +58,6 @@
     <Compile Include="Chips\HediffComp_ForceCalmDown.cs" />
     <Compile Include="VoidKey\CompUseEffect_ResurrectVoidPawn.cs" />
     <Compile Include="VoidKey\ITab_VoidPawn_Character.cs" />
-    <Compile Include="Misc\IncidentWorker_GetPloarisblocSecretArchives.cs" />
     <Compile Include="Misc\IngestionOutcomeDoer_DevilCookie.cs" />
     <Compile Include="Chips\HediffComp_TamenessKeeper.cs" />
     <Compile Include="Medicines\HediffComp_Antibiotic.cs" />
