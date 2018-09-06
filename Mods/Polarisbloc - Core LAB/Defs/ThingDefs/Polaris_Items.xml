@@ -376,6 +376,53 @@
     </costList>
   </ThingDef>
   <ThingDef ParentName="PolarisDrugBase">
+    <defName>PolarisReceptorAntagonist</defName>
+    <label>receptor antagonist</label>
+    <description>The polar molecules will bind with drugs' receptors. So this drug could satisfy the chemical needs, and ease the drug addiction at the same time.</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Drugs/ReceptorAntagonist</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>108</MarketValue>
+      <WorkToMake>900</WorkToMake>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PolarisReceptorAntagonist</hediffDef>
+          <severity>1.00</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>998</listOrder>
+      </li>
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>PolarisReceptorAntagonistProduction</researchPrerequisite>
+      <skillRequirements>
+        <Medicine>9</Medicine>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <MedicineIndustrial>2</MedicineIndustrial>
+      <Neutroamine>4</Neutroamine>
+      <PsychoidLeaves>12</PsychoidLeaves>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="PolarisDrugBase">
     <defName>PolarisRestorer</defName>
     <label>polaris restorer</label>
     <description>Mysterious drugs from the Polarisbloc can free you from all sorts of bad situations.</description>
@@ -404,7 +451,7 @@
     </ingestible>
     <comps>
       <li Class="CompProperties_Drug">
-        <listOrder>998</listOrder>
+        <listOrder>999</listOrder>
       </li>
     </comps>
     <stackLimit>25</stackLimit>

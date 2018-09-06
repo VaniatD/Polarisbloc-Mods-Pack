@@ -60,6 +60,21 @@
     <researchViewY>0.75</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>Polarisbloc</tab>
+    <defName>PolarisReceptorAntagonistProduction</defName>
+    <label>receptor antagonist production</label>
+    <description>Learn to produce the receptor antagonist.\nThe polar molecules will bind with drugs' receptors. So this drug could satisfy the chemical needs, and ease the drug addiction at the same time.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>PolarisDrugFormula</li>
+      <li>PenoxycylineProduction</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>0</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
   <!--surgical program-->
   <ResearchProjectDef>
     <tab>Polarisbloc</tab>

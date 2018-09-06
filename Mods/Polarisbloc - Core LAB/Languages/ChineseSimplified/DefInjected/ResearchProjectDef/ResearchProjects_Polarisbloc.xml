@@ -10,6 +10,8 @@
   <PolarisAntibioticProduction.description>学会如何制作联合抗生素。</PolarisAntibioticProduction.description>
   <PolarisHealingPotionProduction.label>强效治疗药水</PolarisHealingPotionProduction.label>
   <PolarisHealingPotionProduction.description>学会如何制作强效治疗药水。</PolarisHealingPotionProduction.description>
+  <PolarisReceptorAntagonistProduction.label>受体拮抗剂</PolarisReceptorAntagonistProduction.label>
+  <PolarisReceptorAntagonistProduction.description>学会如何制作受体拮抗剂。\n这种药剂能够有效缓解药物成瘾和药物抗药性。</PolarisReceptorAntagonistProduction.description>
   <!-- surgical program -->
   <PolarisSurgicalProgram.label>手术方案</PolarisSurgicalProgram.label>
   <PolarisSurgicalProgram.description>这个项目记录了一些特殊的手术。</PolarisSurgicalProgram.description>

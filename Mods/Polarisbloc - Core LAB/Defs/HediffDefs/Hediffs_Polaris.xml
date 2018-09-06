@@ -75,6 +75,32 @@
       <li />
     </stages>
   </HediffDef>
+  <HediffDef>
+    <defName>PolarisReceptorAntagonist</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>receptor antagonist</label>
+    <isBad>false</isBad>
+    <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>180000</min>
+          <max>240000</max>
+        </disappearsAfterTicks>
+      </li>
+      <li Class="Polarisbloc.HediffCompProperties_ReceptorAntagonist">
+        <exceptHediffs>
+          <li>LuciferiumAddiction</li>
+        </exceptHediffs>
+        <minEffect>0.011</minEffect>
+      </li>
+    </comps>
+    <stages>
+      <li />
+    </stages>
+  </HediffDef>
   <!--Implants-->
   <HediffDef ParentName="PolarisHediffBase">
     <defName>PolarisVirtualNetChip</defName>

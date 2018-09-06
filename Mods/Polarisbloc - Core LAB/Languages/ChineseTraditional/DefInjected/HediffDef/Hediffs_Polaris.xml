@@ -1,26 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- cartridge -->
-
   <Hediff_PloarisCartridge.label>彈藥包</Hediff_PloarisCartridge.label>
-
-
   <!-- medicines -->
-
   <PolarisHealingPotion.label>強效治療藥水</PolarisHealingPotion.label>
   <PolarisAntibiotic.label>聯合抗生素</PolarisAntibiotic.label>
-
-
+  <PolarisReceptorAntagonist.label>受體拮抗劑</PolarisReceptorAntagonist.label>
   <!-- Implants -->
-
   <PolarisVirtualNetChip.label>虛擬網絡芯片</PolarisVirtualNetChip.label>
   <PolarisVirtualNetChip.labelNoun>一塊虛擬網絡芯片</PolarisVirtualNetChip.labelNoun>
-
   <PolarisPsionwire.label>靈能芯片</PolarisPsionwire.label>
   <PolarisPsionwire.labelNoun>一塊靈能芯片</PolarisPsionwire.labelNoun>
-
-
-  <!--<PolarisRestorer.label>北極星恢復劑</PolarisRestorer.label>-->
-
 </LanguageData>

@@ -8,13 +8,13 @@ using UnityEngine;
 
 namespace Polarisbloc
 {
-    public class HediffComp_Antibiotic : HediffComp
+    public class HediffComp_ReceptorAntagonist : HediffComp
     {
-        public HediffCompProperties_Antibiotic Props
+        public HediffCompProperties_ReceptorAntagonist Props
         {
             get
             {
-                return (HediffCompProperties_Antibiotic)base.props;
+                return (HediffCompProperties_ReceptorAntagonist)base.props;
             }
         }
 
@@ -28,6 +28,14 @@ namespace Polarisbloc
             }
         }
 
+        private List<HediffDef> ExceptHediffs
+        {
+            get
+            {
+                return this.Props.exceptHediffs;
+            }
+        }
+
         private float MinEffect
         {
             get
@@ -36,10 +44,20 @@ namespace Polarisbloc
             }
         }
 
+        public override void CompPostMake()
+        {
+            base.CompPostMake();
+            ReceptorAntagonistDatabase.BuildDrugHediffsDatabaseIfNecessary();
+        }
+
         public override void CompExposeData()
         {
             base.CompExposeData();
             Scribe_Values.Look<int>(ref this.ticks, "ticks");
+            if (Scribe.mode == LoadSaveMode.PostLoadInit)
+            {
+                ReceptorAntagonistDatabase.BuildDrugHediffsDatabaseIfNecessary();
+            }
         }
 
         public override void CompPostTick(ref float severityAdjustment)
@@ -49,39 +67,24 @@ namespace Polarisbloc
             if (this.ticks >= GenDate.TicksPerHour)
             {
                 this.ticks = 0;
-                this.AntibioticEffect(base.Pawn, this.ExtraHediffs, this.MinEffect);
+                this.AntagonistEffect(base.Pawn, this.ExtraHediffs, this.ExceptHediffs, this.MinEffect);
             }
         }
 
-        private void AntibioticEffect(Pawn pawn, List<HediffDef> extraHediffs, float minEffect = 0.025f)
+        private void AntagonistEffect(Pawn pawn, List<HediffDef> extraHediffs, List<HediffDef> exceptHediffs, float minEffect = 0.025f)
         {
             List<Hediff> hediffs = (from x in pawn.health.hediffSet.hediffs
-                                   where x.def.makesSickThought || extraHediffs.Contains(x.def)
-                                   select x).ToList();
-            for (int i = hediffs.Count - 1; i >=0; i--)
+                                    where !exceptHediffs.Contains(x.def) && (ReceptorAntagonistDatabase.addictionHediffs.Contains(x.def) || ReceptorAntagonistDatabase.toleranceHediffs.Contains(x.def) || extraHediffs.Contains(x.def))
+                                    select x).ToList();
+            for (int i = hediffs.Count - 1; i >= 0; i--)
             {
-                if (hediffs[i].TendableNow())
-                {
-                    hediffs[i].Tended(0.8f);
-                }
                 float num = 0f;
-                HediffComp_Immunizable hediffComp_Immunizable = hediffs[i].TryGetComp<HediffComp_Immunizable>();
-                if (hediffComp_Immunizable != null)
-                {
-                    num += Mathf.Abs(hediffComp_Immunizable.Props.severityPerDayNotImmune / GenDate.TicksPerDay * 1.2f * GenDate.TicksPerHour);
-                }
-                HediffComp_GrowthMode hediffComp_GrowthMode = hediffs[i].TryGetComp<HediffComp_GrowthMode>();
-                if (hediffComp_GrowthMode != null)
-                {
-                    num += Mathf.Abs(hediffComp_GrowthMode.Props.severityPerDayGrowing / GenDate.TicksPerDay * 1.5f * GenDate.TicksPerHour);
-                }
                 HediffComp_SeverityPerDay hediffComp_SeverityPerDay = hediffs[i].TryGetComp<HediffComp_SeverityPerDay>();
                 if (hediffComp_SeverityPerDay != null)
                 {
-                    //num += Mathf.Abs(((HediffCompProperties_SeverityPerDay)hediffComp_SeverityPerDay.props).severityPerDay / GenDate.TicksPerDay * 2f * GenDate.TicksPerHour);
                     if (hediffComp_SeverityPerDay.props is HediffCompProperties_SeverityPerDay prop)
                     {
-                        num += Mathf.Abs(prop.severityPerDay / GenDate.TicksPerDay * 2f * GenDate.TicksPerHour);
+                        num += Mathf.Abs(prop.severityPerDay / GenDate.TicksPerDay * 4f * GenDate.TicksPerHour);
                     }
                 }
                 if (num < minEffect)
@@ -99,21 +102,27 @@ namespace Polarisbloc
                     pawn.health.RemoveHediff(hediffs[i]);
                 }
             }
-
-
+            foreach (Need n in pawn.needs.AllNeeds)
+            {
+                if (n is Need_Chemical)
+                {
+                    n.CurLevel = n.MaxLevel;
+                }
+            }
         }
     }
 
-
-    public class HediffCompProperties_Antibiotic : HediffCompProperties
+    public class HediffCompProperties_ReceptorAntagonist : HediffCompProperties
     {
+        public HediffCompProperties_ReceptorAntagonist()
+        {
+            this.compClass = typeof(HediffComp_ReceptorAntagonist);
+        }
+
         public List<HediffDef> extraHediffs = new List<HediffDef>();
 
-        public float minEffect = 0.025f;
+        public List<HediffDef> exceptHediffs = new List<HediffDef>();
 
-        public HediffCompProperties_Antibiotic()
-        {
-            this.compClass = typeof(HediffComp_Antibiotic);
-        }
+        public float minEffect = 0.025f;
     }
 }
