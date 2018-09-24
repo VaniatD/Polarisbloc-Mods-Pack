@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Cartridge -->
+
+  <MakePolarisCartridgeSurgery.label>カートリッジを作る</MakePolarisCartridgeSurgery.label>
+  <MakePolarisCartridgeSurgery.description>手術を受けた対象はこれによって死亡する。</MakePolarisCartridgeSurgery.description>
+  <MakePolarisCartridgeSurgery.jobString>カートリッジを作成中。</MakePolarisCartridgeSurgery.jobString>
+
+
+  <!-- CombatChip -->
+
+  <InstallPolarisCombatChip.label>戰術チップを移植する</InstallPolarisCombatChip.label>
+  <InstallPolarisCombatChip.description>移植された戰術チップは非活性化状態のままに待機する。</InstallPolarisCombatChip.description>
+  <InstallPolarisCombatChip.jobString>戰術チップを移植中。</InstallPolarisCombatChip.jobString>
+
+
+  <!-- Implants -->
+
+  <InstallPolarisVirtualNetChip.label>仮想ネットワークチップを移植する</InstallPolarisVirtualNetChip.label>
+  <InstallPolarisVirtualNetChip.description>仮想ネットワークチップを移植する。</InstallPolarisVirtualNetChip.description>
+  <InstallPolarisVirtualNetChip.jobString>仮想ネットワークチップを移植中。</InstallPolarisVirtualNetChip.jobString>
+
+  <InstallPolarisPsionwire.label>潜在能力開発チップを移植する</InstallPolarisPsionwire.label>
+  <InstallPolarisPsionwire.description>潜在能力開発チップを移植する。</InstallPolarisPsionwire.description>
+  <InstallPolarisPsionwire.jobString>潜在能力開発チップを移植中。</InstallPolarisPsionwire.jobString>
+
+
+  <!-- heal old wounds -->
+
+  <PolarisCureScars.label>傷跡を治療する</PolarisCureScars.label>
+  <PolarisCureScars.description>傷跡を治療する。</PolarisCureScars.description>
+  <PolarisCureScars.jobString>傷跡を治療中。</PolarisCureScars.jobString>
+
+
+  <!-- restore missing body part -->
+
+  <PolarisRestoreMissingBodyPart.label>欠損した身体部位を修復する</PolarisRestoreMissingBodyPart.label>
+  <PolarisRestoreMissingBodyPart.description>欠損した身体部位を修復する。</PolarisRestoreMissingBodyPart.description>
+  <PolarisRestoreMissingBodyPart.jobString>修復中。</PolarisRestoreMissingBodyPart.jobString>
+
+
+  <!-- remove implant -->
+
+  <PolarisRemoveImplant.label>インプラントを取り出す</PolarisRemoveImplant.label>
+  <PolarisRemoveImplant.description>一部位に移植されたインプラントを全部取り出す。</PolarisRemoveImplant.description>
+  <PolarisRemoveImplant.jobString>インプラントを取り出す中。</PolarisRemoveImplant.jobString>
+
+
+  <!-- trans gender -->
+
+  <PolarisTransGenderSurgery.label>性別転換手術を施す</PolarisTransGenderSurgery.label>
+  <PolarisTransGenderSurgery.description>手術対象の生物学的性別を変わる。</PolarisTransGenderSurgery.description>
+  <PolarisTransGenderSurgery.jobString>性別転換手術中。</PolarisTransGenderSurgery.jobString>
+
+
+  <!-- age change -->
+
+  <PolarisSurgeryAgeRaise.label>年齡上昇手術を施す</PolarisSurgeryAgeRaise.label>
+  <PolarisSurgeryAgeRaise.description>年齡上昇手術を施す。</PolarisSurgeryAgeRaise.description>
+  <PolarisSurgeryAgeRaise.jobString>年齡上昇手術中。</PolarisSurgeryAgeRaise.jobString>
+
+  <PolarisSurgeryAgeDecrease.label>年齡減少する</PolarisSurgeryAgeDecrease.label>
+  <PolarisSurgeryAgeDecrease.description>年齡減少手術を施す。</PolarisSurgeryAgeDecrease.description>
+  <PolarisSurgeryAgeDecrease.jobString>年齡減少手術中。</PolarisSurgeryAgeDecrease.jobString>
+
+
+  <!-- special administer -->
+
+  <PolarisAdministerMechSerumTraitreleaser.label>性格矯正ナノマシンを与える</PolarisAdministerMechSerumTraitreleaser.label>
+  <PolarisAdministerMechSerumTraitreleaser.description>性格矯正ナノマシンを与える。</PolarisAdministerMechSerumTraitreleaser.description>
+  <PolarisAdministerMechSerumTraitreleaser.jobString>性格矯正ナノマシンを与えている。</PolarisAdministerMechSerumTraitreleaser.jobString>
+
+
+</LanguageData>
