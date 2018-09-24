@@ -21,9 +21,9 @@
   <InstallPolarisVirtualNetChip.description>仮想ネットワークチップを移植する。</InstallPolarisVirtualNetChip.description>
   <InstallPolarisVirtualNetChip.jobString>仮想ネットワークチップを移植中。</InstallPolarisVirtualNetChip.jobString>
 
-  <InstallPolarisPsionwire.label>潜在能力開発チップを移植する</InstallPolarisPsionwire.label>
-  <InstallPolarisPsionwire.description>潜在能力開発チップを移植する。</InstallPolarisPsionwire.description>
-  <InstallPolarisPsionwire.jobString>潜在能力開発チップを移植中。</InstallPolarisPsionwire.jobString>
+  <InstallPolarisPsionwire.label>サイオンワイヤーを移植する</InstallPolarisPsionwire.label>
+  <InstallPolarisPsionwire.description>サイオンワイヤーを移植する。</InstallPolarisPsionwire.description>
+  <InstallPolarisPsionwire.jobString>サイオンワイヤーを移植中。</InstallPolarisPsionwire.jobString>
 
 
   <!-- heal old wounds -->
