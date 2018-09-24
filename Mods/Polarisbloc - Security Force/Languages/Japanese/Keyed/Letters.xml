@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MessageFailToUnscrambleMemoryStick>{0}は記憶装置の解析に失敗しました。</MessageFailToUnscrambleMemoryStick>
+  <LetterLabelPolarisblocConsolationPrize>残念賞</LetterLabelPolarisblocConsolationPrize>
+  <PolarisblocConsolationPrize>おめでとうございます！当社から残念賞をお送りいたします。\n粘り強い努力を期待しています！\n\n----ポラリスブロック</PolarisblocConsolationPrize>
+  <LetterLabelPolarisblocSurprised>サプライズ！</LetterLabelPolarisblocSurprised>
+  <PolarisblocSurprised>おめでとうございます！貴方は666周年記念彫刻の一つである豪華な贈り物を受け取りました。\nご協力いただきありがとうございます！\n\n----ポラリスブロック</PolarisblocSurprised>
+  <!--<LetterLabelPolarisblocGetDropSupply>降下物資が到着しました</LetterLabelPolarisblocGetDropSupply>-->
+  <!--<PolarisblocGetDropSupply>ポラリスブロック航空宇宙サービスをご利用いただきありがとうございます。兵士の装備一式をあなたに供給します。確認してください。</PolarisblocGetDropSupply>-->
+  <PlrsNoEnoughEnergyToDoExplosion>爆発には十分なエネルギーがありません！</PlrsNoEnoughEnergyToDoExplosion>
+  <PlrsDoExplosionLabel>爆発!</PlrsDoExplosionLabel>
+  <PlrsDoExplosionDESC>あなたの周りで爆発には50エネルギーを支払う必要があります。心配しないでください、これはあなたを傷つけることはありません。</PlrsDoExplosionDESC>
+  <PlrsLightningActiveLabel> ライトニング</PlrsLightningActiveLabel>
+  <PlrsLightningActiveDESC>起動すると、ダメージ源にライトニングを打ちます。</PlrsLightningActiveDESC>
+  <PlrsTextMote_Absorbed>吸收</PlrsTextMote_Absorbed>
+
+  <!--<LetterLabelPolarisblocGetDropSupply>降下物資が到着しました</LetterLabelPolarisblocGetDropSupply>-->
+  <!--<PolarisblocGetDropSupply>ポラリスブロック航空宇宙サービスをご利用いただきありがとうございます。兵士の装備一式をあなたに供給します。確認してください。</PolarisblocGetDropSupply>-->
+
+</LanguageData>

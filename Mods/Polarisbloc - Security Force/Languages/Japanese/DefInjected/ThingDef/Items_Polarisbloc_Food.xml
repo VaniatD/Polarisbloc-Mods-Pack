@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Polarisbloc_EmergencyFood.label>緊急食</Polarisbloc_EmergencyFood.label>
+  <Polarisbloc_EmergencyFood.description>抗疲労成分を添加することで、どのような環境でも素早くエネルギーを取り戻すことができる食品は、効果的に持久力を高めることができます。</Polarisbloc_EmergencyFood.description>
+  <Polarisbloc_EmergencyFood.ingestible.ingestCommandString>{0}を飲む。</Polarisbloc_EmergencyFood.ingestible.ingestCommandString>
+  <Polarisbloc_EmergencyFood.ingestible.ingestReportString>{0}を飲んでいる。</Polarisbloc_EmergencyFood.ingestible.ingestReportString>
+
+
+</LanguageData>
