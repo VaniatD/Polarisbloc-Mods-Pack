@@ -60,7 +60,7 @@
   <PolarisSurgeryAgeRaise.description>年齡上昇手術を施す。</PolarisSurgeryAgeRaise.description>
   <PolarisSurgeryAgeRaise.jobString>年齡上昇手術中。</PolarisSurgeryAgeRaise.jobString>
 
-  <PolarisSurgeryAgeDecrease.label>年齡減少する</PolarisSurgeryAgeDecrease.label>
+  <PolarisSurgeryAgeDecrease.label>年齡減少手術を施す</PolarisSurgeryAgeDecrease.label>
   <PolarisSurgeryAgeDecrease.description>年齡減少手術を施す。</PolarisSurgeryAgeDecrease.description>
   <PolarisSurgeryAgeDecrease.jobString>年齡減少手術中。</PolarisSurgeryAgeDecrease.jobString>
 
