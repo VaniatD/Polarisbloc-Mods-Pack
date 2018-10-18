@@ -50,7 +50,9 @@ E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc_SecurityForce\Pola
 E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc_SecurityForce\Polarisbloc_SecurityForce\bin\Release\NVorbis.dll
 E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc_SecurityForce\Polarisbloc_SecurityForce\bin\Release\UnityEngine.UI.dll
 E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc_SecurityForce\Polarisbloc_SecurityForce\bin\Release\Polarisbloc.pdb
-E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc_SecurityForce\Polarisbloc_SecurityForce\obj\Release\Polarisbloc_SecurityForce.csprojResolveAssemblyReference.cache
 E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc_SecurityForce\Polarisbloc_SecurityForce\obj\Release\Polarisbloc_SecurityForce.csproj.CoreCompileInputs.cache
 E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc_SecurityForce\Polarisbloc_SecurityForce\obj\Release\Polarisbloc_SecurityForce.dll
 E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc_SecurityForce\Polarisbloc_SecurityForce\obj\Release\Polarisbloc_SecurityForce.pdb
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc_SecurityForce\Polarisbloc_SecurityForce\obj\Release\Polarisbloc_SecurityForce.csprojAssemblyReference.cache
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc_SecurityForce\Polarisbloc_SecurityForce\bin\Release\Assembly-CSharp.dll
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc_SecurityForce\Polarisbloc_SecurityForce\obj\Release\Polarisbloc_SecurityForce.csproj.CopyComplete

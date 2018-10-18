@@ -23,7 +23,7 @@
       <max>-77</max>
     </startingGoodwill>
     <naturalColonyGoodwill>
-      <min>30</min>
+      <min>-90</min>
       <max>80</max>
     </naturalColonyGoodwill>
     <techLevel>Ultra</techLevel>

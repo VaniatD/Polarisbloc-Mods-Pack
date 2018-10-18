@@ -24,8 +24,8 @@
       <max>40</max>
     </startingGoodwill>
     <naturalColonyGoodwill>
-      <min>50</min>
-      <max>90</max>
+      <min>0</min>
+      <max>99</max>
     </naturalColonyGoodwill>
     <techLevel>Ultra</techLevel>
     <geneticVariance>0.8</geneticVariance>

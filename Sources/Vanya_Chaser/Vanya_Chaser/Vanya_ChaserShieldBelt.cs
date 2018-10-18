@@ -109,7 +109,7 @@ namespace Vanya_Chaser
                 {
                     defaultLabel = "VCReboundLabel".Translate(),
                     defaultDesc = "VCReboundDESC".Translate(),
-                    icon = TexCommand.Forbidden,
+                    icon = TexCommand.ForbidOn,
                     hotKey = KeyBindingDefOf.Command_ItemForbid,
                     isActive = (() => this.reboundDinfoProjectile),
                     toggleAction = delegate

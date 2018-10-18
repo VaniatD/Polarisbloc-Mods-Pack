@@ -122,7 +122,7 @@ namespace Polarisbloc_SecurityForce
             yield return new Command_Toggle
             {
                 hotKey = KeyBindingDefOf.Command_TogglePower,
-                icon = TexCommand.Forbidden,
+                icon = TexCommand.ForbidOn,
                 defaultLabel = "PlrsLightningActiveLabel".Translate(),
                 defaultDesc = "PlrsLightningActiveDESC".Translate(),
                 isActive = () => this.canLightning,

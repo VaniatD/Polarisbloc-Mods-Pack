@@ -50,10 +50,7 @@ namespace RimWorld
                 }
                 else
                 {
-                    Messages.Message("MessageFailToUnscrambleMemoryStick".Translate(new object[]
-                    {
-                        usedBy.LabelShort
-                    }), MessageTypeDefOf.NegativeEvent);
+                    Messages.Message("MessageFailToUnscrambleMemoryStick".Translate(usedBy.LabelShort), MessageTypeDefOf.NegativeEvent);
                 }
             }
         }
@@ -76,10 +73,7 @@ namespace RimWorld
         private void FinishInstantly(ResearchProjectDef proj)
         {
             Find.ResearchManager.FinishProject(proj, false, null);
-            Messages.Message("MessageResearchProjectFinishedByItem".Translate(new object[]
-            {
-                proj.label
-            }), MessageTypeDefOf.PositiveEvent);
+            Messages.Message("MessageResearchProjectFinishedByItem".Translate(proj.label), MessageTypeDefOf.PositiveEvent);
         }
     }
 }

@@ -107,11 +107,7 @@ namespace Polarisbloc_Incidents
 
                 IntVec3 intVec = DropCellFinder.RandomDropSpot(map);
                 DropPodUtility.DropThingsNear(intVec, map, list, 110, false, true, true);
-                Find.LetterStack.ReceiveLetter(tradeShip.def.LabelCap + " " + "PolarisTitleTradeShipPodCrash".Translate(), "PolarisTradeShipPodCrash".Translate(new object[]
-                    {
-                        tradeShip.name,
-                        tradeShip.def.label
-                    }), LetterDefOf.PositiveEvent, new TargetInfo(intVec, map, false), null);
+                Find.LetterStack.ReceiveLetter(tradeShip.def.LabelCap + " " + "PolarisTitleTradeShipPodCrash".Translate(), "PolarisTradeShipPodCrash".Translate(tradeShip.name,tradeShip.def.label), LetterDefOf.PositiveEvent, new TargetInfo(intVec, map, false), null);
                 return true;
             }
             throw new InvalidOperationException();
