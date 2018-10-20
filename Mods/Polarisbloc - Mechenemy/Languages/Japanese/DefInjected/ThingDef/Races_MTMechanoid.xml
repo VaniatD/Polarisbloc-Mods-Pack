@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_DroidAlpha.label>アルファ-自爆ドロイド</Vanya_DroidAlpha.label>
+  <Vanya_DroidAlpha.description>一次性の衝撃爆弾を装填された敏捷な小型ドロイド、目標に近づくと爆弾を投げ出す、機械本体が破壊されたら爆発します。</Vanya_DroidAlpha.description>
+  <Vanya_DroidAlpha.tools.0.label>刃</Vanya_DroidAlpha.tools.0.label>
+  <Vanya_DroidAlpha.tools.1.label>頭部</Vanya_DroidAlpha.tools.1.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidAlpha_Corpse.label>アルファ-自爆ドロイドの死体</Vanya_DroidAlpha_Corpse.label>
+  <Vanya_DroidAlpha_Corpse.description>アルファ-自爆ドロイドの死体</Vanya_DroidAlpha_Corpse.description>
+
+  <Vanya_DroidBeta.label>ベータ-ヒューマノイド</Vanya_DroidBeta.label>
+  <Vanya_DroidBeta.description>汎用型人型ロボット、多様な武器を装備して戦闘できます。</Vanya_DroidBeta.description>
+  <Vanya_DroidBeta.tools.0.label>左刃</Vanya_DroidBeta.tools.0.label>
+  <Vanya_DroidBeta.tools.1.label>右刃</Vanya_DroidBeta.tools.1.label>
+  <Vanya_DroidBeta.tools.2.label>頭部</Vanya_DroidBeta.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidBeta_Corpse.label>ベータ-ヒューマノイドの死体</Vanya_DroidBeta_Corpse.label>
+  <Vanya_DroidBeta_Corpse.description>ベータ-ヒューマノイドの死体</Vanya_DroidBeta_Corpse.description>
+
+  <Vanya_DroidBetaEX.label>ベータ2-重装甲型ヒューマノイド</Vanya_DroidBetaEX.label>
+  <Vanya_DroidBetaEX.description>重装甲で防御を施された汎用型人型ロボット、多様な武器を装備して戦闘できます。</Vanya_DroidBetaEX.description>
+  <Vanya_DroidBetaEX.tools.0.label>左刃</Vanya_DroidBetaEX.tools.0.label>
+  <Vanya_DroidBetaEX.tools.1.label>右刃</Vanya_DroidBetaEX.tools.1.label>
+  <Vanya_DroidBetaEX.tools.2.label>頭部</Vanya_DroidBetaEX.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidBetaEX_Corpse.label>ベータ2-重装甲型ヒューマノイドの死体</Vanya_DroidBetaEX_Corpse.label>
+  <Vanya_DroidBetaEX_Corpse.description>ベータ2-重装甲型ヒューマノイドの死体</Vanya_DroidBetaEX_Corpse.description>
+
+  <Vanya_DroidGamma.label>ガンマ-狼型ドロイド</Vanya_DroidGamma.label>
+  <Vanya_DroidGamma.description>狼型ドロイド、使い捨て型の兵器が搭載されます。</Vanya_DroidGamma.description>
+  <Vanya_DroidGamma.tools.0.label>左鉤爪</Vanya_DroidGamma.tools.0.label>
+  <Vanya_DroidGamma.tools.1.label>右鉤爪</Vanya_DroidGamma.tools.1.label>
+  <Vanya_DroidGamma.tools.2.label>頭部</Vanya_DroidGamma.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidGamma_Corpse.label>ガンマ-狼型ドロイドの死体</Vanya_DroidGamma_Corpse.label>
+  <Vanya_DroidGamma_Corpse.description>ガンマ-狼型ドロイドの死体</Vanya_DroidGamma_Corpse.description>
+
+  <Vanya_DroidGammaEX.label>ガンマ2-重装甲狼型ドロイド</Vanya_DroidGammaEX.label>
+  <Vanya_DroidGammaEX.description>重装甲で防御を施された狼型ドロイド、使い捨て型の兵器が搭載されます</Vanya_DroidGammaEX.description>
+  <Vanya_DroidGammaEX.tools.0.label>左</Vanya_DroidGammaEX.tools.0.label>
+  <Vanya_DroidGammaEX.tools.1.label>右</Vanya_DroidGammaEX.tools.1.label>
+  <Vanya_DroidGammaEX.tools.2.label>頭部</Vanya_DroidGammaEX.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidGammaEX_Corpse.label>ガンマ2-重装甲狼型ドロイドの死体</Vanya_DroidGammaEX_Corpse.label>
+  <Vanya_DroidGammaEX_Corpse.description>ガンマ2-重装甲狼型ドロイドの死体</Vanya_DroidGammaEX_Corpse.description>
+
+  <Vanya_DroidRuler.label>インクィジター</Vanya_DroidRuler.label>
+  <Vanya_DroidRuler.description>強大かつ敏捷な人型ロボット的精確な長距離武器を持つ、メカノイドの精鋭部隊。</Vanya_DroidRuler.description>
+  <Vanya_DroidRuler.tools.0.label>左刃</Vanya_DroidRuler.tools.0.label>
+  <Vanya_DroidRuler.tools.1.label>右刃</Vanya_DroidRuler.tools.1.label>
+  <Vanya_DroidRuler.tools.2.label>頭部</Vanya_DroidRuler.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidRuler_Corpse.label>インクィジターの死体</Vanya_DroidRuler_Corpse.label>
+  <Vanya_DroidRuler_Corpse.description>インクィジターの死体</Vanya_DroidRuler_Corpse.description>
+
+  <Vanya_DroidFortress.label>バスティオン</Vanya_DroidFortress.label>
+  <Vanya_DroidFortress.description>履帶で移動する巨大な戦争機械、搭載された武装は中範囲の爆発を起こし、敵を完全に殲滅することができます。</Vanya_DroidFortress.description>
+  <Vanya_DroidFortress.tools.0.label>ホイールハブ</Vanya_DroidFortress.tools.0.label>
+  <Vanya_DroidFortress.tools.1.label>履帯</Vanya_DroidFortress.tools.1.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidFortress_Corpse.label>バスティオンの死体</Vanya_DroidFortress_Corpse.label>
+  <Vanya_DroidFortress_Corpse.description>バスティオンの死体</Vanya_DroidFortress_Corpse.description>
+
+
+</LanguageData>

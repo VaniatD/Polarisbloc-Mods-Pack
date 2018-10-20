@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_IgnoreBleed.label>出血</Vanya_IgnoreBleed.label>
+  <Vanya_IgnoreBleed.deathMessage>{0} は出血して死んだ。</Vanya_IgnoreBleed.deathMessage>
+
+  <Vanya_IgnoreDiffusion.label>衝撃</Vanya_IgnoreDiffusion.label>
+  <Vanya_IgnoreDiffusion.deathMessage>{0} は撃たれて死んだ。</Vanya_IgnoreDiffusion.deathMessage>
+
+  <Vanya_IgnoreDiffusionEX.label>衝撃</Vanya_IgnoreDiffusionEX.label>
+  <Vanya_IgnoreDiffusionEX.deathMessage>{0} は撃たれて死んだ。</Vanya_IgnoreDiffusionEX.deathMessage>
+
+  <Vanya_Burn.label>火傷</Vanya_Burn.label>
+  <Vanya_Burn.deathMessage>{0} は燃えて死んだ</Vanya_Burn.deathMessage>
+
+
+  <!--<Vanya_MechKiller.label>衝擊</Vanya_MechKiller.label>-->
+  <!--<Vanya_MechKiller.deathMessage>{0} は撃たれて死んだ。</Vanya_MechKiller.deathMessage>-->
+
+</LanguageData>
