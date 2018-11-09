@@ -128,9 +128,11 @@ namespace Polarisbloc
             }*/
             else
             {
-                traits.Add(trait);
+                //traits.Add(trait);
+                usedBy.story.traits.GainTrait(trait);
                 Messages.Message("PolarisTraitreleaserUsedAddTrait".Translate(usedBy.LabelShort, trait.LabelCap), usedBy, MessageTypeDefOf.PositiveEvent);
             }
+            PolarisUtility.GainSkillsExtra(usedBy, trait.CurrentData.skillGains, true);
         }
 
         private List<Trait> ConflictTraits(List<Trait> traits, Trait trait)
@@ -169,7 +171,9 @@ namespace Polarisbloc
                     action = delegate
                     {
                         usedBy.story.traits.allTraits.Remove(trait);
-                        this.RefreshPawnStat(usedBy);
+                        PolarisUtility.GainSkillsExtra(usedBy, trait.CurrentData.skillGains, false);
+                        //this.RefreshPawnStat(usedBy);
+                        PolarisUtility.RefreshPawnStat(usedBy);
                         Trait reTrait = new Trait(trait.def, trait.Degree);
                         this.parent.GetComp<CompTraitreleaser>().trait = reTrait;
                         this.parent.GetComp<CompTraitreleaser>().availableTimes--;
@@ -182,7 +186,7 @@ namespace Polarisbloc
             yield break;
         }
 
-        private void RefreshPawnStat(Pawn pawn)
+        /*private void RefreshPawnStat(Pawn pawn)
         {
             if (pawn.workSettings != null)
             {
@@ -197,7 +201,7 @@ namespace Polarisbloc
             {
                 pawn.needs.mood.thoughts.situational.Notify_SituationalThoughtsDirty();
             }
-        }
+        }*/
     }
 }
 

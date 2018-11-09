@@ -67,6 +67,46 @@ namespace Polarisbloc
             }
         }
 
+        public override IEnumerable<Gizmo> CompGetGizmosExtra()
+        {
+            foreach (Gizmo g in base.CompGetGizmosExtra())
+            {
+                yield return g;
+            }
+            if (Prefs.DevMode)
+            {
+                Command_Action choseTrait = new Command_Action
+                {
+                    defaultLabel = "find a trait...",
+                    action = delegate
+                    {
+                        List<DebugMenuOption> list = new List<DebugMenuOption>();
+                        foreach (TraitDef traitDef in DefDatabase<TraitDef>.AllDefs)
+                        {
+                            TraitDef trDef = traitDef;
+                            for (int j = 0; j < traitDef.degreeDatas.Count; j++)
+                            {
+                                int i = j;
+                                list.Add(new DebugMenuOption(string.Concat(new object[]
+                                {
+                            trDef.degreeDatas[i].label,
+                            " (",
+                            trDef.degreeDatas[j].degree,
+                            ")"
+                                }), DebugMenuOptionMode.Action, delegate ()
+                                {
+                                    Trait item = new Trait(trDef, trDef.degreeDatas[i].degree, false);
+                                    this.trait = item;
+                                }));
+                            }
+                        }
+                        Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
+                    }
+                };
+                yield return choseTrait;
+            }
+        }
+
         public override string GetDescriptionPart()
         {
             StringBuilder stringBuilder = new StringBuilder();

@@ -21,8 +21,11 @@ namespace Polarisbloc
                 if (usedBy.story.childhood != null)
                 {
                     Messages.Message("PolarisMomeryResterStorySuccessfullyChanged".Translate(usedBy.LabelShort, usedBy.story.childhood.title, childhoodStory.title), usedBy, MessageTypeDefOf.PositiveEvent);
+                    PolarisUtility.GainSkillsExtra(usedBy, usedBy.story.childhood.skillGainsResolved, false);
+                    PolarisUtility.GainSkillsExtra(usedBy, childhoodStory.skillGainsResolved, true);
                     usedBy.story.childhood = childhoodStory;
-                    this.RefreshPawnStat(usedBy);
+                    //this.RefreshPawnStat(usedBy);
+                    PolarisUtility.RefreshPawnStat(usedBy);
                 }
                 else Messages.Message("PolarisMomeryResterHaveNoAvaliableStory".Translate(usedBy.LabelShort), usedBy, MessageTypeDefOf.NegativeEvent);
             }
@@ -31,15 +34,18 @@ namespace Polarisbloc
                 if (usedBy.story.adulthood != null)
                 {
                     Messages.Message("PolarisMomeryResterStorySuccessfullyChanged".Translate(usedBy.LabelShort, usedBy.story.adulthood.title, adulthoodStory.title), usedBy, MessageTypeDefOf.PositiveEvent);
+                    PolarisUtility.GainSkillsExtra(usedBy, usedBy.story.adulthood.skillGainsResolved, false);
+                    PolarisUtility.GainSkillsExtra(usedBy, adulthoodStory.skillGainsResolved, true);
                     usedBy.story.adulthood = adulthoodStory;
-                    this.RefreshPawnStat(usedBy);
+                    //this.RefreshPawnStat(usedBy);
+                    PolarisUtility.RefreshPawnStat(usedBy);
                 }
                 else Messages.Message("PolarisMomeryResterHaveNoAvaliableStory".Translate(usedBy.LabelShort), usedBy, MessageTypeDefOf.NegativeEvent);
             }
             else Messages.Message("PolarisMomeryResterUnknownError".Translate(), MessageTypeDefOf.NegativeEvent);
         }
 
-        private void RefreshPawnStat(Pawn pawn)
+        /*private void RefreshPawnStat(Pawn pawn)
         {
             if (pawn.workSettings != null)
             {
@@ -54,6 +60,6 @@ namespace Polarisbloc
             {
                 pawn.needs.mood.thoughts.situational.Notify_SituationalThoughtsDirty();
             }
-        }
+        }*/
     }
 }
