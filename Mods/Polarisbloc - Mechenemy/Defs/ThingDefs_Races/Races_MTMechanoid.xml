@@ -10,6 +10,7 @@
       <ComfyTemperatureMax>300</ComfyTemperatureMax>
       <ArmorRating_Heat>0.8</ArmorRating_Heat>
       <MeatAmount>0</MeatAmount>
+      <MeleeHitChance>13</MeleeHitChance>
     </statBases>
     <race>
       <fleshType>Mechanoid</fleshType>
@@ -122,17 +123,18 @@
     <label>Beta-Humanoid</label>
     <description>A advanced humanoid, can equip various weapons to fight.</description>
     <statBases>
-      <MoveSpeed>4.93</MoveSpeed>
+      <MoveSpeed>5.03</MoveSpeed>
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
       <MeatAmount>0</MeatAmount>
+      <MeleeDodgeChance>8</MeleeDodgeChance>
     </statBases>
     <race>
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>Vanya_DroidBeta</body>
       <baseBodySize>1.0</baseBodySize>
-      <baseHealthScale>1.0</baseHealthScale>
+      <baseHealthScale>1.1</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>
@@ -202,8 +204,8 @@
     <description>Advanced humanoid with heavy armor, can fight with various weapons.</description>
     <statBases>
       <MoveSpeed>4.61</MoveSpeed>
-      <ArmorRating_Blunt>0.33</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.67</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
       <MeatAmount>0</MeatAmount>
     </statBases>
     <race>
@@ -211,7 +213,7 @@
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>Vanya_DroidBetaEX</body>
       <baseBodySize>1.0</baseBodySize>
-      <baseHealthScale>1.0</baseHealthScale>
+      <baseHealthScale>1.33</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>
@@ -290,7 +292,7 @@
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>Vanya_DroidGamma</body>
       <baseBodySize>1.0</baseBodySize>
-      <baseHealthScale>0.8</baseHealthScale>
+      <baseHealthScale>0.95</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>
@@ -365,7 +367,7 @@
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>Vanya_DroidGammaEX</body>
       <baseBodySize>1.0</baseBodySize>
-      <baseHealthScale>0.8</baseHealthScale>
+      <baseHealthScale>1.0</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>
@@ -434,13 +436,14 @@
       <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
       <MeatAmount>0</MeatAmount>
+      <MeleeDodgeChance>10</MeleeDodgeChance>
     </statBases>
     <race>
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>Vanya_DroidRuler</body>
       <baseBodySize>1.0</baseBodySize>
-      <baseHealthScale>1.2</baseHealthScale>
+      <baseHealthScale>1.44</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>
@@ -519,7 +522,7 @@
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>Vanya_DroidFortress</body>
       <baseBodySize>4.0</baseBodySize>
-      <baseHealthScale>3.4</baseHealthScale>
+      <baseHealthScale>4.0</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>

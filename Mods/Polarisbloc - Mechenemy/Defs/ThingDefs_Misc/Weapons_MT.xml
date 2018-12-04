@@ -545,9 +545,9 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>Vanya_IgnoreDiffusionEX</damageDef>
-      <damageAmountBase>17</damageAmountBase>
+      <damageAmountBase>23</damageAmountBase>
       <speed>90</speed>
-      <explosionRadius>1.5</explosionRadius>
+      <explosionRadius>2.3</explosionRadius>
       <stoppingPower>2</stoppingPower>
     </projectile>
   </ThingDef>
@@ -564,8 +564,8 @@
       <AccuracyTouch>0.5</AccuracyTouch>
       <AccuracyShort>0.66</AccuracyShort>
       <AccuracyMedium>0.66</AccuracyMedium>
-      <AccuracyLong>0.50</AccuracyLong>
-      <RangedWeapon_Cooldown>1.67</RangedWeapon_Cooldown>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>1.37</RangedWeapon_Cooldown>
       <MarketValue>1600</MarketValue>
     </statBases>
     <weaponTags>
@@ -576,7 +576,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Vanya_RailGun</defaultProjectile>
-        <warmupTime>3.33</warmupTime>
+        <warmupTime>2.97</warmupTime>
         <range>44</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>ChargeLance_Fire</soundCast>

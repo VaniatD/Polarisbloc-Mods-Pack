@@ -64,6 +64,10 @@ namespace Polarisbloc
                  select x).TryRandomElement(out Thing tempThing))
             {
                 tempThing.HitPoints++;
+                if (tempThing.HitPoints == tempThing.MaxHitPoints && tempThing is Apparel ap && ap.WornByCorpse)
+                {
+                    ap.Notify_PawnResurrected();
+                }
                 return true;
             }
             else return false;

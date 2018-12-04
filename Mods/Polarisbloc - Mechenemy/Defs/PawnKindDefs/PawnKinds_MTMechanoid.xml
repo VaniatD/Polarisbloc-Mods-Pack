@@ -4,7 +4,7 @@
     <defName>VanyaPK_DroidAlpha</defName>
     <label>Alpha-Self Explode Droid</label>
     <race>Vanya_DroidAlpha</race>
-    <combatPower>108</combatPower>
+    <combatPower>103</combatPower>
     <defaultFactionType>Vanya_AdvMechanoid</defaultFactionType>
     <aiAvoidCover>true</aiAvoidCover>
     <itemQuality>Good</itemQuality>
@@ -32,7 +32,7 @@
     <defName>VanyaPK_DroidBeta</defName>
     <label>Beta-Humanoid</label>
     <race>Vanya_DroidBeta</race>
-    <combatPower>190</combatPower>
+    <combatPower>172</combatPower>
     <defaultFactionType>Vanya_AdvMechanoid</defaultFactionType>
     <aiAvoidCover>true</aiAvoidCover>
     <itemQuality>Good</itemQuality>
@@ -61,7 +61,7 @@
     <defName>VanyaPK_DroidBetaEX</defName>
     <label>Beta-2-Heavy Armor Humanoid</label>
     <race>Vanya_DroidBetaEX</race>
-    <combatPower>223</combatPower>
+    <combatPower>204</combatPower>
     <defaultFactionType>Vanya_AdvMechanoid</defaultFactionType>
     <aiAvoidCover>true</aiAvoidCover>
     <itemQuality>Good</itemQuality>
@@ -90,7 +90,7 @@
     <defName>VanyaPK_DroidGamma</defName>
     <label>Gamma-Wolf Droid</label>
     <race>Vanya_DroidGamma</race>
-    <combatPower>203</combatPower>
+    <combatPower>188</combatPower>
     <defaultFactionType>Vanya_AdvMechanoid</defaultFactionType>
     <aiAvoidCover>true</aiAvoidCover>
     <itemQuality>Good</itemQuality>
@@ -118,7 +118,7 @@
     <defName>VanyaPK_DroidGammaEX</defName>
     <label>Gamma-2-Heavy Armor Wolf Droid</label>
     <race>Vanya_DroidGammaEX</race>
-    <combatPower>256</combatPower>
+    <combatPower>248</combatPower>
     <defaultFactionType>Vanya_AdvMechanoid</defaultFactionType>
     <aiAvoidCover>true</aiAvoidCover>
     <itemQuality>Good</itemQuality>

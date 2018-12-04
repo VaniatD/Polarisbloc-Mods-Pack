@@ -15,7 +15,7 @@ namespace Polarisbloc_SecurityForce
             {
                 return false;
             }
-            if (Rand.Value * 200 < this.HitPoints)
+            if (Rand.Value * 400 < this.HitPoints)
             {
                 this.TakeDamage(dinfo);
                 MoteMaker.ThrowText(base.Wearer.DrawPos, base.Wearer.Map, "PlrsTextMote_Absorbed".Translate(), 1.5f);

@@ -34,7 +34,7 @@
     <pawnGroupMakers>
       <li>
         <kindDef>Combat</kindDef>
-        <commonality>29</commonality>
+        <commonality>20</commonality>
         <disallowedStrategies>
           <li>Vanya_Expressage</li>
         </disallowedStrategies>
@@ -44,9 +44,9 @@
       </li>
       <li>
         <kindDef>Combat</kindDef>
-        <commonality>87</commonality>
+        <commonality>67</commonality>
         <options>
-          <VanyaPK_DroidAlpha>4</VanyaPK_DroidAlpha>
+          <VanyaPK_DroidAlpha>7</VanyaPK_DroidAlpha>
           <VanyaPK_DroidBeta>100</VanyaPK_DroidBeta>
           <VanyaPK_DroidGamma>100</VanyaPK_DroidGamma>
           <VanyaPK_DroidRuler>10</VanyaPK_DroidRuler>
@@ -54,9 +54,9 @@
       </li>
       <li>
         <kindDef>Combat</kindDef>
-        <commonality>67</commonality>
+        <commonality>87</commonality>
         <options>
-          <VanyaPK_DroidAlpha>4</VanyaPK_DroidAlpha>
+          <VanyaPK_DroidAlpha>7</VanyaPK_DroidAlpha>
           <VanyaPK_DroidBetaEX>100</VanyaPK_DroidBetaEX>
           <VanyaPK_DroidGammaEX>100</VanyaPK_DroidGammaEX>
           <VanyaPK_DroidFortress>10</VanyaPK_DroidFortress>
@@ -64,9 +64,9 @@
       </li>
       <li>
         <kindDef>Combat</kindDef>
-        <commonality>25</commonality>
+        <commonality>100</commonality>
         <options>
-          <VanyaPK_DroidAlpha>8</VanyaPK_DroidAlpha>
+          <VanyaPK_DroidAlpha>16</VanyaPK_DroidAlpha>
           <VanyaPK_DroidBeta>100</VanyaPK_DroidBeta>
           <VanyaPK_DroidBetaEX>100</VanyaPK_DroidBetaEX>
           <VanyaPK_DroidGamma>100</VanyaPK_DroidGamma>

@@ -94,8 +94,8 @@
       <MarketValue>2800</MarketValue>
       <MaxHitPoints>450</MaxHitPoints>
       <Mass>15</Mass>
-      <ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1.20</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.60</ArmorRating_Sharp>
       <ArmorRating_Heat>0.67</ArmorRating_Heat>
       <Insulation_Cold>50</Insulation_Cold>
       <Insulation_Heat>50</Insulation_Heat>
