@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PolarisLyraeCurer.label>lyrae curer</PolarisLyraeCurer.label>
+  <PolarisLyraeCurer.description>The lyrae curer will tend wounds to nearby creatures but the quality won't be good.</PolarisLyraeCurer.description>
+  <PolarisLyraeCurer_Blueprint.label>lyrae curer (blueprint)</PolarisLyraeCurer_Blueprint.label>
+  <PolarisLyraeCurer_Blueprint_Install.label>lyrae curer (blueprint)</PolarisLyraeCurer_Blueprint_Install.label>
+  <PolarisLyraeCurer_Frame.label>lyrae curer (building)</PolarisLyraeCurer_Frame.label>
+  <PolarisLyraeCurer_Frame.description>The lyrae curer will tend wounds to nearby creatures but the quality won't be good.</PolarisLyraeCurer_Frame.description>
+
+  <PolarisShipReactor.label>Mechanoid ship reactor</PolarisShipReactor.label>
+  <PolarisShipReactor.description>Mechanoid ship reactor</PolarisShipReactor.description>
+  <PolarisShipReactor_Blueprint_Install.label>Mechanoid ship reactor (blueprint)</PolarisShipReactor_Blueprint_Install.label>
+
+  <PolarisThermostat.label>thermostat</PolarisThermostat.label>
+  <PolarisThermostat.description>A device that can control the temperature near the target value.</PolarisThermostat.description>
+  <PolarisThermostat_Blueprint.label>thermostat (blueprint)</PolarisThermostat_Blueprint.label>
+  <PolarisThermostat_Blueprint_Install.label>thermostat (blueprint)</PolarisThermostat_Blueprint_Install.label>
+  <PolarisThermostat_Frame.label>thermostat (building)</PolarisThermostat_Frame.label>
+  <PolarisThermostat_Frame.description>A device that can control the temperature near the target value.</PolarisThermostat_Frame.description>
+
+  <PolarisMendingShelf.label>mending shelf</PolarisMendingShelf.label>
+  <PolarisMendingShelf.description>A shelf for storing miscellaneous items. Items stored in this won't deteriorate, even if outside. In addition, the items will be mended if it has fuel.</PolarisMendingShelf.description>
+  <PolarisMendingShelf_Blueprint.label>mending shelf (blueprint)</PolarisMendingShelf_Blueprint.label>
+  <PolarisMendingShelf_Blueprint_Install.label>mending shelf (blueprint)</PolarisMendingShelf_Blueprint_Install.label>
+  <PolarisMendingShelf_Frame.label>mending shelf (building)</PolarisMendingShelf_Frame.label>
+  <PolarisMendingShelf_Frame.description>A shelf for storing miscellaneous items. Items stored in this won't deteriorate, even if outside. In addition, the items will be mended if it has fuel.</PolarisMendingShelf_Frame.description>
+
+
+</LanguageData>
