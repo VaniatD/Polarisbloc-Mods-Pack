@@ -4,12 +4,12 @@
   <!-- cartridge -->
 
   <PolarisCartridge.label>cartridge</PolarisCartridge.label>
-  <PolarisCartridge.description>A  cartridge that can be worn by a pawn and protects the wearer from a certain death. The wearer will be resurrected immediatly upon death. Administered to a corpse, the cartridge will repair and kickstart the body back to life.\n\nSo, is life equal? Is it really good to exchange one's life for another person's life?</PolarisCartridge.description>
+  <PolarisCartridge.description>A cartridge that can be worn by a pawn and protects the wearer from a certain death. The wearer will be resurrected immediatly upon death. Administered to a corpse, the cartridge will repair and kickstart the body back to life.\n\nSo, is life equal? Is it really good to exchange one's life for another person's life?</PolarisCartridge.description>
   <PolarisCartridge.comps.2.useLabel>Use cartridge</PolarisCartridge.comps.2.useLabel>
 
   <PolarisBondorudoDiary.label>Bondorudo's diary</PolarisBondorudoDiary.label>
   <PolarisBondorudoDiary.description>"It is ... terrific..."</PolarisBondorudoDiary.description>
-  <PolarisBondorudoDiary.comps.1.useLabel>Unscramble Dawn's diary</PolarisBondorudoDiary.comps.1.useLabel>
+  <PolarisBondorudoDiary.comps.1.useLabel>Unscramble Bondorudo's diary</PolarisBondorudoDiary.comps.1.useLabel>
 
   <PolarisWhiteFlute.label>white flute</PolarisWhiteFlute.label>
 
@@ -20,7 +20,7 @@
   <PolarisCombatChip.description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</PolarisCombatChip.description>
 
   <PolarisCombatChipConverter.label>tactical chip converter</PolarisCombatChipConverter.label>
-  <PolarisCombatChipConverter.description>A tactical chip converter to convert tactical chip already installed in someone's head. The converter will activate and convert the chip mode to the one recorded in the converter. It is reusable.</PolarisCombatChipConverter.description>
+  <PolarisCombatChipConverter.description>A tactical chip converter to convert one's tactical chip installed in someone's head. The converter will activate and convert the chip mode to the one recorded in the converter. It is reusable.</PolarisCombatChipConverter.description>
   <PolarisCombatChipConverter.comps.1.useLabel>Use converter</PolarisCombatChipConverter.comps.1.useLabel>
 
 
@@ -32,12 +32,12 @@
   <PolarisHealingPotion.ingestible.ingestReportString>Drinking {0}.</PolarisHealingPotion.ingestible.ingestReportString>
 
   <PolarisAntibiotic.label>combined antibiotics</PolarisAntibiotic.label>
-  <PolarisAntibiotic.description>A combination of multiple antibiotics that can cure most commons diseases.</PolarisAntibiotic.description>
+  <PolarisAntibiotic.description>A combination of multiple antibiotics that can cure most common diseases.</PolarisAntibiotic.description>
   <PolarisAntibiotic.ingestible.ingestCommandString>Take {0}</PolarisAntibiotic.ingestible.ingestCommandString>
   <PolarisAntibiotic.ingestible.ingestReportString>Taking {0}.</PolarisAntibiotic.ingestible.ingestReportString>
 
   <PolarisReceptorAntagonist.label>receptor antagonist</PolarisReceptorAntagonist.label>
-  <PolarisReceptorAntagonist.description>The receptor antagonist is a drug that blocks drugs needs by binding to and blocking drugs receptor rather than activating it like an agonist. So this drug will satisfy some chemical needs, and ease the drug addiction at the same time.</PolarisReceptorAntagonist.description>
+  <PolarisReceptorAntagonist.description>The receptor antagonist is a drug that blocks drugs needs by binding to and blocking any drugs receptor rather than activating it like an agonist. So this drug will satisfy chemical needs, and ease the drug addiction at the same time.</PolarisReceptorAntagonist.description>
   <PolarisReceptorAntagonist.ingestible.ingestCommandString>Take {0}</PolarisReceptorAntagonist.ingestible.ingestCommandString>
   <PolarisReceptorAntagonist.ingestible.ingestReportString>Taking {0}.</PolarisReceptorAntagonist.ingestible.ingestReportString>
 
