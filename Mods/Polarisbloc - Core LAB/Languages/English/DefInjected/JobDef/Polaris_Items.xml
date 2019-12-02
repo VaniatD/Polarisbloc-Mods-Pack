@@ -2,12 +2,12 @@
 <LanguageData>
 
   <!-- orbital trader caller -->
-  <UsePolarisOrbitalTraderCaller.reportString>Use caller to call {0}</UsePolarisOrbitalTraderCaller.reportString>
+  <UsePolarisOrbitalTraderCaller.reportString>using orbital trader caller.</UsePolarisOrbitalTraderCaller.reportString>
 
   <!-- traitreleaser -->
-  <UsePolarisTraitreleaser.reportString>Use trait-releaser mech serum to get {0}</UsePolarisTraitreleaser.reportString>
+  <UsePolarisTraitreleaser.reportString>using trait-releaser mech serum.</UsePolarisTraitreleaser.reportString>
 
   <!-- momery rester -->
-  <UsePolarisMomeryRester.reportString>Use memory resetter to get {0}</UsePolarisMomeryRester.reportString>
+  <UsePolarisMomeryRester.reportString>using memory resetter.</UsePolarisMomeryRester.reportString>
 
 </LanguageData>
