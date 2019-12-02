@@ -13,13 +13,13 @@
   <PolarisDrugFormula.description>This project has records on how to make some medicines.</PolarisDrugFormula.description>
 
   <PolarisAntibioticProduction.label>antibiotics production</PolarisAntibioticProduction.label>
-  <PolarisAntibioticProduction.description>Learn to produce the combined antibiotics.</PolarisAntibioticProduction.description>
+  <PolarisAntibioticProduction.description>Learn how to produce the combined antibiotics.</PolarisAntibioticProduction.description>
 
   <PolarisHealingPotionProduction.label>healing potion production</PolarisHealingPotionProduction.label>
-  <PolarisHealingPotionProduction.description>Learn to produce the healing potion.</PolarisHealingPotionProduction.description>
+  <PolarisHealingPotionProduction.description>Learn how to produce the healing potion.</PolarisHealingPotionProduction.description>
 
   <PolarisReceptorAntagonistProduction.label>receptor antagonist production</PolarisReceptorAntagonistProduction.label>
-  <PolarisReceptorAntagonistProduction.description>Learn to produce the receptor antagonist.\nThe polar molecules will bind with drugs' receptors. This drug will satisfy some chemical needs, and ease the drug addiction at the same time.</PolarisReceptorAntagonistProduction.description>
+  <PolarisReceptorAntagonistProduction.description>Learn how to produce the receptor antagonist.\This is a drug that blocks drugs needs by binding to and blocking any drugs receptor rather than activating it like an agonist. So this drug will satisfy chemical needs, and ease the drug addiction at the same time.</PolarisReceptorAntagonistProduction.description>
 
 
   <!-- surgical program -->
