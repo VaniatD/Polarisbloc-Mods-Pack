@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Cartridge -->
+
+  <MakePolarisCartridgeSurgery.label>make cartridge</MakePolarisCartridgeSurgery.label>
+  <MakePolarisCartridgeSurgery.description>Make cartridge</MakePolarisCartridgeSurgery.description>
+  <MakePolarisCartridgeSurgery.jobString>Making cartridge.</MakePolarisCartridgeSurgery.jobString>
+
+
+  <!-- CombatChip -->
+
+  <InstallPolarisCombatChip.label>install combat chip</InstallPolarisCombatChip.label>
+  <InstallPolarisCombatChip.description>Install combat chip.</InstallPolarisCombatChip.description>
+  <InstallPolarisCombatChip.jobString>Installing combat chip.</InstallPolarisCombatChip.jobString>
+
+
+  <!-- Implants -->
+
+  <InstallPolarisVirtualNetChip.label>install Virtual Network chip</InstallPolarisVirtualNetChip.label>
+  <InstallPolarisVirtualNetChip.description>Install Virtual Network chip.</InstallPolarisVirtualNetChip.description>
+  <InstallPolarisVirtualNetChip.jobString>Installing Virtual Network chip.</InstallPolarisVirtualNetChip.jobString>
+
+  <InstallPolarisPsionwire.label>install psionic chip</InstallPolarisPsionwire.label>
+  <InstallPolarisPsionwire.description>Install psionic chip.</InstallPolarisPsionwire.description>
+  <InstallPolarisPsionwire.jobString>Installing psionic chip.</InstallPolarisPsionwire.jobString>
+
+
+  <!-- heal old wounds -->
+
+  <PolarisCureScars.label>cure scars</PolarisCureScars.label>
+  <PolarisCureScars.description>Cure scars.</PolarisCureScars.description>
+  <PolarisCureScars.jobString>Curing scars.</PolarisCureScars.jobString>
+
+
+  <!-- restore missing body part -->
+
+  <PolarisRestoreMissingBodyPart.label>restore</PolarisRestoreMissingBodyPart.label>
+  <PolarisRestoreMissingBodyPart.description>Restore a missing body part, organ or even bone.</PolarisRestoreMissingBodyPart.description>
+  <PolarisRestoreMissingBodyPart.jobString>restoring.</PolarisRestoreMissingBodyPart.jobString>
+
+
+  <!-- remove implant -->
+
+  <PolarisRemoveImplant.label>remove implant</PolarisRemoveImplant.label>
+  <PolarisRemoveImplant.description>Remove all implants in the same body part.</PolarisRemoveImplant.description>
+  <PolarisRemoveImplant.jobString>Removing implants.</PolarisRemoveImplant.jobString>
+
+
+  <!-- trans gender -->
+
+  <PolarisTransGenderSurgery.label>trans gender</PolarisTransGenderSurgery.label>
+  <PolarisTransGenderSurgery.description>Trans gender.</PolarisTransGenderSurgery.description>
+  <PolarisTransGenderSurgery.jobString>Doing trans gender surgery.</PolarisTransGenderSurgery.jobString>
+
+
+  <!-- age change -->
+
+  <PolarisSurgeryAgeRaise.label>age raise</PolarisSurgeryAgeRaise.label>
+  <PolarisSurgeryAgeRaise.description>This operation will increase the patient's biological age of 4 years.</PolarisSurgeryAgeRaise.description>
+  <PolarisSurgeryAgeRaise.jobString>Doing age raise surgery.</PolarisSurgeryAgeRaise.jobString>
+
+  <PolarisSurgeryAgeDecrease.label>age decrease</PolarisSurgeryAgeDecrease.label>
+  <PolarisSurgeryAgeDecrease.description>This operation will decrease the patient's biological age. To predict the age the patient will lose, simply do the following math (use a calculator):\n\nx=(current age/10+1)*3\n\nThen do this:\n\ncurrent age-x=new age.</PolarisSurgeryAgeDecrease.description>
+  <PolarisSurgeryAgeDecrease.jobString>Doing age decrease surgery</PolarisSurgeryAgeDecrease.jobString>
+
+
+  <!-- special administer -->
+
+  <PolarisAdministerMechSerumTraitreleaser.label>administer trait-releaser mech serum</PolarisAdministerMechSerumTraitreleaser.label>
+  <PolarisAdministerMechSerumTraitreleaser.description>Administer a trait-releaser mech serum.</PolarisAdministerMechSerumTraitreleaser.description>
+  <PolarisAdministerMechSerumTraitreleaser.jobString>Administering trait-releaser mech serum.</PolarisAdministerMechSerumTraitreleaser.jobString>
+
+
+</LanguageData>

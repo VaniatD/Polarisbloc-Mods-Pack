@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipe Users: DrugLab -->
+
+  <Make_PolarisHealingPotion.label>make potent healing potion</Make_PolarisHealingPotion.label>
+  <Make_PolarisHealingPotion.description>Make potent healing potion.</Make_PolarisHealingPotion.description>
+  <Make_PolarisHealingPotion.jobString>Making potent healing potion.</Make_PolarisHealingPotion.jobString>
+
+  <Make_PolarisAntibiotic.label>make combined antibiotics</Make_PolarisAntibiotic.label>
+  <Make_PolarisAntibiotic.description>Make combined antibiotics.</Make_PolarisAntibiotic.description>
+  <Make_PolarisAntibiotic.jobString>Making combined antibiotics.</Make_PolarisAntibiotic.jobString>
+
+  <Make_PolarisReceptorAntagonist.label>make receptor antagonist</Make_PolarisReceptorAntagonist.label>
+  <Make_PolarisReceptorAntagonist.description>Make receptor antagonist.</Make_PolarisReceptorAntagonist.description>
+  <Make_PolarisReceptorAntagonist.jobString>Making receptor antagonist.</Make_PolarisReceptorAntagonist.jobString>
+
+  <Make_PolarisPsionwire.label>make psionic chip</Make_PolarisPsionwire.label>
+  <Make_PolarisPsionwire.description>Make psionic chip.</Make_PolarisPsionwire.description>
+  <Make_PolarisPsionwire.jobString>Making psionic chip.</Make_PolarisPsionwire.jobString>
+
+  <Make_PolarisMechSerumTraitreleaser.label>make trait-releaser mech serum</Make_PolarisMechSerumTraitreleaser.label>
+  <Make_PolarisMechSerumTraitreleaser.description>Make trait-releaser mech serum.</Make_PolarisMechSerumTraitreleaser.description>
+  <Make_PolarisMechSerumTraitreleaser.jobString>Making trait-releaser mech serum.</Make_PolarisMechSerumTraitreleaser.jobString>
+
+
+</LanguageData>
