@@ -28,7 +28,7 @@
   <PolarisTraitreleaserTraitDisabledWorkTypes>Disabled work types: {0}</PolarisTraitreleaserTraitDisabledWorkTypes>
   <PolarisTraitreleaserUsedbyHasNullTraits>The subject couldn't change traits</PolarisTraitreleaserUsedbyHasNullTraits>
   <!--momery rester-->
-  <PolarisMomeryResterHaveNoAvaliableOption>*No avaliable options</PolarisMomeryResterHaveNoAvaliableOption>
+  <PolarisMomeryResterHaveNoAvaliableOption>*No available options</PolarisMomeryResterHaveNoAvaliableOption>
   <PolarisMomeryResterStoryDisabledWorkTypes>Disabled work types: {0}</PolarisMomeryResterStoryDisabledWorkTypes>
   <PolarisMomeryResterChildhoodModeActiveLabel>Mode: childhood backstory</PolarisMomeryResterChildhoodModeActiveLabel>
   <PolarisMomeryResterChildhoodModeActiveDesc>On this mode, it'll change the subject's childhood backstory. Click on the icon to switch into adulthood backstory mode.</PolarisMomeryResterChildhoodModeActiveDesc>
