@@ -49,7 +49,7 @@
   <!-- special device -->
 
   <PolarisSpecialDevice.label>special device</PolarisSpecialDevice.label>
-  <PolarisSpecialDevice.description>This project recorded some special devices.</PolarisSpecialDevice.description>
+  <PolarisSpecialDevice.description>This project has records on some special devices.</PolarisSpecialDevice.description>
 
   <PolarisLyraeCurer.label>lyrae curer</PolarisLyraeCurer.label>
   <PolarisLyraeCurer.description>Learn how to build a curer to tend pawns near the curer.</PolarisLyraeCurer.description>
@@ -58,7 +58,7 @@
   <PolarisThermostat.description>Learn how to build a polarisbloc thermostat.</PolarisThermostat.description>
 
   <PolarisTraitreleaserProduction.label>trait-releaser production</PolarisTraitreleaserProduction.label>
-  <PolarisTraitreleaserProduction.description>Learn to product trait-releaser mech serum.A one-use super-dose of mechanites tuned to gain a specific trait.\n\nYou can product trait-releaser on drug lab.</PolarisTraitreleaserProduction.description>
+  <PolarisTraitreleaserProduction.description>Learn to product trait-releaser mech serum. A one-use super-dose of mechanites tuned to gain a specific trait.\n\nYou can product trait-releaser on drug lab.</PolarisTraitreleaserProduction.description>
 
   <PolarisMendingShelf.label>mending shelf</PolarisMendingShelf.label>
   <PolarisMendingShelf.description>Learn to build a special shelf to mend some damaged items.</PolarisMendingShelf.description>
@@ -67,7 +67,7 @@
   <!-- cant research -->
 
   <ResearchProject_PolarisCartridge.label>cartridge</ResearchProject_PolarisCartridge.label>
-  <ResearchProject_PolarisCartridge.description>The cartridge will resurrect the wearer if they ever die. So, is life equal? Is it really good to exchange one's life for another person's life?(This is a thing gained by surgery.)\n\nTip:You can only get this technology by unscrambling Bondorudo's diary.</ResearchProject_PolarisCartridge.description>
+  <ResearchProject_PolarisCartridge.description>The cartridge will resurrect the wearer if they ever die. So, is life equal? Is it really good to exchange one's life for another person's life?\n(This is a thing gained by surgery.)\n\nTip:You can only get this technology by unscrambling Bondorudo's diary.</ResearchProject_PolarisCartridge.description>
 
 
 </LanguageData>
