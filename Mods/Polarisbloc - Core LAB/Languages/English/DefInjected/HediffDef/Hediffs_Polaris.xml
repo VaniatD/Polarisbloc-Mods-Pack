@@ -1,0 +1,18 @@
+?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- cartridge -->
+  <Hediff_PloarisCartridge.label>Cartridge</Hediff_PloarisCartridge.label>
+  
+  <!-- medicines -->
+  <PolarisHealingPotion.label>potent healing potion</PolarisHealingPotion.label>
+  <PolarisAntibiotic.label>combined antibiotics</PolarisAntibiotic.label>
+  <PolarisReceptorAntagonist.label>Receptor antagonist</PolarisReceptorAntagonist.label>
+  
+  <!-- Implants -->
+  <PolarisVirtualNetChip.label>Virtual Network chip</PolarisVirtualNetChip.label>
+  <PolarisVirtualNetChip.labelNoun>A Virtual Network chip</PolarisVirtualNetChip.labelNoun>
+  <PolarisPsionwire.label>Psionic chip</PolarisPsionwire.label>
+  <PolarisPsionwire.labelNoun>A Psionic chip</PolarisPsionwire.labelNoun>
+  
+</LanguageData>
