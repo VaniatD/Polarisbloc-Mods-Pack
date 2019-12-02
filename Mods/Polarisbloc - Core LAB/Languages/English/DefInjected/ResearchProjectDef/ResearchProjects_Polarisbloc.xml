@@ -4,13 +4,13 @@
   <!-- base -->
 
   <PolarisSecretArchives.label>polarisbloc archives copy</PolarisSecretArchives.label>
-  <PolarisSecretArchives.description>Some special test records were learned from Polarisbloc, Maybe it will help us.</PolarisSecretArchives.description>
+  <PolarisSecretArchives.description>Some special test records were learned from Polarisbloc, maybe it will help us.</PolarisSecretArchives.description>
 
 
   <!-- medicines -->
 
   <PolarisDrugFormula.label>drug formula</PolarisDrugFormula.label>
-  <PolarisDrugFormula.description>This project recorded on how to make some medicines.</PolarisDrugFormula.description>
+  <PolarisDrugFormula.description>This project has records on how to make some medicines.</PolarisDrugFormula.description>
 
   <PolarisAntibioticProduction.label>antibiotics production</PolarisAntibioticProduction.label>
   <PolarisAntibioticProduction.description>Learn to produce the combined antibiotics.</PolarisAntibioticProduction.description>
@@ -25,7 +25,7 @@
   <!-- surgical program -->
 
   <PolarisSurgicalProgram.label>surgical program</PolarisSurgicalProgram.label>
-  <PolarisSurgicalProgram.description>This project recorded some special surgeries.</PolarisSurgicalProgram.description>
+  <PolarisSurgicalProgram.description>This project documents some special surgeries.</PolarisSurgicalProgram.description>
 
   <PolarisTransGenderSurgery.label>trans gender surgery</PolarisTransGenderSurgery.label>
   <PolarisTransGenderSurgery.description>Learn how to perform trans gender surgery.</PolarisTransGenderSurgery.description>
