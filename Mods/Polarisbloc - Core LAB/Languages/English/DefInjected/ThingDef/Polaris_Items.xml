@@ -4,7 +4,7 @@
   <!-- cartridge -->
 
   <PolarisCartridge.label>cartridge</PolarisCartridge.label>
-  <PolarisCartridge.description>A cartridge that can be worn by a pawn and protects the wearer from a certain death. The wearer will be resurrected immediatly upon death. Administered to a corpse, the cartridge will repair and kickstart the body back to life.\n\nSo, is life equal? Is it really good to exchange one's life for another person's life?</PolarisCartridge.description>
+  <PolarisCartridge.description>The cartridge can be worn by a pawn and protects the wearer from a certain death. The wearer will be resurrected immediatly upon death. Administered to a corpse, the cartridge will repair and kickstart the body back to life.\n\nSo, is life equal? Is it really good to exchange one's life for another person's life?</PolarisCartridge.description>
   <PolarisCartridge.comps.2.useLabel>Use cartridge</PolarisCartridge.comps.2.useLabel>
 
   <PolarisBondorudoDiary.label>Bondorudo's diary</PolarisBondorudoDiary.label>
