@@ -10,16 +10,16 @@
 
   <!-- CombatChip -->
 
-  <InstallPolarisCombatChip.label>install combat chip</InstallPolarisCombatChip.label>
-  <InstallPolarisCombatChip.description>Install combat chip.</InstallPolarisCombatChip.description>
-  <InstallPolarisCombatChip.jobString>Installing combat chip.</InstallPolarisCombatChip.jobString>
+  <InstallPolarisCombatChip.label>install tactical chip</InstallPolarisCombatChip.label>
+  <InstallPolarisCombatChip.description>Install tactical chip.</InstallPolarisCombatChip.description>
+  <InstallPolarisCombatChip.jobString>Installing tactical chip.</InstallPolarisCombatChip.jobString>
 
 
   <!-- Implants -->
 
-  <InstallPolarisVirtualNetChip.label>install Virtual Network chip</InstallPolarisVirtualNetChip.label>
-  <InstallPolarisVirtualNetChip.description>Install Virtual Network chip.</InstallPolarisVirtualNetChip.description>
-  <InstallPolarisVirtualNetChip.jobString>Installing Virtual Network chip.</InstallPolarisVirtualNetChip.jobString>
+  <InstallPolarisVirtualNetChip.label>install Virtual Net chip</InstallPolarisVirtualNetChip.label>
+  <InstallPolarisVirtualNetChip.description>Install Virtual Net chip.</InstallPolarisVirtualNetChip.description>
+  <InstallPolarisVirtualNetChip.jobString>Installing Virtual Net chip.</InstallPolarisVirtualNetChip.jobString>
 
   <InstallPolarisPsionwire.label>install psionic chip</InstallPolarisPsionwire.label>
   <InstallPolarisPsionwire.description>Install psionic chip.</InstallPolarisPsionwire.description>
