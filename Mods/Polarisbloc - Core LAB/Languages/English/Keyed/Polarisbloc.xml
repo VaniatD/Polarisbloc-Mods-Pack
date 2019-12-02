@@ -5,9 +5,9 @@
   <PolarisMessageFailedMakeCartridge>{0} must have more than 60 opinion points with {1}.</PolarisMessageFailedMakeCartridge>
   <PolarisFoundNoResearchProject>Couldn't find a research project.</PolarisFoundNoResearchProject>
   <!--CombatChip-->
-  <PolarisConvertCombatChipTitle>Choose a combat chip</PolarisConvertCombatChipTitle>
-  <PolarisConvertCombatChipDESC>Please select the type of chip you wish to convert into with these following options.</PolarisConvertCombatChipDESC>
-  <PolarisMessageFailedConvertCombatChip>{0} doesn't have a combat chip available.</PolarisMessageFailedConvertCombatChip>
+  <PolarisConvertCombatChipTitle>Choose tactical chip mode</PolarisConvertCombatChipTitle>
+  <PolarisConvertCombatChipDESC>Please select the mode of the tactical chip you wish to convert into with these following options.</PolarisConvertCombatChipDESC>
+  <PolarisMessageFailedConvertCombatChip>{0} doesn't have a tactical chip installed or available.</PolarisMessageFailedConvertCombatChip>
   <!--orbital trader caller-->
   <PolarisOrbitalTraderCouldNotArrival>There isn't enough room to call a new orbital ship.</PolarisOrbitalTraderCouldNotArrival>
   <!--heal old wounds-->
