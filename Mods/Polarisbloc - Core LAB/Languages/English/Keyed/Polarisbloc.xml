@@ -41,9 +41,9 @@
   <PolarisCurerApplyToHumanLabel>apply to human</PolarisCurerApplyToHumanLabel>
   <PolarisCurerApplyToHumanDESC>If actived, the curer will tend humans' wounds.</PolarisCurerApplyToHumanDESC>
   <!--restorer-->
-  <PolarisRestorerIngest>{0} has ingested polaris restorer.</PolarisRestorerIngest>
+  <PolarisRestorerIngest>{0} has ingested the polaris restorer.</PolarisRestorerIngest>
   <!--net chip-->
-  <PolarisForceCalmDown>{0} was calmed down by {1}.</PolarisForceCalmDown>
+  <PolarisForceCalmDown>{0} was calmed down by their {1}.</PolarisForceCalmDown>
   <!--void key-->
   <PolarisVoidKeyLinkedTo>Linked</PolarisVoidKeyLinkedTo>
   <PolarisVoidKeyTryLinkGizmoLabel>Link to...</PolarisVoidKeyTryLinkGizmoLabel>
