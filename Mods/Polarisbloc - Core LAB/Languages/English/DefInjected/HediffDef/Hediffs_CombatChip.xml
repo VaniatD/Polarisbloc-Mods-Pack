@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- PolarisCombatChip -->
+
+  <PolarisCombatChip_NotActive.label>combat chip (not active)</PolarisCombatChip_NotActive.label>
+  <PolarisCombatChip_NotActive.labelNoun>a combat chip</PolarisCombatChip_NotActive.labelNoun>
+
+  <PolarisCombatChip_Currency.label>combat chip (universal)</PolarisCombatChip_Currency.label>
+  <PolarisCombatChip_Currency.labelNoun>a combat chip</PolarisCombatChip_Currency.labelNoun>
+
+  <PolarisCombatChip_Sniper.label>combat chip (sniper)</PolarisCombatChip_Sniper.label>
+  <PolarisCombatChip_Sniper.labelNoun>a combat chip</PolarisCombatChip_Sniper.labelNoun>
+
+  <PolarisCombatChip_Scouter.label>combat chip (scouter)</PolarisCombatChip_Scouter.label>
+  <PolarisCombatChip_Scouter.labelNoun>a combat chip</PolarisCombatChip_Scouter.labelNoun>
+
+  <PolarisCombatChip_Medical.label>combat chip (medical)</PolarisCombatChip_Medical.label>
+  <PolarisCombatChip_Medical.labelNoun>a combat chip</PolarisCombatChip_Medical.labelNoun>
+
+  <PolarisCombatChip_Charm.label>combat chip (charm)</PolarisCombatChip_Charm.label>
+  <PolarisCombatChip_Charm.labelNoun>a combat chip</PolarisCombatChip_Charm.labelNoun>
+
+  <PolarisCombatChip_Inspiration.label>combat chip (inspiration)</PolarisCombatChip_Inspiration.label>
+  <PolarisCombatChip_Inspiration.labelNoun>a combat chip</PolarisCombatChip_Inspiration.labelNoun>
+
+
+</LanguageData>
