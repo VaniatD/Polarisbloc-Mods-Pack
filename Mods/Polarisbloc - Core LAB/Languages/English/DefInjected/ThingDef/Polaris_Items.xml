@@ -58,15 +58,15 @@
 
   <!-- psychic berserk pulser -->
 
-  <PolarisPsychicBerserkPulser.label>psychic berserk pulser</PolarisPsychicBerserkPulser.label>
-  <PolarisPsychicBerserkPulser.description>One-use artifact that generate a strong psychic pulse make all human go berserk (not included colonists).</PolarisPsychicBerserkPulser.description>
+  <PolarisPsychicBerserkPulser.label>psychic berserker pulser</PolarisPsychicBerserkPulser.label>
+  <PolarisPsychicBerserkPulser.description>A one-use artifact that generate a strong psychic pulse that make all human go berserk (not included colonists).</PolarisPsychicBerserkPulser.description>
   <PolarisPsychicBerserkPulser.comps.1.useLabel>Activate</PolarisPsychicBerserkPulser.comps.1.useLabel>
 
 
   <!-- orbital trader caller -->
 
   <PolarisOrbitalTraderCaller.label>orbital trader caller</PolarisOrbitalTraderCaller.label>
-  <PolarisOrbitalTraderCaller.description>It will launches a broadcast that contains coordinate information, and the nearby orbital trader arrives.</PolarisOrbitalTraderCaller.description>
+  <PolarisOrbitalTraderCaller.description>It will launch a broadcast containing coordinate information and will direct the specified nearest orbital trader to the origin of the broadcast.</PolarisOrbitalTraderCaller.description>
   <PolarisOrbitalTraderCaller.comps.1.useLabel>Use caller to call {0}</PolarisOrbitalTraderCaller.comps.1.useLabel>
 
 
