@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CaniculaRifle -->
+
+  <Bullet_CaniculaRifle.label>charge shot</Bullet_CaniculaRifle.label>
+
+  <Polarisbloc_CaniculaRifle.label>canicula - II universal rifle</Polarisbloc_CaniculaRifle.label>
+  <Polarisbloc_CaniculaRifle.description>The universal rifle, produced by Polarisbloc has a specially treated energy release device that can fire bullets that are extremely threatening to live bodies.</Polarisbloc_CaniculaRifle.description>
+  <Polarisbloc_CaniculaRifle.tools.0.label>stock</Polarisbloc_CaniculaRifle.tools.0.label>
+  <Polarisbloc_CaniculaRifle.tools.1.label>barrel</Polarisbloc_CaniculaRifle.tools.1.label>
+
+
+  <!-- CaniculaSniper -->
+
+  <Bullet_CaniculaSniper.label>charge shot</Bullet_CaniculaSniper.label>
+
+  <Polarisbloc_CaniculaSniper.label>canicula - III sniper rifle</Polarisbloc_CaniculaSniper.label>
+  <Polarisbloc_CaniculaSniper.description>The sniper rifle, produced by Polarisbloc has a specially treated energy release device that can fire bullets that are extremely threatening to live bodies.</Polarisbloc_CaniculaSniper.description>
+  <Polarisbloc_CaniculaSniper.tools.0.label>stock</Polarisbloc_CaniculaSniper.tools.0.label>
+  <Polarisbloc_CaniculaSniper.tools.1.label>barrel</Polarisbloc_CaniculaSniper.tools.1.label>
+
+
+</LanguageData>

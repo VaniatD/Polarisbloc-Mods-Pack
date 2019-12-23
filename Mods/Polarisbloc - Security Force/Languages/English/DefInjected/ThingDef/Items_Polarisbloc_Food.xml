@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Polarisbloc_EmergencyFood.label>emergency food</Polarisbloc_EmergencyFood.label>
+  <Polarisbloc_EmergencyFood.description>A liquid food that can quickly restore the physical strength of the eater, with the addition of anti-fatigue components that can effectively improve the combat ability of the eater.</Polarisbloc_EmergencyFood.description>
+  <Polarisbloc_EmergencyFood.ingestible.ingestCommandString>Drink {0}</Polarisbloc_EmergencyFood.ingestible.ingestCommandString>
+  <Polarisbloc_EmergencyFood.ingestible.ingestReportString>Drinking {0}.</Polarisbloc_EmergencyFood.ingestible.ingestReportString>
+
+
+</LanguageData>

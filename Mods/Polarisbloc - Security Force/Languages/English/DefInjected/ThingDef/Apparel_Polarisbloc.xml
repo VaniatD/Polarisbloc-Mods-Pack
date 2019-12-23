@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_PolarisShieldBelt_IV.label>polaris - IV shield belt</Apparel_PolarisShieldBelt_IV.label>
+  <Apparel_PolarisShieldBelt_IV.description>The latest generation of shield from the Polarisbloc, only for important personnel.\n\nThe shield will counter attack the attacker if the wearer is attacked. Although the counterattack have a cooling time, be careful, the counterattack is very precise.</Apparel_PolarisShieldBelt_IV.description>
+
+  <Polarisbloc_CygnusStandardArmor.label>Cygnus armor</Polarisbloc_CygnusStandardArmor.label>
+  <Polarisbloc_CygnusStandardArmor.description>The standard Cygnus armor of Security Forces provides a small amount of defensive capabilities and combat attributes.</Polarisbloc_CygnusStandardArmor.description>
+
+  <Polarisbloc_CygnusStandardArmorC.label>Cygnus armor (Captain)</Polarisbloc_CygnusStandardArmorC.label>
+  <Polarisbloc_CygnusStandardArmorC.description>The Captain version of the Cygnus armor is slightly improved of the original, but it is still very limited.</Polarisbloc_CygnusStandardArmorC.description>
+
+  <Polarisbloc_CygnusStandardTights.label>Cygnus tights</Polarisbloc_CygnusStandardTights.label>
+  <Polarisbloc_CygnusStandardTights.description>The Cygnus tights made of polymer materials contain special life-sustaining devices that can treat the user's wounds in time and promote wound healing.</Polarisbloc_CygnusStandardTights.description>
+
+
+  <!-- HeadGear -->
+
+  <Polarisbloc_AlkaidStrategyAssistant.label>Universal Tactical assistant</Polarisbloc_AlkaidStrategyAssistant.label>
+  <Polarisbloc_AlkaidStrategyAssistant.description>The Universal Tactical assistant is a device that can assist the user predict enemy movement trends.</Polarisbloc_AlkaidStrategyAssistant.description>
+
+  <Polarisbloc_ThubanTacticalGoggles.label>Universal Tactical goggles</Polarisbloc_ThubanTacticalGoggles.label>
+  <Polarisbloc_ThubanTacticalGoggles.description>The Universal Tactical goggles produced by the Polarisbloc enhance effectively the sight of the user.</Polarisbloc_ThubanTacticalGoggles.description>
+
+
+  <!-- Trigger -->
+
+  <Polarisbloc_BodyFixTrigger.label>Body Fix Trigger</Polarisbloc_BodyFixTrigger.label>
+  <Polarisbloc_BodyFixTrigger.description>Body Fix Trigger</Polarisbloc_BodyFixTrigger.description>
+
+
+</LanguageData>

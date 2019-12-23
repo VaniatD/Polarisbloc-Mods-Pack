@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PolarisShieldMemoryStick.label>Polaris Shield Memory Stick</PolarisShieldMemoryStick.label>
+  <PolarisShieldMemoryStick.description>The Polarisbloc makes and sells Memory Sticks containing the shield manufacturing technology. Due to the complicated level of data encryption, the data in the Memory Stick can not be obtained easily.\n\nTips:\nYou have a 9% chance to acquire the shield technology of the Memory Stick.\nIf you didn't get the technology, you have 30% chance to get a consolation prize from Polarisbloc.\nIf neither of the above were available, there is still a 1% chance to get a luxurious gift.\nUmmm... if you didn't get any of them, it's a pity.</PolarisShieldMemoryStick.description>
+  <PolarisShieldMemoryStick.comps.1.useLabel>Unscramble memory stick</PolarisShieldMemoryStick.comps.1.useLabel>
+
+
+</LanguageData>
