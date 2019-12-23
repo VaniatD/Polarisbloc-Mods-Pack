@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- cartridge -->
+
+  <PolarisCartridge.label>cartridge</PolarisCartridge.label>
+  <PolarisCartridge.description>The cartridge can be worn by a pawn and protects the wearer from a certain death. The wearer will be resurrected immediatly upon death. Administered to a corpse, the cartridge will repair and kickstart the body back to life.\n\nSo, is life equal? Is it really good to exchange one's life for another person's life?</PolarisCartridge.description>
+  <PolarisCartridge.comps.2.useLabel>Use cartridge</PolarisCartridge.comps.2.useLabel>
+
+  <PolarisBondorudoDiary.label>Bondorudo's diary</PolarisBondorudoDiary.label>
+  <PolarisBondorudoDiary.description>"It is ... terrific..."</PolarisBondorudoDiary.description>
+  <PolarisBondorudoDiary.comps.1.useLabel>Unscramble Bondorudo's diary</PolarisBondorudoDiary.comps.1.useLabel>
+
+  <PolarisWhiteFlute.label>white flute</PolarisWhiteFlute.label>
+
+
+  <!-- combat chip -->
+
+  <PolarisCombatChip.label>tactical chip</PolarisCombatChip.label>
+  <PolarisCombatChip.description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</PolarisCombatChip.description>
+
+  <PolarisCombatChipConverter.label>tactical chip converter</PolarisCombatChipConverter.label>
+  <PolarisCombatChipConverter.description>A tactical chip converter to convert one's tactical chip installed in someone's head. The converter will activate and convert the chip mode to the one recorded in the converter. It is reusable.</PolarisCombatChipConverter.description>
+  <PolarisCombatChipConverter.comps.1.useLabel>Use converter</PolarisCombatChipConverter.comps.1.useLabel>
+
+
+  <!-- medicines -->
+
+  <PolarisHealingPotion.label>potent healing potion</PolarisHealingPotion.label>
+  <PolarisHealingPotion.description>A quick recovery and healing potion that automatically heals wounds. The effect of this potion are very powerful.</PolarisHealingPotion.description>
+  <PolarisHealingPotion.ingestible.ingestCommandString>Drink {0}</PolarisHealingPotion.ingestible.ingestCommandString>
+  <PolarisHealingPotion.ingestible.ingestReportString>Drinking {0}.</PolarisHealingPotion.ingestible.ingestReportString>
+
+  <PolarisAntibiotic.label>combined antibiotics</PolarisAntibiotic.label>
+  <PolarisAntibiotic.description>A combination of multiple antibiotics that can cure most common diseases.</PolarisAntibiotic.description>
+  <PolarisAntibiotic.ingestible.ingestCommandString>Take {0}</PolarisAntibiotic.ingestible.ingestCommandString>
+  <PolarisAntibiotic.ingestible.ingestReportString>Taking {0}.</PolarisAntibiotic.ingestible.ingestReportString>
+
+  <PolarisReceptorAntagonist.label>receptor antagonist</PolarisReceptorAntagonist.label>
+  <PolarisReceptorAntagonist.description>The receptor antagonist is a drug that blocks drugs needs by binding to and blocking any drugs receptor rather than activating it like an agonist. So this drug will satisfy chemical needs, and ease the drug addiction at the same time.</PolarisReceptorAntagonist.description>
+  <PolarisReceptorAntagonist.ingestible.ingestCommandString>Take {0}</PolarisReceptorAntagonist.ingestible.ingestCommandString>
+  <PolarisReceptorAntagonist.ingestible.ingestReportString>Taking {0}.</PolarisReceptorAntagonist.ingestible.ingestReportString>
+
+  <PolarisRestorer.label>polaris restorer</PolarisRestorer.label>
+  <PolarisRestorer.description>Mysterious drugs from the Polarisbloc that can free you from all sorts of bad situations.</PolarisRestorer.description>
+  <PolarisRestorer.ingestible.ingestCommandString>Inject {0}</PolarisRestorer.ingestible.ingestCommandString>
+  <PolarisRestorer.ingestible.ingestReportString>Injecting {0}.</PolarisRestorer.ingestible.ingestReportString>
+
+
+  <!-- Implants -->
+
+  <PolarisVirtualNetChip.label>Virtual Net chip</PolarisVirtualNetChip.label>
+  <PolarisVirtualNetChip.description>A chip connected to a Virtual Network that can be used for entertainment whenever needed. Moreover, it will calm down the user if they ever have a mental breakdown.</PolarisVirtualNetChip.description>
+
+  <PolarisPsionwire.label>psionic chip</PolarisPsionwire.label>
+  <PolarisPsionwire.description>A chip capable of stimulating psionic abilities. Using this chip can enhance biological consciousness and fire resistance.</PolarisPsionwire.description>
+
+
+  <!-- psychic berserk pulser -->
+
+  <PolarisPsychicBerserkPulser.label>psychic berserker pulser</PolarisPsychicBerserkPulser.label>
+  <PolarisPsychicBerserkPulser.description>A one-use artifact that generate a strong psychic pulse that make all human go berserk (not included colonists).</PolarisPsychicBerserkPulser.description>
+  <PolarisPsychicBerserkPulser.comps.1.useLabel>Activate</PolarisPsychicBerserkPulser.comps.1.useLabel>
+
+
+  <!-- orbital trader caller -->
+
+  <PolarisOrbitalTraderCaller.label>orbital trader caller</PolarisOrbitalTraderCaller.label>
+  <PolarisOrbitalTraderCaller.description>It will launch a broadcast containing coordinate information and will direct the specified nearest orbital trader to the origin of the broadcast.</PolarisOrbitalTraderCaller.description>
+  <PolarisOrbitalTraderCaller.comps.1.useLabel>Use caller to call {0}</PolarisOrbitalTraderCaller.comps.1.useLabel>
+
+
+  <!-- traitreleaser -->
+
+  <PolarisMechSerumTraitreleaser.label>trait-releaser mech serum</PolarisMechSerumTraitreleaser.label>
+  <PolarisMechSerumTraitreleaser.description>A one-use super-dose of mechanites tuned to gain a specific trait. The subject choose to get the recorded trait or remove a trait from them. By removing a trait, the mechanites will record it and replace the pre-existing trait. However, this feature is only feasible 3 times.</PolarisMechSerumTraitreleaser.description>
+  <PolarisMechSerumTraitreleaser.comps.1.useLabel>Use trait-releaser mech serum to get {0}</PolarisMechSerumTraitreleaser.comps.1.useLabel>
+
+
+  <!-- momery rester -->
+
+  <PolarisMomeryRester.label>memory resetter</PolarisMomeryRester.label>
+  <PolarisMomeryRester.description>A one-use super-dose of mechanites tuned to change the subject's backstory into the recorded ones.</PolarisMomeryRester.description>
+  <PolarisMomeryRester.comps.1.useLabel>Use momery rester to get {0}</PolarisMomeryRester.comps.1.useLabel>
+
+
+  <!-- devil cookie -->
+
+  <PolarisDevilCookie.label>devil cookie</PolarisDevilCookie.label>
+  <PolarisDevilCookie.description>Would you bargain with the devil just because you are hungry?\n\nThis is a mysterious cookie and no one knows how it appeared in the world. And it will not vanish even once eaten.\n\nAccording to the records of the researcher from Polarisbloc, this cookie will take some life force from who ate it. Maybe this was the reason why it could feed the hunger fully.\n\n--&lt;No.666 file of Polarisbloc&gt; #public version</PolarisDevilCookie.description>
+
+
+  <!-- void key -->
+
+  <PolarisVoidKey.label>void key</PolarisVoidKey.label>
+  <PolarisVoidKey.description>Project.193\n\nAt first, we made something that can link the soul of the dead, although the dead one must be in our knowledge.\nAnd then we thought, why can't we resurrect the lost soul?\nWe tried to use the Proj.013"cartridge" to do this, but it failed.\nSome additional attemps were made but all failed, even when we used living subjects. All of them couldn't provide the life force and power needed to resurrect the lost soul.\nFinally, we had no choice but to use the Philosopher's stone to get our colleague back (although he was a little bit unconscious).\n\n--&lt;No.193 file of Polarisbloc&gt; #public version</PolarisVoidKey.description>
+  <PolarisVoidKey.comps.1.useLabel>Use void key</PolarisVoidKey.comps.1.useLabel>
+
+
+  <!-- special thing -->
+
+  <VanyaDataCenter.label>data center</VanyaDataCenter.label>
+
+
+</LanguageData>

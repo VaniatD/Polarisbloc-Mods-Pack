@@ -50,3 +50,15 @@ E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\obj\Re
 E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\bin\Release\Assembly-CSharp.dll
 E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\obj\Release\Polarisbloc.csprojAssemblyReference.cache
 E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\obj\Release\Polarisbloc.csproj.CopyComplete
+E:\Git\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\bin\Release\Polarisbloc.dll
+E:\Git\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\bin\Release\Polarisbloc.pdb
+E:\Git\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\bin\Release\Assembly-CSharp.dll
+E:\Git\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\bin\Release\TextMeshPro-1.0.55.56.0b11.dll
+E:\Git\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\bin\Release\Assembly-CSharp-firstpass.dll
+E:\Git\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\bin\Release\NAudio.dll
+E:\Git\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\bin\Release\NVorbis.dll
+E:\Git\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\bin\Release\UnityEngine.UI.dll
+E:\Git\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\obj\Release\Polarisbloc.csprojAssemblyReference.cache
+E:\Git\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\obj\Release\Polarisbloc.csproj.CopyComplete
+E:\Git\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\obj\Release\Polarisbloc.dll
+E:\Git\Polarisbloc-Mods-Pack\Sources\Polarisbloc\Polarisbloc\obj\Release\Polarisbloc.pdb

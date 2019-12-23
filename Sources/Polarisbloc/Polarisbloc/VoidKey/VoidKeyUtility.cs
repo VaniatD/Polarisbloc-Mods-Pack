@@ -97,7 +97,7 @@ namespace Polarisbloc
             {
                 pawn.health.AddHediff(hediff, null, null, null);
             }
-            if (Rand.Chance(0.02f) && brain != null)
+            if (Rand.Chance(0.8f) && brain != null)
             {
                 Hediff hediff2 = HediffMaker.MakeHediff(HediffDefOf.Dementia, pawn, brain);
                 if (!pawn.health.WouldDieAfterAddingHediff(hediff2))
@@ -105,7 +105,7 @@ namespace Polarisbloc
                     pawn.health.AddHediff(hediff2, null, null, null);
                 }
             }
-            if (Rand.Chance(0.02f))
+            if (Rand.Chance(0.8f))
             {
                 IEnumerable<BodyPartRecord> enumerable = from x in pawn.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null)
                                                          where x.def == BodyPartDefOf.Eye
@@ -118,7 +118,7 @@ namespace Polarisbloc
             }
             if (brain != null)
             {
-                if (Rand.Chance(0.2f))
+                if (Rand.Chance(0.8f))
                 {
                     Hediff hediff4 = HediffMaker.MakeHediff(HediffDefOf.ResurrectionPsychosis, pawn, brain);
                     if (!pawn.health.WouldDieAfterAddingHediff(hediff4))

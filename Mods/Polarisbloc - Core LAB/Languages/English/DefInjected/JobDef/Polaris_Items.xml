@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- orbital trader caller -->
+  <UsePolarisOrbitalTraderCaller.reportString>using orbital trader caller.</UsePolarisOrbitalTraderCaller.reportString>
+
+  <!-- traitreleaser -->
+  <UsePolarisTraitreleaser.reportString>using trait-releaser mech serum.</UsePolarisTraitreleaser.reportString>
+
+  <!-- momery rester -->
+  <UsePolarisMomeryRester.reportString>using memory resetter.</UsePolarisMomeryRester.reportString>
+
+</LanguageData>

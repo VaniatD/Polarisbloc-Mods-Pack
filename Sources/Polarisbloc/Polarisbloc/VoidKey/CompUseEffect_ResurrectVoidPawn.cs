@@ -33,8 +33,10 @@ namespace Polarisbloc
             base.DoEffect(usedBy);
             if (this.VoidPawn != null)
             {
-                VoidKeyUtility.ResurrectPawnFromVoid(this.parent.MapHeld, this.parent.PositionHeld, this.VoidPawn);
-                VoidKeyUtility.GiveSideEffects(this.VoidPawn);
+                Pawn tempPawn = this.VoidPawn;
+                VoidKeyUtility.ResurrectPawnFromVoid(this.parent.MapHeld, this.parent.PositionHeld, tempPawn);
+                VoidKeyUtility.GiveSideEffects(tempPawn);
+                
             }
             
         }
