@@ -180,18 +180,20 @@ namespace Vanya_Chaser
 		public override bool CheckPreAbsorbDamage(DamageInfo dinfo)
 		{
             if (dinfo.Instigator == base.Wearer) return true;
+			if (dinfo.Def == DamageDefOf.Extinguish) return true;
             if (dinfo.Def == DamageDefOf.SurgicalCut) return false;
             if (this.ShieldState == ShieldState.Active)
             {
-                if (dinfo.Instigator != null && dinfo.Instigator.Position.AdjacentTo8WayOrInside(base.Wearer.Position))
+				/*if (dinfo.Instigator != null && dinfo.Instigator.Position.AdjacentTo8WayOrInside(base.Wearer.Position))
                 {
                     this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage * 2f;
                 }
                 else
                 {
                     this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage;
-                }
-                if (this.energy < 0f)
+                }*/
+				this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage;
+				if (this.energy < 0f)
                 {
                     this.Break();
                 }

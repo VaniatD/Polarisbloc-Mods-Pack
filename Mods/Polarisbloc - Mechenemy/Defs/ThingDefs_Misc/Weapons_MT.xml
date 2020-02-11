@@ -419,7 +419,7 @@
       <texPath>Vanya/Things/Projectile/Vanya_BlueRocketSmall</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
-      <drawSize>(2,2)</drawSize>
+      <drawSize>(1.5,1.5)</drawSize>
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
@@ -480,7 +480,7 @@
       <texPath>Vanya/Things/Projectile/Vanya_BlueRocketBig</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
-      <drawSize>(1.5,1.5)</drawSize>
+      <drawSize>(1.2,1.2)</drawSize>
     </graphicData>
     <thingClass>Projectile_DoomsdayRocket</thingClass>
     <projectile>
@@ -601,14 +601,14 @@
       <texPath>Vanya/Things/Projectile/Bullet_Vanya_CompRocketLauncher</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>(2,2)</drawSize>
     </graphicData>
     <thingClass>Projectile_DoomsdayRocket</thingClass>
     <projectile>
       <damageDef>Bomb</damageDef>
-      <damageAmountBase>28</damageAmountBase>
+      <damageAmountBase>30</damageAmountBase>
       <explosionRadius>6.7</explosionRadius>
-      <speed>75</speed>
+      <speed>67</speed>
       <stoppingPower>2</stoppingPower>
       <armorPenetrationBase>0.4</armorPenetrationBase>
     </projectile>
@@ -640,10 +640,10 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Vanya_CompRocketLauncher</defaultProjectile>
         <forcedMissRadius>7</forcedMissRadius>
-        <warmupTime>5.5</warmupTime>
+        <warmupTime>5.2</warmupTime>
         <range>23</range>
         <ticksBetweenBurstShots>24</ticksBetweenBurstShots>
-        <burstShotCount>2</burstShotCount>
+        <burstShotCount>1</burstShotCount>
         <soundCast>InfernoCannon_Fire</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <onlyManualCast>true</onlyManualCast>
@@ -814,13 +814,13 @@
       <texPath>Vanya/Things/Projectile/Bullet_Vanya_HellSong</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
-      <drawSize>(2.4,2.4)</drawSize>
+      <drawSize>(2,2)</drawSize>
     </graphicData>
     <thingClass>Projectile_DoomsdayRocket</thingClass>
     <projectile>
       <damageDef>Bomb</damageDef>
-      <damageAmountBase>36</damageAmountBase>
-      <explosionRadius>7.3</explosionRadius>
+      <damageAmountBase>32</damageAmountBase>
+      <explosionRadius>6.9</explosionRadius>
       <speed>65</speed>
     </projectile>
   </ThingDef>

@@ -39,7 +39,7 @@
     <minDamageToFragment>5</minDamageToFragment>
     <isExplosive>true</isExplosive>
     <defaultDamage>20</defaultDamage>
-    <buildingDamageFactor>1000</buildingDamageFactor>
+    <buildingDamageFactor>20</buildingDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
     <explosionCellMote>Mote_BlastDry</explosionCellMote>
     <explosionColorCenter>(1, 1, 1)</explosionColorCenter>
@@ -61,7 +61,7 @@
     <minDamageToFragment>5</minDamageToFragment>
     <isExplosive>true</isExplosive>
     <defaultDamage>20</defaultDamage>
-    <buildingDamageFactor>10000</buildingDamageFactor>
+    <buildingDamageFactor>100</buildingDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
     <explosionCellMote>Mote_BlastDry</explosionCellMote>
     <explosionColorCenter>(1, 1, 1)</explosionColorCenter>

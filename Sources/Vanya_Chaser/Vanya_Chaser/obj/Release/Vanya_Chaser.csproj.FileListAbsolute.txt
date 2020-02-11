@@ -50,3 +50,15 @@ E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\
 E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\NVorbis.dll
 E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\UnityEngine.UI.dll
 E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CopyComplete
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\Vanya_Chaser.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\Vanya_Chaser.pdb
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\Assembly-CSharp.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\TextMeshPro-1.0.55.56.0b11.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\Assembly-CSharp-firstpass.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\NAudio.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\NVorbis.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\UnityEngine.UI.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csprojAssemblyReference.cache
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CopyComplete
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.pdb
