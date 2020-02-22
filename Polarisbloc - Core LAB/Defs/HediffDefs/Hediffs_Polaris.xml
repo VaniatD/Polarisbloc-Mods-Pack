@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--Base-->
+  <HediffDef Name="PolarisHediffBase" Abstract="True">
+    <hediffClass>Hediff_Implant</hediffClass>
+    <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
+    <isBad>false</isBad>
+  </HediffDef>
+  <!--cartridge-->
+  <HediffDef ParentName="PolarisHediffBase">
+    <defName>Hediff_PloarisCartridge</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>cartridge</label>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="Polarisbloc.HediffCompProperties_Cartridge" />
+    </comps>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+  <!--medicines-->
+  <HediffDef>
+    <defName>PolarisHealingPotion</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>potent healing potion</label>
+    <isBad>false</isBad>
+    <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>3.0</maxSeverity>
+    <comps>
+      <li Class="Polarisbloc.HediffCompProperties_HealWounds">
+        <healTicks>60</healTicks>
+        <healLimitOnce>1</healLimitOnce>
+      </li>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.05</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.5</painFactor>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>PolarisAntibiotic</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>combined antibiotic</label>
+    <isBad>false</isBad>
+    <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>120000</min>
+          <max>180000</max>
+        </disappearsAfterTicks>
+      </li>
+      <li Class="Polarisbloc.HediffCompProperties_Antibiotic">
+        <extraHediffs>
+          <li>Asthma</li>
+          <li>Carcinoma</li>
+          <li>FoodPoisoning</li>
+          <li>ToxicBuildup</li>
+          <li>WoundInfection</li>
+        </extraHediffs>
+        <minEffect>0.025</minEffect>
+      </li>
+    </comps>
+    <stages>
+      <li />
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>PolarisReceptorAntagonist</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>receptor antagonist</label>
+    <isBad>false</isBad>
+    <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>180000</min>
+          <max>240000</max>
+        </disappearsAfterTicks>
+      </li>
+      <li Class="Polarisbloc.HediffCompProperties_ReceptorAntagonist">
+        <exceptHediffs>
+          <li>LuciferiumAddiction</li>
+        </exceptHediffs>
+        <minEffect>0.011</minEffect>
+      </li>
+    </comps>
+    <stages>
+      <li />
+    </stages>
+  </HediffDef>
+  <!--Implants-->
+  <HediffDef ParentName="PolarisHediffBase">
+    <defName>PolarisVirtualNetChip</defName>
+    <label>virtual net chip</label>
+    <labelNoun>a virtual net chip</labelNoun>
+    <stages>
+      <li></li>
+    </stages>
+    <spawnThingOnRemoved>PolarisVirtualNetChip</spawnThingOnRemoved>
+    <comps>
+      <li Class="Polarisbloc.HediffCompProperties_JoyFiller"></li>
+      <li Class="Polarisbloc.HediffCompProperties_ForceCalmDown"></li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="PolarisHediffBase">
+    <defName>PolarisPsionwire</defName>
+    <label>psionwire</label>
+    <labelNoun>a psionwire</labelNoun>
+    <stages>
+      <li>
+        <statOffsets>
+          <Flammability>-1</Flammability>
+          <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>PolarisPsionwire</spawnThingOnRemoved>
+    <comps>
+      <li Class="HediffCompProperties_HealPermanentWounds" />
+      <li Class="Polarisbloc.HediffCompProperties_TamenessKeeper" />
+    </comps>
+  </HediffDef>
+</Defs>

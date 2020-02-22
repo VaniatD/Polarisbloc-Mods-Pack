@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Polaribloc_SecuirityForce.label>安保部队</Polaribloc_SecuirityForce.label>
+  <Polaribloc_SecuirityForce.description>隶属于天轴集团的安保部队，为天轴集团提供安全支持。同时也受命于进行各种不可告人的任务。</Polaribloc_SecuirityForce.description>
+  <Polaribloc_SecuirityForce.fixedName>安保部队</Polaribloc_SecuirityForce.fixedName>
+  <Polaribloc_SecuirityForce.pawnsPlural>士兵</Polaribloc_SecuirityForce.pawnsPlural>
+  <Polaribloc_SecuirityForce.leaderTitle>指挥官</Polaribloc_SecuirityForce.leaderTitle>
+
+
+</LanguageData>

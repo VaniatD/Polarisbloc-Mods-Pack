@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Polarisbloc - Core LAB</name>
+  <author>Vaniat</author>
+  <url>https://github.com/VaniatD/Polarisbloc-Mods-Pack</url>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <description>
+  "We are committed to the good life of humanoid." -- Polarisbloc.
+  
+  &lt;b&gt;Medicines:&lt;/b&gt;
+  
+  Combined antibiotic:A combination of several antibiotic combinations can cure most of the disease.(like flu,muscle parasites,infection,sleeping sickness,etc.)
+
+  receptor antagonist: The polar molecules will bind with drugs' receptors. So this drug could satisfy the chemical needs, and ease the drug addiction at the same time.
+  
+  polaris restorer:Mysterious drugs from the Polarisbloc can free you from all sorts of bad situations.(above Combined antibiotic,not craftable.)
+  
+  Potent healing potion:A quick recovery and healing of wounds, battles and recovery.(heal 1 hp per second.)
+  
+  &lt;b&gt;Surgeries:&lt;/b&gt;
+  
+  Remove Implant:It could remove all implants in the same body part.
+  
+  Trans gender:It would change your gender.
+  
+  Cure scars:It will cure your old wounds.
+  
+  Age raise:It will add 4 years to your age.
+  
+  Age Decrease:It will decrease x to your age.[x=(current age/10+1)*3]
+  
+  &lt;b&gt;Bionics:&lt;/b&gt;
+  
+  Psionwire:It will keep you out of flamme. Other way, if this was installed in animal's brain, it will keep the animal's tameness.
+  
+  Combat chip:6 kinds of combat chips,You can convert it to anyone other when you installed it.(currency,sniper,scouter,medical,charm and inspiration.You can use converter to do that.)
+  
+  Virtual net chip:A piece of chip connected to a virtual network that can be used for entertainment whenever needed.(fill up your joy need and outdoors need!)
+  
+  &lt;b&gt;Item:&lt;/b&gt;
+  
+  cartridge:Cartridge will resurrect this wearer when he dead,also you can use it to resurrect other one.
+  
+  polaris - II shield belt:The publicly available version of the Polaris shield belt has limited performance. The improved energy radiation method enables the wearer to use the gun to attack externally and provide protection when attacked at close quarters.
+  
+  traitreleaser mech serum:A one-use super-dose of mechanites tuned to gain a specific trait.
+  
+  momery rester:A one-use super-dose of mechanites tuned to change your story to another specifically.
+  
+  ship reactor:You can find it when you destoried mechanoid ship.
+  
+  orbital trader caller:It will launches a broadcast that contains coordinate information, and the nearby orbital trader arrives.
+  
+  psychic berserk pulser:One-use artifact that generate a strong psychic pulse make all human go berserk.(not included colonists)
+  
+  lyrae curer:It will tend pawns' wounds which is nearby.
+
+  polarisbloc thermostat:A device that can control the temperature near the target value.
+
+  devil cookie: This is a piece of mystery cookie, no one knows how it appeared in the world. And it will not vanish when you have ate it.
+
+  mending shelf: A shelf for storing miscellaneous items. Items stored in this will not deteriorate, even if outside. Other way, the items will be mended if it has fuel.
+
+  void key: A special device could link to missing pawn's soul, and you could resurrect the linked pawn on your map.(likely the pawn dead with overhead mountain or can't find corpse)
+  </description>
+</ModMetaData>

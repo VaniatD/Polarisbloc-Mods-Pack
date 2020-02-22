@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>PolarisShieldMemoryStick</defName>
+    <label>polaris shield memory stick</label>
+    <thingClass>ThingWithComps</thingClass>
+    <description>The Polarisbloc makes and sells memory sticks containing shield technology.Because the data is encrypted to a certain extent, the data in the memory stick can not be successfully obtained.\n\nTips:\nYou have 9% chance to get the shield technology.\nIf you won't get the technology,you have 30% chance to get a consolation prize.\nSo if you won't get both aboved,you have 1% chance to get a luxurious gift.\nUmmm...If you won't get all of them,it's a pity.</description>
+    <graphicData>
+      <texPath>PolarisblocSF/Item/PolarisShieldMemoryStick</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.3</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeability>All</tradeability>
+    <techLevel>Ultra</techLevel>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unscramble memory stick</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_FinishPSFShieldResearchProject</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

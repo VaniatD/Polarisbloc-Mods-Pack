@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PolarisShieldMemoryStick.label>карта памяти щита полярность</PolarisShieldMemoryStick.label>
+  <PolarisShieldMemoryStick.description>Polarisbloc производит и продает карты памяти, содержащие технологии щитов. Поскольку данные зашифрованы до некоторой степени, данные в карте памяти не могут быть успешно получены.\n\nПояснение:\nВы имеете 9% -ный шанс получить технологию щита.\nЕсли вы не получите эту технологию, у вас есть 30% шанс получить утешительный приз.\nВ случае, если вы не получите ни то, ни другое, вы имеете 1% шанс получить роскошный подарок.\nМмм... Если вы не получите ничего, жаль.</PolarisShieldMemoryStick.description>
+  <PolarisShieldMemoryStick.comps.1.useLabel>расшифровать карту памяти</PolarisShieldMemoryStick.comps.1.useLabel>
+
+  <VanyaDataCenter.label>дата центр</VanyaDataCenter.label>
+
+
+</LanguageData>

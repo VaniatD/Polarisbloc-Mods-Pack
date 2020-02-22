@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_IgnoreBleed.label>出血</Vanya_IgnoreBleed.label>
+  <Vanya_IgnoreBleed.comps.0.labelTendedWell>包帯で手当した</Vanya_IgnoreBleed.comps.0.labelTendedWell>
+  <Vanya_IgnoreBleed.comps.0.labelTendedWellInner>縫合</Vanya_IgnoreBleed.comps.0.labelTendedWellInner>
+  <Vanya_IgnoreBleed.comps.0.labelSolidTendedWell>固定した</Vanya_IgnoreBleed.comps.0.labelSolidTendedWell>
+  <Vanya_IgnoreBleed.injuryProps.destroyedLabel>切り取られた</Vanya_IgnoreBleed.injuryProps.destroyedLabel>
+  <Vanya_IgnoreBleed.injuryProps.destroyedOutLabel>切り取られた</Vanya_IgnoreBleed.injuryProps.destroyedOutLabel>
+
+
+</LanguageData>

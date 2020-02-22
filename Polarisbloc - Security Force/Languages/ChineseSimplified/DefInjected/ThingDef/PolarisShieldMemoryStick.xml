@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PolarisShieldMemoryStick.label>北极星护盾记忆棒</PolarisShieldMemoryStick.label>
+  <PolarisShieldMemoryStick.description>由天轴集团制作并出售包含有护盾制作技术的记忆棒，由于具有一定等级的数据加密，你可能无法顺利获取记录的科技。\n\n你有9%的几率能够成功取得记忆棒里的科技。\n如果没有顺利取得科技，有30%的几率会得到天轴集团送出的一份安慰奖。\n如果以上二者都没有拿到，那么还有1%的几率会得到一份豪华大礼。\nEmmmm.....如果你什么都没拿到，那可真是遗憾。</PolarisShieldMemoryStick.description>
+  <PolarisShieldMemoryStick.comps.1.useLabel>解读记忆棒</PolarisShieldMemoryStick.comps.1.useLabel>
+
+
+  <!--<VanyaDataCenter.label>数据中心</VanyaDataCenter.label>-->
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VCNoEnoughHitPointsToReset>シールドを展開するには、十分な耐久値が必要です。</VCNoEnoughHitPointsToReset>
+  <VCForceResetLabel>強制的に展開する</VCForceResetLabel>
+  <VCForceResetDESC>20の耐久値を消費するによって、シールドを再起動できます。</VCForceResetDESC>
+  <VCReboundLabel>反射</VCReboundLabel>
+  <VCReboundDESC>起動すると、このシールドが受けた銃弾を攻撃者へ反射することができます。</VCReboundDESC>
+
+</LanguageData>

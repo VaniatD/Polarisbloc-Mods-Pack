@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PolarisShieldMemoryStick.label>北極星護盾記憶棒</PolarisShieldMemoryStick.label>
+  <PolarisShieldMemoryStick.description>由天軸集團製作並出售包含有護盾製作技術的記憶棒，由於具有一定等級的數據加密，你可能無法順利獲取記錄的科技。\n\n你有9%的幾率能夠成功取得記憶棒裡的科技。\n如果沒有順利取得科技，有30%的幾率會得到天軸集團送出的一份安慰獎。\n如果以上二者都沒有拿到，那麼還有1%的幾率會得到一份豪華大禮。\nEmmmm.....如果你什麼都沒拿到，那可真是遺憾。</PolarisShieldMemoryStick.description>
+  <PolarisShieldMemoryStick.comps.1.useLabel>解讀記憶棒</PolarisShieldMemoryStick.comps.1.useLabel>
+
+
+  <!--<VanyaDataCenter.label>數據中心</VanyaDataCenter.label>-->
+
+</LanguageData>

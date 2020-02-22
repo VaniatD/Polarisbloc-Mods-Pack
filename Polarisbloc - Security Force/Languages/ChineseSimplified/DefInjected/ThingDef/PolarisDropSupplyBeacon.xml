@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PolarisDropSupplyBeacon.label>北极星补给包</PolarisDropSupplyBeacon.label>
+  <PolarisDropSupplyBeacon.description>它在激活时会被释放，给予一整套的安保部队标准士兵装备。</PolarisDropSupplyBeacon.description>
+  <PolarisDropSupplyBeacon.comps.1.useLabel>释放补给包</PolarisDropSupplyBeacon.comps.1.useLabel>
+
+
+</LanguageData>

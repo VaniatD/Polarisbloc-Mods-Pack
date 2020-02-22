@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Name="VanyaPK_CABase" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>Vanya_ChaserArmada</defaultFactionType>
+    <baseRecruitDifficulty>0.998</baseRecruitDifficulty>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <invNutrition>4.8</invNutrition>
+    <itemQuality>Excellent</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>45</maxGenerationAge>
+    <gearHealthRange>
+      <min>1.5</min>
+      <max>3.5</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>MTVCAapparel</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>28000</min>
+      <max>72000</max>
+    </apparelMoney>
+    <techHediffsChance>2.00</techHediffsChance>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsMoney>
+      <min>10000</min>
+      <max>80000</max>
+    </techHediffsMoney>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
+    <combatEnhancingDrugsChance>0.2</combatEnhancingDrugsChance>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>120</min>
+            <max>480</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <aiAvoidCover>true</aiAvoidCover>
+    <apparelRequired>
+      <li>Vanya_HunterArmor</li>
+      <li>Vanya_HunterOnSkin</li>
+      <li>Apparel_FlakVest</li>
+    </apparelRequired>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <invFoodDef>Vanya_CombatRations</invFoodDef>
+  </PawnKindDef>
+  <PawnKindDef ParentName="VanyaPK_CABase">
+    <defName>VanyaPK_CAFighter</defName>
+    <label>Chaser Armada Warrior</label>
+    <combatPower>168</combatPower>
+    <weaponMoney>
+      <min>8000</min>
+      <max>21000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>MTVMelee</li>
+    </weaponTags>
+    <combatEnhancingDrugsCount>
+      <min>1</min>
+      <max>1</max>
+    </combatEnhancingDrugsCount>
+    <combatEnhancingDrugsChance>1</combatEnhancingDrugsChance>
+    <apparelRequired>
+      <li>Apparel_ShieldBelt</li>
+    </apparelRequired>
+  </PawnKindDef>
+  <PawnKindDef ParentName="VanyaPK_CABase">
+    <defName>VanyaPK_CAGunner</defName>
+    <label>Chaser Armada Gunner</label>
+    <combatPower>198</combatPower>
+    <weaponMoney>
+      <min>12000</min>
+      <max>30000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>MTVCARifle</li>
+    </weaponTags>
+    <apparelRequired>
+      <li>Apparel_SmokepopBelt</li>
+    </apparelRequired>
+  </PawnKindDef>
+  <PawnKindDef ParentName="VanyaPK_CABase">
+    <defName>VanyaPK_CAElite</defName>
+    <label>Chaser Armada Elite</label>
+    <combatPower>204</combatPower>
+    <weaponMoney>
+      <min>20000</min>
+      <max>40000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>MTVCASniper</li>
+    </weaponTags>
+    <trader>true</trader>
+    <factionLeader>true</factionLeader>
+    <apparelRequired>
+      <li>Vanya_ChaserShieldBelt</li>
+    </apparelRequired>
+  </PawnKindDef>
+  <PawnKindDef ParentName="VanyaPK_CABase">
+    <defName>VanyaPK_CASlugger</defName>
+    <label>Chaser Armada Artillerist</label>
+    <combatPower>244</combatPower>
+    <weaponMoney>
+      <min>20000</min>
+      <max>36000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>MTVCARocket</li>
+    </weaponTags>
+    <factionLeader>true</factionLeader>
+    <apparelRequired>
+      <li>Vanya_ChaserShieldBelt</li>
+    </apparelRequired>
+  </PawnKindDef>
+</Defs>

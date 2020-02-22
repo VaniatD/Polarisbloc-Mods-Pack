@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_HunterOnSkin.label>Униформа преследователей</Vanya_HunterOnSkin.label>
+  <Vanya_HunterOnSkin.description>Специальная униформа отряда армады, может держать вас в тепле.</Vanya_HunterOnSkin.description>
+
+
+  <!-- Armor -->
+
+  <Vanya_HunterArmor.label>Броня преследователей</Vanya_HunterArmor.label>
+  <Vanya_HunterArmor.description>Обычная броня армады, может защитить от любых атак.</Vanya_HunterArmor.description>
+
+
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_HunterOnSkin.label>チェイサーユニフォーム</Vanya_HunterOnSkin.label>
+  <Vanya_HunterOnSkin.description>チェイサーアルマダ専用の制服、着用者を暖かく保つことができます。</Vanya_HunterOnSkin.description>
+
+
+  <!-- Armor -->
+
+  <Vanya_HunterArmor.label>チェイサーアーマー</Vanya_HunterArmor.label>
+  <Vanya_HunterArmor.description>チェイサーアルマダの戦士が着用する鎧、あらゆる攻撃に対して耐性を持っています。</Vanya_HunterArmor.description>
+
+
+</LanguageData>

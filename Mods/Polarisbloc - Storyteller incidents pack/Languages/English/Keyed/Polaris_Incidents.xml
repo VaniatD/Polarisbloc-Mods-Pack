@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <!-- Temporary item stash -->
-  <PolarisTitleTradeShipPodCrash>crash</PolarisTitleTradeShipPodCrash>
-  <PolarisTradeShipPodCrash>A trade ship crushed near you due to wrong calculation. \n\nThey've been called {0}. They are {1}.</PolarisTradeShipPodCrash>
-</LanguageData>

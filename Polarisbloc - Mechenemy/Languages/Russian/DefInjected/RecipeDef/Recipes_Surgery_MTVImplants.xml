@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <InstallVanya_StabPowerCore.label>Установить стабильное энергоядро</InstallVanya_StabPowerCore.label>
+  <InstallVanya_StabPowerCore.description>Установить стабильное энергоядро.</InstallVanya_StabPowerCore.description>
+  <InstallVanya_StabPowerCore.jobString>Устанавливает стабильное энергоядро.</InstallVanya_StabPowerCore.jobString>
+
+  <InstallVanya_ConsciousnessCube.label>Установить мыслительный процессор</InstallVanya_ConsciousnessCube.label>
+  <InstallVanya_ConsciousnessCube.description>Установить мыслительный процессор.</InstallVanya_ConsciousnessCube.description>
+  <InstallVanya_ConsciousnessCube.jobString>Устанавливает мыслительный процессор.</InstallVanya_ConsciousnessCube.jobString>
+
+
+</LanguageData>

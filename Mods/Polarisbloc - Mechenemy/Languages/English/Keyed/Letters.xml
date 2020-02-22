@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <VCNoEnoughHitPointsToReset>This has no enough hit points to be actived!</VCNoEnoughHitPointsToReset>
-  <VCForceResetLabel>force active</VCForceResetLabel>
-  <VCForceResetDESC>You can pay 20 hit points to reactive the shield state.</VCForceResetDESC>
-  <VCReboundLabel>Rebound</VCReboundLabel>
-  <VCReboundDESC>Active this,the shield belt will rebound projectile what has instigator.</VCReboundDESC>
-</LanguageData>

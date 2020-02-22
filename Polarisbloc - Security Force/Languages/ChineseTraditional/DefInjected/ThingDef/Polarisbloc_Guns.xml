@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CaniculaRifle -->
+
+  <Bullet_CaniculaRifle.label>電荷彈</Bullet_CaniculaRifle.label>
+
+  <Polarisbloc_CaniculaRifle.label>天狼星II型通用步槍</Polarisbloc_CaniculaRifle.label>
+  <Polarisbloc_CaniculaRifle.description>天軸集團生產的制式通用步槍，特別製作的能量釋放裝置能夠發射出對生命體極具威脅的子彈。</Polarisbloc_CaniculaRifle.description>
+  <Polarisbloc_CaniculaRifle.tools.0.label>彈匣</Polarisbloc_CaniculaRifle.tools.0.label>
+  <Polarisbloc_CaniculaRifle.tools.1.label>槍管</Polarisbloc_CaniculaRifle.tools.1.label>
+
+
+  <!-- CaniculaSniper -->
+
+  <Bullet_CaniculaSniper.label>電荷彈</Bullet_CaniculaSniper.label>
+
+  <Polarisbloc_CaniculaSniper.label>天狼星III型狙擊步槍</Polarisbloc_CaniculaSniper.label>
+  <Polarisbloc_CaniculaSniper.description>天軸集團生產的制式狙擊步槍，特別製作的能量釋放裝置能夠發射出對生命體極具威脅的子彈。</Polarisbloc_CaniculaSniper.description>
+  <Polarisbloc_CaniculaSniper.tools.0.label>彈匣</Polarisbloc_CaniculaSniper.tools.0.label>
+  <Polarisbloc_CaniculaSniper.tools.1.label>槍管</Polarisbloc_CaniculaSniper.tools.1.label>
+
+
+</LanguageData>

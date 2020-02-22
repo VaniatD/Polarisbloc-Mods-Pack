@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_StabPowerCore.label>Стабильное энергоядро</Vanya_StabPowerCore.label>
+  <Vanya_StabPowerCore.description>Стабильное энергетическое ядро, взятое из бастиона, хранящее большое количество энергии, нужно использовать другое устройство для вытягивания энергии. Также может использоваться в качестве сердечной опоры для обеспечения энергией существ-бионтов.</Vanya_StabPowerCore.description>
+
+  <Vanya_ConsciousnessCube.label>Мыслительный процессор</Vanya_ConsciousnessCube.label>
+  <Vanya_ConsciousnessCube.description>Процессор, извлеченный из головы инквизитора, уже отформатирован. Может быть имплантирован в шейный позвонок, чтобы помочь мышлению.</Vanya_ConsciousnessCube.description>
+
+
+</LanguageData>

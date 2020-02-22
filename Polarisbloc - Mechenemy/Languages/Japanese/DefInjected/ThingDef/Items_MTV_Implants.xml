@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_StabPowerCore.label>安定したエネルギーコア</Vanya_StabPowerCore.label>
+  <Vanya_StabPowerCore.description>バスティオンから取り出した安定したエネルギーコア、膨大な量のエネルギーが蓄積されている。設備によってエネルギーを引き出す事ができます。生命体にエネルギーを供給する為の心臓補助装置としても使用できます。</Vanya_StabPowerCore.description>
+
+  <Vanya_ConsciousnessCube.label>思考演算機</Vanya_ConsciousnessCube.label>
+  <Vanya_ConsciousnessCube.description>インクィジターの頭部から取り出した初期化済みの演算機。思考を補助する為に頚椎に植え込むことができます。</Vanya_ConsciousnessCube.description>
+
+
+</LanguageData>

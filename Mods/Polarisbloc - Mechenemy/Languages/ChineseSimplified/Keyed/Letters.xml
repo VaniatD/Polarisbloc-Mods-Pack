@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <VCNoEnoughHitPointsToReset>没有足够的耐久度来激活护盾！</VCNoEnoughHitPointsToReset>
-  <VCForceResetLabel>强行激活</VCForceResetLabel>
-  <VCForceResetDESC>你可以使用20点耐久度来强行激活护盾充能。</VCForceResetDESC>
-  <VCReboundLabel>反弹</VCReboundLabel>
-  <VCReboundDESC>激活时，这个护盾会在吸收伤害的同时将子弹反射回射击者的位置。</VCReboundDESC>
-</LanguageData>

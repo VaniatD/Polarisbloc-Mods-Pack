@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VanyaPK_DroidAlpha.label>アルファ-自爆ドロイド</VanyaPK_DroidAlpha.label>
+  <VanyaPK_DroidAlpha.labelPlural>アルファ-自爆ドロイドの群れ</VanyaPK_DroidAlpha.labelPlural>
+
+  <VanyaPK_DroidBeta.label>ベータ-ヒューマノイド</VanyaPK_DroidBeta.label>
+  <VanyaPK_DroidBeta.labelPlural>ベータ-ヒューマノイドの群れ</VanyaPK_DroidBeta.labelPlural>
+
+  <VanyaPK_DroidBetaEX.label>ベータ2-重装甲型ヒューマノイド</VanyaPK_DroidBetaEX.label>
+  <VanyaPK_DroidBetaEX.labelPlural>ベータ2-重装甲型ヒューマノイドの群れ</VanyaPK_DroidBetaEX.labelPlural>
+
+  <VanyaPK_DroidGamma.label>ガンマ-狼型ドロイド</VanyaPK_DroidGamma.label>
+  <VanyaPK_DroidGamma.labelPlural>ガンマ-狼型ドロイドの群れ</VanyaPK_DroidGamma.labelPlural>
+
+  <VanyaPK_DroidGammaEX.label>ガンマ2-重装甲狼型ドロイド</VanyaPK_DroidGammaEX.label>
+  <VanyaPK_DroidGammaEX.labelPlural>ガンマ2-銃装甲狼型ドロイドの群れ</VanyaPK_DroidGammaEX.labelPlural>
+
+  <VanyaPK_DroidRuler.label>インクィジター</VanyaPK_DroidRuler.label>
+  <VanyaPK_DroidRuler.labelPlural>インクィジターの群れ</VanyaPK_DroidRuler.labelPlural>
+
+  <VanyaPK_DroidFortress.label>バスティオン</VanyaPK_DroidFortress.label>
+  <VanyaPK_DroidFortress.labelPlural>バスティオンの群れ</VanyaPK_DroidFortress.labelPlural>
+
+
+</LanguageData>

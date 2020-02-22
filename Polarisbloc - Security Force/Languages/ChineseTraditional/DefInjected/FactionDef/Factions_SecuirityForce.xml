@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Polaribloc_SecuirityForce.label>安保部隊</Polaribloc_SecuirityForce.label>
+  <Polaribloc_SecuirityForce.description>隸屬於天軸集團的安保部隊，為天軸集團提供安全支持。同時也受命於進行各種不可告人的任務。</Polaribloc_SecuirityForce.description>
+  <Polaribloc_SecuirityForce.fixedName>安保部隊</Polaribloc_SecuirityForce.fixedName>
+  <Polaribloc_SecuirityForce.pawnsPlural>士兵</Polaribloc_SecuirityForce.pawnsPlural>
+  <Polaribloc_SecuirityForce.leaderTitle>指揮官</Polaribloc_SecuirityForce.leaderTitle>
+
+
+</LanguageData>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <StorytellerDef>
+    <defName>Polarisbloc_Erica</defName>
+    <label>Erica</label>
+    <description>Erica is the child of the aristocracy in the core world.Erica liked the sudden setback in the bland story, and she found it very interesting</description>
+    <portraitLarge>PolarisblocSF/Storytellers/Erica</portraitLarge>
+    <portraitTiny>PolarisblocSF/Storytellers/EricaTiny</portraitTiny>
+    <listOrder>61</listOrder>
+    <populationIntentFactorFromPopCurve>
+      <points>
+        <li>0, 8</li>
+        <li>1, 4</li>
+        <li>6, 1</li>
+        <li>12, 0.5</li>
+        <li>18, 0</li>
+        <li>56, -1</li>
+      </points>
+    </populationIntentFactorFromPopCurve>
+    <populationIntentFactorFromPopAdaptDaysCurve>
+      <points>
+        <li>( -40, 0)</li>
+        <li>( 0, 0.1)</li>
+        <li>(10, 1.00)</li>
+      </points>
+    </populationIntentFactorFromPopAdaptDaysCurve>
+    <pointsFactorFromDaysPassed>
+      <points>
+        <li>( 0, 0.60)</li>
+        <li>(50, 1.00)</li>
+        <li>(75, 1.10)</li>
+      </points>
+    </pointsFactorFromDaysPassed>
+    <adaptDaysMin>-60</adaptDaysMin>
+    <adaptDaysMax>180</adaptDaysMax>
+    <adaptDaysGameStartGraceDays>25</adaptDaysGameStartGraceDays>
+    <adaptDaysLossFromColonistLostByPostPopulation>
+      <points>
+        <li>( 0, 30)</li>
+        <!-- 30 days at normal pops; slightly lower at really high pop -->
+        <li>(12, 25)</li>
+        <li>(24, 20)</li>
+      </points>
+    </adaptDaysLossFromColonistLostByPostPopulation>
+    <adaptDaysLossFromColonistViolentlyDownedByPopulation>
+      <points>
+        <li>(1,  9)</li>
+        <li>(2,  7)</li>
+        <li>(3,  5)</li>
+        <li>(12, 4)</li>
+      </points>
+    </adaptDaysLossFromColonistViolentlyDownedByPopulation>
+    <adaptDaysGrowthRateCurve>
+      <points>
+        <li>(-30.01,6)</li>
+        <li>(-30,   3)</li>
+        <li>(-0.01, 3)</li>
+        <li>(0,     1)</li>
+        <li>(59.99, 1)</li>
+        <li>(60,    0.5)</li>
+        <li>(99.99, 0.5)</li>
+        <li>(100,   0.25)</li>
+      </points>
+    </adaptDaysGrowthRateCurve>
+    <pointsFactorFromAdaptDays>
+      <points>
+        <li>(-40, 0.66)</li>
+        <li>(  0, 1.00)</li>
+        <li>( 60, 1.60)</li>
+        <li>(120, 2.00)</li>
+        <li>(150, 2.20)</li>
+        <li>(180, 3.00)</li>
+      </points>
+    </pointsFactorFromAdaptDays>
+    <comps>
+      <!--base-->
+      <li Class="StorytellerCompProperties_DeepDrillInfestation">
+        <baseMtbDaysPerDrill>22</baseMtbDaysPerDrill>
+        <allowedTargetTags>
+          <li>Map_PlayerHome</li>
+          <li>Map_TempIncident</li>
+          <li>Map_Misc</li>
+          <li>Map_RaidBeacon</li>
+        </allowedTargetTags>
+      </li>
+      <!--home main-->
+      <li Class="StorytellerCompProperties_RandomMain">
+        <allowedTargetTags>
+          <li>Map_PlayerHome</li>
+        </allowedTargetTags>
+        <minDaysPassed>1</minDaysPassed>
+        <mtbDays>1.15</mtbDays>
+        <maxThreatBigIntervalDays>9</maxThreatBigIntervalDays>
+        <minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
+        <randomPointsFactorRange>0.3~1.8</randomPointsFactorRange>
+        <skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
+        <categoryWeights>
+          <Misc>5.7</Misc>
+          <OrbitalVisitor>1.1</OrbitalVisitor>
+          <ThreatBig>0.5</ThreatBig>
+          <ThreatSmall>0.7</ThreatSmall>
+          <FactionArrival>1</FactionArrival>
+          <AllyAssistance>0.5</AllyAssistance>
+          <ShipChunkDrop>0.5</ShipChunkDrop>
+        </categoryWeights>
+      </li>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <category>ThreatBig</category>
+        <minDaysPassed>15.0</minDaysPassed>
+        <onDays>4.2</onDays>
+        <offDays>9.1</offDays>
+        <minSpacingDays>0.8</minSpacingDays>
+        <numIncidentsRange>2.5~4.5</numIncidentsRange>
+        <forceRaidEnemyBeforeDaysPassed>25</forceRaidEnemyBeforeDaysPassed>
+        <disallowedTargetTags>
+          <li>Map_RaidBeacon</li>
+        </disallowedTargetTags>
+      </li>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <category>ThreatSmall</category>
+        <minDaysPassed>13.0</minDaysPassed>
+        <onDays>3.6</onDays>
+        <offDays>7.0</offDays>
+        <numIncidentsRange>1~1.4</numIncidentsRange>
+      </li>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <allowedTargetTags>
+          <li>Map_RaidBeacon</li>
+        </allowedTargetTags>
+        <offDays>1.2</offDays>
+        <onDays>1.0</onDays>
+        <minSpacingDays>0.04</minSpacingDays>
+        <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
+        <numIncidentsRange>2~2.5</numIncidentsRange>
+        <category>RaidBeacon</category>
+      </li>
+      <!-- Home misc -->
+      <li Class="StorytellerCompProperties_Disease">
+        <minDaysPassed>9</minDaysPassed>
+        <category>DiseaseHuman</category>
+      </li>
+      <li Class="StorytellerCompProperties_Disease">
+        <minDaysPassed>15</minDaysPassed>
+        <category>DiseaseAnimal</category>
+      </li>
+      <!-- Ally/neutral interaction -->
+      <li Class="StorytellerCompProperties_FactionInteraction">
+        <incident>RaidFriendly</incident>
+        <baseIncidentsPerYear>12</baseIncidentsPerYear>
+        <minSpacingDays>0.7</minSpacingDays>
+        <fullAlliesOnly>true</fullAlliesOnly>
+        <minDanger>High</minDanger>
+      </li>
+      <li Class="StorytellerCompProperties_FactionInteraction">
+        <incident>TraderCaravanArrival</incident>
+        <minDaysPassed>5</minDaysPassed>
+        <baseIncidentsPerYear>4</baseIncidentsPerYear>
+        <minSpacingDays>7</minSpacingDays>
+        <allowedTargetTags>
+          <li>Map_PlayerHome</li>
+        </allowedTargetTags>
+      </li>
+      <!-- Caravan / temp map -->
+      <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+        <category>Misc</category>
+        <allowedTargetTags>
+          <li>Caravan</li>
+          <li>Map_TempIncident</li>
+        </allowedTargetTags>
+      </li>
+      <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+        <category>ThreatSmall</category>
+        <applyCaravanVisibility>true</applyCaravanVisibility>
+        <allowedTargetTags>
+          <li>Caravan</li>
+          <li>Map_TempIncident</li>
+        </allowedTargetTags>
+      </li>
+      <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+        <category>ThreatBig</category>
+        <applyCaravanVisibility>true</applyCaravanVisibility>
+        <allowedTargetTags>
+          <li>Caravan</li>
+          <li>Map_TempIncident</li>
+        </allowedTargetTags>
+      </li>
+      <!-- World -->
+      <li Class="StorytellerCompProperties_JourneyOffer" />
+      <li Class="StorytellerCompProperties_CategoryMTB">
+        <category>WorldQuest</category>
+        <allowedTargetTags>
+          <li>World</li>
+        </allowedTargetTags>
+        <minDaysPassed>1</minDaysPassed>
+        <mtbDays>5.13</mtbDays>
+        <mtbDaysFactorByDaysPassedCurve>
+          <points>
+            <li>(1, 3)</li>
+            <li>(24, 2)</li>
+            <li>(75, 1)</li>
+          </points>
+        </mtbDaysFactorByDaysPassedCurve>
+      </li>
+      <li Class="StorytellerCompProperties_CategoryMTB">
+        <category>Misc</category>
+        <allowedTargetTags>
+          <li>World</li>
+        </allowedTargetTags>
+        <minDaysPassed>7</minDaysPassed>
+        <mtbDays>7.63</mtbDays>
+      </li>
+      <!-- Orbital -->
+      <li Class="StorytellerCompProperties_SingleMTB">
+        <incident>OrbitalTraderArrival</incident>
+        <mtbDays>10.06</mtbDays>
+      </li>
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incident>OrbitalTraderArrival</incident>
+        <onDays>9</onDays>
+        <offDays>11</offDays>
+        <numIncidentsRange>1</numIncidentsRange>
+      </li>
+      <!--Special-->
+      <li Class="StorytellerCompProperties_SingleMTB">
+        <incident>ThrumboPasses</incident>
+        <mtbDays>37</mtbDays>
+      </li>
+    </comps>
+  </StorytellerDef>
+</Defs>

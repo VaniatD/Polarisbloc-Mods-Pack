@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_StabPowerCore.label>稳定能量核心</Vanya_StabPowerCore.label>
+  <Vanya_StabPowerCore.description>从堡垒机械体身体中拆取的稳定能量核心，稳定存储着大量能量，需要通过设备释放。也可以直接作为心脏辅助物为生物提供能量。</Vanya_StabPowerCore.description>
+
+  <Vanya_ConsciousnessCube.label>思维魔方</Vanya_ConsciousnessCube.label>
+  <Vanya_ConsciousnessCube.description>从裁决者头部拆取的计算模块，已经格式化。可以植入颈椎来扩展计算力。</Vanya_ConsciousnessCube.description>
+
+
+</LanguageData>

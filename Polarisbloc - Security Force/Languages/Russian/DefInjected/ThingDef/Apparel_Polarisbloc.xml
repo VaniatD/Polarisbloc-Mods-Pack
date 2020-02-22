@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_PolarisShieldBelt_IV.label>защитный пояс полярность - IV</Apparel_PolarisShieldBelt_IV.label>
+  <Apparel_PolarisShieldBelt_IV.description>Последнее поколение щита Polarisbloc было выпущено, только для важного персонала.\n\nЭтот щит будет контратаковать атакующих, когда на них нападают. Хотя в контратаке есть время охлаждения, все равно нужно быть осторожным, потому что контратака очень точна.</Apparel_PolarisShieldBelt_IV.description>
+
+  <Polarisbloc_CygnusStandardArmor.label>стандартная броня "Лебедь"</Polarisbloc_CygnusStandardArmor.label>
+  <Polarisbloc_CygnusStandardArmor.description>Стандартная броня для сил безопасности, обеспечивает небольшую защиту и передвижение.</Polarisbloc_CygnusStandardArmor.description>
+
+  <Polarisbloc_CygnusStandardArmorC.label>стандартная броня "Лебедь" (капитан)</Polarisbloc_CygnusStandardArmorC.label>
+  <Polarisbloc_CygnusStandardArmorC.description>Капитанская версия стандартной брони была немного улучшена на основе оригинала, но эффект все еще очень ограничен.</Polarisbloc_CygnusStandardArmorC.description>
+
+  <Polarisbloc_CygnusStandardTights.label>стандартное трико "Лебедь"</Polarisbloc_CygnusStandardTights.label>
+  <Polarisbloc_CygnusStandardTights.description>Трико из полимерных материалов изготавливается с помощью специальных устройств для поддержания срока службы. Они можгут своевременно обрабатывать рану пользователя и ускорять заживление ран.</Polarisbloc_CygnusStandardTights.description>
+
+
+  <!-- HeadGear -->
+
+  <Polarisbloc_AlkaidStrategyAssistant.label>стратегический помошник Алькаид</Polarisbloc_AlkaidStrategyAssistant.label>
+  <Polarisbloc_AlkaidStrategyAssistant.description>Универсальное боевое вспомогательное устройство может обеспечить функциями противника и динамического предсказания.</Polarisbloc_AlkaidStrategyAssistant.description>
+
+  <Polarisbloc_ThubanTacticalGoggles.label>тактические очки тубан</Polarisbloc_ThubanTacticalGoggles.label>
+  <Polarisbloc_ThubanTacticalGoggles.description>Универсальные тактические очки, созданные Polarisbloc, могут эффективно улучшить зрительные способности.</Polarisbloc_ThubanTacticalGoggles.description>
+
+
+  <!-- Trigger -->
+
+  <Polarisbloc_BodyFixTrigger.label>триггер починки тела</Polarisbloc_BodyFixTrigger.label>
+  <Polarisbloc_BodyFixTrigger.description></Polarisbloc_BodyFixTrigger.description>
+
+
+</LanguageData>

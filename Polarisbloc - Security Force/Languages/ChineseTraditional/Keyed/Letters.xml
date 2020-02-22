@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MessageFailToUnscrambleMemoryStick>{0}解讀記憶棒失敗！</MessageFailToUnscrambleMemoryStick>
+  <LetterLabelPolarisblocConsolationPrize>安慰獎</LetterLabelPolarisblocConsolationPrize>
+  <PolarisblocConsolationPrize>恭喜！您獲得了本公司送出的一份安慰獎，請再接再厲！\n\n——天軸集團</PolarisblocConsolationPrize>
+  <LetterLabelPolarisblocSurprised>驚喜!</LetterLabelPolarisblocSurprised>
+  <PolarisblocSurprised>恭喜！您獲得了本公司準備的豪華大禮！價值不可估量的666周年豪華限定款紀念雕塑！感謝您的支持！\n\n——天軸集團</PolarisblocSurprised>
+  <!--<LetterLabelPolarisblocGetDropSupply>Drop supplies arrived</LetterLabelPolarisblocGetDropSupply>-->
+  <!--<PolarisblocGetDropSupply>Thank you for using Polarisbloc's orbiter airdrop service.This is your supplies about a set of equipments of soldiers. Please check it.</PolarisblocGetDropSupply>-->
+  <PlrsNoEnoughEnergyToDoExplosion>沒有足夠的能量來製造爆炸！</PlrsNoEnoughEnergyToDoExplosion>
+  <PlrsDoExplosionLabel>爆炸！</PlrsDoExplosionLabel>
+  <PlrsDoExplosionDESC>你可以消耗50點能量在周圍製造小規模的爆炸，別擔心，這不會傷到你自己。</PlrsDoExplosionDESC>
+  <PlrsLightningActiveLabel>閃電</PlrsLightningActiveLabel>
+  <PlrsLightningActiveDESC>激活時，會對傷害來源進行雷擊。</PlrsLightningActiveDESC>
+  <PlrsTextMote_Absorbed>吸收</PlrsTextMote_Absorbed>
+
+  <!--<LetterLabelPolarisblocGetDropSupply>空投補給抵達</LetterLabelPolarisblocGetDropSupply>-->
+  <!--<PolarisblocGetDropSupply>感謝使用天軸集團軌道空投服務，這是一整套安保部隊標準士兵裝備，請查收。</PolarisblocGetDropSupply>-->
+
+</LanguageData>
