@@ -55,5 +55,6 @@
   <PolarisVoidKeyFoundNoColonist>找不到对象</PolarisVoidKeyFoundNoColonist>
   <PolarisVoidKeyITabChoosePawn>链接至...</PolarisVoidKeyITabChoosePawn>
   <PolarisVoidKeyITabPawnInfo>详情</PolarisVoidKeyITabPawnInfo>
-
+  <PolarisTargetBioAge>目标年龄： {0}</PolarisTargetBioAge>
+  <PolarisMessageSuccessfullyChangeBioAge>{0}的生物年龄已经发生改变。</PolarisMessageSuccessfullyChangeBioAge>
 </LanguageData>

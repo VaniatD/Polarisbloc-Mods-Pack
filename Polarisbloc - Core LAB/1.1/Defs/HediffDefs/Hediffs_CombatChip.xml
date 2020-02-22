@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--PolarisCombatChip-->
+  <HediffDef Name="PolarisCombatChipHediffBase" Abstract="True">
+    <hediffClass>Polarisbloc.Hediff_CombatChip</hediffClass>
+    <defaultLabelColor>(1, 0.8, 0.4)</defaultLabelColor>
+    <isBad>false</isBad>
+    <spawnThingOnRemoved>PolarisCombatChip</spawnThingOnRemoved>
+  </HediffDef>
+  <HediffDef ParentName="PolarisCombatChipHediffBase">
+    <defName>PolarisCombatChip_NotActive</defName>
+    <hediffClass>Hediff_Implant</hediffClass>
+    <label>combat chip (not active)</label>
+    <labelNoun>a combat chip</labelNoun>
+    <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
+    <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
+    <stages>
+      <li>
+        <painFactor>0.9</painFactor>
+        <partEfficiencyOffset>0.05</partEfficiencyOffset>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="PolarisCombatChipHediffBase">
+    <defName>PolarisCombatChip_Currency</defName>
+    <label>combat chip (currency)</label>
+    <labelNoun>a combat chip</labelNoun>
+    <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
+    <stages>
+      <li>
+        <painFactor>0.9</painFactor>
+        <restFallFactor>0.9</restFallFactor>
+        <partEfficiencyOffset>0.15</partEfficiencyOffset>
+        <statOffsets>
+          <MoveSpeed>0.2</MoveSpeed>
+          <MeleeHitChance>1</MeleeHitChance>
+          <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <MedicalTendQuality>0.2</MedicalTendQuality>
+          <SocialImpact>0.1</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="PolarisCombatChipHediffBase">
+    <defName>PolarisCombatChip_Sniper</defName>
+    <label>combat chip (sniper)</label>
+    <labelNoun>a combat chip</labelNoun>
+    <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
+    <stages>
+      <li>
+        <restFallFactor>0.9</restFallFactor>
+        <hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
+        <partEfficiencyOffset>0.2</partEfficiencyOffset>
+        <statOffsets>
+          <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.2</AimingDelayFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="PolarisCombatChipHediffBase">
+    <defName>PolarisCombatChip_Scouter</defName>
+    <label>combat chip (scouter)</label>
+    <labelNoun>a combat chip</labelNoun>
+    <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
+    <stages>
+      <li>
+        <painFactor>0.8</painFactor>
+        <restFallFactor>0.8</restFallFactor>
+        <statOffsets>
+          <MoveSpeed>0.8</MoveSpeed>
+          <MeleeDodgeChance>8</MeleeDodgeChance>
+          <MeleeHitChance>4</MeleeHitChance>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="PolarisCombatChipHediffBase">
+    <defName>PolarisCombatChip_Medical</defName>
+    <label>combat chip (medical)</label>
+    <labelNoun>a combat chip</labelNoun>
+    <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
+    <stages>
+      <li>
+        <restFallFactor>0.95</restFallFactor>
+        <partEfficiencyOffset>0.2</partEfficiencyOffset>
+        <statOffsets>
+          <MedicalTendSpeed>0.75</MedicalTendSpeed>
+          <MedicalTendQuality>0.5</MedicalTendQuality>
+          <MedicalOperationSpeed>0.75</MedicalOperationSpeed>
+          <MedicalSurgerySuccessChance>0.5</MedicalSurgerySuccessChance>
+          <SocialImpact>0.1</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="PolarisCombatChipHediffBase">
+    <defName>PolarisCombatChip_Charm</defName>
+    <label>combat chip (charm)</label>
+    <labelNoun>a combat chip</labelNoun>
+    <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
+    <stages>
+      <li>
+        <restFallFactor>0.95</restFallFactor>
+        <partEfficiencyOffset>0.2</partEfficiencyOffset>
+        <statOffsets>
+          <SocialImpact>0.5</SocialImpact>
+          <NegotiationAbility>0.6</NegotiationAbility>
+          <TradePriceImprovement>0.1</TradePriceImprovement>
+          <TameAnimalChance>1</TameAnimalChance>
+          <PawnBeauty>20</PawnBeauty>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="PolarisCombatChipHediffBase">
+    <defName>PolarisCombatChip_Inspiration</defName>
+    <label>combat chip (inspiration)</label>
+    <labelNoun>a combat chip</labelNoun>
+    <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
+    <stages>
+      <li>
+        <painFactor>0.9</painFactor>
+        <partEfficiencyOffset>0.05</partEfficiencyOffset>
+      </li>
+    </stages>
+    <comps>
+      <li Class="Polarisbloc.HediffCompProperties_Inspire" />
+    </comps>
+  </HediffDef>
+</Defs>

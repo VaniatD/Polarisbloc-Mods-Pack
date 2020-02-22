@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>PolarisLyraeCurer</defName>
+    <label>lyrae curer</label>
+    <thingClass>Polarisbloc.Building_Curer</thingClass>
+    <graphicData>
+      <texPath>Polarisbloc/Building/Curer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.8, 0.3, 0.3)</volume>
+        <offset>(0,0,-0.25)</offset>
+      </shadowData>
+      <drawSize>(2.7,2.7)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Mass>8</Mass>
+      <Beauty>6</Beauty>
+    </statBases>
+    <description>The lyrae curer will tend wounds to nearby creatures but the quality won't be good.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <fillPercent>0.15</fillPercent>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>400</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>8.0</fuelConsumptionRate>
+        <fuelCapacity>24.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </fuelFilter>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(217,217,240,0)</glowColor>
+      </li>
+    </comps>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <pathCost>8</pathCost>
+    <designationCategory>Misc</designationCategory>
+    <rotatable>false</rotatable>
+    <specialDisplayRadius>4.9</specialDisplayRadius>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites>
+      <li>PolarisLyraeCurer</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+    <tradeTags>
+      <li>Furniture</li>
+    </tradeTags>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>PolarisShipReactor</defName>
+    <label>Machinoid ship reactor</label>
+    <thingClass>Building</thingClass>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <graphicData>
+      <texPath>Polarisbloc/Building/ShipReactor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.8,0.4,0.8)</volume>
+        <offset>(0,0,0)</offset>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>false</blockWind>
+    <blockLight>false</blockLight>
+    <fillPercent>0.5</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>240</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>10</Mass>
+      <Beauty>0</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>Machinoid ship reactor</description>
+    <size>(1,1)</size>
+    <building>
+      <deconstructible>false</deconstructible>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-1000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(102,255,255,0)</glowColor>
+      </li>
+    </comps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <constructEffect>ConstructMetal</constructEffect>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <killedLeavings>
+      <Plasteel>25</Plasteel>
+      <Uranium>100</Uranium>
+      <ComponentIndustrial>25</ComponentIndustrial>
+      <ChunkSlagSteel>1</ChunkSlagSteel>
+    </killedLeavings>
+    <tradeability>Sellable</tradeability>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <canOverlapZones>false</canOverlapZones>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>PolarisThermostat</defName>
+    <label>thermostat</label>
+    <description>A device that can control the temperature near the target value.</description>
+    <thingClass>Polarisbloc.Building_Thermostat</thingClass>
+    <graphicData>
+      <texPath>Polarisbloc/Building/TemperatureController</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.7,0.1,0.7)</volume>
+      </shadowData>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>DoorMoveable</altitudeLayer>
+    <passability>Standable</passability>
+    <pathCost>5</pathCost>
+    <blockWind>false</blockWind>
+    <rotatable>false</rotatable>
+    <fillPercent>0</fillPercent>
+    <thingCategories>
+      <li>BuildingsTemperature</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>1000</WorkToBuild>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>6</Mass>
+      <Flammability>0.4</Flammability>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <placeWorkers>
+      <li>Polarisbloc.PlaceWorker_Thermostat</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>300</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_TempControl">
+        <energyPerSecond>23</energyPerSecond>
+      </li>
+      <!--<li Class="CompProperties_Glower"><glowRadius>3</glowRadius><glowColor>(255,150,100,0)</glowColor></li>-->
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <designationCategory>Temperature</designationCategory>
+    <researchPrerequisites>
+      <li>PolarisThermostat</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <building>
+      <isEdifice>false</isEdifice>
+    </building>
+    <canOverlapZones>true</canOverlapZones>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>PolarisMendingShelf</defName>
+    <label>mending shelf</label>
+    <description>A shelf for storing miscellaneous items. Items stored in this won't deteriorate, even if outside. In addition, the items will be mended if it has fuel.</description>
+    <thingClass>Building_Storage</thingClass>
+    <graphicData>
+      <texPath>Polarisbloc/Building/MendingShelf</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <rotatable>true</rotatable>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>6</Mass>
+      <WorkToBuild>2100</WorkToBuild>
+      <Flammability>0.3</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>Weapons</li>
+            <li>Apparel</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <tickerType>Rare</tickerType>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>PolarisMendingShelf</li>
+    </researchPrerequisites>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <designationCategory>Misc</designationCategory>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>120</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>0</fuelConsumptionRate>
+        <fuelCapacity>300.0</fuelCapacity>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <initialConfigurableTargetFuelLevel>150</initialConfigurableTargetFuelLevel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelMultiplier>0.5</fuelMultiplier>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <outOfFuelMessage>Cannot mend: Needs more cloth</outOfFuelMessage>
+        <fuelLabel>Cloth</fuelLabel>
+        <fuelGizmoLabel>Cloth:</fuelGizmoLabel>
+      </li>
+      <li Class="Polarisbloc.CompProperties_CompMendingShelf" />
+    </comps>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+  </ThingDef>
+</Defs>

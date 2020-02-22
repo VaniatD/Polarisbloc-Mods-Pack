@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{77A627DC-7BD5-49E6-8097-A98239DC7D27}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Polarisbloc</RootNamespace>
+    <AssemblyName>Polarisbloc</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=0.19.6814.14576, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Steam\steamapps\common\RimWorld\RimWorldWin_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buildings\PlaceWorker_Thermostat.cs" />
+    <Compile Include="Buildings\Building_Thermostat.cs" />
+    <Compile Include="Medicines\HediffComp_ReceptorAntagonist.cs" />
+    <Compile Include="Medicines\ReceptorAntagonistDatabase.cs" />
+    <Compile Include="Misc\PolarisUtility.cs" />
+    <Compile Include="VoidKey\ChooseVoidPawnWindow.cs" />
+    <Compile Include="CombatChip\HediffComp_Inspire.cs" />
+    <Compile Include="Buildings\Building_Curer.cs" />
+    <Compile Include="Cartridge\CompCartridge.cs" />
+    <Compile Include="Cartridge\CompUseEffect_FinishCartridgeResearchProject.cs" />
+    <Compile Include="Cartridge\HediffComp_Cartridge.cs" />
+    <Compile Include="Buildings\CompMendingShelf.cs" />
+    <Compile Include="Chips\HediffComp_ForceCalmDown.cs" />
+    <Compile Include="VoidKey\CompUseEffect_ResurrectVoidPawn.cs" />
+    <Compile Include="VoidKey\ITab_VoidPawn_Character.cs" />
+    <Compile Include="Misc\IngestionOutcomeDoer_DevilCookie.cs" />
+    <Compile Include="Chips\HediffComp_TamenessKeeper.cs" />
+    <Compile Include="Medicines\HediffComp_Antibiotic.cs" />
+    <Compile Include="Medicines\IngestionOutcomeDoer_Restorer.cs" />
+    <Compile Include="Chips\HediffComp_JoyFiller.cs" />
+    <Compile Include="MomeryRester\CompMomeryRester.cs" />
+    <Compile Include="MomeryRester\CompUseEffect_ResetMemory.cs" />
+    <Compile Include="MomeryRester\MemResetMode.cs" />
+    <Compile Include="CombatChip\Recipe_InstallCombatChip.cs" />
+    <Compile Include="Surgeries\Recipe_RestoreMissingPart.cs" />
+    <Compile Include="Surgeries\Recipe_RemoveImplant.cs" />
+    <Compile Include="CombatChip\ThoughtWorker_ChipCharm.cs" />
+    <Compile Include="Traitreleaser\CompTraitreleaser.cs" />
+    <Compile Include="Traitreleaser\CompUseEffect_ReleaseTrait.cs" />
+    <Compile Include="PolarisShieldBelt_II\Gizmo_PolarisShield_IIStatus.cs" />
+    <Compile Include="OrbitalTraderCaller\CompOrbitalTraderCaller.cs" />
+    <Compile Include="OrbitalTraderCaller\CompUseEffect_CallOrbitalTrader.cs" />
+    <Compile Include="PolarisShieldBelt_II\PolarisShieldBelt_II.cs" />
+    <Compile Include="PsychicBerserkPulser\CompTargetable_MenNotColonistOnTheMap.cs" />
+    <Compile Include="Medicines\HediffComp_HealWounds.cs" />
+    <Compile Include="Misc\PolarisblocDefOf.cs" />
+    <Compile Include="CombatChip\CompUseEffect_ConvertCombatChip.cs" />
+    <Compile Include="CombatChip\Hediff_CombatChip.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Cartridge\Recipe_MakeCartridgeSurgery.cs" />
+    <Compile Include="Surgeries\Recipe_SurgeryAgeDecrease.cs" />
+    <Compile Include="Surgeries\Recipe_SurgeryAgeRaise.cs" />
+    <Compile Include="Surgeries\Recipe_TransgenderSurgery.cs" />
+    <Compile Include="Surgeries\Recipe_RemoveHediffIsOld.cs" />
+    <Compile Include="VoidKey\VoidKeyCardUtility.cs" />
+    <Compile Include="VoidKey\VoidKeyDataBase.cs" />
+    <Compile Include="VoidKey\VoidKeyThing.cs" />
+    <Compile Include="VoidKey\VoidKeyUtility.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

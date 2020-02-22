@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!--Cartridge-->
   <PolarisMessageSomeoneResurrected>{0} has successfully resurrected {1}.</PolarisMessageSomeoneResurrected>
@@ -55,4 +55,7 @@
   <PolarisVoidKeyFoundNoColonist>found no data</PolarisVoidKeyFoundNoColonist>
   <PolarisVoidKeyITabChoosePawn>Change the link to...</PolarisVoidKeyITabChoosePawn>
   <PolarisVoidKeyITabPawnInfo>Details</PolarisVoidKeyITabPawnInfo>
+  <!--Change age window-->
+  <PolarisTargetBioAge>Target age: {0}</PolarisTargetBioAge>
+  <PolarisMessageSuccessfullyChangeBioAge>{0}'s bio age has been changed.</PolarisMessageSuccessfullyChangeBioAge>
 </LanguageData>

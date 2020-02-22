@@ -5,6 +5,7 @@
   <url>https://github.com/VaniatD/Polarisbloc-Mods-Pack</url>
   <supportedVersions>
     <li>1.0</li>
+    <li>1.1</li>
   </supportedVersions>
   <description>
   "We are committed to the good life of humanoid." -- Polarisbloc.
@@ -65,4 +66,5 @@
 
   void key: A special device could link to missing pawn's soul, and you could resurrect the linked pawn on your map.(likely the pawn dead with overhead mountain or can't find corpse)
   </description>
+  <packageId>Vanya.Polarisbloc.CoreLab</packageId>
 </ModMetaData>

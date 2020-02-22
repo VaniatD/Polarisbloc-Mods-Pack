@@ -1,0 +1,819 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--base-->
+  <ThingDef Name="PolarisResourceBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <Beauty>-4</Beauty>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef>
+  <ThingDef Name="PolarisDrugBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <Beauty>3</Beauty>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>100</stackLimit>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <ingestible>
+      <foodType>Processed</foodType>
+      <baseIngestTicks>120</baseIngestTicks>
+      <preferability>NeverForNutrition</preferability>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <chairSearchRadius>0</chairSearchRadius>
+      <ingestSound>Ingest_Pill</ingestSound>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Take {0}</ingestCommandString>
+      <ingestReportString>Taking {0}.</ingestReportString>
+    </ingestible>
+    <storedConceptLearnOpportunity>DrugPolicies</storedConceptLearnOpportunity>
+    <socialPropernessMatters>true</socialPropernessMatters>
+  </ThingDef>
+  <ThingDef Name="PolarisImplantBase" Abstract="True">
+    <label>implant</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Beauty>-4</Beauty>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isTechHediff>true</isTechHediff>
+    <tradeTags>
+      <li>BodyPartOrImplant</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <thingCategories>
+      <li>BodyPartsUltra</li>
+    </thingCategories>
+    <pathCost>10</pathCost>
+  </ThingDef>
+  <!--cartridge-->
+  <ThingDef>
+    <defName>PolarisCartridge</defName>
+    <label>cartridge</label>
+    <description>The cartridge can be worn by a pawn and protects the wearer from a certain death. The wearer will be resurrected immediatly upon death. Administered to a corpse, the cartridge will repair and kickstart the body back to life.\n\nSo, is life equal? Is it really good to exchange one's life for another person's life?</description>
+    <thingClass>Apparel</thingClass>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Cartridge/Cartridge</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Mass>7</Mass>
+      <MarketValue>1200</MarketValue>
+      <Flammability>0</Flammability>
+      <SellPriceFactor>0.70</SellPriceFactor>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+    </apparel>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>false</useHitPoints>
+    <techLevel>Spacer</techLevel>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="Polarisbloc.CompProperties_Cartridge" />
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use cartridge</useLabel>
+        <useDuration>0</useDuration>
+      </li>
+      <li Class="CompProperties_Targetable">
+        <compClass>CompTargetable_SingleCorpse</compClass>
+        <fleshCorpsesOnly>true</fleshCorpsesOnly>
+        <nonDessicatedCorpsesOnly>true</nonDessicatedCorpsesOnly>
+      </li>
+      <li>
+        <compClass>CompTargetEffect_Resurrect</compClass>
+      </li>
+    </comps>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0.01</generateCommonality>
+    <!--<defName>PolarisCartridge</defName>-->
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef ParentName="PolarisResourceBase">
+    <defName>PolarisBondorudoDiary</defName>
+    <label>Bondorudo's diary</label>
+    <thingClass>ThingWithComps</thingClass>
+    <description>"It is ... terrific..."</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Cartridge/DawnDiary</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2.0</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeability>All</tradeability>
+    <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unscramble Dawn's diary</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>Polarisbloc.CompUseEffect_FinishCartridgeResearchProject</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef>
+    <defName>PolarisWhiteFlute</defName>
+    <label>white flute</label>
+    <thingClass>Building</thingClass>
+  </ThingDef>
+  <!--combat chip-->
+  <ThingDef>
+    <thingClass>ThingWithComps</thingClass>
+    <defName>PolarisCombatChip</defName>
+    <label>combat chip</label>
+    <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isTechHediff>true</isTechHediff>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Chips/CombatChip</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.8, 0.8)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1800</MarketValue>
+      <Mass>0.08</Mass>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Beauty>-4</Beauty>
+    </statBases>
+    <techHediffsTags>
+      <li>CombatChip</li>
+    </techHediffsTags>
+    <!--<tradeTags><li>Exotic</li></tradeTags>-->
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <thingCategories>
+      <li>BodyPartsUltra</li>
+    </thingCategories>
+    <pathCost>10</pathCost>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef ParentName="PolarisResourceBase">
+    <defName>PolarisCombatChipConverter</defName>
+    <label>converter</label>
+    <thingClass>ThingWithComps</thingClass>
+    <description>A tactical chip converter to convert one's tactical chip installed in someone's head. The converter will activate and convert the chip mode to the one recorded in the converter. It is reusable.</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Chips/CombatChipConverter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.8, 0.8)</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <techLevel>Spacer</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <!--<li Class="CompProperties_Usable"><compClass>Polarisbloc.CompCombatChip</compClass><useJob>UsePolarisConverter</useJob><useLabel>Use converter to set {0}</useLabel><useDuration>600</useDuration></li>-->
+      <!--<li Class="CompProperties_UseEffect"><compClass>Polarisbloc.CompUseEffect_ConvertCombatChip</compClass></li>-->
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use converter</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>Polarisbloc.CompUseEffect_ConvertCombatChip</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  <!--medicines-->
+  <ThingDef ParentName="PolarisDrugBase">
+    <defName>PolarisHealingPotion</defName>
+    <label>potent healing potion</label>
+    <description>A quick recovery and healing potion that automatically heals wounds. The effect of this potion are very powerful.</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Drugs/HealingPotion</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>110</MarketValue>
+      <WorkToMake>900</WorkToMake>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <ingestible>
+      <foodType>Fluid, Processed</foodType>
+      <drugCategory>Medical</drugCategory>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PolarisHealingPotion</hediffDef>
+          <severity>1.00</severity>
+        </li>
+      </outcomeDoers>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>450</listOrder>
+      </li>
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>PolarisHealingPotionProduction</researchPrerequisite>
+      <skillRequirements>
+        <Medicine>9</Medicine>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <MedicineIndustrial>3</MedicineIndustrial>
+      <Neutroamine>2</Neutroamine>
+      <SmokeleafLeaves>6</SmokeleafLeaves>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="PolarisDrugBase">
+    <defName>PolarisAntibiotic</defName>
+    <label>combined antibiotic</label>
+    <description>A combination of multiple antibiotics that can cure most common diseases.</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Drugs/Antibiotic</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>122</MarketValue>
+      <WorkToMake>900</WorkToMake>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PolarisAntibiotic</hediffDef>
+          <severity>1.00</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>997</listOrder>
+      </li>
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>PolarisAntibioticProduction</researchPrerequisite>
+      <skillRequirements>
+        <Medicine>9</Medicine>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <MedicineIndustrial>2</MedicineIndustrial>
+      <Penoxycyline>2</Penoxycyline>
+      <PsychoidLeaves>6</PsychoidLeaves>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="PolarisDrugBase">
+    <defName>PolarisReceptorAntagonist</defName>
+    <label>receptor antagonist</label>
+    <description>The receptor antagonist is a drug that blocks drugs needs by binding to and blocking any drugs receptor rather than activating it like an agonist. So this drug will satisfy chemical needs, and ease the drug addiction at the same time.</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Drugs/ReceptorAntagonist</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>74</MarketValue>
+      <WorkToMake>900</WorkToMake>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PolarisReceptorAntagonist</hediffDef>
+          <severity>1.00</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>998</listOrder>
+      </li>
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>PolarisReceptorAntagonistProduction</researchPrerequisite>
+      <skillRequirements>
+        <Medicine>9</Medicine>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <MedicineIndustrial>1</MedicineIndustrial>
+      <Neutroamine>2</Neutroamine>
+      <PsychoidLeaves>12</PsychoidLeaves>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="PolarisDrugBase">
+    <defName>PolarisRestorer</defName>
+    <label>polaris restorer</label>
+    <description>Mysterious drugs from the Polarisbloc that can free you from all sorts of bad situations.</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Drugs/Restorer</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>1750</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Ultra</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="Polarisbloc.IngestionOutcomeDoer_Restorer">
+          <restoreMissingBodyPart>false</restoreMissingBodyPart>
+          <extraHediffs>
+            <li>LuciferiumHigh</li>
+          </extraHediffs>
+        </li>
+      </outcomeDoers>
+      <ingestCommandString>Inject {0}</ingestCommandString>
+      <ingestReportString>Injecting {0}.</ingestReportString>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>999</listOrder>
+      </li>
+    </comps>
+    <stackLimit>25</stackLimit>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+  <!--Implants-->
+  <ThingDef ParentName="PolarisImplantBase">
+    <defName>PolarisVirtualNetChip</defName>
+    <label>virtual net chip</label>
+    <description>A chip connected to a Virtual Network that can be used for entertainment whenever needed. Moreover, it will calm down the user if they ever have a mental breakdown.</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Chips/VirtualNetChip</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.8, 0.8)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <Mass>0.08</Mass>
+    </statBases>
+    <!--<techHediffsTags><li>Advanced</li></techHediffsTags>-->
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef ParentName="PolarisImplantBase">
+    <defName>PolarisPsionwire</defName>
+    <label>psionwire</label>
+    <description>A chip capable of stimulating psionic abilities. Using this chip can enhance biological consciousness and fire resistance.</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Chips/Psionwire</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.8, 0.8)</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <MarketValue>520</MarketValue>
+      <Mass>0.08</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+        <Intellectual>12</Intellectual>
+      </skillRequirements>
+      <researchPrerequisite>PolarisPsionwire</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <MedicineUltratech>3</MedicineUltratech>
+    </costList>
+  </ThingDef>
+  <!--psychic berserk pulser-->
+  <ThingDef ParentName="ArtifactBase">
+    <defName>PolarisPsychicBerserkPulser</defName>
+    <label>psychic berserk pulser</label>
+    <description>A one-use artifact that generate a strong psychic pulse that make all human go berserk (not included colonists).</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/PsychicBerserkPulser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.8, 0.8)</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+    </statBases>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <comps>
+      <li Class="CompProperties_Targetable">
+        <compClass>Polarisbloc.CompTargetable_MenNotColonistOnTheMap</compClass>
+        <psychicSensitiveTargetsOnly>true</psychicSensitiveTargetsOnly>
+        <doCameraShake>true</doCameraShake>
+      </li>
+      <li>
+        <compClass>CompTargetEffect_Berserk</compClass>
+      </li>
+      <li Class="CompProperties_TargetEffect_GoodwillImpact">
+        <goodwillImpact>-200</goodwillImpact>
+      </li>
+    </comps>
+  </ThingDef>
+  <!--orbital trader caller-->
+  <ThingDef ParentName="PolarisResourceBase">
+    <defName>PolarisOrbitalTraderCaller</defName>
+    <label>orbital trader caller</label>
+    <thingClass>ThingWithComps</thingClass>
+    <description>It will launch a broadcast containing coordinate information and will direct the specified nearest orbital trader to the origin of the broadcast.</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/OrbitalTraderCaller</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.8, 0.8)</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.4</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeability>All</tradeability>
+    <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <compClass>Polarisbloc.CompOrbitalTraderCaller</compClass>
+        <useJob>UsePolarisOrbitalTraderCaller</useJob>
+        <useLabel>Use caller to call {0}</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>Polarisbloc.CompUseEffect_CallOrbitalTrader</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <JobDef>
+    <defName>UsePolarisOrbitalTraderCaller</defName>
+    <driverClass>JobDriver_UseItem</driverClass>
+    <reportString>using caller.</reportString>
+  </JobDef>
+  <!--traitreleaser-->
+  <ThingDef ParentName="PolarisResourceBase">
+    <defName>PolarisMechSerumTraitreleaser</defName>
+    <label>traitreleaser</label>
+    <thingClass>ThingWithComps</thingClass>
+    <description>A one-use super-dose of mechanites tuned to gain a specific trait. The subject choose to get the recorded trait or remove a trait from them. By removing a trait, the mechanites will record it and replace the pre-existing trait. However, this feature is only feasible 3 times.</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Traitreleaser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.8, 0.8)</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <WorkToMake>2500</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <techLevel>Spacer</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <compClass>Polarisbloc.CompTraitreleaser</compClass>
+        <useJob>UsePolarisTraitreleaser</useJob>
+        <useLabel>Use traitreleaser mech serum to get {0}</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>Polarisbloc.CompUseEffect_ReleaseTrait</compClass>
+      </li>
+      <!--<li Class="CompProperties_UseEffect"><compClass>CompUseEffect_DestroySelf</compClass></li>-->
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <effectWorking>Mine</effectWorking>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>PolarisTraitreleaserProduction</researchPrerequisite>
+      <skillRequirements>
+        <Medicine>6</Medicine>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <!--<effectWorking>Repair</effectWorking>-->
+    </recipeMaker>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Luciferium>4</Luciferium>
+    </costList>
+  </ThingDef>
+  <JobDef>
+    <defName>UsePolarisTraitreleaser</defName>
+    <driverClass>JobDriver_UseItem</driverClass>
+    <reportString>using traitreleaser.</reportString>
+  </JobDef>
+  <!--momery rester-->
+  <ThingDef ParentName="PolarisResourceBase">
+    <defName>PolarisMomeryRester</defName>
+    <label>momery rester</label>
+    <thingClass>ThingWithComps</thingClass>
+    <description>A one-use super-dose of mechanites tuned to change the subject's backstory into the recorded ones.</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/MomeryRester</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.8, 0.8)</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <techLevel>Spacer</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <compClass>Polarisbloc.CompMomeryRester</compClass>
+        <useJob>UsePolarisMomeryRester</useJob>
+        <useLabel>Use momery rester to get {0}</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>Polarisbloc.CompUseEffect_ResetMemory</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  <JobDef>
+    <defName>UsePolarisMomeryRester</defName>
+    <driverClass>JobDriver_UseItem</driverClass>
+    <reportString>using momery rester.</reportString>
+  </JobDef>
+  <!--devil cookie-->
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>PolarisDevilCookie</defName>
+    <label>devil cookie</label>
+    <description>Would you bargain with the devil just because you are hungry?\n\nThis is a mysterious cookie and no one knows how it appeared in the world. And it will not vanish even once eaten.\n\nAccording to the records of the researcher from Polarisbloc, this cookie will take some life force from who ate it. Maybe this was the reason why it could feed the hunger fully.\n\n--&amp;lt;No.666 file of Polarisbloc&amp;gt; #public version</description>
+    <thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Polarisbloc/Item/DevilCookie</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <techLevel>Archotech</techLevel>
+    <stackLimit>6</stackLimit>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>666</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <Nutrition>0.9</Nutrition>
+      <Beauty>0</Beauty>
+      <MaxHitPoints>60</MaxHitPoints>
+    </statBases>
+    <ingestible>
+      <foodType>Processed</foodType>
+      <preferability>MealAwful</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetHumanlikes>6</optimalityOffsetHumanlikes>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <outcomeDoers>
+        <li Class="Polarisbloc.IngestionOutcomeDoer_DevilCookie">
+          <growDays>5</growDays>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <tradeability>Sellable</tradeability>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <generateCommonality>0.1</generateCommonality>
+  </ThingDef>
+  <!--void key-->
+  <ThingDef ParentName="PolarisResourceBase">
+    <defName>PolarisVoidKey</defName>
+    <label>void key</label>
+    <thingClass>Polarisbloc.VoidKeyThing</thingClass>
+    <description>Project.193\n\nAt first, we made something that can link the soul of the dead, although the dead one must be in our knowledge.\nAnd then we thought, why can't we resurrect the lost soul?\nWe tried to use the Proj.013"cartridge" to do this, but it failed.\nSome additional attemps were made but all failed, even when we used living subjects. All of them couldn't provide the life force and power needed to resurrect the lost soul.\nFinally, we had no choice but to use the Philosopher's stone to get our colleague back (although he was a little bit unconscious).\n\n--&amp;lt;No.193 file of Polarisbloc&amp;gt; #public version</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/VoidKey</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>3500</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <techLevel>Ultra</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use void key</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>Polarisbloc.CompUseEffect_ResurrectVoidPawn</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <inspectorTabs>
+      <li>Polarisbloc.ITab_VoidPawn_Character</li>
+    </inspectorTabs>
+  </ThingDef>
+  <!--special thing-->
+  <ThingDef>
+    <defName>VanyaDataCenter</defName>
+    <label>data center</label>
+    <thingClass>Building</thingClass>
+  </ThingDef>
+</Defs>
