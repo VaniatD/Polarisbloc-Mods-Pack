@@ -875,6 +875,71 @@
       <li>Polarisbloc.ITab_VoidPawn_Character</li>
     </inspectorTabs>
   </ThingDef>
+  <!--decoder-->
+  <ThingDef ParentName="PolarisResourceBase">
+    <defName>PolarisDecoder</defName>
+    <thingClass>ThingWithComps</thingClass>
+    <label>biocode decoder</label>
+    <description>A decoder to decode the biocode in the special weapon.\nIt has a chance to change the biocode depends on the user's Intellectual level and the item quality.\nThere is a chance that the recoder will destroy after used. Other, if a weapon could be coded, this decoder will also could code the biocode and never destroy.</description>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Recoder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>4</stackLimit>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>1699</MarketValue>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <Flammability>0.1</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use biocode decoder</useLabel>
+        <useDuration>0</useDuration>
+      </li>
+      <li Class="Polarisbloc.CompProperties_UseEffectSkillRequirementCheck">
+        <skillRequirements>
+          <Intellectual>8</Intellectual>
+        </skillRequirements>
+      </li>
+      <li Class="CompProperties_Targetable">
+        <compClass>Polarisbloc.CompTargetable_BiocodableWeapon</compClass>
+      </li>
+      <li>
+        <compClass>Polarisbloc.CompTargetEffect_Recode</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  <JobDef>
+    <defName>PolarisDecode</defName>
+    <driverClass>Polarisbloc.JobDriver_Decode</driverClass>
+    <reportString>decoding TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    <modExtensions>
+      <li Class="Polarisbloc.ModExtension_DecoderConfigcs">
+        <successChanceBase>0.5</successChanceBase>
+        <factorAwful>1.5</factorAwful>
+        <factorPoor>1.2</factorPoor>
+        <factorNormal>1</factorNormal>
+        <factorGood>0.9</factorGood>
+        <factorExcellent>0.8</factorExcellent>
+        <factorMasterwork>0.7</factorMasterwork>
+        <factorLegendary>0.6</factorLegendary>
+        <chanceIntellectualPerLevelOffset>0.02</chanceIntellectualPerLevelOffset>
+        <selfDestoryOnFailed>0.6</selfDestoryOnFailed>
+        <selfDestoryOnSuccessed>0.2</selfDestoryOnSuccessed>
+      </li>
+    </modExtensions>
+  </JobDef>
   <!--special thing-->
   <ThingDef>
     <defName>VanyaDataCenter</defName>

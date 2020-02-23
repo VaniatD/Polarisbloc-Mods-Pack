@@ -67,6 +67,9 @@
   mending shelf: A shelf for storing miscellaneous items. Items stored in this will not deteriorate, even if outside. Other way, the items will be mended if it has fuel.
 
   void key: A special device could link to missing pawn's soul, and you could resurrect the linked pawn on your map.(likely the pawn dead with overhead mountain or can't find corpse)
+
+  [1.1]biocode decoder: A decoder to decode the biocode in the special weapon.
+
   </description>
   <packageId>Vanya.Polarisbloc.CoreLab</packageId>
   <loadBefore>

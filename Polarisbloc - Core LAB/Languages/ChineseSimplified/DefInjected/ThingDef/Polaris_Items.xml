@@ -59,6 +59,10 @@
   <PolarisVoidKey.label>虚空之钥</PolarisVoidKey.label>
   <PolarisVoidKey.description>项目193\n\n最初，我们制造了一个能够链接死者灵魂的东西，尽管必须是我们所认识的。\n然后，我们想到，为什么我们不能复活死者迷失的灵魂呢？\n我们尝试使用项目013“弹药包”来做这件事，但是这失败了。\n一些额外的尝试也失败了，我们甚至用上了活着的人，但是这些都无法提供一个迷失灵魂回归所需的模因和能量。\n最后，我们无可奈何地使用了贤者之石，这种万能的等价物成功地换回了我们死去的同伴（尽管他好像有些神志不清）。\n\n——&lt;天轴集团193号文件&gt; #公开版本</PolarisVoidKey.description>
   <PolarisVoidKey.comps.1.useLabel>使用虚空之钥</PolarisVoidKey.comps.1.useLabel>
+  <!-- decoder -->
+  <PolarisDecoder.label>破译器</PolarisDecoder.label>
+  <PolarisDecoder.description>一种能够破解特定武器中生物识别代码的设备。使用它需要一些智识等级，同时会根据使用者的智识能力和武器品质来决定破解生物编码的几率。\n使用时，这个破译器有一定几率会损坏。另一方面，如果想要注入编码的武器并没有记录生物编码，那么破译器不会损坏。</PolarisDecoder.description>
+  <PolarisDecoder.comps.CompUsable.useLabel>使用破译器</PolarisDecoder.comps.CompUsable.useLabel>
   <!-- special thing -->
   <VanyaDataCenter.label>数据中心</VanyaDataCenter.label>
   <!--healing bottle and gas-->

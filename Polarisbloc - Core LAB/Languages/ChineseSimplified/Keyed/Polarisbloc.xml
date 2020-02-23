@@ -55,6 +55,12 @@
   <PolarisVoidKeyFoundNoColonist>找不到对象</PolarisVoidKeyFoundNoColonist>
   <PolarisVoidKeyITabChoosePawn>链接至...</PolarisVoidKeyITabChoosePawn>
   <PolarisVoidKeyITabPawnInfo>详情</PolarisVoidKeyITabPawnInfo>
+  <!--Change age window-->
   <PolarisTargetBioAge>目标年龄： {0}</PolarisTargetBioAge>
   <PolarisMessageSuccessfullyChangeBioAge>{0}的生物年龄已经发生改变。</PolarisMessageSuccessfullyChangeBioAge>
+  <!--decoder-->
+  <PolarisDecoderSuccessedUsedForPawn>成功为{0}向{1}注入生物编码。</PolarisDecoderSuccessedUsedForPawn>
+  <PolarisDecoderFailedUsedForPawn>{0}破译{1}的尝试失败了。</PolarisDecoderFailedUsedForPawn>
+  <PolarisDecoderSelfDestroyed>破译器已经损坏。</PolarisDecoderSelfDestroyed>
+  <PolarisDecoderSkillRequirementNoSatisfies>需要{0}等级{1}</PolarisDecoderSkillRequirementNoSatisfies>
 </LanguageData>

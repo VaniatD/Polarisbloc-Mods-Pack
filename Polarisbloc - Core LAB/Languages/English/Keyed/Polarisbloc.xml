@@ -58,4 +58,9 @@
   <!--Change age window-->
   <PolarisTargetBioAge>Target age: {0}</PolarisTargetBioAge>
   <PolarisMessageSuccessfullyChangeBioAge>{0}'s bio age has been changed.</PolarisMessageSuccessfullyChangeBioAge>
+  <!--decoder-->
+  <PolarisDecoderSuccessedUsedForPawn>Successfully recoded {1}'s biocode for {0}.</PolarisDecoderSuccessedUsedForPawn>
+  <PolarisDecoderFailedUsedForPawn>{0} tried to decode {1}, but failed.</PolarisDecoderFailedUsedForPawn>
+  <PolarisDecoderSelfDestroyed>The biocode decoder has desetroyed.</PolarisDecoderSelfDestroyed>
+  <PolarisDecoderSkillRequirementNoSatisfies>require {0} level {1}</PolarisDecoderSkillRequirementNoSatisfies>
 </LanguageData>

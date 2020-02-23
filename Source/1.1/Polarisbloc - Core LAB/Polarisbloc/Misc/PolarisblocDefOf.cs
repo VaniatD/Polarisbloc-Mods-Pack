@@ -17,5 +17,7 @@ namespace Polarisbloc
         public static ResearchProjectDef PolarisSecretArchives;
 
         public static HediffDef PolarisCombatChip_Charm;
+
+        public static JobDef PolarisDecode;
     }
 }

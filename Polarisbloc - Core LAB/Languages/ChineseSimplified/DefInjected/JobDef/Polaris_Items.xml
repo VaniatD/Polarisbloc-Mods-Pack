@@ -16,6 +16,9 @@
   <UsePolarisMomeryRester.reportString>正在使用记忆重置器。</UsePolarisMomeryRester.reportString>
 
 
+  <PolarisDecode.reportString>正在破译TargetA。</PolarisDecode.reportString>
+
+
   <!-- combat chip -->
   <!--<UsePolarisConverter.reportString>正在使用转换器。</UsePolarisConverter.reportString>-->
 
