@@ -309,6 +309,9 @@
       <li Class="CompProperties_Drug">
         <listOrder>450</listOrder>
       </li>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
     </comps>
     <recipeMaker>
       <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
@@ -327,6 +330,35 @@
       <Neutroamine>2</Neutroamine>
       <SmokeleafLeaves>6</SmokeleafLeaves>
     </costList>
+    <equipmentType>Primary</equipmentType>
+    <tools>
+      <li>
+        <label>bottle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <verbs>
+      <li>
+        <label>throw healing potion</label>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>12.9</range>
+        <forcedMissRadius>0.9</forcedMissRadius>
+        <warmupTime>0.5</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>PolarisProj_HealingPotion</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
   </ThingDef>
   <ThingDef ParentName="PolarisDrugBase">
     <defName>PolarisAntibiotic</defName>
@@ -461,6 +493,39 @@
     <tradeTags>
       <li>ExoticMisc</li>
     </tradeTags>
+  </ThingDef>
+  <!--healing bottle and gas-->
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>PolarisProj_HealingPotion</defName>
+    <label>potent healing potion</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Polarisbloc/Item/Drugs/HealingPotion/HealingPotion_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.85, 0.85)</drawSize>
+    </graphicData>
+    <projectile>
+      <explosionRadius>3.5</explosionRadius>
+      <damageDef>Smoke</damageDef>
+      <postExplosionSpawnThingDef>PolarisGas_Healing</postExplosionSpawnThingDef>
+      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGas">
+    <defName>PolarisGas_Healing</defName>
+    <thingClass>Polarisbloc.Gas_HealingGas</thingClass>
+    <label>healing smoke</label>
+    <graphicData>
+      <texPath>Things/Gas/Puff</texPath>
+      <drawSize>2.2</drawSize>
+      <color>(0.4,0.95,0.4,0.5)</color>
+    </graphicData>
+    <gas>
+      <expireSeconds>22~30</expireSeconds>
+      <blockTurretTracking>true</blockTurretTracking>
+      <accuracyPenalty>0.4</accuracyPenalty>
+      <rotationSpeed>6</rotationSpeed>
+    </gas>
   </ThingDef>
   <!--Implants-->
   <ThingDef ParentName="PolarisImplantBase">

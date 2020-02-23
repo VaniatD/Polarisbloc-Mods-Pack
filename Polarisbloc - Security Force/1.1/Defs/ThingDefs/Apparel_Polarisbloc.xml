@@ -36,7 +36,7 @@
   <ThingDef ParentName="PolarisblocApparelBase">
     <defName>Apparel_PolarisShieldBelt_IV</defName>
     <label>polaris - IV shield belt</label>
-    <description>The latest generation of shield of Polarisbloc has not been produced, only for important personnel.\n\nThis shield will counterattack the attackers when they are attacked.Although the counterattack has the time of cooling, it still needs to be careful because the counter attack is very accurate.</description>
+    <description>The latest generation of shield from the Polarisbloc, only for important personnel.\n\nThe shield will counter attack the attacker if the wearer is attacked. Although the counterattack have a cooling time, be careful, the counterattack is very precise.</description>
     <thingClass>Polarisbloc_SecurityForce.PolarisShieldBelt_IV</thingClass>
     <graphicData>
       <texPath>PolarisblocSF/Apparel/PolarisShieldBelt_IV</texPath>
@@ -72,7 +72,7 @@
   <ThingDef ParentName="PolarisblocApparelBase">
     <defName>Polarisbloc_CygnusStandardArmor</defName>
     <label>cygnus standard armor</label>
-    <description>The standard armor for the security force provides a small amount of defense and moving.</description>
+    <description>The standard Cygnus armor of Security Forces provides a small amount of defensive capabilities and combat attributes.</description>
     <thingClass>Polarisbloc_SecurityForce.CygnusStandardArmor</thingClass>
     <thingCategories>
       <li>Apparel</li>
@@ -123,7 +123,7 @@
   <ThingDef ParentName="PolarisblocApparelBase">
     <defName>Polarisbloc_CygnusStandardArmorC</defName>
     <label>cygnus standard armor (captain)</label>
-    <description>The captain version of the standard armor has been slightly improved on the basis of the original, but the effect is still very limited.</description>
+    <description>The Captain version of the Cygnus armor is slightly improved of the original, but it is still very limited.</description>
     <thingClass>Polarisbloc_SecurityForce.CygnusStandardArmor</thingClass>
     <thingCategories>
       <li>Apparel</li>
@@ -177,7 +177,7 @@
   <ThingDef ParentName="PolarisblocApparelBase">
     <defName>Polarisbloc_CygnusStandardTights</defName>
     <label>cygnus standard tights</label>
-    <description>The tights made of polymer materials are built with special life maintenance devices. It can handle the wound of the user in time and speed up the wound healing.</description>
+    <description>The Cygnus tights made of polymer materials contain special life-sustaining devices that can treat the user's wounds in time and promote wound healing.</description>
     <thingClass>Polarisbloc_SecurityForce.CygnusStandardTights</thingClass>
     <thingCategories>
       <li>Apparel</li>
@@ -231,7 +231,7 @@
   <ThingDef ParentName="PolarisblocApparelBase">
     <defName>Polarisbloc_AlkaidStrategyAssistant</defName>
     <label>Alkaid strategy assistant</label>
-    <description>The Universal Combat auxiliary device can provide the function of the enemy and the dynamic prediction.</description>
+    <description>The Universal Tactical assistant is a device that can assist the user predict enemy movement trends.</description>
     <thingCategories>
       <li>Headgear</li>
     </thingCategories>
@@ -273,7 +273,7 @@
   <ThingDef ParentName="PolarisblocApparelBase">
     <defName>Polarisbloc_ThubanTacticalGoggles</defName>
     <label>Thuban tactical goggles</label>
-    <description>The universal tactical goggles produced by Polarisbloc can effectively enhance the sight ability.</description>
+    <description>The Universal Tactical goggles produced by the Polarisbloc enhance effectively the sight of the user.</description>
     <thingCategories>
       <li>Headgear</li>
     </thingCategories>

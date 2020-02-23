@@ -81,7 +81,7 @@
   <ThingDef ParentName="PolarisblocBaseGun">
     <defName>Polarisbloc_CaniculaRifle</defName>
     <label>canicula - II universal rifle</label>
-    <description>A universal rifle produced by Polarisbloc,the specially treated energy release device can shoot bullets that are extremely threatening to the life body.</description>
+    <description>The universal rifle, produced by Polarisbloc has a specially treated energy release device that can fire bullets that are extremely threatening to live bodies.</description>
     <graphicData>
       <texPath>PolarisblocSF/Weapon/CaniculaRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -157,7 +157,7 @@
   <ThingDef ParentName="PolarisblocBaseGun">
     <defName>Polarisbloc_CaniculaSniper</defName>
     <label>canicula - III sniper rifle</label>
-    <description>A sniper rifle produced by Polarisbloc,the specially treated energy release device can shoot bullets that are extremely threatening to the life body.</description>
+    <description>The sniper rifle, produced by Polarisbloc has a specially treated energy release device that can fire bullets that are extremely threatening to live bodies.</description>
     <graphicData>
       <texPath>PolarisblocSF/Weapon/CaniculaSniper</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -4,7 +4,7 @@
     <defName>PolarisDropSupplyBeacon</defName>
     <label>polaris supply pack</label>
     <thingClass>ThingWithComps</thingClass>
-    <description>It will release the pack of polarisbloc when you active it.And give you a full set equipments of soldier in security force.</description>
+    <description>A supply kit that gives supplies from the Polarisbloc when you active it, giving you a full set of the Security Force's standard soldier equipments.</description>
     <graphicData>
       <texPath>PolarisblocSF/Item/PolarisDropSupplyBeacon</texPath>
       <graphicClass>Graphic_Single</graphicClass>

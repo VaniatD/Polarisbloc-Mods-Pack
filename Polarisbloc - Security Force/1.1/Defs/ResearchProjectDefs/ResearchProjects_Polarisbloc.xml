@@ -5,7 +5,7 @@
     <tab>Polarisbloc</tab>
     <defName>PolarisShield</defName>
     <label>polaris shield tech</label>
-    <description>Allow to craft polaris - II shield belt.The data is confidential, and you can only get the technology by unscramble a polaris shield memory stick.</description>
+    <description>Learn how to craft polaris - II shield belt. The data is confidential and can only be obtained by unscrambling a Polaris Shield Memory Stick.</description>
     <baseCost>2000</baseCost>
     <techLevel>Ultra</techLevel>
     <!--<prerequisites><li>Cryptosleep</li></prerequisites>-->

@@ -3,7 +3,7 @@
   <FactionDef>
     <defName>Polaribloc_SecuirityForce</defName>
     <label>Security Force</label>
-    <description>The security forces belonging to the Polarisbloc provide security support for the Polarisbloc. At the same time, it is also ordered by Polarisbloc to carry out the untold task.</description>
+    <description>The Security Force, associated with the Polarisbloc, provide security support for the Polarisbloc. At the same time, it is also ordered by Polarisbloc to carry out the untold task.</description>
     <pawnSingular>Soldier</pawnSingular>
     <pawnsPlural>Soldiers</pawnsPlural>
     <settlementGenerationWeight>0.24</settlementGenerationWeight>

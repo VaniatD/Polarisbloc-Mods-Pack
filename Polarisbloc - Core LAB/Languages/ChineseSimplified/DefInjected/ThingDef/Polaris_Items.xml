@@ -61,4 +61,7 @@
   <PolarisVoidKey.comps.1.useLabel>使用虚空之钥</PolarisVoidKey.comps.1.useLabel>
   <!-- special thing -->
   <VanyaDataCenter.label>数据中心</VanyaDataCenter.label>
+  <!--healing bottle and gas-->
+  <PolarisProj_HealingPotion.label>强效治疗药水</PolarisProj_HealingPotion.label>
+  <PolarisGas_Healing.label>治疗烟雾</PolarisGas_Healing.label>
 </LanguageData>
