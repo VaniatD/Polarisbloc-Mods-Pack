@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef>
+    <defName>Vanya_CombatRations</defName>
+    <label>military rations</label>
+    <description>Chaser comp's rations. Taste average, but easy to get full.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>50</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <alwaysHaulable>true</alwaysHaulable>
+    <graphicData>
+      <texPath>Vanya/Things/Item/Vanya_CombatRations</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <Flammability>0</Flammability>
+      <MaxHitPoints>50</MaxHitPoints>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <MarketValue>25</MarketValue>
+      <Nutrition>1</Nutrition>
+      <Mass>0.2</Mass>
+      <Beauty>0</Beauty>
+    </statBases>
+    <ingestible>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <foodType>Meal</foodType>
+      <preferability>MealAwful</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Vanya_CombatRations</hediffDef>
+          <severity>1.00</severity>
+        </li>
+      </outcomeDoers>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <baseIngestTicks>60</baseIngestTicks>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Ingredients" />
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>Vanya_CombatRations</defName>
+    <label>military rations</label>
+    <description>Chaser comp's rations. Taste average, but easy to get full.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <hungerRateFactor>0.5</hungerRateFactor>
+        <restFallFactor>0.8</restFallFactor>
+        <statOffsets>
+          <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

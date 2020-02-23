@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName = "Orbital_Polarisbloc"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisShieldMemoryStick</thingDef>
+        <countRange>
+          <min>-1</min>
+          <max>4</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Polarisbloc_EmergencyFood</thingDef>
+        <countRange>
+          <min>10</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisDropSupplyBeacon</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>2</max>
+        </countRange>
+      </li>
+    </value>
+  </Operation>
+</Patch>

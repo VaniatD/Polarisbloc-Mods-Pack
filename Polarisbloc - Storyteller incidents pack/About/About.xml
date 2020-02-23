@@ -5,6 +5,7 @@
   <url>https://github.com/VaniatD/Polarisbloc-Mods-Pack</url>
   <supportedVersions>
     <li>1.0</li>
+    <li>1.1</li>
   </supportedVersions>
   <description>
   This mod adds 3 storytellers and 7 incidents.
@@ -22,4 +23,10 @@
 
   Enjoy it! XD
   </description>
+  <packageId>Vanya.Polarisbloc.StorytellerIncidentsPack</packageId>
+  <loadAfter>
+    <li>Vanya.Polarisbloc.CoreLab</li>
+    <li>Vanya.Polarisbloc.SecurityForce</li>
+    <li>Vanya.Polarisbloc.Mechenemy</li>
+  </loadAfter>
 </ModMetaData>

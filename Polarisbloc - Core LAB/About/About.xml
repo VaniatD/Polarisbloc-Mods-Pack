@@ -28,9 +28,11 @@
   
   Cure scars:It will cure your old wounds.
   
-  Age raise:It will add 4 years to your age.
+  [1.0]Age raise:It will add 4 years to your age.
   
-  Age Decrease:It will decrease x to your age.[x=(current age/10+1)*3]
+  [1.0]Age Decrease:It will decrease x to your age.[x=(current age/10+1)*3]
+
+  [1.1]Change Age: This will change the age what you choose.
   
   &lt;b&gt;Bionics:&lt;/b&gt;
   
@@ -67,4 +69,9 @@
   void key: A special device could link to missing pawn's soul, and you could resurrect the linked pawn on your map.(likely the pawn dead with overhead mountain or can't find corpse)
   </description>
   <packageId>Vanya.Polarisbloc.CoreLab</packageId>
+  <loadBefore>
+    <li>Vanya.Polarisbloc.SecurityForce</li>
+    <li>Vanya.Polarisbloc.Mechenemy</li>
+    <li>Vanya.Polarisbloc.StorytellerIncidentsPack</li>
+  </loadBefore>
 </ModMetaData>

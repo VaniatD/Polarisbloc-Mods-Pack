@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraderKindDef>
+    <defName>Caravan_SecuirityForce_BulkGoods</defName>
+    <label>retail trader</label>
+    <commonality>1.2</commonality>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>1200</min>
+          <max>1800</max>
+        </countRange>
+      </li>
+      <!--Special-->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisShieldMemoryStick</thingDef>
+        <countRange>
+          <min>-1</min>
+          <max>2</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Apparel_PolarisShieldBelt_II</thingDef>
+        <countRange>
+          <min>-1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisMechSerumTraitreleaser</thingDef>
+        <countRange>
+          <min>-2</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisMomeryRester</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisOrbitalTraderCaller</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Polarisbloc_EmergencyFood</thingDef>
+        <countRange>
+          <min>5</min>
+          <max>15</max>
+        </countRange>
+      </li>
+      <!--vanilla-->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+        <countRange>
+          <min>20</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentSpacer</thingDef>
+        <countRange>
+          <min>2</min>
+          <max>4</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineUltratech</thingDef>
+        <countRange>
+          <min>5</min>
+          <max>15</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Steel</thingDef>
+        <countRange>
+          <min>100</min>
+          <max>200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Cloth</thingDef>
+        <countRange>
+          <min>100</min>
+          <max>200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chemfuel</thingDef>
+        <countRange>
+          <min>200</min>
+          <max>600</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Neutroamine</thingDef>
+        <countRange>
+          <min>70</min>
+          <max>160</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Beer</thingDef>
+        <totalPriceRange>
+          <min>0</min>
+          <max>100</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chocolate</thingDef>
+        <totalPriceRange>
+          <min>35</min>
+          <max>100</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodRaw</categoryDef>
+        <excludedCategories>
+          <li>EggsFertilized</li>
+        </excludedCategories>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>3</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>150</min>
+          <max>400</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>BuildingsFurniture</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>3</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Clothes">
+        <countRange>
+          <min>3</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Telescope</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+      </li>
+      <li Class="StockGenerator_MultiDef">
+        <thingDefs>
+          <li>Chocolate</li>
+          <li>Kibble</li>
+          <li>Polarisbloc_EmergencyFood</li>
+        </thingDefs>
+      </li>
+      <li Class="StockGenerator_WeaponsRanged" />
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <!--Extra-->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisMechSerumTraitreleaser</thingDef>
+        <countRange>
+          <min>-2</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisMomeryRester</thingDef>
+        <countRange>
+          <min>-1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>Art</tag>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+</Defs>

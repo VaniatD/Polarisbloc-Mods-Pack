@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Weapons -->
+  <ThingCategoryDef>
+    <defName>Vanya_WeaponMech</defName>
+    <label>Mechnoid Weapons</label>
+    <parent>WeaponsRanged</parent>
+  </ThingCategoryDef>
+</Defs>

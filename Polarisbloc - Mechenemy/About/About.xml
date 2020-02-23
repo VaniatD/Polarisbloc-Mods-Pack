@@ -5,6 +5,15 @@
   <url>https://github.com/VaniatD/Polarisbloc-Mods-Pack</url>
   <supportedVersions>
     <li>1.0</li>
+    <li>1.1</li>
   </supportedVersions>
   <description>&lt;b&gt;Only Factions:&lt;/b&gt;\n\nAdvanced Mechanoids:A Mechanoid interstellar marine with highly advanced technology. They have been waiting in rimworld for a long time trying to find a weakness in human defensive forces to invade.\n\nChaser Armada:It is human's elite armada, stayed in rimworld for a long time trying to wipe out mechanoids. Chaser Armada is the guardian of the human borderland. They do not have any positive feeling about those tiny factions who have no will to fight against mechanoids.</description>
+  <packageId>Vanya.Polarisbloc.Mechenemy</packageId>
+  <loadAfter>
+    <li>Vanya.Polarisbloc.CoreLab</li>
+    <li>Vanya.Polarisbloc.SecurityForce</li>
+  </loadAfter>
+  <loadBefore>
+    <li>Vanya.Polarisbloc.StorytellerIncidentsPack</li>
+  </loadBefore>
 </ModMetaData>
