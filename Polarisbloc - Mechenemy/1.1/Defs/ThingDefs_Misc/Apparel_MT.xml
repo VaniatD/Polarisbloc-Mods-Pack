@@ -129,10 +129,9 @@
     </apparel>
     <equippedStatOffsets>
       <PsychicSensitivity>-1</PsychicSensitivity>
-      <WorkSpeedGlobal>-0.3</WorkSpeedGlobal>
       <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
       <MeleeHitChance>5</MeleeHitChance>
-      <MeleeDodgeChance>0.3</MeleeDodgeChance>
+      <MeleeDodgeChance>3</MeleeDodgeChance>
     </equippedStatOffsets>
     <generateCommonality>1</generateCommonality>
     <smeltable>false</smeltable>

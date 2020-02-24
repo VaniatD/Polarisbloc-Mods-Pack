@@ -714,7 +714,7 @@
         <soundCast>Shot_ChargeRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
       </li>
     </verbs>
     <soundInteract>Interact_Rifle</soundInteract>
