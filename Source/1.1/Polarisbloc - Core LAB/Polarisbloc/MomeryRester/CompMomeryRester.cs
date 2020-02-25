@@ -222,6 +222,36 @@ namespace Polarisbloc
                     icon = base.parent.def.uiIcon,
                 };
             }
+            if (Prefs.DevMode)
+            {
+                Command_Action choseTrait = new Command_Action
+                {
+                    defaultLabel = "find a backstory...",
+                    action = delegate
+                    {
+                        List<DebugMenuOption> list = new List<DebugMenuOption>();
+                        foreach (Backstory story in BackstoryDatabase.allBackstories.Values)
+                        {
+                            if (this.memResetMode == MemResetMode.childhood && story.slot == BackstorySlot.Childhood)
+                            {
+                                list.Add(new DebugMenuOption(story.title, DebugMenuOptionMode.Action, delegate ()
+                                {
+                                    this.childhoodStory = story;
+                                }));
+                            }
+                            if (this.memResetMode == MemResetMode.adulthood && story.slot == BackstorySlot.Adulthood)
+                            {
+                                list.Add(new DebugMenuOption(story.title, DebugMenuOptionMode.Action, delegate ()
+                                {
+                                    this.adulthoodStory = story;
+                                }));
+                            }
+                        }
+                        Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
+                    }
+                };
+                yield return choseTrait;
+            }
         }
     }
 }

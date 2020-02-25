@@ -58,7 +58,7 @@
         <incident MayRequire="Ludeon.RimWorld.Royalty">CaravanArrivalTributeCollector</incident>
         <minDaysPassed>20</minDaysPassed>
         <baseIncidentsPerYear>2</baseIncidentsPerYear>
-        <minSpacingDays>30</minSpacingDays>
+        <minSpacingDays>24</minSpacingDays>
         <allowedTargetTags>
           <li>Map_PlayerHome</li>
         </allowedTargetTags>
@@ -68,11 +68,11 @@
       </li>
       <li Class="StorytellerCompProperties_SingleMTB">
         <incident>ThrumboPasses</incident>
-        <mtbDays>29</mtbDays>
+        <mtbDays>27</mtbDays>
       </li>
       <li Class="StorytellerCompProperties_SingleMTB">
         <incident>OrbitalTraderArrival</incident>
-        <mtbDays>15.7</mtbDays>
+        <mtbDays>13.7</mtbDays>
       </li>
     </comps>
   </StorytellerDef>
@@ -142,7 +142,7 @@
         <li>(-40, 0.50)</li>
         <li>(  0, 0.92)</li>
         <li>( 60, 1.40)</li>
-        <li>(150, 2.00)</li>
+        <li>(150, 1.80)</li>
       </points>
     </pointsFactorFromAdaptDays>
     <comps>
@@ -420,7 +420,8 @@
         <li>(  0, 1.00)</li>
         <li>( 60, 1.48)</li>
         <li>(120, 2.00)</li>
-        <li>(150, 2.40)</li>
+        <li>(150, 2.20)</li>
+        <li>(180, 2.50)</li>
       </points>
     </pointsFactorFromAdaptDays>
     <comps>
@@ -452,13 +453,13 @@
         <minDaysPassed>1</minDaysPassed>
         <mtbDays>1.53</mtbDays>
         <maxThreatBigIntervalDays>10</maxThreatBigIntervalDays>
-        <minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
+        <minIncChancePopulationIntentFactor>0.1</minIncChancePopulationIntentFactor>
         <randomPointsFactorRange>0.1~1.9</randomPointsFactorRange>
         <skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
         <categoryWeights>
-          <Misc>4.5</Misc>
+          <Misc>3.5</Misc>
           <OrbitalVisitor>0.7</OrbitalVisitor>
-          <ThreatBig>0.75</ThreatBig>
+          <ThreatBig>1.75</ThreatBig>
           <ThreatSmall>1.8</ThreatSmall>
           <FactionArrival>0.8</FactionArrival>
           <AllyAssistance>0.7</AllyAssistance>
@@ -544,7 +545,7 @@
           <li>World</li>
         </allowedTargetTags>
         <onDays>12</onDays>
-        <numIncidentsRange>1~3</numIncidentsRange>
+        <numIncidentsRange>1~4</numIncidentsRange>
         <acceptFractionByDaysPassedCurve>
           <points>
             <li>(5, 0)</li>
@@ -645,6 +646,7 @@
         <li>( 60, 1.72)</li>
         <li>(120, 2.20)</li>
         <li>(150, 2.80)</li>
+        <li>(180, 3.40)</li>
       </points>
     </pointsFactorFromAdaptDays>
     <comps>
