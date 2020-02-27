@@ -896,7 +896,6 @@
     <thingCategories>
       <li>Items</li>
     </thingCategories>
-    <tradeability>Sellable</tradeability>
     <thingSetMakerTags>
       <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
@@ -918,6 +917,9 @@
         <compClass>Polarisbloc.CompTargetEffect_Recode</compClass>
       </li>
     </comps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
   </ThingDef>
   <JobDef>
     <defName>PolarisDecode</defName>

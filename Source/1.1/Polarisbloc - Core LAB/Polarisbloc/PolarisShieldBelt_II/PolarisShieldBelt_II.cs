@@ -40,7 +40,7 @@ namespace Polarisbloc
 
 		private float ApparelScorePerEnergyMax = 0.25f;
 
-		private static readonly Material BubbleMat = MaterialPool.MatFrom("Other/PolarisShield_IIBubble", ShaderDatabase.Transparent);
+		private static readonly Material BubbleMat = MaterialPool.MatFrom("Polarisbloc/UI/PolarisShieldIIBubble", ShaderDatabase.Transparent);
 
 		private float EnergyMax
 		{

@@ -40,7 +40,7 @@ namespace Polarisbloc_SecurityForce
 
 		private float ApparelScorePerEnergyMax = 0.25f;
 
-		private static readonly Material BubbleMat = MaterialPool.MatFrom("Other/PolarisShield_IVBubble", ShaderDatabase.Transparent);
+		private static readonly Material BubbleMat = MaterialPool.MatFrom("PolarisblocSF/UI/PolarisShieldIVBubble", ShaderDatabase.Transparent);
 
         private int LightningColdDownTicks = 120;
 
