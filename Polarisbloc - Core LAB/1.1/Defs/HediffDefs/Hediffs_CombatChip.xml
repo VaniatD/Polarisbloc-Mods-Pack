@@ -110,7 +110,7 @@
           <NegotiationAbility>0.6</NegotiationAbility>
           <TradePriceImprovement>0.1</TradePriceImprovement>
           <TameAnimalChance>1</TameAnimalChance>
-          <PawnBeauty>20</PawnBeauty>
+          <PawnBeauty>2</PawnBeauty>
         </statOffsets>
       </li>
     </stages>
