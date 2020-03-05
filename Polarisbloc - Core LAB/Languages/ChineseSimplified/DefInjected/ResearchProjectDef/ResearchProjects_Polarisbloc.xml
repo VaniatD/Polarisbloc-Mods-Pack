@@ -27,6 +27,8 @@
   <PolarisRemoveImplants.description>可以移除某些植入后无法移除的植入物。</PolarisRemoveImplants.description>
   <PolarisPsionwire.label>灵能芯片</PolarisPsionwire.label>
   <PolarisPsionwire.description>获取灵能芯片的制作方法。</PolarisPsionwire.description>
+  <PolarisExtractAbility.label>提取能力</PolarisExtractAbility.label>
+  <PolarisExtractAbility.description>研究如何使用心灵训练器提取目标的能力。</PolarisExtractAbility.description>
   <!-- special device -->
   <PolarisSpecialDevice.label>特殊装置</PolarisSpecialDevice.label>
   <PolarisSpecialDevice.description>这个项目记录了一些有特殊功能的装置。</PolarisSpecialDevice.description>

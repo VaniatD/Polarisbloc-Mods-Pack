@@ -63,4 +63,9 @@
   <PolarisDecoderFailedUsedForPawn>{0}破译{1}的尝试失败了。</PolarisDecoderFailedUsedForPawn>
   <PolarisDecoderSelfDestroyed>破译器已经损坏。</PolarisDecoderSelfDestroyed>
   <PolarisDecoderSkillRequirementNoSatisfies>需要{0}等级{1}</PolarisDecoderSkillRequirementNoSatisfies>
+  <!--extract ability-->
+  <PolarisExtractAbilitySuccessfully>成功提取了{0}的{1}。</PolarisExtractAbilitySuccessfully>
+  <PolarisExtractAbilityFailed>无法提取{0}的能力。</PolarisExtractAbilityFailed>
+  <!--remove implant-->
+  <PolarisMessageSuccessfullyRemovedImplants>{1}成功移除了{1}的{2}。</PolarisMessageSuccessfullyRemovedImplants>
 </LanguageData>

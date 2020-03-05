@@ -45,4 +45,8 @@
   <PolarisAdministerMechSerumTraitreleaser.label>施用特性释放器</PolarisAdministerMechSerumTraitreleaser.label>
   <PolarisAdministerMechSerumTraitreleaser.description>施用特性释放器。</PolarisAdministerMechSerumTraitreleaser.description>
   <PolarisAdministerMechSerumTraitreleaser.jobString>正在施用特性释放器。</PolarisAdministerMechSerumTraitreleaser.jobString>
+  <!--extract ability-->
+  <PolarisExtractAbility.label>提取能力</PolarisExtractAbility.label>
+  <PolarisExtractAbility.description>使用心灵训练器提取目标的特定能力。</PolarisExtractAbility.description>
+  <PolarisExtractAbility.jobString>正在提取能力。</PolarisExtractAbility.jobString>
 </LanguageData>

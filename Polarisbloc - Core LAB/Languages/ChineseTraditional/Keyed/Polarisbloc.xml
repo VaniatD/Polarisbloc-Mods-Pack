@@ -55,5 +55,17 @@
   <PolarisVoidKeyFoundNoColonist>找不到對象</PolarisVoidKeyFoundNoColonist>
   <PolarisVoidKeyITabChoosePawn>鏈接至...</PolarisVoidKeyITabChoosePawn>
   <PolarisVoidKeyITabPawnInfo>詳情</PolarisVoidKeyITabPawnInfo>
-
+  <!--Change age window-->
+  <PolarisTargetBioAge>目標年齡： {0}</PolarisTargetBioAge>
+  <PolarisMessageSuccessfullyChangeBioAge>{0}的生物年齡已經發生改變。</PolarisMessageSuccessfullyChangeBioAge>
+  <!--decoder-->
+  <PolarisDecoderSuccessedUsedForPawn>成功為{0}向{1}注入生物編碼。</PolarisDecoderSuccessedUsedForPawn>
+  <PolarisDecoderFailedUsedForPawn>{0}破譯{1}的嘗試失敗了。</PolarisDecoderFailedUsedForPawn>
+  <PolarisDecoderSelfDestroyed>破譯器已經損壞。</PolarisDecoderSelfDestroyed>
+  <PolarisDecoderSkillRequirementNoSatisfies>需要{0}等級{1}</PolarisDecoderSkillRequirementNoSatisfies>
+  <!--extract ability-->
+  <PolarisExtractAbilitySuccessfully>成功提取了{0}的{1}。</PolarisExtractAbilitySuccessfully>
+  <PolarisExtractAbilityFailed>無法提取{0}的能力。</PolarisExtractAbilityFailed>
+  <!--remove implant-->
+  <PolarisMessageSuccessfullyRemovedImplants>{1}成功移除了{1}的{2}。</PolarisMessageSuccessfullyRemovedImplants>
 </LanguageData>

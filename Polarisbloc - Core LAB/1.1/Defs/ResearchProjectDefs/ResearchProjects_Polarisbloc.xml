@@ -6,7 +6,7 @@
     <defName>PolarisSecretArchives</defName>
     <label>polarisbloc archives copy</label>
     <description>Some special test records were learned from Polarisbloc, maybe it will help us.</description>
-    <baseCost>1850</baseCost>
+    <baseCost>3150</baseCost>
     <techLevel>Ultra</techLevel>
     <researchViewX>0</researchViewX>
     <researchViewY>1.5</researchViewY>
@@ -14,9 +14,9 @@
     <prerequisites>
       <li>MicroelectronicsBasics</li>
     </prerequisites>
-    <techprintCount>4</techprintCount>
+    <techprintCount>1</techprintCount>
     <techprintCommonality>0.3</techprintCommonality>
-    <techprintMarketValue>1280</techprintMarketValue>
+    <techprintMarketValue>3280</techprintMarketValue>
     <heldByFactionCategoryTags>
       <li>Outlander</li>
     </heldByFactionCategoryTags>
@@ -27,7 +27,7 @@
     <defName>PolarisDrugFormula</defName>
     <label>drug formula</label>
     <description>This project has records on how to make some medicines.</description>
-    <baseCost>850</baseCost>
+    <baseCost>1650</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>PolarisSecretArchives</li>
@@ -41,7 +41,7 @@
     <defName>PolarisAntibioticProduction</defName>
     <label>antibiotic production</label>
     <description>Learn to produce the combined antibiotic.</description>
-    <baseCost>900</baseCost>
+    <baseCost>1750</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>PolarisDrugFormula</li>
@@ -56,7 +56,7 @@
     <defName>PolarisHealingPotionProduction</defName>
     <label>healing potion production</label>
     <description>Learn to produce the healing potion.</description>
-    <baseCost>1150</baseCost>
+    <baseCost>2100</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>PolarisDrugFormula</li>
@@ -71,7 +71,7 @@
     <defName>PolarisReceptorAntagonistProduction</defName>
     <label>receptor antagonist production</label>
     <description>Learn how to produce the receptor antagonist.\This is a drug that blocks drugs needs by binding to and blocking any drugs receptor rather than activating it like an agonist. So this drug will satisfy chemical needs, and ease the drug addiction at the same time.</description>
-    <baseCost>950</baseCost>
+    <baseCost>1850</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>PolarisDrugFormula</li>
@@ -87,7 +87,7 @@
     <defName>PolarisSurgicalProgram</defName>
     <label>surgical program</label>
     <description>This project recorded some special surgeries.</description>
-    <baseCost>550</baseCost>
+    <baseCost>1200</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>PolarisSecretArchives</li>
@@ -101,7 +101,7 @@
     <defName>PolarisTransGenderSurgery</defName>
     <label>trans gender surgery</label>
     <description>Learn how to perform trans gender surgery.</description>
-    <baseCost>800</baseCost>
+    <baseCost>1550</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>PolarisSurgicalProgram</li>
@@ -116,7 +116,7 @@
     <defName>PolarisCureScarsSurgery</defName>
     <label>cure scars</label>
     <description>Learn how to cure scars and old wounds.</description>
-    <baseCost>900</baseCost>
+    <baseCost>1600</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>PolarisSurgicalProgram</li>
@@ -131,7 +131,7 @@
     <defName>PolarisRestoreMissingPartSurgery</defName>
     <label>restore missing body part</label>
     <description>Learn how to restore a missing body part, organ or bone.</description>
-    <baseCost>1000</baseCost>
+    <baseCost>1900</baseCost>
     <techLevel>Ultra</techLevel>
     <prerequisites>
       <li>PolarisCureScarsSurgery</li>
@@ -139,13 +139,19 @@
     <researchViewX>6</researchViewX>
     <researchViewY>0.75</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>0.3</techprintCommonality>
+    <techprintMarketValue>2280</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Outlander</li>
+    </heldByFactionCategoryTags>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <tab>Polarisbloc</tab>
     <defName>PolarisLongevityResearch</defName>
     <label>longevity research</label>
     <description>Learn how to manipulate cells biological age. With this knowledge, manipulate the biological age of any living creature via a complex yet simple surgery.</description>
-    <baseCost>1180</baseCost>
+    <baseCost>2450</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>PolarisSurgicalProgram</li>
@@ -163,7 +169,7 @@
     <defName>PolarisRemoveImplants</defName>
     <label>implants remove</label>
     <description>Learn how to remove implants in human's body.</description>
-    <baseCost>630</baseCost>
+    <baseCost>1180</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>PolarisSurgicalProgram</li>
@@ -180,7 +186,7 @@
     <defName>PolarisPsionwire</defName>
     <label>psionwire</label>
     <description>Learn how to make psionwire.</description>
-    <baseCost>780</baseCost>
+    <baseCost>1360</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>PolarisSurgicalProgram</li>
@@ -198,7 +204,7 @@
     <defName>PolarisSpecialDevice</defName>
     <label>special device</label>
     <description>This project recorded some special devices.</description>
-    <baseCost>800</baseCost>
+    <baseCost>1500</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>PolarisSecretArchives</li>
@@ -212,7 +218,7 @@
     <defName>PolarisLyraeCurer</defName>
     <label>lyrae curer</label>
     <description>Learn how to build a curer to tend pawns near the curer.</description>
-    <baseCost>980</baseCost>
+    <baseCost>1920</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>PolarisSpecialDevice</li>
@@ -230,7 +236,7 @@
     <defName>PolarisThermostat</defName>
     <label>thermostat</label>
     <description>Learn how to build a polarisbloc thermostat.</description>
-    <baseCost>650</baseCost>
+    <baseCost>1550</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>PolarisSpecialDevice</li>
@@ -245,7 +251,7 @@
     <defName>PolarisTraitreleaserProduction</defName>
     <label>traitreleaser production</label>
     <description>Learn to product traitreleaser mech serum.A one-use super-dose of mechanites tuned to gain a specific trait.\n\nYou could product traitreleaser on drug lab.</description>
-    <baseCost>1200</baseCost>
+    <baseCost>2500</baseCost>
     <techLevel>Ultra</techLevel>
     <prerequisites>
       <li>PolarisSpecialDevice</li>
@@ -257,13 +263,19 @@
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>0.2</techprintCommonality>
+    <techprintMarketValue>1780</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Outlander</li>
+    </heldByFactionCategoryTags>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <tab>Polarisbloc</tab>
     <defName>PolarisMendingShelf</defName>
     <label>mending shelf</label>
     <description>Learn to build a special shelf to mend some damaged items</description>
-    <baseCost>870</baseCost>
+    <baseCost>1450</baseCost>
     <techLevel>Ultra</techLevel>
     <prerequisites>
       <li>PolarisSpecialDevice</li>
@@ -282,7 +294,7 @@
     <defName>ResearchProject_PolarisCartridge</defName>
     <label>cartridge</label>
     <description>The cartridge will resurrect the wearer if they ever die. So, is life equal? Is it really good to exchange one's life for another person's life?\n(This is a thing gained by surgery.)\n\nTip:You can only get this technology by unscrambling Bondorudo's diary.</description>
-    <baseCost>2000</baseCost>
+    <baseCost>4000</baseCost>
     <techLevel>Ultra</techLevel>
     <researchViewX>0</researchViewX>
     <researchViewY>5</researchViewY>

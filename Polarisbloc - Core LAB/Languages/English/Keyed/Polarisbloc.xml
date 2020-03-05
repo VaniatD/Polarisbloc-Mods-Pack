@@ -63,4 +63,9 @@
   <PolarisDecoderFailedUsedForPawn>{0} tried to decode {1}, but failed.</PolarisDecoderFailedUsedForPawn>
   <PolarisDecoderSelfDestroyed>The biocode decoder has desetroyed.</PolarisDecoderSelfDestroyed>
   <PolarisDecoderSkillRequirementNoSatisfies>require {0} level {1}</PolarisDecoderSkillRequirementNoSatisfies>
+  <!--extract ability-->
+  <PolarisExtractAbilitySuccessfully>Successfully to extract {0}'s {1}.</PolarisExtractAbilitySuccessfully>
+  <PolarisExtractAbilityFailed>Could not to extract {0}'s ability.</PolarisExtractAbilityFailed>
+  <!--remove implant-->
+  <PolarisMessageSuccessfullyRemovedImplants>{1} has successfully removed {1}'s {2}.</PolarisMessageSuccessfullyRemovedImplants>
 </LanguageData>

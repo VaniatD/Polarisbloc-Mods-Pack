@@ -45,8 +45,8 @@
     <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
     <stages>
       <li>
-        <painFactor>0.8</painFactor>
         <restFallFactor>0.8</restFallFactor>
+        <painOffset>-0.4</painOffset>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
@@ -62,7 +62,7 @@
           </li>
         </capMods>
         <statOffsets>
-          <PsychicSensitivity>-0.5</PsychicSensitivity>
+          <PsychicSensitivity>-0.2</PsychicSensitivity>
           <MentalBreakThreshold>-0.1</MentalBreakThreshold>
         </statOffsets>
       </li>

@@ -52,7 +52,7 @@ namespace Polarisbloc
                 }
                 if (PawnUtility.ShouldSendNotificationAbout(pawn) || PawnUtility.ShouldSendNotificationAbout(billDoer) && !hediffs.NullOrEmpty())
                 {
-                    Messages.Message("MessageSuccessfullyRemovedHediff".Translate(billDoer.LabelShort, pawn.LabelShort, textHediffs), pawn, MessageTypeDefOf.PositiveEvent);
+                    Messages.Message("PolarisMessageSuccessfullyRemovedImplants".Translate(billDoer.LabelShort, pawn.LabelShort, textHediffs), pawn, MessageTypeDefOf.PositiveEvent);
                 }
                 if (!hediffs.NullOrEmpty())
                 {

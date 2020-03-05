@@ -6,6 +6,7 @@
     <description>The Security Force, associated with the Polarisbloc, provide security support for the Polarisbloc. At the same time, it is also ordered by Polarisbloc to carry out the untold task.</description>
     <pawnSingular>Soldier</pawnSingular>
     <pawnsPlural>Soldiers</pawnsPlural>
+    <categoryTag>Outlander</categoryTag>
     <settlementGenerationWeight>0.24</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <maxCountAtGameStart>1</maxCountAtGameStart>

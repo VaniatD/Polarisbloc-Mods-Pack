@@ -65,6 +65,7 @@
     <Compile Include="Decoder\JobDriver_Decode.cs" />
     <Compile Include="Misc\Gas_HealingGas.cs" />
     <Compile Include="Decoder\ModExtension_DecoderConfigcs.cs" />
+    <Compile Include="Surgeries\Recipe_ExtractAbility.cs" />
     <Compile Include="Surgeries\Dialog_ChangeAge.cs" />
     <Compile Include="Medicines\HediffComp_ReceptorAntagonist.cs" />
     <Compile Include="Medicines\ReceptorAntagonistDatabase.cs" />
