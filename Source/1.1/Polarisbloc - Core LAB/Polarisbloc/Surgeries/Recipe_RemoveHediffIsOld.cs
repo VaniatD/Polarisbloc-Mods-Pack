@@ -45,7 +45,7 @@ namespace Polarisbloc
                 {
                     
                     HediffComp_GetsPermanent permanent = hediff.TryGetComp<HediffComp_GetsPermanent>();
-                    if (permanent != null && part.def.permanentInjuryChanceFactor < 0.99f && hediff.def.injuryProps != null)
+                    if (permanent != null && part.def.permanentInjuryChanceFactor < 1.1f && hediff.def.injuryProps != null)
                     {
                         permanent.IsPermanent = false;
                     }

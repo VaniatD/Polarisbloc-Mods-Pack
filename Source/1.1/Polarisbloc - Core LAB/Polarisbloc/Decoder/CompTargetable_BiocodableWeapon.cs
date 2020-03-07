@@ -25,7 +25,7 @@ namespace Polarisbloc
 				canTargetBuildings = false,
 				canTargetItems = true,
 				mapObjectTargetsMustBeAutoAttackable = false,
-				validator = ((TargetInfo x) => this.IsBiocodableWeapon(x.Thing))
+				validator = ((TargetInfo x) => this.IsBiocodableWeapon(x.Thing) || this.IsBladeLinkWeapon(x.Thing))
 			};
 		}
 
@@ -39,6 +39,15 @@ namespace Polarisbloc
 		private bool IsBiocodableWeapon(Thing t)
 		{
 			if (t.TryGetComp<CompBiocodableWeapon>() != null)
+			{
+				return true;
+			}
+			return false;
+		}
+
+		private bool IsBladeLinkWeapon(Thing t)
+		{
+			if (t.TryGetComp<CompBladelinkWeapon>() != null)
 			{
 				return true;
 			}

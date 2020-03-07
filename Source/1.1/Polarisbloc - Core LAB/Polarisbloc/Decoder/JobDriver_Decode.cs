@@ -73,44 +73,57 @@ namespace Polarisbloc
 		private void Recode()
 		{
 			CompBiocodableWeapon biocodableWeapon = this.CodableThing.TryGetComp<CompBiocodableWeapon>();
+			CompBladelinkWeapon bladelinkWeapon = this.CodableThing.TryGetComp<CompBladelinkWeapon>();
+			bool selfDestory = false;
+			if (Rand.Value > this.SuccessChance)
+			{
+				Messages.Message("PolarisDecoderFailedUsedForPawn".Translate(this.pawn.NameShortColored, this.CodableThing.Label), MessageTypeDefOf.NegativeEvent, true);
+				if (Rand.Value < this.Configs.selfDestoryOnFailed)
+				{
+					Messages.Message("PolarisDecoderSelfDestroyed".Translate(), MessageTypeDefOf.NegativeEvent, true);
+					this.Item.SplitOff(1).Destroy(DestroyMode.Vanish);
+				}
+				return;
+			}
+			Messages.Message("PolarisDecoderSuccessedUsedForPawn".Translate(this.pawn.NameShortColored, this.CodableThing.Label), this.pawn, MessageTypeDefOf.PositiveEvent, true);
 			if (biocodableWeapon != null)
 			{
 				if (biocodableWeapon.Biocoded)
 				{
-					if (Rand.Value < this.SuccessChance)
+					biocodableWeapon.CodeFor(this.pawn);
+					if (Rand.Value < this.Configs.selfDestoryOnSuccessed)
 					{
-						biocodableWeapon.CodeFor(this.pawn);
-						Messages.Message("PolarisDecoderSuccessedUsedForPawn".Translate(this.pawn.NameShortColored, this.CodableThing.Label), this.pawn, MessageTypeDefOf.PositiveEvent, true);
-						if (Rand.Value < this.Configs.selfDestoryOnSuccessed)
-						{
-							this.Item.SplitOff(1).Destroy(DestroyMode.Vanish);
-							Messages.Message("PolarisDecoderSelfDestroyed".Translate(), MessageTypeDefOf.NegativeEvent, true);
-						}
-					}
-					else
-					{
-						if (Rand.Value < this.Configs.selfDestoryOnFailed)
-						{
-							this.Item.SplitOff(1).Destroy(DestroyMode.Vanish);
-							Messages.Message("PolarisDecoderSelfDestroyed".Translate(), MessageTypeDefOf.NegativeEvent, true);
-						}
-						else
-						{
-							Messages.Message("PolarisDecoderFailedUsedForPawn".Translate(this.pawn.NameShortColored, this.CodableThing.Label), MessageTypeDefOf.NegativeEvent, true);
-						}
+						selfDestory = true;
 					}
 				}
 				else
 				{
 					biocodableWeapon.CodeFor(this.pawn);
-					Messages.Message("PolarisDecoderSuccessedUsedForPawn".Translate(this.pawn.NameShortColored, this.CodableThing.Label), this.pawn, MessageTypeDefOf.PositiveEvent, true);
+					
 				}
 			}
-			else
+			if (bladelinkWeapon != null)
+			{
+				if (bladelinkWeapon.bondedPawn != this.pawn)
+				{
+					bladelinkWeapon.bondedPawn = null;
+					bladelinkWeapon.Notify_Equipped(this.pawn);
+					if (Rand.Value < this.Configs.selfDestoryOnSuccessed)
+					{
+						selfDestory = true;
+					}
+				}
+			}
+			if (biocodableWeapon == null && bladelinkWeapon == null)
 			{
 				throw new ArgumentOutOfRangeException();
 			}
-			
+			if (selfDestory)
+			{
+				this.Item.SplitOff(1).Destroy(DestroyMode.Vanish);
+				Messages.Message("PolarisDecoderSelfDestroyed".Translate(), MessageTypeDefOf.NegativeEvent, true);
+			}
+
 		}
 
 		private const int DurationTicks = 1200;

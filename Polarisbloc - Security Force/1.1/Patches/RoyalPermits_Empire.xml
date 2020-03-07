@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ============================= Permits from royal titles ============================= -->
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>/Defs/TipSetDef[defName = "RoyaltyTips"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RoyalTitlePermitDef>
+              <defName>Polaris_CallSFSquad</defName>
+              <label>call security force squad</label>
+              <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+              <royalAid>
+                <favorCost>8</favorCost>
+                <pawnKindDef>Polarisbloc_SFSoldier</pawnKindDef>
+                <pawnCount>4</pawnCount>
+              </royalAid>
+              <cooldownDays>30</cooldownDays>
+            </RoyalTitlePermitDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RoyalTitleDef[defName = "Count"]/permits</xpath>
+          <value>
+            <li>Polaris_CallSFSquad</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

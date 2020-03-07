@@ -36,12 +36,9 @@ namespace Polarisbloc
                     pawn
                 });
                 pawn.health.RestorePart(part, null, true);
-                if (part.def.permanentInjuryChanceFactor < 0.99f)
-                {
-                    float amount = part.def.GetMaxHealth(pawn) * 0.75f;
-                    DamageInfo dinfo = new DamageInfo(DamageDefOf.SurgicalCut, amount, 2f, -1f, null, part, null, DamageInfo.SourceCategory.ThingOrUnknown, null);
-                    pawn.TakeDamage(dinfo);
-                }
+                float amount = part.def.GetMaxHealth(pawn) * 0.75f;
+                DamageInfo dinfo = new DamageInfo(DamageDefOf.SurgicalCut, amount, 2f, -1f, null, part, null, DamageInfo.SourceCategory.ThingOrUnknown, null);
+                pawn.TakeDamage(dinfo);
             }
         }
     }

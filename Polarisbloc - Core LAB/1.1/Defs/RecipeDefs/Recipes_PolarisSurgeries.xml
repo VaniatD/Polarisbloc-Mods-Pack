@@ -223,7 +223,7 @@
     <workerClass>Polarisbloc.Recipe_RestoreMissingPart</workerClass>
     <jobString>restoring.</jobString>
     <workAmount>2400</workAmount>
-    <surgerySuccessChanceFactor>0.4</surgerySuccessChanceFactor>
+    <surgerySuccessChanceFactor>0.5</surgerySuccessChanceFactor>
     <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
     <ingredients>
       <li>
