@@ -4,11 +4,7 @@
     <race>Human</race>
     <defaultFactionType>Vanya_ChaserArmada</defaultFactionType>
     <baseRecruitDifficulty>0.998</baseRecruitDifficulty>
-    <backstoryCategories>
-      <li>Outlander</li>
-      <li>Outsider</li>
-      <li>Offworld</li>
-    </backstoryCategories>
+    <!--<backstoryCategories><li>Outlander</li><li>Outsider</li><li>Offworld</li></backstoryCategories>-->
     <chemicalAddictionChance>0</chemicalAddictionChance>
     <invNutrition>4.8</invNutrition>
     <itemQuality>Excellent</itemQuality>

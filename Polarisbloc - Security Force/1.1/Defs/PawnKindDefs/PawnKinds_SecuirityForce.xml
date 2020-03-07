@@ -4,11 +4,7 @@
     <race>Human</race>
     <defaultFactionType>Polaribloc_SecuirityForce</defaultFactionType>
     <baseRecruitDifficulty>0.99</baseRecruitDifficulty>
-    <backstoryCategories>
-      <li>Outlander</li>
-      <li>Outsider</li>
-      <li>Offworld</li>
-    </backstoryCategories>
+    <!--<backstoryCategories><li>Outlander</li><li>Outsider</li><li>Offworld</li></backstoryCategories>-->
     <chemicalAddictionChance>0</chemicalAddictionChance>
     <invNutrition>4.8</invNutrition>
     <itemQuality>Normal</itemQuality>

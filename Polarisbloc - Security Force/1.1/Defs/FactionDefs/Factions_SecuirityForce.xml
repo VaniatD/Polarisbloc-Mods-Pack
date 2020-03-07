@@ -106,22 +106,14 @@
       </points>
     </raidCommonalityFromPointsCurve>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-    <!--<backstoryCategories><li>Outlander</li></backstoryCategories>-->
     <goodwillDailyGain>0.40</goodwillDailyGain>
     <goodwillDailyFall>0.30</goodwillDailyFall>
     <factionIconPath>PolarisblocSF/World/SFIcon</factionIconPath>
     <backstoryFilters>
       <li>
         <categories>
-          <li>Outlander</li>
+          <li>Pirate</li>
         </categories>
-        <commonality>0.95</commonality>
-      </li>
-      <li>
-        <categories>
-          <li>Offworld</li>
-        </categories>
-        <commonality>0.05</commonality>
       </li>
     </backstoryFilters>
   </FactionDef>

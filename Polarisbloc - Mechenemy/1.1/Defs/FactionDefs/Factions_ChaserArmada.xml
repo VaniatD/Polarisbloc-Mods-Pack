@@ -124,21 +124,13 @@
         <li>(4000, 1)</li>
       </points>
     </raidCommonalityFromPointsCurve>
-    <!--<backstoryCategories><li>Raider</li></backstoryCategories>-->
     <goodwillDailyGain>0.20</goodwillDailyGain>
     <goodwillDailyFall>0.50</goodwillDailyFall>
     <backstoryFilters>
       <li>
         <categories>
-          <li>Outlander</li>
+          <li>Pirate</li>
         </categories>
-        <commonality>0.95</commonality>
-      </li>
-      <li>
-        <categories>
-          <li>Offworld</li>
-        </categories>
-        <commonality>0.05</commonality>
       </li>
     </backstoryFilters>
   </FactionDef>

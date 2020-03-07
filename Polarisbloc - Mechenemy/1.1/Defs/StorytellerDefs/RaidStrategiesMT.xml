@@ -13,8 +13,8 @@
     <selectionWeightPerPointsCurve>
       <points>
         <li>(2000,0)</li>
-        <li>(2700,1)</li>
-        <li>(3200,1.5)</li>
+        <li>(2700,0.25)</li>
+        <li>(3200,0.5)</li>
       </points>
     </selectionWeightPerPointsCurve>
     <pointsFactorCurve>
