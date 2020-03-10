@@ -62,7 +62,7 @@ namespace Polarisbloc_Incidents
             powerConduit = null;
             List<Building> list = map.listerBuildings.allBuildingsColonist;
             if ((from x in list
-                 where x.TryGetComp<CompPowerTransmitter>() != null
+                 where x.TryGetComp<CompPowerTransmitter>() != null && x.TryGetComp<CompShipPart>() == null
                  select x).TryRandomElement(out powerConduit))
             {
                 result = true;

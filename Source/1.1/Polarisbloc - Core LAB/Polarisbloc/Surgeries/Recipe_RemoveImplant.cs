@@ -62,7 +62,7 @@ namespace Polarisbloc
                         if (hediffs[i].def.spawnThingOnRemoved != null)
                         {
                             Thing thing = ThingMaker.MakeThing(hediffs[i].def.spawnThingOnRemoved);
-                            GenPlace.TryPlaceThing(thing, billDoer.Position, billDoer.Map, ThingPlaceMode.Near);
+                            GenPlace.TryPlaceThing(thing, pawn.Position, billDoer.Map, ThingPlaceMode.Near);
                             //GenSpawn.Spawn(hediffs[i].def.spawnThingOnRemoved, billDoer.Position, billDoer.Map);
                         }
                     }

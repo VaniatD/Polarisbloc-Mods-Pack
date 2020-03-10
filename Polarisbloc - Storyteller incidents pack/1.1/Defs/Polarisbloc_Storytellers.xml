@@ -306,7 +306,7 @@
             <li>(30, 1)</li>
           </points>
         </acceptFractionByDaysPassedCurve>
-        <minSpacingDays>3</minSpacingDays>
+        <minSpacingDays>0.25</minSpacingDays>
         <disableIfAnyModActive>
           <li>Ludeon.RimWorld.Royalty</li>
         </disableIfAnyModActive>
@@ -318,14 +318,14 @@
           <li>World</li>
         </allowedTargetTags>
         <onDays>12</onDays>
-        <numIncidentsRange>2</numIncidentsRange>
+        <numIncidentsRange>1~4</numIncidentsRange>
         <acceptFractionByDaysPassedCurve>
           <points>
             <li>(5, 0)</li>
             <li>(11, 1)</li>
           </points>
         </acceptFractionByDaysPassedCurve>
-        <minSpacingDays>3</minSpacingDays>
+        <minSpacingDays>0.25</minSpacingDays>
         <enableIfAnyModActive>
           <li>Ludeon.RimWorld.Royalty</li>
         </enableIfAnyModActive>
@@ -431,8 +431,8 @@
           <li>Map_PlayerHome</li>
         </allowedTargetTags>
         <minDaysPassed>15</minDaysPassed>
-        <mtbDays>1.67</mtbDays>
-        <maxThreatBigIntervalDays>7</maxThreatBigIntervalDays>
+        <mtbDays>1.42</mtbDays>
+        <maxThreatBigIntervalDays>6</maxThreatBigIntervalDays>
         <minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
         <randomPointsFactorRange>0.1~1.7</randomPointsFactorRange>
         <skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
@@ -451,15 +451,15 @@
           <li>Map_PlayerHome</li>
         </allowedTargetTags>
         <minDaysPassed>1</minDaysPassed>
-        <mtbDays>1.53</mtbDays>
-        <maxThreatBigIntervalDays>10</maxThreatBigIntervalDays>
+        <mtbDays>1.47</mtbDays>
+        <maxThreatBigIntervalDays>8</maxThreatBigIntervalDays>
         <minIncChancePopulationIntentFactor>0.1</minIncChancePopulationIntentFactor>
         <randomPointsFactorRange>0.1~1.9</randomPointsFactorRange>
         <skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
         <categoryWeights>
-          <Misc>3.5</Misc>
+          <Misc>2.5</Misc>
           <OrbitalVisitor>0.7</OrbitalVisitor>
-          <ThreatBig>1.75</ThreatBig>
+          <ThreatBig>2.75</ThreatBig>
           <ThreatSmall>1.8</ThreatSmall>
           <FactionArrival>0.8</FactionArrival>
           <AllyAssistance>0.7</AllyAssistance>
@@ -794,14 +794,14 @@
           <li>World</li>
         </allowedTargetTags>
         <onDays>10</onDays>
-        <numIncidentsRange>1~2</numIncidentsRange>
+        <numIncidentsRange>1~3</numIncidentsRange>
         <acceptFractionByDaysPassedCurve>
           <points>
             <li>(5, 0)</li>
             <li>(30, 1)</li>
           </points>
         </acceptFractionByDaysPassedCurve>
-        <minSpacingDays>3</minSpacingDays>
+        <minSpacingDays>0.2</minSpacingDays>
         <disableIfAnyModActive>
           <li>Ludeon.RimWorld.Royalty</li>
         </disableIfAnyModActive>
@@ -813,14 +813,14 @@
           <li>World</li>
         </allowedTargetTags>
         <onDays>12</onDays>
-        <numIncidentsRange>2</numIncidentsRange>
+        <numIncidentsRange>1~4</numIncidentsRange>
         <acceptFractionByDaysPassedCurve>
           <points>
             <li>(5, 0)</li>
             <li>(11, 1)</li>
           </points>
         </acceptFractionByDaysPassedCurve>
-        <minSpacingDays>3</minSpacingDays>
+        <minSpacingDays>0.25</minSpacingDays>
         <enableIfAnyModActive>
           <li>Ludeon.RimWorld.Royalty</li>
         </enableIfAnyModActive>

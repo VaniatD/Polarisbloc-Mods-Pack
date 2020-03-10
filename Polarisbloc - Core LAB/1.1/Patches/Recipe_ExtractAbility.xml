@@ -31,7 +31,7 @@
           </heldByFactionCategoryTags>
         </ResearchProjectDef>
         <RecipeDef ParentName="PolarisSurgerybase">
-          <defName>Recipe_ExtractAbility</defName>
+          <defName>PolarisExtractAbility</defName>
           <label>extract ability</label>
           <description>Use a psytrainer to extract ability on pawn's brain.</description>
           <workerClass>Polarisbloc.Recipe_ExtractAbility</workerClass>

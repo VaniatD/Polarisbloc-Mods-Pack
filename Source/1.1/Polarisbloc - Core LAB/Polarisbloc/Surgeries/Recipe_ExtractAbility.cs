@@ -65,7 +65,7 @@ namespace Polarisbloc
 						string thingDefName = NeurotrainerDefGenerator.PsytrainerDefPrefix + "_" + ability.def.defName;
 						ThingDef thingDef = DefDatabase<ThingDef>.AllDefsListForReading.Find(x => x.defName.Equals(thingDefName));
 						Thing thing = ThingMaker.MakeThing(thingDef, null);
-						GenPlace.TryPlaceThing(thing, billDoer.Position, billDoer.Map, ThingPlaceMode.Near);
+						GenPlace.TryPlaceThing(thing, pawn.Position, billDoer.Map, ThingPlaceMode.Near);
 						string abilityName = ability.def.LabelCap;
 						pawn.abilities.abilities.Remove(ability);
 						Messages.Message("PolarisExtractAbilitySuccessfully".Translate(pawn.NameShortColored, abilityName), pawn, MessageTypeDefOf.NeutralEvent, true);

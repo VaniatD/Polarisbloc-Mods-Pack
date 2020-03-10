@@ -66,8 +66,9 @@
     <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
     <stages>
       <li>
-        <painFactor>0.8</painFactor>
+        <painOffset>-0.2</painOffset>
         <restFallFactor>0.8</restFallFactor>
+        <partEfficiencyOffset>0.05</partEfficiencyOffset>
         <statOffsets>
           <MoveSpeed>0.8</MoveSpeed>
           <MeleeDodgeChance>8</MeleeDodgeChance>
@@ -76,6 +77,7 @@
         </statOffsets>
       </li>
     </stages>
+    <!--<comps><li Class="HediffCompProperties"><compClass>HediffComp_Invisibility</compClass></li></comps>-->
   </HediffDef>
   <HediffDef ParentName="PolarisCombatChipHediffBase">
     <defName>PolarisCombatChip_Medical</defName>
@@ -128,6 +130,30 @@
     </stages>
     <comps>
       <li Class="Polarisbloc.HediffCompProperties_Inspire" />
+    </comps>
+    <disablesNeed>Outdoors</disablesNeed>
+  </HediffDef>
+  <HediffDef ParentName="PolarisCombatChipHediffBase">
+    <defName>PolarisCombatChip_Assassin</defName>
+    <label>combat chip (assassin)</label>
+    <labelNoun>a combat chip</labelNoun>
+    <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
+    <stages>
+      <li>
+        <painOffset>-0.2</painOffset>
+        <restFallFactor>0.8</restFallFactor>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0.6</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties">
+        <compClass>HediffComp_Invisibility</compClass>
+      </li>
     </comps>
   </HediffDef>
 </Defs>

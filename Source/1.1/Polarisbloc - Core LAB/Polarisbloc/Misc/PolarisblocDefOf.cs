@@ -6,6 +6,11 @@ namespace Polarisbloc
     [DefOf]
     public static class PolarisblocDefOf
     {
+        static PolarisblocDefOf()
+        {
+            DefOfHelper.EnsureInitializedInCtor(typeof(PolarisblocDefOf));
+        }
+
         public static ThingDef PolarisCartridge;
 
         public static HediffDef Hediff_PloarisCartridge;

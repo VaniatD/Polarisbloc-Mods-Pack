@@ -12,6 +12,11 @@ namespace Polarisbloc_Incidents
     {
         //public static SiteCoreDef Polaris_TradeShipPodCrashSiteCore;
 
+        static PolarisIncidentDefOf()
+        {
+            DefOfHelper.EnsureInitializedInCtor(typeof(PolarisIncidentDefOf));
+        }
+
         public static JobDef Skygaze;
     }
 }

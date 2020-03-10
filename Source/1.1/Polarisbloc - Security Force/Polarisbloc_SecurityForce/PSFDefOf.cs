@@ -10,6 +10,11 @@ namespace Polarisbloc_SecurityForce
     [DefOf]
     public static class PSFDefOf
     {
+        static PSFDefOf()
+        {
+            DefOfHelper.EnsureInitializedInCtor(typeof(PSFDefOf));
+        }
+
         public static ThingDef PolarisBunnyGundamSculpture;
 
         public static FactionDef Polaribloc_SecuirityForce;
