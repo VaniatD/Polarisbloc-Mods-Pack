@@ -36,9 +36,6 @@ namespace Polarisbloc
                 action = delegate
                 {
                     this.AddTrait(usedBy, trait, traits);
-                    usedBy.skills.Notify_SkillDisablesChanged();
-                    
-                    usedBy.workSettings.EnableAndInitialize();
                     base.parent.Destroy();
                 },
                 resolveTree = true
@@ -48,33 +45,12 @@ namespace Polarisbloc
                 diaOptionAddTrait.disabled = true;
                 diaOptionAddTrait.disabledReason = "PolarisTraitreleaserAlreadyHadTrait".Translate();
             }
-            /*else if (traits.Count >= 8)
-            {
-                diaOptionAddTrait.disabled = true;
-                diaOptionAddTrait.disabledReason = "PolarisTraitreleaserHasNoEnoughSlots".Translate();
-            }*/
             diaNode.options.Add(diaOptionAddTrait);
 
             DiaOption diaOptionRemoveTrait = new DiaOption("PolarisTraitreleaserRemoveTraitOption".Translate(this.parent.GetComp<CompTraitreleaser>().availableTimes))
             {
                 action = delegate
                 {
-                    /*string textRemoveTrait = "PolarisTraitreleaserChoseRemoveTrait".Translate();
-                    DiaNode diaNodeRemoveTrait = new DiaNode(textRemoveTrait);
-
-                    foreach (DiaOption diaOption in this.GetDiaOptions(usedBy))
-                    {
-                        diaNodeRemoveTrait.options.Add(diaOption);
-                    }
-
-                    DiaOption diaOptionBack = new DiaOption("GoBack".Translate())
-                    {
-                        resolveTree = false,
-                        link = diaNode
-                    };
-                    diaNodeRemoveTrait.options.Add(diaOptionBack);
-                    Find.WindowStack.Add(new Dialog_NodeTree(diaNodeRemoveTrait, true, true));*/
-
                     List<DebugMenuOption> list = new List<DebugMenuOption>();
                     foreach (DebugMenuOption option in this.GenDebugMenuOptions(usedBy))
                     {
@@ -128,16 +104,10 @@ namespace Polarisbloc
                     }
                 }
                 usedBy.story.traits.GainTrait(trait);
-                //traits.Add(trait);
                 Messages.Message("PolarisTraitreleaserUsedReplaceConflitTraits".Translate(usedBy.LabelShort, trait.LabelCap, textConflitTraits), usedBy, MessageTypeDefOf.PositiveEvent);
             }
-            /*else if (traits.Count >= 8)
-            {
-                Messages.Message("PolarisTraitreleaserUsedHasNoEnoughSlots".Translate(usedBy.LabelShort), usedBy, MessageTypeDefOf.NegativeEvent);
-            }*/
             else
             {
-                //traits.Add(trait);
                 usedBy.story.traits.GainTrait(trait);
                 Messages.Message("PolarisTraitreleaserUsedAddTrait".Translate(usedBy.LabelShort, trait.LabelCap), usedBy, MessageTypeDefOf.PositiveEvent);
             }
@@ -163,38 +133,10 @@ namespace Polarisbloc
             {
                 if (temp.def.defName == trait.def.defName && temp.Degree == trait.Degree)
                 {
-                    //strait = temp;
                     return true;
                 } 
             }
-            //strait = new Trait();
             return false;
-        }
-
-        private IEnumerable<DiaOption> GetDiaOptions(Pawn usedBy)
-        {
-            foreach (Trait trait in usedBy.story.traits.allTraits)
-            {
-                DiaOption diaOption = new DiaOption(trait.LabelCap)
-                {
-                    action = delegate
-                    {
-                        Trait reTrait = new Trait(trait.def, trait.Degree);
-                        PolarisUtility.GainSkillsExtra(usedBy, trait.CurrentData.skillGains, false);
-                        usedBy.story.traits.allTraits.Remove(trait);
-                        
-                        //this.RefreshPawnStat(usedBy);
-                        PolarisUtility.RefreshPawnStat(usedBy);
-                        
-                        this.parent.GetComp<CompTraitreleaser>().trait = reTrait;
-                        this.parent.GetComp<CompTraitreleaser>().availableTimes--;
-                        Messages.Message("PolarisTraitreleaserUsedRemovedTrait".Translate(usedBy.LabelShort, trait.LabelCap), usedBy, MessageTypeDefOf.PositiveEvent);
-                    },
-                    resolveTree = true
-                };
-                yield return diaOption;
-            }
-            yield break;
         }
 
         private IEnumerable<DebugMenuOption> GenDebugMenuOptions(Pawn usedBy)
@@ -222,27 +164,6 @@ namespace Polarisbloc
 
             yield break;
         }
-
-        /*private void RefreshPawnStat(Pawn pawn)
-        {
-            if (pawn.workSettings != null)
-            {
-                pawn.workSettings.Notify_GainedTrait();
-            }
-            typeof(Pawn_StoryTracker).GetField("cachedDisabledWorkTypes", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(pawn.story, null);
-            if (pawn.skills != null)
-            {
-                pawn.skills.Notify_SkillDisablesChanged();
-            }
-            if (!pawn.Dead && pawn.RaceProps.Humanlike)
-            {
-                pawn.needs.mood.thoughts.situational.Notify_SituationalThoughtsDirty();
-            }
-        }*/
     }
 }
 
-
-//PortraitsCache.SetDirty(usedBy);
-//BackCompatibility.PawnPostLoadInit(usedBy);
-//usedBy.skills.Notify_SkillDisablesChanged();

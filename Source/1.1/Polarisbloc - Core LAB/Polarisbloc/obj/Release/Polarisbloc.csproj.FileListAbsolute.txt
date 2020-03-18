@@ -130,3 +130,4 @@ E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Core LAB\Polarisbloc\obj
 E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Core LAB\Polarisbloc\obj\Release\Polarisbloc.csproj.CopyComplete
 E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Core LAB\Polarisbloc\obj\Release\Polarisbloc.dll
 E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Core LAB\Polarisbloc\obj\Release\Polarisbloc.pdb
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Core LAB\Polarisbloc\obj\Release\Polarisbloc.csproj.CoreCompileInputs.cache

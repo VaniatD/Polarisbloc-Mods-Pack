@@ -8,6 +8,7 @@
   <PolarisConvertCombatChipTitle>選擇戰術芯片</PolarisConvertCombatChipTitle>
   <PolarisConvertCombatChipDESC>請在以下條目中選擇你想要的芯片種類。</PolarisConvertCombatChipDESC>
   <PolarisMessageFailedConvertCombatChip>{0}沒有可用的戰術芯片。</PolarisMessageFailedConvertCombatChip>
+  <PolarisConvertCombatHasNoChip>沒有戰術芯片</PolarisConvertCombatHasNoChip>
   <!--orbital trader caller-->
   <PolarisOrbitalTraderCouldNotArrival>附近的軌道沒有足夠的空間來容納新的軌道商。</PolarisOrbitalTraderCouldNotArrival>
   <!--heal old wounds-->
@@ -68,4 +69,8 @@
   <PolarisExtractAbilityFailed>無法提取{0}的能力。</PolarisExtractAbilityFailed>
   <!--remove implant-->
   <PolarisMessageSuccessfullyRemovedImplants>{1}成功移除了{1}的{2}。</PolarisMessageSuccessfullyRemovedImplants>
+  <!--shield belt-->
+  <PlrsForceResetLabel>強行激活</PlrsForceResetLabel>
+  <PlrsForceResetDESC>消耗一些護盾耐久度強行激活護盾。</PlrsForceResetDESC>
+  <PlrsNoEnoughHitPointsToReset>沒有足夠的耐久度。</PlrsNoEnoughHitPointsToReset>
 </LanguageData>

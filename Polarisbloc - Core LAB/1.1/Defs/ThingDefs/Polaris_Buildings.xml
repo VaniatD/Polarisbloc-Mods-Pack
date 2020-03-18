@@ -135,7 +135,7 @@
       <li>BuildingsSpecial</li>
     </thingCategories>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
@@ -203,6 +203,7 @@
       <isEdifice>false</isEdifice>
     </building>
     <canOverlapZones>true</canOverlapZones>
+    <clearBuildingArea>false</clearBuildingArea>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <defName>PolarisMendingShelf</defName>

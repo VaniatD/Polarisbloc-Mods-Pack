@@ -107,7 +107,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_CaniculaRifle</defaultProjectile>
         <warmupTime>2</warmupTime>
-        <range>36</range>
+        <range>33.4</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <burstShotCount>4</burstShotCount>
         <soundCast>Shot_ChargeRifle</soundCast>
@@ -182,8 +182,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_CaniculaSniper</defaultProjectile>
-        <warmupTime>3.9</warmupTime>
-        <range>54</range>
+        <warmupTime>4.2</warmupTime>
+        <range>47.7</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -212,5 +212,9 @@
       </li>
     </tools>
     <equippedAngleOffset>47</equippedAngleOffset>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>WeaponBladelink</li>
+    </thingSetMakerTags>
   </ThingDef>
 </Defs>

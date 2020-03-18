@@ -330,7 +330,7 @@ namespace Polarisbloc_SecurityForce
 
         private void TryShotLightning(DamageInfo dinfo)
         {
-            if (dinfo.Instigator != null)
+            if (dinfo.Instigator != null && this.canLightning)
             {
                 if (dinfo.Instigator.def == ThingDefOf.Fire)
                 {

@@ -13,6 +13,17 @@ namespace Polarisbloc
                                               where x.hediffClass == typeof(Polarisbloc.Hediff_CombatChip)
                                               select x).ToList<HediffDef>();
 
+        public override bool CanBeUsedBy(Pawn p, out string failReason)
+        {
+            if (p.health.hediffSet.hediffs.Find(x => x.def.hediffClass == typeof(Polarisbloc.Hediff_CombatChip)) != null || p.health.hediffSet.hediffs.Find(x => x.def == PolarisblocDefOf.PolarisCombatChip_NotActive) != null)
+            {
+                return base.CanBeUsedBy(p, out failReason);
+            }
+            failReason = "PolarisConvertCombatHasNoChip".Translate();
+            return false;
+        }
+
+
         public override void DoEffect(Pawn usedBy)
         {
             base.DoEffect(usedBy);
@@ -69,32 +80,5 @@ namespace Polarisbloc
             }
             yield break;
         }
-
-
-        /*public override void DoEffect(Pawn usedBy)
-        {
-            base.DoEffect(usedBy);
-            HediffDef hediffDef = base.parent.GetComp<CompCombatChip>().hediffDef;
-            Hediff appHediff = HediffMaker.MakeHediff(hediffDef, usedBy , usedBy.health.hediffSet.GetBrain());
-            Hediff reHediff = usedBy.health.hediffSet.hediffs.Find(x => x.def.hediffClass == typeof(Polarisbloc.Hediff_CombatChip));
-            Hediff bHediff = usedBy.health.hediffSet.hediffs.Find(x => x.def == PolarisblocDefOf.PolarisCombatChip_NotActive);
-            if (bHediff != null)
-            {
-                usedBy.health.RemoveHediff(bHediff);
-                usedBy.health.AddHediff(appHediff);
-                Messages.Message("PolarisMessageSuccessfullyConvertCombatChip".Translate(usedBy.LabelShort, bHediff.LabelCap, appHediff.LabelCap), usedBy, MessageTypeDefOf.PositiveEvent);
-            }
-            else if (reHediff != null && reHediff.def == hediffDef)
-            {
-                Messages.Message("PolarisMessageHaveSameCombatChip".Translate(usedBy.LabelShort , reHediff.LabelCap), usedBy, MessageTypeDefOf.NegativeEvent);
-            }
-            else if (reHediff != null)
-            {
-                usedBy.health.RemoveHediff(reHediff);
-                usedBy.health.AddHediff(appHediff);
-                Messages.Message("PolarisMessageSuccessfullyConvertCombatChip".Translate(usedBy.LabelShort, reHediff.LabelCap, appHediff.LabelCap), usedBy, MessageTypeDefOf.PositiveEvent);
-            }
-            else Messages.Message("PolarisMessageFailedConvertCombatChip".Translate(usedBy.LabelShort), usedBy, MessageTypeDefOf.NegativeEvent);
-        }*/
     }
 }

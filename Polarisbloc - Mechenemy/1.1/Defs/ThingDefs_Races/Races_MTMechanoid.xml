@@ -8,16 +8,18 @@
       <Flammability>0</Flammability>
       <ComfyTemperatureMin>-150</ComfyTemperatureMin>
       <ComfyTemperatureMax>300</ComfyTemperatureMax>
-      <ArmorRating_Heat>0.8</ArmorRating_Heat>
+      <ArmorRating_Heat>2</ArmorRating_Heat>
       <MeatAmount>0</MeatAmount>
       <MeleeHitChance>13</MeleeHitChance>
     </statBases>
+    <receivesSignals>true</receivesSignals>
     <race>
       <fleshType>Mechanoid</fleshType>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>
       <lifeExpectancy>2500</lifeExpectancy>
+      <bloodDef>Filth_MachineBits</bloodDef>
     </race>
     <damageMultipliers>
       <li>
@@ -49,6 +51,14 @@
         <multiplier>2</multiplier>
       </li>
     </damageMultipliers>
+    <comps>
+      <li Class="CompProperties_CanBeDormant" />
+      <li Class="CompProperties_WakeUpDormant">
+        <wakeUpOnDamage>true</wakeUpOnDamage>
+        <anyColonistCloseCheckRadius>35</anyColonistCloseCheckRadius>
+        <wakeUpSound>MechanoidsWakeUp</wakeUpSound>
+      </li>
+    </comps>
   </ThingDef>
   <ThingDef ParentName="BaseMechanoid_MTV">
     <defName>Vanya_DroidAlpha</defName>

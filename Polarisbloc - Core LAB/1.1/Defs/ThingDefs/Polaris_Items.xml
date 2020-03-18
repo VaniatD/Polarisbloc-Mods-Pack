@@ -24,6 +24,7 @@
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <useHitPoints>true</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
     <selectable>true</selectable>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
@@ -40,7 +41,8 @@
     <comps>
       <li Class="CompProperties_Forbiddable" />
     </comps>
-    <pathCost>15</pathCost>
+    <pathCost>5</pathCost>
+    <burnableByRecipe>true</burnableByRecipe>
     <resourceReadoutPriority>Last</resourceReadoutPriority>
     <drawGUIOverlay>true</drawGUIOverlay>
     <ingestible>
@@ -143,7 +145,7 @@
     <generateCommonality>0.01</generateCommonality>
     <!--<defName>PolarisCartridge</defName>-->
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
   </ThingDef>
   <ThingDef ParentName="PolarisResourceBase">
@@ -181,7 +183,7 @@
       </li>
     </comps>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
   </ThingDef>
   <ThingDef>
@@ -228,7 +230,7 @@
     </thingCategories>
     <pathCost>10</pathCost>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
   </ThingDef>
   <ThingDef ParentName="PolarisResourceBase">
@@ -308,6 +310,7 @@
     <comps>
       <li Class="CompProperties_Drug">
         <listOrder>450</listOrder>
+        <isCombatEnhancingDrug>true</isCombatEnhancingDrug>
       </li>
       <li>
         <compClass>CompEquippable</compClass>
@@ -324,6 +327,7 @@
         <Medicine>9</Medicine>
         <Crafting>6</Crafting>
       </skillRequirements>
+      <bulkRecipeCount>4</bulkRecipeCount>
     </recipeMaker>
     <costList>
       <MedicineIndustrial>3</MedicineIndustrial>
@@ -400,6 +404,7 @@
         <Medicine>9</Medicine>
         <Crafting>6</Crafting>
       </skillRequirements>
+      <bulkRecipeCount>4</bulkRecipeCount>
     </recipeMaker>
     <costList>
       <MedicineIndustrial>2</MedicineIndustrial>
@@ -447,6 +452,7 @@
         <Medicine>9</Medicine>
         <Crafting>6</Crafting>
       </skillRequirements>
+      <bulkRecipeCount>4</bulkRecipeCount>
     </recipeMaker>
     <costList>
       <MedicineIndustrial>1</MedicineIndustrial>
@@ -488,7 +494,7 @@
     </comps>
     <stackLimit>25</stackLimit>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
     <tradeTags>
       <li>ExoticMisc</li>
@@ -543,7 +549,7 @@
     </statBases>
     <!--<techHediffsTags><li>Advanced</li></techHediffsTags>-->
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
   </ThingDef>
   <ThingDef ParentName="PolarisImplantBase">
@@ -656,7 +662,7 @@
       <li>ExoticMisc</li>
     </tradeTags>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
   </ThingDef>
   <JobDef>
@@ -826,7 +832,7 @@
     <tradeability>Sellable</tradeability>
     <resourceReadoutPriority>Last</resourceReadoutPriority>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
     <generateCommonality>0.1</generateCommonality>
   </ThingDef>
@@ -869,7 +875,7 @@
       </li>
     </comps>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
     <inspectorTabs>
       <li>Polarisbloc.ITab_VoidPawn_Character</li>
@@ -886,6 +892,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <stackLimit>4</stackLimit>
+    <techLevel>Spacer</techLevel>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
       <MarketValue>1699</MarketValue>

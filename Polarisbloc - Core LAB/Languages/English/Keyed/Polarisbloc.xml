@@ -8,6 +8,7 @@
   <PolarisConvertCombatChipTitle>Choose tactical chip mode</PolarisConvertCombatChipTitle>
   <PolarisConvertCombatChipDESC>Please select the mode of the tactical chip you wish to convert into with these following options.</PolarisConvertCombatChipDESC>
   <PolarisMessageFailedConvertCombatChip>{0} doesn't have a tactical chip installed or available.</PolarisMessageFailedConvertCombatChip>
+  <PolarisConvertCombatHasNoChip>No combat chip</PolarisConvertCombatHasNoChip>
   <!--orbital trader caller-->
   <PolarisOrbitalTraderCouldNotArrival>There isn't enough room to call a new orbital ship.</PolarisOrbitalTraderCouldNotArrival>
   <!--heal old wounds-->
@@ -68,4 +69,8 @@
   <PolarisExtractAbilityFailed>Could not to extract {0}'s ability.</PolarisExtractAbilityFailed>
   <!--remove implant-->
   <PolarisMessageSuccessfullyRemovedImplants>{1} has successfully removed {1}'s {2}.</PolarisMessageSuccessfullyRemovedImplants>
+  <!--shield belt-->
+  <PlrsForceResetLabel>force reset</PlrsForceResetLabel>
+  <PlrsForceResetDESC>Reset the shield status forcedly, this action will cost some hitpoints.</PlrsForceResetDESC>
+  <PlrsNoEnoughHitPointsToReset>Has no enough hit points for reset.</PlrsNoEnoughHitPointsToReset>
 </LanguageData>

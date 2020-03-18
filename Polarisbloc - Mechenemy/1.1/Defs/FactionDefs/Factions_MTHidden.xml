@@ -76,10 +76,11 @@
         </options>
       </li>
     </pawnGroupMakers>
-    <factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
+    <!--<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>-->
     <allowedArrivalTemperatureRange>
       <min>-150</min>
       <max>250</max>
     </allowedArrivalTemperatureRange>
+    <factionIconPath>World/WorldObjects/Expanding/Sites/MechCluster</factionIconPath>
   </FactionDef>
 </Defs>

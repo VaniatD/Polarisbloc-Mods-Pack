@@ -24,7 +24,6 @@ namespace Polarisbloc
                     PolarisUtility.GainSkillsExtra(usedBy, usedBy.story.childhood.skillGainsResolved, false);
                     PolarisUtility.GainSkillsExtra(usedBy, childhoodStory.skillGainsResolved, true);
                     usedBy.story.childhood = childhoodStory;
-                    //this.RefreshPawnStat(usedBy);
                     PolarisUtility.RefreshPawnStat(usedBy);
                 }
                 else Messages.Message("PolarisMomeryResterHaveNoAvaliableStory".Translate(usedBy.LabelShort), usedBy, MessageTypeDefOf.NegativeEvent);
@@ -37,29 +36,11 @@ namespace Polarisbloc
                     PolarisUtility.GainSkillsExtra(usedBy, usedBy.story.adulthood.skillGainsResolved, false);
                     PolarisUtility.GainSkillsExtra(usedBy, adulthoodStory.skillGainsResolved, true);
                     usedBy.story.adulthood = adulthoodStory;
-                    //this.RefreshPawnStat(usedBy);
                     PolarisUtility.RefreshPawnStat(usedBy);
                 }
                 else Messages.Message("PolarisMomeryResterHaveNoAvaliableStory".Translate(usedBy.LabelShort), usedBy, MessageTypeDefOf.NegativeEvent);
             }
             else Messages.Message("PolarisMomeryResterUnknownError".Translate(), MessageTypeDefOf.NegativeEvent);
         }
-
-        /*private void RefreshPawnStat(Pawn pawn)
-        {
-            if (pawn.workSettings != null)
-            {
-                pawn.workSettings.Notify_GainedTrait();
-            }
-            typeof(Pawn_StoryTracker).GetField("cachedDisabledWorkTypes", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(pawn.story, null);
-            if (pawn.skills != null)
-            {
-                pawn.skills.Notify_SkillDisablesChanged();
-            }
-            if (!pawn.Dead && pawn.RaceProps.Humanlike)
-            {
-                pawn.needs.mood.thoughts.situational.Notify_SituationalThoughtsDirty();
-            }
-        }*/
     }
 }

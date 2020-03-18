@@ -14,10 +14,8 @@ namespace Polarisbloc
         {
             if (pawn.workSettings != null)
             {
-                //pawn.workSettings.EnableAndInitialize();
                 pawn.Notify_DisabledWorkTypesChanged();
             }
-            //typeof(Pawn_StoryTracker).GetField("cachedDisabledWorkTypes", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(pawn.story, null);
             if (pawn.skills != null)
             {
                 pawn.skills.Notify_SkillDisablesChanged();

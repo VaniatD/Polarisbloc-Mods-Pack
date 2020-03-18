@@ -15,7 +15,7 @@ namespace Polarisbloc
             appBodies.Clear();
             for (int i =0; i < allHediffs.Count; i++)
             {
-                if (allHediffs[i].Part != null && allHediffs[i].Visible && allHediffs[i] is Hediff_Implant && !appBodies.Contains(allHediffs[i].Part))
+                if (allHediffs[i].Part != null && allHediffs[i].Visible && allHediffs[i] is Hediff_Implant && !appBodies.Contains(allHediffs[i].Part) && allHediffs[i].def.addedPartProps == null)
                 {
                     appBodies.Add(allHediffs[i].Part);
                 }
@@ -44,7 +44,7 @@ namespace Polarisbloc
                 string textHediffs = string.Empty;
                 foreach (Hediff tempHediff in pawn.health.hediffSet.hediffs)
                 {
-                    if (tempHediff is Hediff_Implant && tempHediff.Part == part && tempHediff.Visible)
+                    if (tempHediff is Hediff_Implant && tempHediff.Part == part && tempHediff.Visible && tempHediff.def.addedPartProps == null)
                     {
                         textHediffs += "*" + tempHediff.LabelCap;
                         hediffs.Add(tempHediff);
