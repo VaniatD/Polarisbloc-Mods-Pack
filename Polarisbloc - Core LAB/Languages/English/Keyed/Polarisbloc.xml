@@ -67,6 +67,7 @@
   <!--extract ability-->
   <PolarisExtractAbilitySuccessfully>Successfully to extract {0}'s {1}.</PolarisExtractAbilitySuccessfully>
   <PolarisExtractAbilityFailed>Could not to extract {0}'s ability.</PolarisExtractAbilityFailed>
+  <PolarisGoodwillChangedReason_ExtractedAbility>extracted {0}'s ability</PolarisGoodwillChangedReason_ExtractedAbility>
   <!--remove implant-->
   <PolarisMessageSuccessfullyRemovedImplants>{1} has successfully removed {1}'s {2}.</PolarisMessageSuccessfullyRemovedImplants>
   <!--shield belt-->

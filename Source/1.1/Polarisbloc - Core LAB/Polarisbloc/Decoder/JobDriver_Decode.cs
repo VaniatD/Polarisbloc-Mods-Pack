@@ -39,6 +39,7 @@ namespace Polarisbloc
 			get
 			{
 				float chance = this.Configs.GetChanceWithIntellectual(this.pawn);
+
 				if (this.CodableThing.TryGetQuality(out QualityCategory qc))
 				{
 					chance *= this.Configs.GetFactorWithQuality(qc);
@@ -72,10 +73,12 @@ namespace Polarisbloc
 
 		private void Recode()
 		{
-			CompBiocodableWeapon biocodableWeapon = this.CodableThing.TryGetComp<CompBiocodableWeapon>();
+			//CompBiocodableWeapon biocodableWeapon = this.CodableThing.TryGetComp<CompBiocodableWeapon>();
+
+			CompBiocodable biocodableThing = this.CodableThing.TryGetComp<CompBiocodable>();
 			CompBladelinkWeapon bladelinkWeapon = this.CodableThing.TryGetComp<CompBladelinkWeapon>();
 			bool selfDestory = false;
-			if (Rand.Value > this.SuccessChance)
+			/*if (Rand.Value > this.SuccessChance)
 			{
 				Messages.Message("PolarisDecoderFailedUsedForPawn".Translate(this.pawn.NameShortColored, this.CodableThing.Label), MessageTypeDefOf.NegativeEvent, true);
 				if (Rand.Value < this.Configs.selfDestoryOnFailed)
@@ -85,8 +88,8 @@ namespace Polarisbloc
 				}
 				return;
 			}
-			Messages.Message("PolarisDecoderSuccessedUsedForPawn".Translate(this.pawn.NameShortColored, this.CodableThing.Label), this.pawn, MessageTypeDefOf.PositiveEvent, true);
-			if (biocodableWeapon != null)
+			Messages.Message("PolarisDecoderSuccessedUsedForPawn".Translate(this.pawn.NameShortColored, this.CodableThing.Label), this.pawn, MessageTypeDefOf.PositiveEvent, true);*/
+			/*if (biocodableWeapon != null)
 			{
 				if (biocodableWeapon.Biocoded)
 				{
@@ -101,20 +104,46 @@ namespace Polarisbloc
 					biocodableWeapon.CodeFor(this.pawn);
 					
 				}
+			}*/
+			if (biocodableThing != null)
+			{
+
+				if (biocodableThing.Biocoded)
+				{
+					if (this.CheckSuccessOnUsed())
+					{
+						biocodableThing.CodeFor(this.pawn);
+						if (Rand.Value < this.Configs.selfDestoryOnSuccessed)
+						{
+							selfDestory = true;
+						}
+					}
+				}
+				else
+				{
+					biocodableThing.CodeFor(this.pawn);
+					Messages.Message("PolarisDecoderSuccessedUsedForPawn".Translate(this.pawn.NameShortColored, this.CodableThing.Label), this.pawn, MessageTypeDefOf.PositiveEvent, true);
+				}
 			}
+
 			if (bladelinkWeapon != null)
 			{
 				if (bladelinkWeapon.bondedPawn != this.pawn)
 				{
-					bladelinkWeapon.bondedPawn = null;
-					bladelinkWeapon.Notify_Equipped(this.pawn);
-					if (Rand.Value < this.Configs.selfDestoryOnSuccessed)
+					if (this.CheckSuccessOnUsed())
 					{
-						selfDestory = true;
+						bladelinkWeapon.bondedPawn = null;
+						bladelinkWeapon.Notify_Equipped(this.pawn);
+						if (Rand.Value < this.Configs.selfDestoryOnSuccessed)
+						{
+							selfDestory = true;
+						}
 					}
+					
 				}
 			}
-			if (biocodableWeapon == null && bladelinkWeapon == null)
+
+			if (biocodableThing == null && bladelinkWeapon == null)
 			{
 				throw new ArgumentOutOfRangeException();
 			}
@@ -124,6 +153,22 @@ namespace Polarisbloc
 				Messages.Message("PolarisDecoderSelfDestroyed".Translate(), MessageTypeDefOf.NegativeEvent, true);
 			}
 
+		}
+
+		private bool CheckSuccessOnUsed()
+		{
+			if (Rand.Value > this.SuccessChance)
+			{
+				Messages.Message("PolarisDecoderFailedUsedForPawn".Translate(this.pawn.NameShortColored, this.CodableThing.Label), MessageTypeDefOf.NegativeEvent, true);
+				if (Rand.Value < this.Configs.selfDestoryOnFailed)
+				{
+					Messages.Message("PolarisDecoderSelfDestroyed".Translate(), MessageTypeDefOf.NegativeEvent, true);
+					this.Item.SplitOff(1).Destroy(DestroyMode.Vanish);
+				}
+				return false;
+			}
+			Messages.Message("PolarisDecoderSuccessedUsedForPawn".Translate(this.pawn.NameShortColored, this.CodableThing.Label), this.pawn, MessageTypeDefOf.PositiveEvent, true);
+			return true;
 		}
 
 		private const int DurationTicks = 1200;

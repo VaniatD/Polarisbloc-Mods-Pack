@@ -280,6 +280,7 @@
         <outOfFuelMessage>Cannot mend: Needs more cloth</outOfFuelMessage>
         <fuelLabel>Cloth</fuelLabel>
         <fuelGizmoLabel>Cloth:</fuelGizmoLabel>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
       </li>
       <li Class="Polarisbloc.CompProperties_CompMendingShelf" />
     </comps>

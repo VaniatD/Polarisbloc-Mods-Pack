@@ -40,6 +40,7 @@ namespace Polarisbloc
 
 		public override void ApplyOnPawn(Pawn pawn, BodyPartRecord part, Pawn billDoer, List<Thing> ingredients, Bill bill)
 		{
+			bool flag = this.IsViolationOnPawn(pawn, part, Faction.OfPlayer);
 			if (billDoer != null)
 			{
 				if (base.CheckSurgeryFail(billDoer, pawn, ingredients, part, bill))
@@ -64,11 +65,16 @@ namespace Polarisbloc
 						compNeurotrainer.ability = ability.def;
 						string thingDefName = NeurotrainerDefGenerator.PsytrainerDefPrefix + "_" + ability.def.defName;
 						ThingDef thingDef = DefDatabase<ThingDef>.AllDefsListForReading.Find(x => x.defName.Equals(thingDefName));
-						Thing thing = ThingMaker.MakeThing(thingDef, null);
-						GenPlace.TryPlaceThing(thing, pawn.Position, billDoer.Map, ThingPlaceMode.Near);
+						//Thing thing = ThingMaker.MakeThing(thingDef, null);
+						//GenPlace.TryPlaceThing(thing, pawn.Position, billDoer.Map, ThingPlaceMode.Near);
+						GenSpawn.Spawn(thingDef, pawn.Position, pawn.Map, WipeMode.Vanish);
 						string abilityName = ability.def.LabelCap;
 						pawn.abilities.abilities.Remove(ability);
 						Messages.Message("PolarisExtractAbilitySuccessfully".Translate(pawn.NameShortColored, abilityName), pawn, MessageTypeDefOf.NeutralEvent, true);
+						if (flag)
+						{
+							base.ReportViolation(pawn, billDoer, pawn.FactionOrExtraHomeFaction, -70, "PolarisGoodwillChangedReason_ExtractedAbility".Translate(pawn.NameShortColored));
+						}
 					}));
 				}
 				Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
@@ -77,6 +83,7 @@ namespace Polarisbloc
 			{
 				Messages.Message("PolarisExtractAbilityFailed".Translate(pawn.NameShortColored), pawn, MessageTypeDefOf.NeutralEvent, true);
 			}
+			
 		}
 
 

@@ -73,6 +73,7 @@
             <Medicine>8</Medicine>
           </skillRequirements>
           <researchPrerequisite>PolarisExtractAbility</researchPrerequisite>
+          <isViolation>true</isViolation>
         </RecipeDef>
       </value>
     </match>

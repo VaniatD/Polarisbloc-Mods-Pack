@@ -67,6 +67,7 @@
   <!--extract ability-->
   <PolarisExtractAbilitySuccessfully>成功提取了{0}的{1}。</PolarisExtractAbilitySuccessfully>
   <PolarisExtractAbilityFailed>無法提取{0}的能力。</PolarisExtractAbilityFailed>
+  <PolarisGoodwillChangedReason_ExtractedAbility>提取了{0}的能力</PolarisGoodwillChangedReason_ExtractedAbility>
   <!--remove implant-->
   <PolarisMessageSuccessfullyRemovedImplants>{1}成功移除了{1}的{2}。</PolarisMessageSuccessfullyRemovedImplants>
   <!--shield belt-->

@@ -119,17 +119,18 @@ namespace Polarisbloc_SecurityForce
         {
             if (Find.Selector.SingleSelectedThing != base.Wearer)
                 yield break;
-            yield return new Command_Toggle
-            {
-                hotKey = KeyBindingDefOf.Command_TogglePower,
-                icon = TexCommand.ForbidOn,
-                defaultLabel = "PlrsLightningActiveLabel".Translate(),
-                defaultDesc = "PlrsLightningActiveDESC".Translate(),
-                isActive = () => this.canLightning,
-                toggleAction = () => { this.canLightning = !this.canLightning; },
-            };
+            
             if (this.Wearer.Drafted)
             {
+                yield return new Command_Toggle
+                {
+                    hotKey = KeyBindingDefOf.Command_TogglePower,
+                    icon = TexCommand.ForbidOn,
+                    defaultLabel = "PlrsLightningActiveLabel".Translate(),
+                    defaultDesc = "PlrsLightningActiveDESC".Translate(),
+                    isActive = () => this.canLightning,
+                    toggleAction = () => { this.canLightning = !this.canLightning; },
+                };
                 if (this.ShieldState == ShieldState.Active)
                 {
                     yield return new Command_Action

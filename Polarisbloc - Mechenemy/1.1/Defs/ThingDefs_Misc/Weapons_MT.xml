@@ -458,7 +458,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Vanya_BundlingBlaster</defaultProjectile>
         <forcedMissRadius>9.5</forcedMissRadius>
-        <warmupTime>2.0</warmupTime>
+        <warmupTime>2.8</warmupTime>
         <range>25</range>
         <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
         <burstShotCount>9</burstShotCount>
@@ -519,7 +519,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Vanya_DestoryerShocker</defaultProjectile>
         <forcedMissRadius>3</forcedMissRadius>
-        <warmupTime>3.3</warmupTime>
+        <warmupTime>3.6</warmupTime>
         <range>25</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>InfernoCannon_Fire</soundCast>
@@ -545,9 +545,9 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>Vanya_IgnoreDiffusionEX</damageDef>
-      <damageAmountBase>29</damageAmountBase>
+      <damageAmountBase>27</damageAmountBase>
       <speed>90</speed>
-      <explosionRadius>2.3</explosionRadius>
+      <explosionRadius>1.8</explosionRadius>
       <stoppingPower>2</stoppingPower>
     </projectile>
   </ThingDef>
@@ -576,7 +576,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Vanya_RailGun</defaultProjectile>
-        <warmupTime>2.97</warmupTime>
+        <warmupTime>3.33</warmupTime>
         <range>44</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>ChargeLance_Fire</soundCast>
@@ -605,8 +605,8 @@
     <thingClass>Projectile_DoomsdayRocket</thingClass>
     <projectile>
       <damageDef>Bomb</damageDef>
-      <damageAmountBase>28</damageAmountBase>
-      <explosionRadius>6.7</explosionRadius>
+      <damageAmountBase>24</damageAmountBase>
+      <explosionRadius>6.1</explosionRadius>
       <speed>67</speed>
       <stoppingPower>2</stoppingPower>
       <armorPenetrationBase>0.4</armorPenetrationBase>

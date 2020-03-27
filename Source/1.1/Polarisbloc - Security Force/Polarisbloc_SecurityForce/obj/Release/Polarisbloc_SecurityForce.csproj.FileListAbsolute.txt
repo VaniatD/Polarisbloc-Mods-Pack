@@ -204,3 +204,4 @@ E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Security Force\Polarisbl
 E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Security Force\Polarisbloc_SecurityForce\obj\Release\Polarisbloc_SecurityForce.csproj.CopyComplete
 E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Security Force\Polarisbloc_SecurityForce\obj\Release\Polarisbloc_SecurityForce.dll
 E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Security Force\Polarisbloc_SecurityForce\obj\Release\Polarisbloc_SecurityForce.pdb
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Security Force\Polarisbloc_SecurityForce\obj\Release\Polarisbloc_SecurityForce.csproj.CoreCompileInputs.cache

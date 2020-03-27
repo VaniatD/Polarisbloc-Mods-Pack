@@ -25,7 +25,7 @@ namespace Polarisbloc
 				canTargetBuildings = false,
 				canTargetItems = true,
 				mapObjectTargetsMustBeAutoAttackable = false,
-				validator = ((TargetInfo x) => this.IsBiocodableWeapon(x.Thing) || this.IsBladeLinkWeapon(x.Thing))
+				validator = ((TargetInfo x) => this.IsBiocodableThing(x.Thing) || this.IsBladeLinkWeapon(x.Thing))
 			};
 		}
 
@@ -36,14 +36,23 @@ namespace Polarisbloc
 			yield break;
 		}
 
-		private bool IsBiocodableWeapon(Thing t)
+		private bool IsBiocodableThing(Thing t)
+		{
+			if (t.TryGetComp<CompBiocodable>() != null)
+			{
+				return true;
+			}
+			return false;
+		}
+
+		/*private bool IsBiocodableWeapon(Thing t)
 		{
 			if (t.TryGetComp<CompBiocodableWeapon>() != null)
 			{
 				return true;
 			}
 			return false;
-		}
+		}*/
 
 		private bool IsBladeLinkWeapon(Thing t)
 		{
@@ -53,6 +62,15 @@ namespace Polarisbloc
 			}
 			return false;
 		}
+
+		/*private bool IsBiocodableApparel(Thing t)
+		{
+			if (t.TryGetComp<CompBiocodableApparel>() != null)
+			{
+				return true;
+			}
+			return false;
+		}*/
 
 	}
 }

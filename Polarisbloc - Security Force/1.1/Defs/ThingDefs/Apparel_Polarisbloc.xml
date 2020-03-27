@@ -26,6 +26,7 @@
       <li>
         <compClass>CompQuality</compClass>
       </li>
+      <li Class="CompProperties_BiocodableApparel" />
     </comps>
     <tradeability>Sellable</tradeability>
     <tradeTags>

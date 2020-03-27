@@ -32,7 +32,7 @@
       </li>
       <li>
         <damageDef>EMP</damageDef>
-        <multiplier>0</multiplier>
+        <multiplier>0.4</multiplier>
       </li>
       <li>
         <damageDef>Vanya_IgnoreDiffusionEX</damageDef>

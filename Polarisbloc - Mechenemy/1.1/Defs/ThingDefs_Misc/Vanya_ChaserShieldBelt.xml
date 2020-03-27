@@ -39,5 +39,8 @@
       <Plasteel>20</Plasteel>
       <Uranium>1</Uranium>
     </costList>
+    <comps>
+      <li Class="CompProperties_BiocodableApparel" />
+    </comps>
   </ThingDef>
 </Defs>
