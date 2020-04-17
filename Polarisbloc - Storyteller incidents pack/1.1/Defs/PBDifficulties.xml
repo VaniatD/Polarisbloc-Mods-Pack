@@ -11,8 +11,8 @@
     <adaptationEffectFactor>0.3</adaptationEffectFactor>
     <colonistMoodOffset>-15</colonistMoodOffset>
     <tradePriceFactorLoss>0.3</tradePriceFactorLoss>
-    <cropYieldFactor>0.67</cropYieldFactor>
-    <mineYieldFactor>0.67</mineYieldFactor>
+    <cropYieldFactor>0.6</cropYieldFactor>
+    <mineYieldFactor>0.6</mineYieldFactor>
     <researchSpeedFactor>0.5</researchSpeedFactor>
     <diseaseIntervalFactor>0.67</diseaseIntervalFactor>
     <enemyReproductionRateFactor>1.5</enemyReproductionRateFactor>

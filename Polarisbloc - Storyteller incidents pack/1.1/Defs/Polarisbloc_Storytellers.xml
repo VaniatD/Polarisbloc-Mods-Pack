@@ -317,7 +317,7 @@
         <allowedTargetTags>
           <li>World</li>
         </allowedTargetTags>
-        <onDays>12</onDays>
+        <onDays>10</onDays>
         <numIncidentsRange>2~4</numIncidentsRange>
         <acceptFractionByDaysPassedCurve>
           <points>
@@ -549,8 +549,8 @@
         <allowedTargetTags>
           <li>World</li>
         </allowedTargetTags>
-        <onDays>12</onDays>
-        <numIncidentsRange>2~4</numIncidentsRange>
+        <onDays>10</onDays>
+        <numIncidentsRange>1~5</numIncidentsRange>
         <acceptFractionByDaysPassedCurve>
           <points>
             <li>(5, 0)</li>
@@ -817,7 +817,7 @@
         <allowedTargetTags>
           <li>World</li>
         </allowedTargetTags>
-        <onDays>12</onDays>
+        <onDays>10</onDays>
         <numIncidentsRange>2~4</numIncidentsRange>
         <acceptFractionByDaysPassedCurve>
           <points>

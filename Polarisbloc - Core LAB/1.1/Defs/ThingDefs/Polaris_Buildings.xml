@@ -274,7 +274,7 @@
         </fuelFilter>
         <fuelMultiplier>0.5</fuelMultiplier>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-        <autoRefuelPercent>1</autoRefuelPercent>
+        <autoRefuelPercent>0.5</autoRefuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
         <minimumFueledThreshold>1</minimumFueledThreshold>
         <outOfFuelMessage>Cannot mend: Needs more cloth</outOfFuelMessage>

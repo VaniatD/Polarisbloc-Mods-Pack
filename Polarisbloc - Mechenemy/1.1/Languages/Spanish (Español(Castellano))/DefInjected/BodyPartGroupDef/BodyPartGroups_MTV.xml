@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_DroidManipulationTool.label>Panel de operaciones</Vanya_DroidManipulationTool.label>
+
+
+  <!-- dogs -->
+
+  <Vanya_DroidJaw.label>Quijada de la máquina</Vanya_DroidJaw.label>
+  <Vanya_DroidLBFoot.label>Antepié izquierdo</Vanya_DroidLBFoot.label>
+  <Vanya_DroidRBFoot.label>Antepié derecho</Vanya_DroidRBFoot.label>
+
+
+  <!-- Fortress -->
+
+  <Vanya_DroidHub.label>Cubo de rueda</Vanya_DroidHub.label>
+  <Vanya_DroidTrack.label>Rastreador</Vanya_DroidTrack.label>
+  <Vanya_DroidPowerCore.label>Núcleo de energía</Vanya_DroidPowerCore.label>
+
+
+  <!-- Ruller -->
+
+  <Vanya_ConsciousnessCube.label>Calculadora de pensamiento</Vanya_ConsciousnessCube.label>
+
+
+</LanguageData>

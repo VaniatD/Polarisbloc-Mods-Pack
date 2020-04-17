@@ -232,6 +232,9 @@
     <thingSetMakerTags>
       <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallPolarisCombatChip</RecipeDef>
+    </descriptionHyperlinks>
   </ThingDef>
   <ThingDef ParentName="PolarisResourceBase">
     <defName>PolarisCombatChipConverter</defName>
@@ -551,6 +554,9 @@
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallPolarisVirtualNetChip</RecipeDef>
+    </descriptionHyperlinks>
   </ThingDef>
   <ThingDef ParentName="PolarisImplantBase">
     <defName>PolarisPsionwire</defName>
@@ -587,6 +593,9 @@
       <ComponentSpacer>1</ComponentSpacer>
       <MedicineUltratech>3</MedicineUltratech>
     </costList>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallPolarisPsionwire</RecipeDef>
+    </descriptionHyperlinks>
   </ThingDef>
   <!--psychic berserk pulser-->
   <ThingDef ParentName="ArtifactBase">

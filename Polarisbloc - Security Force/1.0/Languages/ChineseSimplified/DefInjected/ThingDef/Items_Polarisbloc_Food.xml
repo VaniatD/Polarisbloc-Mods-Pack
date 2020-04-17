@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Polarisbloc_EmergencyFood.label>应急食品</Polarisbloc_EmergencyFood.label>
+  <Polarisbloc_EmergencyFood.description>一种能在任何环境中快速恢复体力的液体食物，添加抗疲劳成分，可以有效地提高食用者的持续作战能力。</Polarisbloc_EmergencyFood.description>
+  <Polarisbloc_EmergencyFood.ingestible.ingestCommandString>饮用{0}</Polarisbloc_EmergencyFood.ingestible.ingestCommandString>
+  <Polarisbloc_EmergencyFood.ingestible.ingestReportString>正在饮用{0}。</Polarisbloc_EmergencyFood.ingestible.ingestReportString>
+
+
+</LanguageData>

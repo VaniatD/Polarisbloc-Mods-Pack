@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Polaribloc_SecuirityForce.label>силы безопасности</Polaribloc_SecuirityForce.label>
+  <Polaribloc_SecuirityForce.description>Силы безопасности, принадлежащие Polarisbloc, обеспечивают поддержку безопасности Polarisbloc. В то же время, Polarisbloc также приказал выполнить секретную задачу.</Polaribloc_SecuirityForce.description>
+  <Polaribloc_SecuirityForce.fixedName>силы безопасности</Polaribloc_SecuirityForce.fixedName>
+  <Polaribloc_SecuirityForce.pawnsPlural>содаты</Polaribloc_SecuirityForce.pawnsPlural>
+  <Polaribloc_SecuirityForce.leaderTitle>командир</Polaribloc_SecuirityForce.leaderTitle>
+
+
+</LanguageData>

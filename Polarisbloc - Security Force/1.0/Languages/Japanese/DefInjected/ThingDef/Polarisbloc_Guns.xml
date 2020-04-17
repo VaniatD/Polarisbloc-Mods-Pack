@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CaniculaRifle -->
+
+  <Bullet_CaniculaRifle.label>チャージショット</Bullet_CaniculaRifle.label>
+
+  <Polarisbloc_CaniculaRifle.label>カニクラ-IIユニバーサルライフル</Polarisbloc_CaniculaRifle.label>
+  <Polarisbloc_CaniculaRifle.description>ポラリスブロックによって製造されたユニバーサルライフルの特殊処理されたエネルギー放出装置は人体に甚大な被害をもたらす弾を撃つことができます。</Polarisbloc_CaniculaRifle.description>
+  <Polarisbloc_CaniculaRifle.tools.0.label>ストック</Polarisbloc_CaniculaRifle.tools.0.label>
+  <Polarisbloc_CaniculaRifle.tools.1.label>バレル</Polarisbloc_CaniculaRifle.tools.1.label>
+
+
+  <!-- CaniculaSniper -->
+
+  <Bullet_CaniculaSniper.label>チャージショット</Bullet_CaniculaSniper.label>
+
+  <Polarisbloc_CaniculaSniper.label>カニクラ-IIIスナイパーライフル</Polarisbloc_CaniculaSniper.label>
+  <Polarisbloc_CaniculaSniper.description>ポラリスブロック製のスナイパーライフル、特殊処理されたエネルギー放出装置は人体に甚大な被害をもたらす弾を撃つことができます。</Polarisbloc_CaniculaSniper.description>
+  <Polarisbloc_CaniculaSniper.tools.0.label>ストック</Polarisbloc_CaniculaSniper.tools.0.label>
+  <Polarisbloc_CaniculaSniper.tools.1.label>バレル</Polarisbloc_CaniculaSniper.tools.1.label>
+
+
+</LanguageData>

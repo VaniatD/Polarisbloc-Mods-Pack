@@ -59,10 +59,12 @@
   <ItemGroup>
     <Compile Include="Buildings\PlaceWorker_Thermostat.cs" />
     <Compile Include="Buildings\Building_Thermostat.cs" />
+    <Compile Include="CombatChip\HediffComp_RemoveHediff.cs" />
     <Compile Include="Decoder\CompTargetable_BiocodableWeapon.cs" />
     <Compile Include="Decoder\CompTargetEffect_Recode.cs" />
     <Compile Include="Decoder\CompUseEffect_SkillRequirementCheck.cs" />
     <Compile Include="Decoder\JobDriver_Decode.cs" />
+    <Compile Include="CombatChip\HediffComp_Convert.cs" />
     <Compile Include="Misc\Gas_HealingGas.cs" />
     <Compile Include="Decoder\ModExtension_DecoderConfigcs.cs" />
     <Compile Include="Surgeries\Recipe_ExtractAbility.cs" />
@@ -108,7 +110,6 @@
     <Compile Include="Cartridge\Recipe_MakeCartridgeSurgery.cs" />
     <Compile Include="Surgeries\Recipe_TransgenderSurgery.cs" />
     <Compile Include="Surgeries\Recipe_RemoveHediffIsOld.cs" />
-    <Compile Include="VoidKey\VoidKeyCardUtility.cs" />
     <Compile Include="VoidKey\VoidKeyDataBase.cs" />
     <Compile Include="VoidKey\VoidKeyThing.cs" />
     <Compile Include="VoidKey\VoidKeyUtility.cs" />

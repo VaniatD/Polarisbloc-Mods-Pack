@@ -88,6 +88,9 @@
     <recipeUsers>
       <li>Human</li>
     </recipeUsers>
+    <descriptionHyperlinks>
+      <ThingDef>PolarisCombatChip</ThingDef>
+    </descriptionHyperlinks>
   </RecipeDef>
   <!--Implants-->
   <RecipeDef ParentName="PolarisSurgerybase">
@@ -135,6 +138,9 @@
     <recipeUsers>
       <li>Human</li>
     </recipeUsers>
+    <descriptionHyperlinks>
+      <ThingDef>PolarisVirtualNetChip</ThingDef>
+    </descriptionHyperlinks>
   </RecipeDef>
   <RecipeDef ParentName="PolarisSurgerybase">
     <defName>InstallPolarisPsionwire</defName>
@@ -181,6 +187,9 @@
     <recipeUsers>
       <li>Human</li>
     </recipeUsers>
+    <descriptionHyperlinks>
+      <ThingDef>PolarisPsionwire</ThingDef>
+    </descriptionHyperlinks>
   </RecipeDef>
   <!--heal old wounds-->
   <RecipeDef ParentName="PolarisSurgerybase">

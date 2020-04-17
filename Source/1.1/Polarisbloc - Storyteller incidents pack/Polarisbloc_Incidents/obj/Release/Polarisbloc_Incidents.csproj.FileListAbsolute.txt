@@ -169,3 +169,4 @@ E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Storyteller incidents pa
 E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Storyteller incidents pack\Polarisbloc_Incidents\obj\Release\Polarisbloc_Incidents.csproj.CopyComplete
 E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Storyteller incidents pack\Polarisbloc_Incidents\obj\Release\Polarisbloc_Incidents.dll
 E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Storyteller incidents pack\Polarisbloc_Incidents\obj\Release\Polarisbloc_Incidents.pdb
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Storyteller incidents pack\Polarisbloc_Incidents\obj\Release\Polarisbloc_Incidents.csproj.CoreCompileInputs.cache

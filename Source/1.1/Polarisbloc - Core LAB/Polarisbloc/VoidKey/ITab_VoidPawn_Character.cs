@@ -48,8 +48,8 @@ namespace Polarisbloc
         {
             this.UpdateSize();
             Rect rect = new Rect(17f, 17f, CharacterCardUtility.PawnCardSize(this.PawnToShowInfoAbout).x, CharacterCardUtility.PawnCardSize(this.PawnToShowInfoAbout).y);
-            //Vector2 vector = CharacterCardUtility.PawnCardSize(this.PawnToShowInfoAbout);
-            VoidKeyCardUtility.DrawCharacterCard(rect, this.PawnToShowInfoAbout, this.SelThing, null, default(Rect));
+            //VoidKeyCardUtility.DrawCharacterCard(rect, this.PawnToShowInfoAbout, this.SelThing, null, default(Rect));
+            CharacterCardUtility.DrawCharacterCard(rect, this.PawnToShowInfoAbout, null, default(Rect));
         }
 
         protected override void UpdateSize()

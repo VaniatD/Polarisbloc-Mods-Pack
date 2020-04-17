@@ -24,7 +24,11 @@
     <techHediffsChance>2.00</techHediffsChance>
     <techHediffsTags>
       <li>Advanced</li>
+      <li>AdvancedWeapon</li>
     </techHediffsTags>
+    <techHediffsDisallowTags>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsDisallowTags>
     <techHediffsMoney>
       <min>10000</min>
       <max>80000</max>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_HunterOnSkin.label>Uniforme de cazador</Vanya_HunterOnSkin.label>
+  <Vanya_HunterOnSkin.description>El uniforme especial de Chaser Armada puede mantener abrigado al usuario.</Vanya_HunterOnSkin.description>
+
+
+  <!-- Armor -->
+
+  <Vanya_HunterArmor.label>Armadura Chaser</Vanya_HunterArmor.label>
+  <Vanya_HunterArmor.description>Armadura usada por los guerreros Chaser Armada, resistente a cualquier ataque.</Vanya_HunterArmor.description>
+
+
+</LanguageData>

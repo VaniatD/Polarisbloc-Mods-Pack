@@ -266,6 +266,7 @@
       <flyOverhead>true</flyOverhead>
       <explosionRadius>0.7</explosionRadius>
       <stoppingPower>1.5</stoppingPower>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseMechGun_MTV">
@@ -586,6 +587,8 @@
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
         <forcedMissRadius>0.87</forcedMissRadius>
+        <!--<requireLineOfSight>false</requireLineOfSight>-->
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
       </li>
     </verbs>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -652,6 +655,7 @@
         <muzzleFlashScale>14</muzzleFlashScale>
         <!--<minRange>9</minRange>-->
         <stopBurstWithoutLos>false</stopBurstWithoutLos>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
       </li>
     </verbs>
     <tradeability>None</tradeability>

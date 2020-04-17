@@ -20,6 +20,7 @@ namespace Polarisbloc_SecurityForce
             }
             if (this.Wearer.kindDef == PawnKindDefOf.WildMan)
             {
+                this.Destroy(DestroyMode.Vanish);
                 return;
             }
             if (this.Wearer.Faction.def != PSFDefOf.Polaribloc_SecuirityForce)
@@ -47,6 +48,14 @@ namespace Polarisbloc_SecurityForce
                     this.Wearer.health.AddHediff(hediff);
                 }
                 CombatEnhancingDrugsApply(this.Wearer);
+                foreach (Apparel ap in this.Wearer.apparel.WornApparel)
+                {
+                    CompBiocodable compBiocodable = ap.TryGetComp<CompBiocodable>();
+                    if (compBiocodable != null && !compBiocodable.Biocoded)
+                    {
+                        compBiocodable.CodeFor(this.Wearer);
+                    }
+                }
                 this.Wearer.apparel.Remove(this);
                 this.Destroy(DestroyMode.Vanish);
                 return;

@@ -46,6 +46,9 @@
         <glowColor>(127,255,255,0)</glowColor>
       </li>
     </comps>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallVanya_StabPowerCore</RecipeDef>
+    </descriptionHyperlinks>
   </ThingDef>
   <ThingDef ParentName="ImplantBase_MTV">
     <defName>Vanya_ConsciousnessCube</defName>
@@ -68,5 +71,8 @@
         <glowColor>(255,51,204,0)</glowColor>
       </li>
     </comps>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallVanya_ConsciousnessCube</RecipeDef>
+    </descriptionHyperlinks>
   </ThingDef>
 </Defs>

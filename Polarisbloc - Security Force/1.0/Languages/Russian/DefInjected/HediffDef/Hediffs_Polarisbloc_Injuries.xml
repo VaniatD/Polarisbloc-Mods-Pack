@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PSFElectricShot.label>электрический выстрел</PSFElectricShot.label>
+  <PSFElectricShot.comps.0.labelTendedWell>перевязан</PSFElectricShot.comps.0.labelTendedWell>
+  <PSFElectricShot.comps.0.labelTendedWellInner>зашит</PSFElectricShot.comps.0.labelTendedWellInner>
+  <PSFElectricShot.comps.0.labelSolidTendedWell>обработан</PSFElectricShot.comps.0.labelSolidTendedWell>
+  <PSFElectricShot.comps.2.oldLabel>старый электрический выстрел</PSFElectricShot.comps.2.oldLabel>
+  <PSFElectricShot.comps.2.instantlyOldLabel>постоянная травма от электрического выстрела</PSFElectricShot.comps.2.instantlyOldLabel>
+  <PSFElectricShot.injuryProps.destroyedLabel>отстрелено</PSFElectricShot.injuryProps.destroyedLabel>
+  <PSFElectricShot.injuryProps.destroyedOutLabel>отстрелено</PSFElectricShot.injuryProps.destroyedOutLabel>
+  <PSFElectricShot.labelNoun>рана от электрического выстрела</PSFElectricShot.labelNoun>
+
+
+</LanguageData>

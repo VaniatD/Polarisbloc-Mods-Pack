@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Global -->
+
+  <Vanya_Droid推進器.label>Propulsión flotante</Vanya_Droid推進器.label>
+  <Vanya_DroidManipulationTool.label>Panel de operaciones</Vanya_DroidManipulationTool.label>
+  <Vanya_Droid動力炉.label>Horno de energía</Vanya_Droid動力炉.label>
+  <Vanya_DroidReactiveArmor.label>Armadura reactiva</Vanya_DroidReactiveArmor.label>
+
+
+  <!-- Dogs -->
+
+  <Vanya_DroidJaw.label>Quijada de la máquina</Vanya_DroidJaw.label>
+  <Vanya_DroidLBLeg.label>Pierna delantera izquierda</Vanya_DroidLBLeg.label>
+  <Vanya_DroidLBFoot.label>Pie izquierdo delantero</Vanya_DroidLBFoot.label>
+  <Vanya_DroidRBLeg.label>Pierna delantera derecha</Vanya_DroidRBLeg.label>
+  <Vanya_DroidRBFoot.label>Antepié derecho</Vanya_DroidRBFoot.label>
+  <Vanya_DroidLTLeg.label>Pata trasera izquierda</Vanya_DroidLTLeg.label>
+  <Vanya_DroidLTFoot.label>Pata trasera izquierda</Vanya_DroidLTFoot.label>
+  <Vanya_DroidRTLeg.label>Pata trasera derecha</Vanya_DroidRTLeg.label>
+  <Vanya_DroidRTFoot.label>Pata trasera derecha</Vanya_DroidRTFoot.label>
+
+
+  <!-- Ruler -->
+
+  <Vanya_DroidCube.label>Calculadora de pensamiento</Vanya_DroidCube.label>
+
+
+  <!-- Fortress -->
+
+  <Vanya_DroidPowerCore.label>Núcleo de energía</Vanya_DroidPowerCore.label>
+  <Vanya_DroidChassis.label>Chasis</Vanya_DroidChassis.label>
+  <Vanya_DroidBearing.label>Teniendo</Vanya_DroidBearing.label>
+  <Vanya_DroidHub.label>Cubo de rueda</Vanya_DroidHub.label>
+  <Vanya_DroidTrack.label>Rastreador</Vanya_DroidTrack.label>
+
+
+</LanguageData>

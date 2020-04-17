@@ -67,6 +67,9 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
+      <tags>
+        <li>PolarisSFApparel</li>
+      </tags>
     </apparel>
     <generateCommonality>0.4</generateCommonality>
   </ThingDef>
@@ -119,6 +122,10 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
+      <tags>
+        <li>PolarisSFApparel</li>
+        <li>RoyalCombatGear</li>
+      </tags>
     </apparel>
   </ThingDef>
   <ThingDef ParentName="PolarisblocApparelBase">
@@ -171,7 +178,8 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-        <li>MTVCAapparel</li>
+        <li>PolarisSFApparel</li>
+        <li>RoyalCombatGear</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -223,7 +231,8 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-        <li>MTVCAapparel</li>
+        <li>PolarisSFApparel</li>
+        <li>RoyalCombatGear</li>
       </tags>
     </apparel>
     <tickerType>Normal</tickerType>
@@ -264,6 +273,7 @@
       </layers>
       <tags>
         <li>PolarisblocAlkaid</li>
+        <li>RoyalCombatGear</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -311,6 +321,7 @@
       </layers>
       <tags>
         <li>PolarisblocAlkaid</li>
+        <li>RoyalCombatGear</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -348,7 +359,9 @@
       <layers>
         <li>Belt</li>
       </layers>
-      <tags></tags>
+      <tags>
+        <li>PolarisSFApparel</li>
+      </tags>
     </apparel>
     <comps>
       <li Class="CompProperties_Forbiddable" />

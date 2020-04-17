@@ -31,7 +31,9 @@
       <layers>
         <li>Belt</li>
       </layers>
-      <tags></tags>
+      <tags>
+        <li>MTVCAapparelShield</li>
+      </tags>
     </apparel>
     <costList>
       <ComponentIndustrial>4</ComponentIndustrial>

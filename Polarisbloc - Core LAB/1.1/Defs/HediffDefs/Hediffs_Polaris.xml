@@ -119,6 +119,9 @@
       <li Class="Polarisbloc.HediffCompProperties_JoyFiller"></li>
       <li Class="Polarisbloc.HediffCompProperties_ForceCalmDown"></li>
     </comps>
+    <descriptionHyperlinks>
+      <ThingDef>PolarisVirtualNetChip</ThingDef>
+    </descriptionHyperlinks>
   </HediffDef>
   <HediffDef ParentName="PolarisHediffBase">
     <defName>PolarisPsionwire</defName>
@@ -138,5 +141,8 @@
       <li Class="HediffCompProperties_HealPermanentWounds" />
       <li Class="Polarisbloc.HediffCompProperties_TamenessKeeper" />
     </comps>
+    <descriptionHyperlinks>
+      <ThingDef>PolarisPsionwire</ThingDef>
+    </descriptionHyperlinks>
   </HediffDef>
 </Defs>

@@ -69,5 +69,35 @@ namespace Polarisbloc
                 compOrbitalTraderCaller.traderKindDef = this.traderKindDef;
             }
         }
+
+        public override IEnumerable<Gizmo> CompGetGizmosExtra()
+        {
+            foreach (Gizmo g in base.CompGetGizmosExtra())
+            {
+                yield return g;
+            }
+            if (Prefs.DevMode)
+            {
+                Command_Action choseTrader = new Command_Action
+                {
+                    defaultLabel = "find a trader...",
+                    action = delegate
+                    {
+                        List<DebugMenuOption> list = new List<DebugMenuOption>();
+                        foreach (TraderKindDef traderKindDef in from x in DefDatabase<TraderKindDef>.AllDefs
+                                                                where x.orbital
+                                                                select x)
+                        {
+                            list.Add(new DebugMenuOption(traderKindDef.LabelCap, DebugMenuOptionMode.Action, delegate ()
+                            {
+                                this.traderKindDef = traderKindDef;
+                            }));
+                        }
+                        Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
+                    }
+                };
+                yield return choseTrader;
+            }
+        }
     }
 }

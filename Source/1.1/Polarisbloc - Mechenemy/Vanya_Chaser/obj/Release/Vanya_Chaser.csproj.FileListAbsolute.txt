@@ -194,3 +194,4 @@ E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\o
 E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CopyComplete
 E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.dll
 E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.pdb
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CoreCompileInputs.cache

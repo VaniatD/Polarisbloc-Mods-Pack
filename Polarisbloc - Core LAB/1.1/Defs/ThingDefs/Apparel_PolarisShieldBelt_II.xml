@@ -58,6 +58,9 @@
       <layers>
         <li>Belt</li>
       </layers>
+      <tags>
+        <li>PolarisApparel</li>
+      </tags>
     </apparel>
     <generateCommonality>0.7</generateCommonality>
   </ThingDef>

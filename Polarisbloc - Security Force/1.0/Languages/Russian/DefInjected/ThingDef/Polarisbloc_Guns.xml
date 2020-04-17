@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CaniculaRifle -->
+
+  <Bullet_CaniculaRifle.label>энергетический выстрел</Bullet_CaniculaRifle.label>
+
+  <Polarisbloc_CaniculaRifle.label>сириус - II универсальная винтовка</Polarisbloc_CaniculaRifle.label>
+  <Polarisbloc_CaniculaRifle.description>Универсальная винтовка, произведенная Polarisbloc, специально обработанное для высвобождения энергии устройство, может стрелять пулями, которые чрезвычайно опасны для жизни.</Polarisbloc_CaniculaRifle.description>
+  <Polarisbloc_CaniculaRifle.tools.0.label>приклад</Polarisbloc_CaniculaRifle.tools.0.label>
+  <Polarisbloc_CaniculaRifle.tools.1.label>ствол</Polarisbloc_CaniculaRifle.tools.1.label>
+
+
+  <!-- CaniculaSniper -->
+
+  <Bullet_CaniculaSniper.label>энергетический выстрел</Bullet_CaniculaSniper.label>
+
+  <Polarisbloc_CaniculaSniper.label>сириус - III снайперская винтовка</Polarisbloc_CaniculaSniper.label>
+  <Polarisbloc_CaniculaSniper.description>Снайперская винтовка производства Polarisbloc, специально обработанное для высвобождения энергии устройство, может стрелять пулями, которые чрезвычайно опасны для жизни.</Polarisbloc_CaniculaSniper.description>
+  <Polarisbloc_CaniculaSniper.tools.0.label>приклад</Polarisbloc_CaniculaSniper.tools.0.label>
+  <Polarisbloc_CaniculaSniper.tools.1.label>ствол</Polarisbloc_CaniculaSniper.tools.1.label>
+
+
+</LanguageData>

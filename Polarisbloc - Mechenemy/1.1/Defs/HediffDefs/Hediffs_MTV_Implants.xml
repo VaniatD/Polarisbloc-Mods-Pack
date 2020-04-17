@@ -37,6 +37,9 @@
     <comps>
       <li Class="HediffCompProperties_HealPermanentWounds" />
     </comps>
+    <descriptionHyperlinks>
+      <ThingDef>Vanya_StabPowerCore</ThingDef>
+    </descriptionHyperlinks>
   </HediffDef>
   <HediffDef ParentName="ImplantHediffBase_MTV">
     <defName>Vanya_ConsciousnessCube</defName>
@@ -68,5 +71,8 @@
       </li>
     </stages>
     <spawnThingOnRemoved>Vanya_ConsciousnessCube</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>Vanya_ConsciousnessCube</ThingDef>
+    </descriptionHyperlinks>
   </HediffDef>
 </Defs>

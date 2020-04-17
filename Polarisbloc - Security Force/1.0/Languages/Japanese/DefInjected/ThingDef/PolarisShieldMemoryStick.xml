@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PolarisShieldMemoryStick.label>ポラリスシールド記憶装置</PolarisShieldMemoryStick.label>
+  <PolarisShieldMemoryStick.description>ポラリスブロックはシールド技術を含む記憶装置を製造販売しています。データはある程度暗号化されているため、記憶装置のデータは正常に取得できません。\n\nヒント：\nシールド技術を入手できる確立は9％です。\nもしあなたがこの技術を入手できなければ、あなたは残念賞を得る確立が30％あります。\nそれも当たらなければ豪華な贈り物を得る確立は1％です。\nそれも外れれば何も得ることは出来ません、とても残念です。</PolarisShieldMemoryStick.description>
+  <PolarisShieldMemoryStick.comps.1.useLabel>記憶装置を解析する</PolarisShieldMemoryStick.comps.1.useLabel>
+
+
+  <!--<VanyaDataCenter.label>數據中心</VanyaDataCenter.label>-->
+
+</LanguageData>

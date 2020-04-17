@@ -265,7 +265,7 @@
         <allowedTargetTags>
           <li>World</li>
         </allowedTargetTags>
-        <onDays>12</onDays>
+        <onDays>10</onDays>
         <numIncidentsRange>1~5</numIncidentsRange>
         <acceptFractionByDaysPassedCurve>
           <points>

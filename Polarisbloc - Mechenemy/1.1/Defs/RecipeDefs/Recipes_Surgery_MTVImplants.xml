@@ -47,6 +47,9 @@
     <recipeUsers>
       <li>Human</li>
     </recipeUsers>
+    <descriptionHyperlinks>
+      <ThingDef>Vanya_StabPowerCore</ThingDef>
+    </descriptionHyperlinks>
   </RecipeDef>
   <RecipeDef ParentName="SurgeryFlesh_MTV">
     <defName>InstallVanya_ConsciousnessCube</defName>
@@ -88,5 +91,8 @@
     <recipeUsers>
       <li>Human</li>
     </recipeUsers>
+    <descriptionHyperlinks>
+      <ThingDef>Vanya_ConsciousnessCube</ThingDef>
+    </descriptionHyperlinks>
   </RecipeDef>
 </Defs>

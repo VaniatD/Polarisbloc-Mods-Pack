@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <InstallVanya_StabPowerCore.label>Implantar un núcleo de energía estable</InstallVanya_StabPowerCore.label>
+  <InstallVanya_StabPowerCore.description>Implantar un núcleo de energía estable.</InstallVanya_StabPowerCore.description>
+  <InstallVanya_StabPowerCore.jobString>Se está trasplantando un núcleo de energía estable.</InstallVanya_StabPowerCore.jobString>
+
+  <InstallVanya_ConsciousnessCube.label>Implantar calculadora de pensamiento</InstallVanya_ConsciousnessCube.label>
+  <InstallVanya_ConsciousnessCube.description>Implantar máquina de computación de pensamiento de trasplante。</InstallVanya_ConsciousnessCube.description>
+  <InstallVanya_ConsciousnessCube.jobString>Transplante de calculadora de pensamiento。</InstallVanya_ConsciousnessCube.jobString>
+
+
+</LanguageData>

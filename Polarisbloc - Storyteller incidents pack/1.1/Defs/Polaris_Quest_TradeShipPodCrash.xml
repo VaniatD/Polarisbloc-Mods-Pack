@@ -2,7 +2,7 @@
 <Defs>
   <QuestScriptDef>
     <defName>Polaris_Quest_TradeShipPodCrash</defName>
-    <rootSelectionWeight>0.2</rootSelectionWeight>
+    <rootSelectionWeight>0.4</rootSelectionWeight>
     <rootMinPoints>0</rootMinPoints>
     <autoAccept>true</autoAccept>
     <questNameRules>

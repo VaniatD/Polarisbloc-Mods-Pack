@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- PolarisCombatChip -->
+  <PolarisCombatChip_NotActive.label>戰術芯片（未激活）</PolarisCombatChip_NotActive.label>
+  <PolarisCombatChip_NotActive.labelNoun>一塊戰術芯片</PolarisCombatChip_NotActive.labelNoun>
+  <PolarisCombatChip_Currency.label>戰術芯片（通用）</PolarisCombatChip_Currency.label>
+  <PolarisCombatChip_Currency.labelNoun>一塊戰術芯片</PolarisCombatChip_Currency.labelNoun>
+  <PolarisCombatChip_Sniper.label>戰術芯片（狙擊）</PolarisCombatChip_Sniper.label>
+  <PolarisCombatChip_Sniper.labelNoun>一塊戰術芯片</PolarisCombatChip_Sniper.labelNoun>
+  <PolarisCombatChip_Scouter.label>戰術芯片（斥候）</PolarisCombatChip_Scouter.label>
+  <PolarisCombatChip_Scouter.labelNoun>一塊戰術芯片</PolarisCombatChip_Scouter.labelNoun>
+  <PolarisCombatChip_Medical.label>戰術芯片（醫療）</PolarisCombatChip_Medical.label>
+  <PolarisCombatChip_Medical.labelNoun>一塊戰術芯片</PolarisCombatChip_Medical.labelNoun>
+  <PolarisCombatChip_Charm.label>戰術芯片（魅惑）</PolarisCombatChip_Charm.label>
+  <PolarisCombatChip_Charm.labelNoun>一塊戰術芯片</PolarisCombatChip_Charm.labelNoun>
+  <PolarisCombatChip_Inspiration.label>戰術芯片（靈感）</PolarisCombatChip_Inspiration.label>
+  <PolarisCombatChip_Inspiration.labelNoun>一塊戰術芯片</PolarisCombatChip_Inspiration.labelNoun>
+  <PolarisCombatChip_Assassin.label>戰術芯片（潜行）</PolarisCombatChip_Assassin.label>
+  <PolarisCombatChip_Assassin.labelNoun>一塊戰術芯片</PolarisCombatChip_Assassin.labelNoun>
+  <PolarisCombatChip_Psycaster.label>戰術芯片（靈质）</PolarisCombatChip_Psycaster.label>
+  <PolarisCombatChip_Psycaster.labelNoun>一塊戰術芯片</PolarisCombatChip_Psycaster.labelNoun>
+</LanguageData>

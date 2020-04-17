@@ -6,6 +6,9 @@
     <defaultLabelColor>(1, 0.8, 0.4)</defaultLabelColor>
     <isBad>false</isBad>
     <spawnThingOnRemoved>PolarisCombatChip</spawnThingOnRemoved>
+    <descriptionHyperlinks>
+      <ThingDef>PolarisCombatChip</ThingDef>
+    </descriptionHyperlinks>
   </HediffDef>
   <HediffDef ParentName="PolarisCombatChipHediffBase">
     <defName>PolarisCombatChip_NotActive</defName>
@@ -16,7 +19,6 @@
     <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
     <stages>
       <li>
-        <painFactor>0.9</painFactor>
         <partEfficiencyOffset>0.05</partEfficiencyOffset>
       </li>
     </stages>
@@ -28,15 +30,13 @@
     <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
     <stages>
       <li>
-        <painFactor>0.9</painFactor>
-        <restFallFactor>0.9</restFallFactor>
         <partEfficiencyOffset>0.15</partEfficiencyOffset>
         <statOffsets>
           <MoveSpeed>0.2</MoveSpeed>
           <MeleeHitChance>1</MeleeHitChance>
           <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
           <AimingDelayFactor>-0.1</AimingDelayFactor>
-          <MedicalTendQuality>0.2</MedicalTendQuality>
+          <MedicalTendQuality>0.1</MedicalTendQuality>
           <SocialImpact>0.1</SocialImpact>
         </statOffsets>
       </li>
@@ -50,8 +50,7 @@
     <stages>
       <li>
         <restFallFactor>0.9</restFallFactor>
-        <hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
-        <partEfficiencyOffset>0.2</partEfficiencyOffset>
+        <partEfficiencyOffset>0.1</partEfficiencyOffset>
         <statOffsets>
           <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
           <AimingDelayFactor>-0.2</AimingDelayFactor>
@@ -67,8 +66,7 @@
     <stages>
       <li>
         <painOffset>-0.2</painOffset>
-        <restFallFactor>0.8</restFallFactor>
-        <partEfficiencyOffset>0.05</partEfficiencyOffset>
+        <partEfficiencyOffset>0.1</partEfficiencyOffset>
         <statOffsets>
           <MoveSpeed>0.8</MoveSpeed>
           <MeleeDodgeChance>8</MeleeDodgeChance>
@@ -77,7 +75,6 @@
         </statOffsets>
       </li>
     </stages>
-    <!--<comps><li Class="HediffCompProperties"><compClass>HediffComp_Invisibility</compClass></li></comps>-->
   </HediffDef>
   <HediffDef ParentName="PolarisCombatChipHediffBase">
     <defName>PolarisCombatChip_Medical</defName>
@@ -86,7 +83,6 @@
     <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
     <stages>
       <li>
-        <restFallFactor>0.95</restFallFactor>
         <partEfficiencyOffset>0.2</partEfficiencyOffset>
         <statOffsets>
           <MedicalTendSpeed>0.75</MedicalTendSpeed>
@@ -105,14 +101,12 @@
     <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
     <stages>
       <li>
-        <restFallFactor>0.95</restFallFactor>
-        <partEfficiencyOffset>0.2</partEfficiencyOffset>
+        <partEfficiencyOffset>0.15</partEfficiencyOffset>
         <statOffsets>
           <SocialImpact>0.5</SocialImpact>
           <NegotiationAbility>0.6</NegotiationAbility>
           <TradePriceImprovement>0.1</TradePriceImprovement>
           <TameAnimalChance>1</TameAnimalChance>
-          <PawnBeauty>2</PawnBeauty>
         </statOffsets>
       </li>
     </stages>
@@ -124,8 +118,7 @@
     <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
     <stages>
       <li>
-        <painFactor>0.9</painFactor>
-        <partEfficiencyOffset>0.05</partEfficiencyOffset>
+        <partEfficiencyOffset>0.15</partEfficiencyOffset>
       </li>
     </stages>
     <comps>
@@ -140,19 +133,25 @@
     <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
     <stages>
       <li>
-        <painOffset>-0.2</painOffset>
-        <restFallFactor>0.8</restFallFactor>
         <capMods>
           <li>
             <capacity>Moving</capacity>
-            <setMax>0.6</setMax>
+            <setMax>0.7</setMax>
           </li>
         </capMods>
+        <statOffsets>
+          <AimingDelayFactor>0.4</AimingDelayFactor>
+        </statOffsets>
       </li>
     </stages>
     <comps>
       <li Class="HediffCompProperties">
         <compClass>HediffComp_Invisibility</compClass>
+      </li>
+      <li Class="Polarisbloc.HediffCompProperties_Convert">
+        <convertAfterTicks>15000~20000</convertAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+        <destinationHediff>PolarisCombatChip_NotActive</destinationHediff>
       </li>
     </comps>
   </HediffDef>

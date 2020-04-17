@@ -46,5 +46,8 @@
     </comps>
     <costStuffCount>233</costStuffCount>
     <tradeability>Sellable</tradeability>
+    <tradeTags>
+      <li>Art</li>
+    </tradeTags>
   </ThingDef>
 </Defs>

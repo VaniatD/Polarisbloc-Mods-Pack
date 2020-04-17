@@ -43,7 +43,7 @@ namespace Polarisbloc_Incidents
             List<Building> list = map.listerBuildings.allBuildingsColonist;
                 //map.listerThings.ThingsInGroup(ThingRequestGroup.BuildingArtificial);
             if ((from x in list
-                 where x is Building_TurretGun && x.GetComp<CompMannable>() == null && x.Faction == Faction.OfPlayer && x.GetComp<CompPowerTrader>().PowerOn && x.def.healthAffectsPrice
+                 where x is Building_TurretGun && x.TryGetComp<CompMannable>() == null && x.Faction == Faction.OfPlayer && (x.TryGetComp<CompPowerTrader>() != null && x.TryGetComp<CompPowerTrader>().PowerOn) && x.def.healthAffectsPrice
                  select x).TryRandomElement<Building>(out turret))
             {
                 //turret = (Building)turretThing;
