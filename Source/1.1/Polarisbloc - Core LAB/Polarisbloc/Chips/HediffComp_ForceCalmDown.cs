@@ -23,16 +23,32 @@ namespace Polarisbloc
         public override void CompPostTick(ref float severityAdjustment)
         {
             base.CompPostTick(ref severityAdjustment);
-            this.tick++;
-            if (this.tick >= 250)
+            this.tick--;
+            if (this.tick <= 0)
             {
-                this.tick = 0;
+                this.tick = this.Props.checkTicks;
                 if (this.Pawn.mindState.mentalStateHandler.InMentalState)
                 {
+                    MentalState mentalState = this.Pawn.mindState.mentalStateHandler.CurState;
+                    if (mentalState != null)
+                    {
+                        //mentalState.causedByMood = true;
+                        mentalState.RecoverFromState();
+                    }
                     this.Pawn.mindState.mentalStateHandler.Reset();
                     Messages.Message("PolarisForceCalmDown".Translate(this.Pawn.LabelShortCap, this.parent.LabelCap), this.Pawn, MessageTypeDefOf.PositiveEvent);
                 }
             }
+        }
+
+        public override void CompExposeData()
+        {
+            Scribe_Values.Look<int>(ref this.tick, "tick", 0, false);
+        }
+
+        public override string CompDebugString()
+        {
+            return "ticksToCheck: " + this.tick;
         }
     }
 
@@ -42,5 +58,7 @@ namespace Polarisbloc
         {
             this.compClass = typeof(HediffComp_ForceCalmDown);
         }
+
+        public int checkTicks = 250;
     }
 }

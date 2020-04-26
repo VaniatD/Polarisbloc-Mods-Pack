@@ -28,18 +28,23 @@ namespace Polarisbloc
         public override void CompPostTick(ref float severityAdjustment)
         {
             base.CompPostTick(ref severityAdjustment);
-            this.ticks++;
-            if (this.ticks >= GenDate.TicksPerHour)
+            this.ticks--;
+            if (this.ticks <= 0 )
             {
-                this.ticks = 0;
+                this.ticks = GenDate.TicksPerHour;
                 if (base.Pawn.RaceProps.Animal)
                 {
                     if (base.Pawn.training.CanBeTrained(TrainableDefOf.Tameness))
                     {
-                        base.Pawn.training.Train(TrainableDefOf.Tameness, base.Pawn);
+                        base.Pawn.training.Train(TrainableDefOf.Tameness, null, true);
                     }
                 }
             }
+        }
+
+        public override string CompDebugString()
+        {
+            return "ticksToCheck: " + this.ticks;
         }
     }
 
