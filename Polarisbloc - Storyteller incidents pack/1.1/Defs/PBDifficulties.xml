@@ -13,11 +13,12 @@
     <tradePriceFactorLoss>0.3</tradePriceFactorLoss>
     <cropYieldFactor>0.6</cropYieldFactor>
     <mineYieldFactor>0.6</mineYieldFactor>
+    <butcherYieldFactor>0.6</butcherYieldFactor>
     <researchSpeedFactor>0.5</researchSpeedFactor>
     <diseaseIntervalFactor>0.67</diseaseIntervalFactor>
     <enemyReproductionRateFactor>1.5</enemyReproductionRateFactor>
     <playerPawnInfectionChanceFactor>1.4</playerPawnInfectionChanceFactor>
-    <manhunterChanceOnDamageFactor>1.3</manhunterChanceOnDamageFactor>
+    <manhunterChanceOnDamageFactor>1.5</manhunterChanceOnDamageFactor>
     <deepDrillInfestationChanceFactor>1.5</deepDrillInfestationChanceFactor>
     <foodPoisonChanceFactor>1.33</foodPoisonChanceFactor>
     <maintenanceCostFactor>1.33</maintenanceCostFactor>

@@ -139,7 +139,7 @@
         </allowedTargetTags>
         <minDaysPassed>1</minDaysPassed>
         <mtbDays>1.15</mtbDays>
-        <maxThreatBigIntervalDays>9</maxThreatBigIntervalDays>
+        <maxThreatBigIntervalDays>13</maxThreatBigIntervalDays>
         <minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
         <randomPointsFactorRange>0.3~1.8</randomPointsFactorRange>
         <skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>

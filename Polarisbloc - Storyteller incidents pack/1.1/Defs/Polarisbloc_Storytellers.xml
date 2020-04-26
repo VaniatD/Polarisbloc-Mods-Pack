@@ -152,8 +152,8 @@
       <li Class="StorytellerCompProperties_OnOffCycle">
         <category>ThreatBig</category>
         <minDaysPassed>17.0</minDaysPassed>
-        <onDays>3.33</onDays>
-        <offDays>11.0</offDays>
+        <onDays>4.33</onDays>
+        <offDays>13.0</offDays>
         <minSpacingDays>1.2</minSpacingDays>
         <numIncidentsRange>1~2</numIncidentsRange>
         <forceRaidEnemyBeforeDaysPassed>40</forceRaidEnemyBeforeDaysPassed>
@@ -192,7 +192,7 @@
         </allowedTargetTags>
         <minDaysPassed>5</minDaysPassed>
         <mtbDays>1.34</mtbDays>
-        <maxThreatBigIntervalDays>17</maxThreatBigIntervalDays>
+        <maxThreatBigIntervalDays>25</maxThreatBigIntervalDays>
         <minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
         <randomPointsFactorRange>0.5~1.1</randomPointsFactorRange>
         <skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
@@ -432,7 +432,7 @@
         </allowedTargetTags>
         <minDaysPassed>1</minDaysPassed>
         <mtbDays>1.07</mtbDays>
-        <maxThreatBigIntervalDays>8</maxThreatBigIntervalDays>
+        <maxThreatBigIntervalDays>15</maxThreatBigIntervalDays>
         <minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
         <randomPointsFactorRange>0.1~1.9</randomPointsFactorRange>
         <skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
@@ -449,7 +449,7 @@
       <li Class="StorytellerCompProperties_OnOffCycle">
         <category>ThreatBig</category>
         <minDaysPassed>15.0</minDaysPassed>
-        <onDays>4</onDays>
+        <onDays>5</onDays>
         <offDays>11</offDays>
         <minSpacingDays>0.9</minSpacingDays>
         <numIncidentsRange>2~3</numIncidentsRange>
@@ -661,8 +661,8 @@
       <li Class="StorytellerCompProperties_OnOffCycle">
         <category>ThreatBig</category>
         <minDaysPassed>11.0</minDaysPassed>
-        <onDays>2.47</onDays>
-        <offDays>6.89</offDays>
+        <onDays>3.47</onDays>
+        <offDays>7.89</offDays>
         <minSpacingDays>0.5</minSpacingDays>
         <numIncidentsRange>3~4</numIncidentsRange>
         <forceRaidEnemyBeforeDaysPassed>30</forceRaidEnemyBeforeDaysPassed>
