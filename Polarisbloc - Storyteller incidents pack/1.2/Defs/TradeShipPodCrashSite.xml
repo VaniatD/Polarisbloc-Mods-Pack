@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SitePartDef>
+    <defName>Polaris_TradeShipPodCrashSite</defName>
+    <label>trade ship crash</label>
+    <description>A stash of valuable items.</description>
+    <workerClass>Polarisbloc_Incidents.SitePartWorker_ShipCrashed</workerClass>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>Polarisbloc/WorldObjects/TradeShipPodCrash</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>ShipCrash</li>
+    </tags>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>Polaris_TradeShipPodCrashSite</defName>
+    <linkWithSite>Polaris_TradeShipPodCrashSite</linkWithSite>
+    <order>460</order>
+    <genStep Class="Polarisbloc_Incidents.GenStep_TradeShipPodCrash">
+      <count>1</count>
+      <nearMapCenter>true</nearMapCenter>
+    </genStep>
+  </GenStepDef>
+</Defs>

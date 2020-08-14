@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>PolarisBunnyGundamSculpture</defName>
+    <thingClass>Building_Art</thingClass>
+    <label>box bunny gundam sculpture</label>
+    <description>The Polarisbloc 666 Anniversary Deluxe commemorative sculpture was presented as a gift to the people. Polished by master artists, it has high artistic value.\n\nThe sculpture portrays the appearance of Box Bunny wearing a Gundam COS and happily waving a toy gun.\n\nA wonderful sculpture that makes the world beautiful.</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsArt</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <Flammability>0.4</Flammability>
+      <Mass>10</Mass>
+      <Beauty>10086</Beauty>
+      <SellPriceFactor>1.2</SellPriceFactor>
+    </statBases>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>PolarisblocSF/Building/BunnyGundamSculpture</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>false</rotatable>
+    <pathCost>70</pathCost>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <comps>
+      <!--<li><compClass>CompQuality</compClass></li>-->
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtSculpture</nameMaker>
+        <descriptionMaker>ArtDescription_Sculpture</descriptionMaker>
+        <canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+      </li>
+    </comps>
+    <costStuffCount>233</costStuffCount>
+    <tradeability>Sellable</tradeability>
+    <tradeTags>
+      <li>Art</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>

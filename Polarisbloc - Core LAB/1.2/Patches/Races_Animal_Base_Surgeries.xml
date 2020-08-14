@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name = "AnimalThingBase"]/recipes</xpath>
+    <value>
+      <li>PolarisTransGenderSurgery</li>
+      <li>PolarisCureScars</li>
+      <li>InstallPolarisPsionwire</li>
+      <li>PolarisRestoreMissingBodyPart</li>
+      <li>PolarisRemoveImplant</li>
+      <li>PolarisSurgeryChangeBioAge</li>
+    </value>
+  </Operation>
+</Patch>

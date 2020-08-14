@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_IgnoreBleed.label>Sangrado</Vanya_IgnoreBleed.label>
+  <Vanya_IgnoreBleed.deathMessage>{0} Murió de sangrado</Vanya_IgnoreBleed.deathMessage>
+
+  <Vanya_IgnoreDiffusion.label>Choque</Vanya_IgnoreDiffusion.label>
+  <Vanya_IgnoreDiffusion.deathMessage>{0} Fue muerto a tiros。</Vanya_IgnoreDiffusion.deathMessage>
+
+  <Vanya_IgnoreDiffusionEX.label>Choque</Vanya_IgnoreDiffusionEX.label>
+  <Vanya_IgnoreDiffusionEX.deathMessage>{0} Fue muerto a tiros。</Vanya_IgnoreDiffusionEX.deathMessage>
+
+  <Vanya_Burn.label>Quemar</Vanya_Burn.label>
+  <Vanya_Burn.deathMessage>{0} Quemado y muerto</Vanya_Burn.deathMessage>
+
+
+  <!--<Vanya_MechKiller.label>Impacto</Vanya_MechKiller.label>-->
+  <!--<Vanya_MechKiller.deathMessage>{0} Fue muerto a tiros。</Vanya_MechKiller.deathMessage>-->
+
+</LanguageData>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Polaris_Quest_TradeShipPodCrash.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->我们截获了一组信息，有一个轨道飞船坠落在了附近，残留的货物总价值[itemStashContentsValue]，它们现在在[map_definite]附近。物资包括：\n\n[itemStashContents]\n\n看起来[allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_label]，告知我们附近有一个飞船坠毁了，有一批价值[itemStashContentsValue]的货物被留在距离我们不远处等待接收。这批物品包含:\n\n[itemStashContents]\n\n[asker_label]透露：[allSitePartsDescriptionsExceptFirst]</li>
+  </Polaris_Quest_TradeShipPodCrash.questDescriptionRules.rulesStrings>
+  <Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings>
+    <li>questName(priority=1)->[asker_nameDef]的[treasure][message]</li>
+    <li>questName->[treasure]的[message]</li>
+    <li>message->消息</li>
+    <li>message->信息</li>
+    <li>message->新闻</li>
+    <li>message->秘密</li>
+    <li>treasure->财宝</li>
+    <li>treasure->轨道贸易船</li>
+    <li>treasure->坠毁</li>
+    <li>treasure->事故</li>
+    <li>treasure->货物</li>
+  </Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings>
+  <Polaris_Quest_TradeShipPodCrash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务已失效：[resolvedQuestName]</Polaris_Quest_TradeShipPodCrash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <Polaris_Quest_TradeShipPodCrash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>根据截获的信息表明，坠毁飞船的物品已经被人捷足先登。任务[resolvedQuestName]已失效。</Polaris_Quest_TradeShipPodCrash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+
+</LanguageData>

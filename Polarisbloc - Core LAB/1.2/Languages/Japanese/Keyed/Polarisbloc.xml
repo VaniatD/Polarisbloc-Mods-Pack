@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Cartridge-->
+  <PolarisMessageSomeoneResurrected>{0}が{1}を死から引き上げました</PolarisMessageSomeoneResurrected>
+  <PolarisMessageFailedMakeCartridge>{0}は{1}に対して60の好感度を持たないと実行できません</PolarisMessageFailedMakeCartridge>
+  <PolarisFoundNoResearchProject>関連する研究項目はすでに研究済みです。</PolarisFoundNoResearchProject>
+  <!--CombatChip-->
+  <PolarisConvertCombatChipTitle>戰術チップを選ぶ</PolarisConvertCombatChipTitle>
+  <PolarisConvertCombatChipDESC>以下の項目で戰術チップのタイプを指定してください</PolarisConvertCombatChipDESC>
+  <PolarisMessageFailedConvertCombatChip>転換器を使うには、{0}に戦術チップを移植する必要があります。</PolarisMessageFailedConvertCombatChip>
+  <!--orbital trader caller-->
+  <PolarisOrbitalTraderCouldNotArrival>この惑星の宇宙軌道には、新たな貿易船を滞在させるスペースがありません。</PolarisOrbitalTraderCouldNotArrival>
+  <!--heal old wounds-->
+  <PolarisMessageSuccessfullyRemovedHediffIsOld>{0}は{1}の{2}をうまく治療しました。</PolarisMessageSuccessfullyRemovedHediffIsOld>
+  <!--age-->
+  <PolarisMessageSuccessfullyAgeDecrease>{0}の年齢が下がりました{1}。</PolarisMessageSuccessfullyAgeDecrease>
+  <!--Traitreleaser-->
+  <PolarisTraitreleaserEffectDESC>これを利用してランダムな特性を一つ追加することができます。\nまたは、使用者の特性を一つ性格矯正ナノマシンに登録することができます。</PolarisTraitreleaserEffectDESC>
+  <PolarisTraitreleaserAddTraitOption>{0}を得た</PolarisTraitreleaserAddTraitOption>
+  <PolarisTraitreleaserAlreadyHadTrait>この特性はすでに持っています</PolarisTraitreleaserAlreadyHadTrait>
+  <PolarisTraitreleaserHasNoEnoughSlots></PolarisTraitreleaserHasNoEnoughSlots>
+  <PolarisTraitreleaserRemoveTraitOption>特性を記録する（ 利用できる回数：{0} ）</PolarisTraitreleaserRemoveTraitOption>
+  <PolarisTraitreleaserChoseRemoveTrait>あなたが選択した特性は使用者から取り去くことになります。</PolarisTraitreleaserChoseRemoveTrait>
+  <PolarisTraitreleaserUsedRemovedTrait>{0}は{1}を取り去りました</PolarisTraitreleaserUsedRemovedTrait>
+  <PolarisTraitreleaserUsedReplaceConflitTraits>{1}を得るため、{0}は以下の特性を放棄した：{2}。</PolarisTraitreleaserUsedReplaceConflitTraits>
+  <PolarisTraitreleaserUsedAddTrait>{0}は{1}を獲得しました。</PolarisTraitreleaserUsedAddTrait>
+  <PolarisTraitreleaserTraitConflictingTraits>矛盾が発生した：{0}</PolarisTraitreleaserTraitConflictingTraits>
+  <PolarisTraitreleaserTraitDisabledWorkTypes>{0}はできません</PolarisTraitreleaserTraitDisabledWorkTypes>
+  <PolarisTraitreleaserUsedbyHasNullTraits>この入植者の特性を変わることができません</PolarisTraitreleaserUsedbyHasNullTraits>
+  <!--momery rester-->
+  <PolarisMomeryResterHaveNoAvaliableOption>*利用できる選択肢がありません。</PolarisMomeryResterHaveNoAvaliableOption>
+  <PolarisMomeryResterStoryDisabledWorkTypes>{0}はできない</PolarisMomeryResterStoryDisabledWorkTypes>
+  <PolarisMomeryResterChildhoodModeActiveLabel>モード：幼年期</PolarisMomeryResterChildhoodModeActiveLabel>
+  <PolarisMomeryResterChildhoodModeActiveDesc>このモードでは、使用者の幼年期を変わることができます。ボタンをクリックして成年期モードに切り替わることができます。</PolarisMomeryResterChildhoodModeActiveDesc>
+  <PolarisMomeryResterAdulthoodModeActiveLabel>モード：成年期</PolarisMomeryResterAdulthoodModeActiveLabel>
+  <PolarisMomeryResterAdulthoodModeActiveDesc>このモードでは、使用者の成年期を変わることができます。ボタンをクリックして幼年期モードに切り替わることができます。</PolarisMomeryResterAdulthoodModeActiveDesc>
+  <PolarisMomeryResterStorySuccessfullyChanged>{0}の{1}は{2}にリセットされました。</PolarisMomeryResterStorySuccessfullyChanged>
+  <PolarisMomeryResterHaveNoAvaliableStory>{0}には変わることができる生い立ちをもっていません。</PolarisMomeryResterHaveNoAvaliableStory>
+  <PolarisMomeryResterUnknownError>*未知なエラーが発生した</PolarisMomeryResterUnknownError>
+  <!--curer-->
+  <PolarisCurerApplyToHumanLabel>人間に適用できます</PolarisCurerApplyToHumanLabel>
+  <PolarisCurerApplyToHumanDESC>起動すると、治療器は自動的に入植者の傷を治療します。</PolarisCurerApplyToHumanDESC>
+  <!--restorer-->
+  <PolarisRestorerIngest>{0}はポラリス恢復劑を注射した</PolarisRestorerIngest>
+  <!--net chip-->
+  <PolarisForceCalmDown>{0}は{1}の効果により落ち着きました。</PolarisForceCalmDown>
+  <!--void key-->
+  <PolarisVoidKeyLinkedTo>連結が形成しました</PolarisVoidKeyLinkedTo>
+  <PolarisVoidKeyTryLinkGizmoLabel>繋がり先...</PolarisVoidKeyTryLinkGizmoLabel>
+  <PolarisVoidKeyTryLinkGizmoDesc>行方不明になった入植者や動物の情報を収集しています。</PolarisVoidKeyTryLinkGizmoDesc>
+  <PolarisVoidKeyWindowTitle>虚無の鍵</PolarisVoidKeyWindowTitle>
+  <PolarisVoidKeyWindowInformation>あなたはかつてコロニーに入植していった人間や動物を選び、復活することができます。</PolarisVoidKeyWindowInformation>
+  <PolarisVoidKeyPullVoidPawnData>この生物の情報を{0}のデータに転送します。。</PolarisVoidKeyPullVoidPawnData>
+  <PolarisVoidKeyPullDataDone>{0}のデータを受け取りました。</PolarisVoidKeyPullDataDone>
+  <PolarisVoidKeyFoundNoColonist>対象を見つかりません。</PolarisVoidKeyFoundNoColonist>
+  <PolarisVoidKeyITabChoosePawn>繋がり先...</PolarisVoidKeyITabChoosePawn>
+  <PolarisVoidKeyITabPawnInfo>詳しい情報</PolarisVoidKeyITabPawnInfo>
+
+</LanguageData>

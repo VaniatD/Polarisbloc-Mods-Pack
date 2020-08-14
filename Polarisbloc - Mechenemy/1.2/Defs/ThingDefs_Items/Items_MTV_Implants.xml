@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="ImplantBase_MTV" Abstract="True">
+    <label>implant</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isTechHediff>true</isTechHediff>
+    <techLevel>Ultra</techLevel>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <thingCategories>
+      <li>BodyPartsUltra</li>
+    </thingCategories>
+    <pathCost>10</pathCost>
+  </ThingDef>
+  <ThingDef ParentName="ImplantBase_MTV">
+    <defName>Vanya_StabPowerCore</defName>
+    <label>Stable energy core</label>
+    <description>Stable energy core taken out from bastion, stored latge amount of energy, need to use other device to draw energy out. Also can be used as heart supporter to provide energy for biont creatures.</description>
+    <graphicData>
+      <texPath>Vanya/Things/Item/Vanya_StabPowerCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>MTVImplant</li>
+    </techHediffsTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(127,255,255,0)</glowColor>
+      </li>
+    </comps>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallVanya_StabPowerCore</RecipeDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+  <ThingDef ParentName="ImplantBase_MTV">
+    <defName>Vanya_ConsciousnessCube</defName>
+    <label>Thinking processor</label>
+    <description>Processor extracted from inquisitor's head, already formatted. Can be implant to cervical vertebra to help thinking.</description>
+    <graphicData>
+      <texPath>Vanya/Things/Item/Vanya_ConsciousnessCube</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <Mass>0.08</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>MTVImplant</li>
+    </techHediffsTags>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(255,51,204,0)</glowColor>
+      </li>
+    </comps>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallVanya_ConsciousnessCube</RecipeDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+</Defs>

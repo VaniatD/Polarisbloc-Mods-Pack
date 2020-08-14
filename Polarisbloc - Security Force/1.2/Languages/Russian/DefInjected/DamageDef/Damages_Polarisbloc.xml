@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CaniculaBullet.label>электрическая пуля</CaniculaBullet.label>
+  <CaniculaBullet.deathMessage>{0} был застрелен.</CaniculaBullet.deathMessage>
+
+
+  <!-- Melee -->
+
+  <PSF_CaniculaBlunt.label>тупой удар</PSF_CaniculaBlunt.label>
+  <PSF_CaniculaBlunt.deathMessage>{0} был избит до смерти.</PSF_CaniculaBlunt.deathMessage>
+
+  <PSF_CaniculaPoke.label>тупой удар</PSF_CaniculaPoke.label>
+  <PSF_CaniculaPoke.deathMessage>{0} был избит до смерти.</PSF_CaniculaPoke.deathMessage>
+
+
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_IgnoreBleed.label>Sangrado</Vanya_IgnoreBleed.label>
+  <Vanya_IgnoreBleed.comps.0.labelTendedWell>Vestido con vendaje</Vanya_IgnoreBleed.comps.0.labelTendedWell>
+  <Vanya_IgnoreBleed.comps.0.labelTendedWellInner>Sutura</Vanya_IgnoreBleed.comps.0.labelTendedWellInner>
+  <Vanya_IgnoreBleed.comps.0.labelSolidTendedWell>Fijo</Vanya_IgnoreBleed.comps.0.labelSolidTendedWell>
+  <Vanya_IgnoreBleed.injuryProps.destroyedLabel>Recortar</Vanya_IgnoreBleed.injuryProps.destroyedLabel>
+  <Vanya_IgnoreBleed.injuryProps.destroyedOutLabel>Recortar</Vanya_IgnoreBleed.injuryProps.destroyedOutLabel>
+
+
+</LanguageData>

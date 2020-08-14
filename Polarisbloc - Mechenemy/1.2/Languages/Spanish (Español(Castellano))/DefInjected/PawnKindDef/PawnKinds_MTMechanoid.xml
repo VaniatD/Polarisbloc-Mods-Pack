@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VanyaPK_DroidAlpha.label>Droide suicida alfa</VanyaPK_DroidAlpha.label>
+  <VanyaPK_DroidAlpha.labelPlural>Enjambre de droides alfa-suicidas</VanyaPK_DroidAlpha.labelPlural>
+
+  <VanyaPK_DroidBeta.label>Beta-humanoide</VanyaPK_DroidBeta.label>
+  <VanyaPK_DroidBeta.labelPlural>Enjambre de beta-humanoides</VanyaPK_DroidBeta.labelPlural>
+
+  <VanyaPK_DroidBetaEX.label>Beta-humanoide 2 blindado </VanyaPK_DroidBetaEX.label>
+  <VanyaPK_DroidBetaEX.labelPlural>Enjambre de Betas-humanoides 2 blindados</VanyaPK_DroidBetaEX.labelPlural>
+
+  <VanyaPK_DroidGamma.label>Droide lobo gamma</VanyaPK_DroidGamma.label>
+  <VanyaPK_DroidGamma.labelPlural>Enjambre de Droides lobos gamma</VanyaPK_DroidGamma.labelPlural>
+
+  <VanyaPK_DroidGammaEX.label>Droide lobo gamma 2 blindado</VanyaPK_DroidGammaEX.label>
+  <VanyaPK_DroidGammaEX.labelPlural>Enjambre de Droides lobos gamma 2 blindados</VanyaPK_DroidGammaEX.labelPlural>
+
+  <VanyaPK_DroidRuler.label>Inquisidor</VanyaPK_DroidRuler.label>
+  <VanyaPK_DroidRuler.labelPlural>Enjambre de Inquisidores</VanyaPK_DroidRuler.labelPlural>
+
+  <VanyaPK_DroidFortress.label>Bastión</VanyaPK_DroidFortress.label>
+  <VanyaPK_DroidFortress.labelPlural>Enjambre de Bastiónes</VanyaPK_DroidFortress.labelPlural>
+
+
+</LanguageData>

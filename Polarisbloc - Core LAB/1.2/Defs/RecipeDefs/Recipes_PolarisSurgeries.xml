@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Abstract="True" Name="PolarisSurgerybase">
+    <effectWorking>Surgery</effectWorking>
+    <soundWorking>Recipe_Surgery</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <workSkill>Medicine</workSkill>
+    <workSkillLearnFactor>16</workSkillLearnFactor>
+  </RecipeDef>
+  <!--Cartridge-->
+  <RecipeDef ParentName="PolarisSurgerybase">
+    <defName>MakePolarisCartridgeSurgery</defName>
+    <label>make cartridge</label>
+    <description>make cartridge</description>
+    <workerClass>Polarisbloc.Recipe_MakeCartridgeSurgery</workerClass>
+    <jobString>making cartridge.</jobString>
+    <workAmount>2400</workAmount>
+    <surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <targetsBodyPart>false</targetsBodyPart>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>MedicineHerbal</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <researchPrerequisite>ResearchProject_PolarisCartridge</researchPrerequisite>
+  </RecipeDef>
+  <!--CombatChip-->
+  <RecipeDef ParentName="PolarisSurgerybase">
+    <defName>InstallPolarisCombatChip</defName>
+    <label>install combat chip</label>
+    <description>install combat chip.</description>
+    <workerClass>Polarisbloc.Recipe_InstallCombatChip</workerClass>
+    <jobString>installing combat chip.</jobString>
+    <workAmount>3700</workAmount>
+    <surgerySuccessChanceFactor>0.80</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PolarisCombatChip</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>PolarisCombatChip</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>PolarisCombatChip_NotActive</addsHediff>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <descriptionHyperlinks>
+      <ThingDef>PolarisCombatChip</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+  <!--Implants-->
+  <RecipeDef ParentName="PolarisSurgerybase">
+    <defName>InstallPolarisVirtualNetChip</defName>
+    <label>install virtual net chip</label>
+    <description>install virtual net chip.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>installing virtual net chip.</jobString>
+    <workAmount>3700</workAmount>
+    <surgerySuccessChanceFactor>0.80</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PolarisVirtualNetChip</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>PolarisVirtualNetChip</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>PolarisVirtualNetChip</addsHediff>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <descriptionHyperlinks>
+      <ThingDef>PolarisVirtualNetChip</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+  <RecipeDef ParentName="PolarisSurgerybase">
+    <defName>InstallPolarisPsionwire</defName>
+    <label>install psionwire</label>
+    <description>install psionwire.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>installing psionwire.</jobString>
+    <workAmount>3700</workAmount>
+    <surgerySuccessChanceFactor>0.80</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PolarisPsionwire</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>PolarisPsionwire</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>PolarisPsionwire</addsHediff>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <descriptionHyperlinks>
+      <ThingDef>PolarisPsionwire</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+  <!--heal old wounds-->
+  <RecipeDef ParentName="PolarisSurgerybase">
+    <defName>PolarisCureScars</defName>
+    <label>cure scars</label>
+    <description>cure scars.</description>
+    <workerClass>Polarisbloc.Recipe_RemoveHediffIsOld</workerClass>
+    <jobString>curing scars.</jobString>
+    <workAmount>1200</workAmount>
+    <surgerySuccessChanceFactor>1.1</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.03</deathOnFailedSurgeryChance>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>MedicineHerbal</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <researchPrerequisite>PolarisCureScarsSurgery</researchPrerequisite>
+  </RecipeDef>
+  <!--restore missing body part-->
+  <RecipeDef ParentName="PolarisSurgerybase">
+    <defName>PolarisRestoreMissingBodyPart</defName>
+    <label>restore</label>
+    <description>restore missing body part.</description>
+    <workerClass>Polarisbloc.Recipe_RestoreMissingPart</workerClass>
+    <jobString>restoring.</jobString>
+    <workAmount>2400</workAmount>
+    <surgerySuccessChanceFactor>0.5</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>MedicineHerbal</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <researchPrerequisite>PolarisRestoreMissingPartSurgery</researchPrerequisite>
+    <dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
+  </RecipeDef>
+  <!--remove implant-->
+  <RecipeDef ParentName="PolarisSurgerybase">
+    <defName>PolarisRemoveImplant</defName>
+    <label>remove implant</label>
+    <description>remove all implants in the same body part.</description>
+    <workerClass>Polarisbloc.Recipe_RemoveImplant</workerClass>
+    <jobString>removing implants.</jobString>
+    <workAmount>2500</workAmount>
+    <surgerySuccessChanceFactor>0.85</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.08</deathOnFailedSurgeryChance>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <researchPrerequisite>PolarisRemoveImplants</researchPrerequisite>
+  </RecipeDef>
+  <!--trans gender-->
+  <RecipeDef ParentName="PolarisSurgerybase">
+    <defName>PolarisTransGenderSurgery</defName>
+    <label>trans gender</label>
+    <description>trans gender.</description>
+    <workerClass>Polarisbloc.Recipe_TransgenderSurgery</workerClass>
+    <jobString>doing trans gender surgery.</jobString>
+    <workAmount>2000</workAmount>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <targetsBodyPart>false</targetsBodyPart>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PolarisTransGenderSurgery</researchPrerequisite>
+  </RecipeDef>
+  <!--age change-->
+  <!--<RecipeDef ParentName="PolarisSurgerybase"><defName>PolarisSurgeryAgeRaise</defName><label>age raise</label><description>This operation will increase the patient's biological age of 4 years.</description><workerClass>Polarisbloc.Recipe_SurgeryAgeRaise</workerClass><jobString>doing age raise surgery.</jobString><workAmount>600</workAmount><surgerySuccessChanceFactor>1.1</surgerySuccessChanceFactor><deathOnFailedSurgeryChance>0.03</deathOnFailedSurgeryChance><hideBodyPartNames>true</hideBodyPartNames><targetsBodyPart>false</targetsBodyPart><ingredients><li><filter><categories><li>Medicine</li></categories></filter><count>1</count></li></ingredients><fixedIngredientFilter><categories><li>Medicine</li></categories><disallowedThingDefs><li>MedicineHerbal</li></disallowedThingDefs></fixedIngredientFilter><recipeUsers><li>Human</li></recipeUsers><researchPrerequisite>PolarisLongevityResearch</researchPrerequisite></RecipeDef>-->
+  <!--<RecipeDef ParentName="PolarisSurgerybase"><defName>PolarisSurgeryAgeDecrease</defName><label>age Decrease</label><description>This operation will decrease the patient's biological age. To predict the age the patient will lose, simply do the following math (use a calculator):\n\nx=(current age/10+1)*3\n\nThen do this:\n\ncurrent age-x=new age.</description><workerClass>Polarisbloc.Recipe_SurgeryAgeDecrease</workerClass><jobString>doing age Decrease surgery</jobString><workAmount>600</workAmount><surgerySuccessChanceFactor>1.1</surgerySuccessChanceFactor><deathOnFailedSurgeryChance>0.03</deathOnFailedSurgeryChance><hideBodyPartNames>true</hideBodyPartNames><targetsBodyPart>false</targetsBodyPart><ingredients><li><filter><categories><li>Medicine</li></categories></filter><count>1</count></li></ingredients><fixedIngredientFilter><categories><li>Medicine</li></categories><disallowedThingDefs><li>MedicineHerbal</li></disallowedThingDefs></fixedIngredientFilter><recipeUsers><li>Human</li></recipeUsers><researchPrerequisite>PolarisLongevityResearch</researchPrerequisite></RecipeDef>-->
+  <RecipeDef ParentName="PolarisSurgerybase">
+    <defName>PolarisSurgeryChangeBioAge</defName>
+    <label>change age</label>
+    <description>change age</description>
+    <workerClass>Polarisbloc.Recipe_SurgeryChangeBioAge</workerClass>
+    <jobString>doing age Decrease surgery</jobString>
+    <workAmount>600</workAmount>
+    <surgerySuccessChanceFactor>1.1</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.03</deathOnFailedSurgeryChance>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <targetsBodyPart>false</targetsBodyPart>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>MedicineHerbal</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <researchPrerequisite>PolarisLongevityResearch</researchPrerequisite>
+  </RecipeDef>
+  <!-- special administer -->
+  <RecipeDef>
+    <defName>PolarisAdministerMechSerumTraitreleaser</defName>
+    <label>administer traitreleaser mech serum</label>
+    <description>Administer a healer mech serum.</description>
+    <workerClass>Recipe_AdministerUsableItem</workerClass>
+    <jobString>Administering traitreleaser mech serum.</jobString>
+    <targetsBodyPart>false</targetsBodyPart>
+    <anesthetize>false</anesthetize>
+    <workAmount>600</workAmount>
+    <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PolarisMechSerumTraitreleaser</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PolarisMechSerumTraitreleaser</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

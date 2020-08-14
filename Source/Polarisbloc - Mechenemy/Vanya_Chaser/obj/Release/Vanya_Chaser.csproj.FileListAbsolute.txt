@@ -1,0 +1,264 @@
+E:\rimworld mod制作\A18DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\Vanya_Chaser.dll
+E:\rimworld mod制作\A18DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\Vanya_Chaser.pdb
+E:\rimworld mod制作\A18DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\Assembly-CSharp-firstpass.dll
+E:\rimworld mod制作\A18DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\Assembly-CSharp.dll
+E:\rimworld mod制作\A18DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\UnityEngine.dll
+E:\rimworld mod制作\A18DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\TextMeshPro-1.0.55.56.0b11.dll
+E:\rimworld mod制作\A18DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\NAudio.dll
+E:\rimworld mod制作\A18DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\NVorbis.dll
+E:\rimworld mod制作\A18DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\UnityEngine.UI.dll
+E:\rimworld mod制作\A18DLL\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csprojResolveAssemblyReference.cache
+E:\rimworld mod制作\A18DLL\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CoreCompileInputs.cache
+E:\rimworld mod制作\A18DLL\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.dll
+E:\rimworld mod制作\A18DLL\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.pdb
+E:\rimworld mod制作\1.0DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\Vanya_Chaser.dll
+E:\rimworld mod制作\1.0DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\Vanya_Chaser.pdb
+E:\rimworld mod制作\1.0DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\Assembly-CSharp.dll
+E:\rimworld mod制作\1.0DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\UnityEngine.dll
+E:\rimworld mod制作\1.0DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\TextMeshPro-1.0.55.56.0b11.dll
+E:\rimworld mod制作\1.0DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\Assembly-CSharp-firstpass.dll
+E:\rimworld mod制作\1.0DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\NAudio.dll
+E:\rimworld mod制作\1.0DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\NVorbis.dll
+E:\rimworld mod制作\1.0DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\UnityEngine.UI.dll
+E:\rimworld mod制作\1.0DLL\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csprojResolveAssemblyReference.cache
+E:\rimworld mod制作\1.0DLL\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CoreCompileInputs.cache
+E:\rimworld mod制作\1.0DLL\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.dll
+E:\rimworld mod制作\1.0DLL\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.pdb
+E:\rimworld mod制作\0.19DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\Vanya_Chaser.dll
+E:\rimworld mod制作\0.19DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\Vanya_Chaser.pdb
+E:\rimworld mod制作\0.19DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\Assembly-CSharp.dll
+E:\rimworld mod制作\0.19DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\UnityEngine.dll
+E:\rimworld mod制作\0.19DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\TextMeshPro-1.0.55.56.0b11.dll
+E:\rimworld mod制作\0.19DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\Assembly-CSharp-firstpass.dll
+E:\rimworld mod制作\0.19DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\NAudio.dll
+E:\rimworld mod制作\0.19DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\NVorbis.dll
+E:\rimworld mod制作\0.19DLL\Vanya_Chaser\Vanya_Chaser\bin\Release\UnityEngine.UI.dll
+E:\rimworld mod制作\0.19DLL\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csprojResolveAssemblyReference.cache
+E:\rimworld mod制作\0.19DLL\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CoreCompileInputs.cache
+E:\rimworld mod制作\0.19DLL\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.dll
+E:\rimworld mod制作\0.19DLL\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.pdb
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csprojAssemblyReference.cache
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CoreCompileInputs.cache
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.dll
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.pdb
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\Vanya_Chaser.dll
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\Vanya_Chaser.pdb
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\Assembly-CSharp.dll
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\TextMeshPro-1.0.55.56.0b11.dll
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\Assembly-CSharp-firstpass.dll
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\NAudio.dll
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\NVorbis.dll
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\UnityEngine.UI.dll
+E:\Git\RimWorld0.19\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CopyComplete
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\Vanya_Chaser.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\Vanya_Chaser.pdb
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\Assembly-CSharp.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\TextMeshPro-1.0.55.56.0b11.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\Assembly-CSharp-firstpass.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\NAudio.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\NVorbis.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\bin\Release\UnityEngine.UI.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csprojAssemblyReference.cache
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CopyComplete
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Sources\Vanya_Chaser\Vanya_Chaser\obj\Release\Vanya_Chaser.pdb
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\Vanya_Chaser.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\Vanya_Chaser.pdb
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\Assembly-CSharp.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.CoreModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.IMGUIModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.TextCoreModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.TextRenderingModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\NAudio.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\NVorbis.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.AudioModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\Assembly-CSharp-firstpass.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.AssetBundleModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.PhysicsModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\Unity.TextMeshPro.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\ISharpZipLib.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.InputLegacyModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.PerformanceReportingModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.ImageConversionModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.ScreenCaptureModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.UI.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.SharedInternalsModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.AccessibilityModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.AIModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.AndroidJNIModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.AnimationModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.ClusterInputModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.DirectorModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.DSPGraphModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.GridModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.JSONSerializeModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.LocalizationModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.ParticleSystemModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.Physics2DModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.SpriteMaskModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.SpriteShapeModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.StreamingModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.TerrainModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.TerrainPhysicsModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.TilemapModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.UIModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.UnityConnectModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestAudioModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestTextureModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.VehiclesModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.VFXModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.VideoModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.WindModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.ClothModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.GameCenterModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.InputModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.UIElementsModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.UNETModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.UnityAnalyticsModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestAssetBundleModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestWWWModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.XRModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.ARModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.ClusterRendererModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.CrashReportingModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\bin\Release\UnityEngine.VRModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\obj\Release\Vanya_Chaser.csprojAssemblyReference.cache
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CopyComplete
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\obj\Release\Vanya_Chaser.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Polarisbloc - Mechenemy\1.1\Source\Vanya_Chaser\obj\Release\Vanya_Chaser.pdb
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\Vanya_Chaser.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\Vanya_Chaser.pdb
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\Assembly-CSharp.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.CoreModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.IMGUIModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.TextCoreModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.TextRenderingModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\NAudio.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\NVorbis.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.AudioModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\Assembly-CSharp-firstpass.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.AssetBundleModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.PhysicsModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\Unity.TextMeshPro.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\ISharpZipLib.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.InputLegacyModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.PerformanceReportingModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ImageConversionModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ScreenCaptureModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UI.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.SharedInternalsModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.AccessibilityModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.AIModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.AndroidJNIModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.AnimationModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ClusterInputModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.DirectorModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.DSPGraphModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.GridModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.JSONSerializeModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.LocalizationModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ParticleSystemModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.Physics2DModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.SpriteMaskModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.SpriteShapeModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.StreamingModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.TerrainModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.TerrainPhysicsModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.TilemapModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UIModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityConnectModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestAudioModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestTextureModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.VehiclesModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.VFXModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.VideoModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.WindModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ClothModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.GameCenterModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.InputModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UIElementsModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UNETModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityAnalyticsModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestAssetBundleModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestWWWModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.XRModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ARModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ClusterRendererModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.CrashReportingModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.VRModule.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.csprojAssemblyReference.cache
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CopyComplete
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.dll
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.pdb
+E:\VSGit\Polarisbloc-Mods-Pack\Source\1.1\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CoreCompileInputs.cache
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\Vanya_Chaser.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\Vanya_Chaser.pdb
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\Assembly-CSharp.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.CoreModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.IMGUIModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.TextCoreModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.TextRenderingModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\NAudio.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\NVorbis.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.AudioModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\Assembly-CSharp-firstpass.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.AssetBundleModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.PhysicsModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\Unity.TextMeshPro.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\ISharpZipLib.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.InputLegacyModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.PerformanceReportingModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ImageConversionModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ScreenCaptureModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UI.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.SharedInternalsModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.AccessibilityModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.AIModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.AndroidJNIModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.AnimationModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ClusterInputModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.DirectorModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.DSPGraphModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.GridModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.JSONSerializeModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.LocalizationModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ParticleSystemModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.Physics2DModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.SpriteMaskModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.SpriteShapeModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.StreamingModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.TerrainModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.TerrainPhysicsModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.TilemapModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UIModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityConnectModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestAudioModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestTextureModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.VehiclesModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.VFXModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.VideoModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.WindModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ClothModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.GameCenterModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.InputModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UIElementsModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UNETModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityAnalyticsModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestAssetBundleModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.UnityWebRequestWWWModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.XRModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ARModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.ClusterRendererModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.CrashReportingModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\bin\Release\UnityEngine.VRModule.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.csprojAssemblyReference.cache
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CoreCompileInputs.cache
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.csproj.CopyComplete
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.dll
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Mechenemy\Vanya_Chaser\obj\Release\Vanya_Chaser.pdb
