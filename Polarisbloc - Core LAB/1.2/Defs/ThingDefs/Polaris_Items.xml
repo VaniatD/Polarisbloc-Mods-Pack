@@ -236,37 +236,41 @@
       <RecipeDef>InstallPolarisCombatChip</RecipeDef>
     </descriptionHyperlinks>
   </ThingDef>
-  <ThingDef ParentName="PolarisResourceBase">
+  <ThingDef>
     <defName>PolarisCombatChipConverter</defName>
     <label>converter</label>
-    <thingClass>ThingWithComps</thingClass>
     <description>A tactical chip converter to convert one's tactical chip installed in someone's head. The converter will activate and convert the chip mode to the one recorded in the converter. It is reusable.</description>
+    <thingClass>Apparel</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>14</pathCost>
+    <useHitPoints>true</useHitPoints>
+    <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Polarisbloc/Item/Chips/CombatChipConverter</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.8, 0.8)</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <stackLimit>1</stackLimit>
-    <tradeNeverStack>true</tradeNeverStack>
-    <useHitPoints>true</useHitPoints>
     <statBases>
-      <MarketValue>2500</MarketValue>
-      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>2000</MarketValue>
+      <MaxHitPoints>120</MaxHitPoints>
       <Mass>0.2</Mass>
-      <DeteriorationRate>1.0</DeteriorationRate>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <Flammability>0.3</Flammability>
+      <EquipDelay>1</EquipDelay>
     </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
     <thingCategories>
-      <li>Items</li>
+      <li>ApparelUtility</li>
     </thingCategories>
-    <drawGUIOverlay>false</drawGUIOverlay>
-    <techLevel>Spacer</techLevel>
     <tradeTags>
       <li>ExoticMisc</li>
     </tradeTags>
     <comps>
-      <!--<li Class="CompProperties_Usable"><compClass>Polarisbloc.CompCombatChip</compClass><useJob>UsePolarisConverter</useJob><useLabel>Use converter to set {0}</useLabel><useDuration>600</useDuration></li>-->
-      <!--<li Class="CompProperties_UseEffect"><compClass>Polarisbloc.CompUseEffect_ConvertCombatChip</compClass></li>-->
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Usable">
         <useJob>UseItem</useJob>
         <useLabel>Use converter</useLabel>
@@ -274,7 +278,47 @@
       <li Class="CompProperties_UseEffect">
         <compClass>Polarisbloc.CompUseEffect_ConvertCombatChip</compClass>
       </li>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>10</maxCharges>
+        <ammoDef>SmokeleafLeaves</ammoDef>
+        <ammoCountPerCharge>3</ammoCountPerCharge>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <chargeNoun>charge</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
     </comps>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>HeadAttackTool</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+    </apparel>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <verbs>
+      <li>
+        <verbClass>Polarisbloc.Verb_CastUseEffect</verbClass>
+        <label>use converter</label>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+        <warmupTime>0.5</warmupTime>
+        <targetParams>
+          <canTargetHumans>true</canTargetHumans>
+          <canTargetSelf>true</canTargetSelf>
+        </targetParams>
+      </li>
+    </verbs>
   </ThingDef>
   <!--medicines-->
   <ThingDef ParentName="PolarisDrugBase">
@@ -294,7 +338,7 @@
     <techLevel>Spacer</techLevel>
     <ingestible>
       <foodType>Fluid, Processed</foodType>
-      <drugCategory>Medical</drugCategory>
+      <drugCategory>Hard</drugCategory>
       <ingestSound>Ingest_Beer</ingestSound>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
@@ -315,9 +359,6 @@
         <listOrder>450</listOrder>
         <isCombatEnhancingDrug>true</isCombatEnhancingDrug>
       </li>
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
     </comps>
     <recipeMaker>
       <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
@@ -337,35 +378,6 @@
       <Neutroamine>2</Neutroamine>
       <SmokeleafLeaves>6</SmokeleafLeaves>
     </costList>
-    <equipmentType>Primary</equipmentType>
-    <tools>
-      <li>
-        <label>bottle</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <verbs>
-      <li>
-        <label>throw healing potion</label>
-        <verbClass>Verb_ShootOneUse</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <range>12.9</range>
-        <forcedMissRadius>0.9</forcedMissRadius>
-        <warmupTime>0.5</warmupTime>
-        <noiseRadius>4</noiseRadius>
-        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-        <soundCast>ThrowGrenade</soundCast>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <defaultProjectile>PolarisProj_HealingPotion</defaultProjectile>
-        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
-      </li>
-    </verbs>
   </ThingDef>
   <ThingDef ParentName="PolarisDrugBase">
     <defName>PolarisAntibiotic</defName>
@@ -535,6 +547,153 @@
       <accuracyPenalty>0.4</accuracyPenalty>
       <rotationSpeed>6</rotationSpeed>
     </gas>
+  </ThingDef>
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>Polaris_HealingPotionBelt</defName>
+    <label>healing potion belt</label>
+    <description>A nomal belt boned some healing potions, let you could to throw the bottle to make a lot of healing smoking pop to heal people.</description>
+    <techLevel>Industrial</techLevel>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>3</maxCharges>
+        <ammoDef>PolarisHealingPotion</ammoDef>
+        <ammoCountPerCharge>1</ammoCountPerCharge>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>bottle</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>throw healing potion</label>
+        <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>True</onlyManualCast>
+        <range>12.9</range>
+        <forcedMissRadius>0.9</forcedMissRadius>
+        <warmupTime>0.6</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>PolarisProj_HealingPotion</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <Synthread>10</Synthread>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <PolarisHealingPotion>3</PolarisHealingPotion>
+    </costList>
+    <graphicData>
+      <texPath>Polarisbloc/Item/HealingPotionBelt/HealingPotionBelt_east</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>900</WorkToMake>
+      <Mass>3</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <generateAllowChance>0.15</generateAllowChance>
+    <apparel>
+      <wornGraphicPath>Polarisbloc/Item/HealingPotionBelt/HealingPotionBelt</wornGraphicPath>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+        <north>
+          <offset>(-0.0,-0.25)</offset>
+          <hulk>
+            <offset>(-0.0,-0.15)</offset>
+          </hulk>
+          <fat>
+            <offset>(-0.0,-0.0)</offset>
+          </fat>
+          <thin>
+            <offset>(0.0,-0.0)</offset>
+          </thin>
+        </north>
+        <south>
+          <offset>(0.18,-0.20)</offset>
+          <hulk>
+            <offset>(0.24,-0.10)</offset>
+          </hulk>
+          <fat>
+            <offset>(0.24,-0.0)</offset>
+          </fat>
+          <thin>
+            <offset>(0.0,-0.0)</offset>
+          </thin>
+        </south>
+        <east>
+          <offset>(-0.15,-0.25)</offset>
+          <hulk>
+            <offset>(-0.0,-0.15)</offset>
+          </hulk>
+          <fat>
+            <offset>(-0.10,-0.10)</offset>
+          </fat>
+        </east>
+        <west>
+          <offset>(0.15,-0.25)</offset>
+          <hulk>
+            <offset>(-0.0,-0.15)</offset>
+          </hulk>
+          <fat>
+            <offset>(-0.0,-0.10)</offset>
+          </fat>
+        </west>
+        <male>
+          <scale>(0.75,0.75)</scale>
+        </male>
+        <female>
+          <scale>(0.75,0.75)</scale>
+        </female>
+        <thin>
+          <scale>(0.7,0.7)</scale>
+        </thin>
+        <hulk>
+          <scale>(0.9,0.9)</scale>
+        </hulk>
+        <fat>
+          <scale>(0.9,0.9)</scale>
+        </fat>
+      </wornGraphicData>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>HealingBelt</li>
+      </tags>
+    </apparel>
   </ThingDef>
   <!--Implants-->
   <ThingDef ParentName="PolarisImplantBase">

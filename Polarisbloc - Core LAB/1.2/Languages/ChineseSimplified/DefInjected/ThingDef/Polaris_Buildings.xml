@@ -25,6 +25,9 @@
   <PolarisMendingShelf_Blueprint_Install.label>修补架（蓝图）</PolarisMendingShelf_Blueprint_Install.label>
   <PolarisMendingShelf_Frame.label>修补架（建造中）</PolarisMendingShelf_Frame.label>
   <PolarisMendingShelf_Frame.description>一个存放物品的物品架，放在上面的物品就算是在室外也不会老化。另外，它还能自动修复受损的物品。</PolarisMendingShelf_Frame.description>
+  <PolarisMendingShelf.comps.2.outOfFuelMessage>无法修理：需要更多布</PolarisMendingShelf.comps.2.outOfFuelMessage>
+	<PolarisMendingShelf.comps.2.fuelLabel>布</PolarisMendingShelf.comps.2.fuelLabel>
+	<PolarisMendingShelf.comps.2.fuelGizmoLabel>布：</PolarisMendingShelf.comps.2.fuelGizmoLabel>
 
 
 </LanguageData>

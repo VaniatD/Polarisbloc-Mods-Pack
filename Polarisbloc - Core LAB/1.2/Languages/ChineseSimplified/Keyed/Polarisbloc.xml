@@ -36,7 +36,7 @@
   <PolarisMomeryResterAdulthoodModeActiveLabel>模式：成年背景</PolarisMomeryResterAdulthoodModeActiveLabel>
   <PolarisMomeryResterAdulthoodModeActiveDesc>在这个模式下，会改变你的成年背景故事。点击按钮以切换至幼年背景模式。</PolarisMomeryResterAdulthoodModeActiveDesc>
   <PolarisMomeryResterStorySuccessfullyChanged>{0}的{1}已重置为{2}。</PolarisMomeryResterStorySuccessfullyChanged>
-  <PolarisMomeryResterHaveNoAvaliableStory>{0}没有可以改变的背景故事。</PolarisMomeryResterHaveNoAvaliableStory>
+  <PolarisMomeryResterHaveNoAvaliableStory>{0}没有可以改变的背景故事。 背景故事已重置为{1}。</PolarisMomeryResterHaveNoAvaliableStory>
   <PolarisMomeryResterUnknownError>*未知错误</PolarisMomeryResterUnknownError>
   <!--curer-->
   <PolarisCurerApplyToHumanLabel>应用于人类</PolarisCurerApplyToHumanLabel>

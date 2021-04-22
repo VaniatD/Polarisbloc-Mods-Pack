@@ -26,7 +26,14 @@ namespace Polarisbloc
                     usedBy.story.childhood = childhoodStory;
                     PolarisUtility.RefreshPawnStat(usedBy);
                 }
-                else Messages.Message("PolarisMomeryResterHaveNoAvaliableStory".Translate(usedBy.LabelShort), usedBy, MessageTypeDefOf.NegativeEvent);
+                else
+                {
+                    Messages.Message("PolarisMomeryResterHaveNoAvaliableStory".Translate(usedBy.LabelShort, childhoodStory.title), usedBy, MessageTypeDefOf.NegativeEvent);
+                    PolarisUtility.GainSkillsExtra(usedBy, childhoodStory.skillGainsResolved, true);
+                    usedBy.story.childhood = childhoodStory;
+                    PolarisUtility.RefreshPawnStat(usedBy);
+                }
+                    
             }
             else if (memResetMode == MemResetMode.adulthood)
             {
@@ -38,7 +45,13 @@ namespace Polarisbloc
                     usedBy.story.adulthood = adulthoodStory;
                     PolarisUtility.RefreshPawnStat(usedBy);
                 }
-                else Messages.Message("PolarisMomeryResterHaveNoAvaliableStory".Translate(usedBy.LabelShort), usedBy, MessageTypeDefOf.NegativeEvent);
+                else
+                {
+                    Messages.Message("PolarisMomeryResterHaveNoAvaliableStory".Translate(usedBy.LabelShort, adulthoodStory.title), usedBy, MessageTypeDefOf.NegativeEvent);
+                    PolarisUtility.GainSkillsExtra(usedBy, adulthoodStory.skillGainsResolved, true);
+                    usedBy.story.adulthood = adulthoodStory;
+                    PolarisUtility.RefreshPawnStat(usedBy);
+                }
             }
             else Messages.Message("PolarisMomeryResterUnknownError".Translate(), MessageTypeDefOf.NegativeEvent);
         }

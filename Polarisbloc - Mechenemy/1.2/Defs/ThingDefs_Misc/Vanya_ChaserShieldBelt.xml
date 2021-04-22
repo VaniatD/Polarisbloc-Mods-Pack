@@ -25,6 +25,7 @@
     </thingCategories>
     <apparel>
       <careIfWornByCorpse>false</careIfWornByCorpse>
+      <wearPerDay>0</wearPerDay>
       <bodyPartGroups>
         <li>Waist</li>
       </bodyPartGroups>

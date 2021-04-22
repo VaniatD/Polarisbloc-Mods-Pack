@@ -74,6 +74,7 @@
     <Compile Include="Medicines\ReceptorAntagonistDatabase.cs" />
     <Compile Include="Misc\PolarisUtility.cs" />
     <Compile Include="Surgeries\Recipe_SurgeryChangeBioAge.cs" />
+    <Compile Include="CombatChip\Verb_CastUseEffect.cs" />
     <Compile Include="VoidKey\ChooseVoidPawnWindow.cs" />
     <Compile Include="CombatChip\HediffComp_Inspire.cs" />
     <Compile Include="Buildings\Building_Curer.cs" />

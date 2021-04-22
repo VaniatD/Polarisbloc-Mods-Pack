@@ -35,7 +35,11 @@ namespace Polarisbloc_SecurityForce
             }
             if (this.Wearer != null )
             {
-                this.Wearer.health.AddHediff(HediffDef.Named("PolarisCombatChip_Currency"), this.Wearer.health.hediffSet.GetBrain(), null);
+                if (ModLister.GetActiveModWithIdentifier("Vanya.Polarisbloc.CoreLab") != null)
+                {
+                    this.Wearer.health.AddHediff(HediffDef.Named("PolarisCombatChip_Currency"), this.Wearer.health.hediffSet.GetBrain(), null);
+                }
+                    
                 BodyPartRecord eye = this.GetEye();
                 if (eye != null)
                 {
@@ -70,9 +74,12 @@ namespace Polarisbloc_SecurityForce
         private void CombatEnhancingDrugsApply(Pawn pawn)
         {
             //pawn.health.AddHediff(HediffDef.Named("PolarisHealingPotion"));
-            Hediff hpHediff = HediffMaker.MakeHediff(HediffDef.Named("PolarisHealingPotion"), pawn);
-            hpHediff.Severity = 2f;
-            pawn.health.AddHediff(hpHediff);
+            if (ModLister.GetActiveModWithIdentifier("Vanya.Polarisbloc.CoreLab") != null)
+            {
+                Hediff hpHediff = HediffMaker.MakeHediff(HediffDef.Named("PolarisHealingPotion"), pawn);
+                hpHediff.Severity = 2f;
+                pawn.health.AddHediff(hpHediff);
+            }
             if (Rand.Chance(0.5f))
             {
                 pawn.health.AddHediff(HediffDef.Named("GoJuiceHigh"));

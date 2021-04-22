@@ -58,6 +58,7 @@
     </thingCategories>
     <apparel>
       <careIfWornByCorpse>false</careIfWornByCorpse>
+      <wearPerDay>0</wearPerDay>
       <bodyPartGroups>
         <li>Waist</li>
       </bodyPartGroups>
@@ -216,6 +217,7 @@
     </equippedStatOffsets>
     <generateCommonality>0.4</generateCommonality>
     <apparel>
+      <wearPerDay>0</wearPerDay>
       <bodyPartGroups>
         <li>Neck</li>
         <li>Torso</li>

@@ -36,7 +36,7 @@
   <PolarisMomeryResterAdulthoodModeActiveLabel>Mode: adulthood backstory</PolarisMomeryResterAdulthoodModeActiveLabel>
   <PolarisMomeryResterAdulthoodModeActiveDesc>On this mode, it'll change the subject's adulthood backstory. Click on the icon to switch into childhood backstory mode.</PolarisMomeryResterAdulthoodModeActiveDesc>
   <PolarisMomeryResterStorySuccessfullyChanged>{0}'s {1} has been changed to {2}.</PolarisMomeryResterStorySuccessfullyChanged>
-  <PolarisMomeryResterHaveNoAvaliableStory>{0} has no available backstory that could be changed.</PolarisMomeryResterHaveNoAvaliableStory>
+  <PolarisMomeryResterHaveNoAvaliableStory>{0} has no available backstory that could be changed. Set the backstory with {1}.</PolarisMomeryResterHaveNoAvaliableStory>
   <PolarisMomeryResterUnknownError>*Unknow error</PolarisMomeryResterUnknownError>
   <!--curer-->
   <PolarisCurerApplyToHumanLabel>apply to human</PolarisCurerApplyToHumanLabel>
