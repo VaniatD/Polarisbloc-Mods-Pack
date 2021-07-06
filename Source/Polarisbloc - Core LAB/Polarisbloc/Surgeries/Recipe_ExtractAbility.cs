@@ -12,7 +12,7 @@ namespace Polarisbloc
     {
 		private bool Operable(Hediff target, RecipeDef recipe)
 		{
-			Hediff_ImplantWithLevel hediff_ImplantWithLevel = target as Hediff_ImplantWithLevel;
+			Hediff_Psylink hediff_ImplantWithLevel = target as Hediff_Psylink;
 			if (hediff_ImplantWithLevel == null)
 			{
 				return false;
@@ -60,22 +60,28 @@ namespace Polarisbloc
 				List<DebugMenuOption> list = new List<DebugMenuOption>();
 				foreach (Ability ability in pawn.abilities.abilities)
 				{
-					list.Add(new DebugMenuOption(ability.def.LabelCap, DebugMenuOptionMode.Action, delegate ()
-					{
-						compNeurotrainer.ability = ability.def;
-						string thingDefName = NeurotrainerDefGenerator.PsytrainerDefPrefix + "_" + ability.def.defName;
-						ThingDef thingDef = DefDatabase<ThingDef>.AllDefsListForReading.Find(x => x.defName.Equals(thingDefName));
-						//Thing thing = ThingMaker.MakeThing(thingDef, null);
-						//GenPlace.TryPlaceThing(thing, pawn.Position, billDoer.Map, ThingPlaceMode.Near);
-						GenSpawn.Spawn(thingDef, pawn.Position, pawn.Map, WipeMode.Vanish);
-						string abilityName = ability.def.LabelCap;
-						pawn.abilities.abilities.Remove(ability);
-						Messages.Message("PolarisExtractAbilitySuccessfully".Translate(pawn.NameShortColored, abilityName), pawn, MessageTypeDefOf.NeutralEvent, true);
-						if (flag)
+					compNeurotrainer.ability = ability.def;
+					string thingDefName = ThingDefGenerator_Neurotrainer.PsytrainerDefPrefix + "_" + ability.def.defName;
+					ThingDef thingDef = DefDatabase<ThingDef>.AllDefsListForReading.Find(x => x.defName.Equals(thingDefName));
+					if (thingDef != null)
+                    {
+						list.Add(new DebugMenuOption(ability.def.LabelCap, DebugMenuOptionMode.Action, delegate ()
 						{
-							base.ReportViolation(pawn, billDoer, pawn.FactionOrExtraMiniOrHomeFaction, -70, "PolarisGoodwillChangedReason_ExtractedAbility".Translate(pawn.NameShortColored));
-						}
-					}));
+
+							/*Thing thing = ThingMaker.MakeThing(thingDef, null);
+							GenPlace.TryPlaceThing(thing, pawn.Position, billDoer.Map, ThingPlaceMode.Near);*/
+							GenSpawn.Spawn(thingDef, pawn.Position, pawn.Map, WipeMode.Vanish);
+							string abilityName = ability.def.LabelCap;
+							pawn.abilities.abilities.Remove(ability);
+							Messages.Message("PolarisExtractAbilitySuccessfully".Translate(pawn.NameShortColored, abilityName), pawn, MessageTypeDefOf.NeutralEvent, true);
+							if (flag)
+							{
+								base.ReportViolation(pawn, billDoer, pawn.HomeFaction, -70);
+								//base.ReportViolation(pawn, billDoer, pawn.FactionOrExtraMiniOrHomeFaction, -70, "PolarisGoodwillChangedReason_ExtractedAbility".Translate(pawn.NameShortColored));
+							}
+						}));
+					}
+					
 				}
 				Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
 			}

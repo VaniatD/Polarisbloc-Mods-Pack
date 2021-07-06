@@ -150,7 +150,7 @@ namespace Polarisbloc
                  select x).TryRandomElement(out Hediff result))
             {
                 //result.Tended(Rand.Range(0.1f, 0.4f), 0);
-                result.Tended_NewTemp(Rand.Range(0.1f, 0.4f), 1f);
+                result.Tended(Rand.Range(0.1f, 0.4f), 1f);
             }
         }
 

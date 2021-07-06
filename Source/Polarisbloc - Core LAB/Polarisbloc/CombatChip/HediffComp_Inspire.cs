@@ -42,7 +42,7 @@ namespace Polarisbloc
             {
                 if (randomInsDef.Worker.InspirationCanOccur(pawn))
                 {
-                    pawn.mindState.inspirationHandler.TryStartInspiration_NewTemp(randomInsDef, this.parent.Label);
+                    pawn.mindState.inspirationHandler.TryStartInspiration(randomInsDef, this.parent.Label);
                 }
             }
 

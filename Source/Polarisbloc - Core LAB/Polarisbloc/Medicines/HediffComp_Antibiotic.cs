@@ -62,7 +62,7 @@ namespace Polarisbloc
             {
                 if (hediffs[i].TendableNow())
                 {
-                    hediffs[i].Tended_NewTemp(0.8f, 1f);
+                    hediffs[i].Tended(0.8f, 1f);
                 }
                 float num = 0f;
                 HediffComp_Immunizable hediffComp_Immunizable = hediffs[i].TryGetComp<HediffComp_Immunizable>();

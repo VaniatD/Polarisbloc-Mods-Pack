@@ -131,11 +131,13 @@ namespace Polarisbloc
 
 			if (bladelinkWeapon != null)
 			{
-				if (bladelinkWeapon.bondedPawn != this.pawn)
+
+				Pawn oldBondedPawn = (Pawn)typeof(CompBladelinkWeapon).GetField("oldBondedPawn", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(bladelinkWeapon);
+				if (oldBondedPawn != this.pawn)
 				{
 					if (this.CheckSuccessOnUsed())
 					{
-						bladelinkWeapon.bondedPawn = null;
+						oldBondedPawn = null;
 						bladelinkWeapon.Notify_Equipped(this.pawn);
 						if (Rand.Value < this.Configs.selfDestoryOnSuccessed)
 						{

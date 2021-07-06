@@ -343,3 +343,4 @@ D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Security Force\Polarisbloc_S
 D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Security Force\Polarisbloc_SecurityForce\obj\Release\Polarisbloc_SecurityForce.csproj.CopyComplete
 D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Security Force\Polarisbloc_SecurityForce\obj\Release\Polarisbloc_SecurityForce.dll
 D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Security Force\Polarisbloc_SecurityForce\obj\Release\Polarisbloc_SecurityForce.pdb
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Security Force\Polarisbloc_SecurityForce\bin\Release\UnityEngine.SubsystemsModule.dll

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Polaribloc_SecuirityForce.label>保安部隊</Polaribloc_SecuirityForce.label>
+  <Polaribloc_SecuirityForce.description>ポラリスブロック社に属する保安部隊はセキュリティサポートを提供します。それと同時にポラリスブロックによって、遂行されていない任務を実行するよう指示されています。</Polaribloc_SecuirityForce.description>
+  <Polaribloc_SecuirityForce.fixedName>保安部隊</Polaribloc_SecuirityForce.fixedName>
+  <Polaribloc_SecuirityForce.pawnsPlural>兵隊</Polaribloc_SecuirityForce.pawnsPlural>
+  <Polaribloc_SecuirityForce.leaderTitle>指揮官</Polaribloc_SecuirityForce.leaderTitle>
+
+
+</LanguageData>

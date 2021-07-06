@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--<Operation Class="PatchOperationConditional"><success>Always</success><xpath>/Defs/TipSetDef[defName = "RoyaltyTips"]</xpath><match Class="PatchOperationAdd"><xpath>/Defs</xpath><value><ResearchProjectDef><tab>Polarisbloc</tab><defName>PolarisExtractAbility</defName><label>extract ability</label><description>Learn how to use a psytrainer to extract ability on pawn's brain.</description><baseCost>2480</baseCost><techLevel>Ultra</techLevel><prerequisites><li>PolarisSurgicalProgram</li></prerequisites><researchViewX>5</researchViewX><researchViewY>3.75</researchViewY><requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding><requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities><techprintCount>1</techprintCount><techprintCommonality>0.3</techprintCommonality><techprintMarketValue>2480</techprintMarketValue><heldByFactionCategoryTags><li>Outlander</li><li>Empire</li></heldByFactionCategoryTags></ResearchProjectDef><RecipeDef ParentName="PolarisSurgerybase"><defName>PolarisExtractAbility</defName><label>extract ability</label><description>Use a psytrainer to extract ability on pawn's brain.</description><workerClass>Polarisbloc.Recipe_ExtractAbility</workerClass><jobString>extracting ability.</jobString><workAmount>1800</workAmount><changesHediffLevel>PsychicAmplifier</changesHediffLevel><surgerySuccessChanceFactor>0.80</surgerySuccessChanceFactor><ingredients><li><filter><categories><li>NeurotrainersPsycast</li></categories></filter><count>1</count></li><li><filter><categories><li>Medicine</li></categories></filter><count>1</count></li></ingredients><fixedIngredientFilter><categories><li>NeurotrainersPsycast</li><li>Medicine</li></categories></fixedIngredientFilter><appliedOnFixedBodyParts><li>Brain</li></appliedOnFixedBodyParts><recipeUsers><li>Human</li></recipeUsers><skillRequirements><Medicine>8</Medicine></skillRequirements><researchPrerequisite>PolarisExtractAbility</researchPrerequisite><isViolation>true</isViolation></RecipeDef><HediffDef ParentName="PolarisCombatChipHediffBase"><defName>PolarisCombatChip_Psycaster</defName><label>combat chip (psycaster)</label><labelNoun>a combat chip</labelNoun><description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.\n\nThis one will let you out of psychic hangover.</description><stages><li><painOffset>0.2</painOffset><partEfficiencyOffset>0.2</partEfficiencyOffset><statFactors><PsychicSensitivity>1.2</PsychicSensitivity><MeditationFocusGain>1.2</MeditationFocusGain><PsychicEntropyGain>0.8</PsychicEntropyGain></statFactors></li></stages><comps><li Class="Polarisbloc.HediffCompProperties_RemoveHediff"><appliedHediffs><li>CatatonicBreakdown</li>/*<li>PsychicHangover</li>*/<li>PsychicShock</li><li>PsychicBreakdown</li></appliedHediffs></li><li Class="Polarisbloc.HediffCompProperties_DrawPsyfocus"><drawFactor>0.15</drawFactor><psyfocusGainMulti>true</psyfocusGainMulti></li></comps></HediffDef></value></match></Operation>-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/TipSetDef[defName = "RoyaltyTips"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+          <ResearchProjectDef>
+            <tab>Polarisbloc</tab>
+            <defName>PolarisExtractAbility</defName>
+            <label>extract ability</label>
+            <description>Learn how to use a psytrainer to extract ability on pawn's brain.</description>
+            <baseCost>2480</baseCost>
+            <techLevel>Ultra</techLevel>
+            <prerequisites>
+              <li>PolarisSurgicalProgram</li>
+            </prerequisites>
+            <researchViewX>5</researchViewX>
+            <researchViewY>3.75</researchViewY>
+            <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+            <requiredResearchFacilities>
+              <li>MultiAnalyzer</li>
+            </requiredResearchFacilities>
+            <techprintCount>1</techprintCount>
+            <techprintCommonality>0.3</techprintCommonality>
+            <techprintMarketValue>2480</techprintMarketValue>
+            <heldByFactionCategoryTags>
+              <li>Outlander</li>
+              <li>Empire</li>
+            </heldByFactionCategoryTags>
+          </ResearchProjectDef>
+          <RecipeDef ParentName="PolarisSurgerybase">
+            <defName>PolarisExtractAbility</defName>
+            <label>extract ability</label>
+            <description>Use a psytrainer to extract ability on pawn's brain.</description>
+            <workerClass>Polarisbloc.Recipe_ExtractAbility</workerClass>
+            <jobString>extracting ability.</jobString>
+            <workAmount>1800</workAmount>
+            <changesHediffLevel>PsychicAmplifier</changesHediffLevel>
+            <surgerySuccessChanceFactor>0.80</surgerySuccessChanceFactor>
+            <ingredients>
+              <li>
+                <filter>
+                  <categories>
+                    <li>NeurotrainersPsycast</li>
+                  </categories>
+                </filter>
+                <count>1</count>
+              </li>
+              <li>
+                <filter>
+                  <categories>
+                    <li>Medicine</li>
+                  </categories>
+                </filter>
+                <count>1</count>
+              </li>
+            </ingredients>
+            <fixedIngredientFilter>
+              <categories>
+                <li>NeurotrainersPsycast</li>
+                <li>Medicine</li>
+              </categories>
+            </fixedIngredientFilter>
+            <appliedOnFixedBodyParts>
+              <li>Brain</li>
+            </appliedOnFixedBodyParts>
+            <recipeUsers>
+              <li>Human</li>
+            </recipeUsers>
+            <skillRequirements>
+              <Medicine>8</Medicine>
+            </skillRequirements>
+            <researchPrerequisite>PolarisExtractAbility</researchPrerequisite>
+            <isViolation>true</isViolation>
+          </RecipeDef>
+          <HediffDef ParentName="PolarisCombatChipHediffBase">
+            <defName>PolarisCombatChip_Psycaster</defName>
+            <label>combat chip (psycaster)</label>
+            <labelNoun>a combat chip</labelNoun>
+            <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.\n\nThis one will let you out of psychic hangover.</description>
+            <stages>
+              <li>
+                <painOffset>0.2</painOffset>
+                <partEfficiencyOffset>0.2</partEfficiencyOffset>
+                <statFactors>
+                  <PsychicSensitivity>1.2</PsychicSensitivity>
+                  <MeditationFocusGain>1.2</MeditationFocusGain>
+                  <PsychicEntropyGain>0.8</PsychicEntropyGain>
+                </statFactors>
+              </li>
+            </stages>
+            <comps>
+              <li Class="Polarisbloc.HediffCompProperties_RemoveHediff">
+                <appliedHediffs>
+                  <li>CatatonicBreakdown</li>
+                  <!--<li>PsychicHangover</li>-->
+                  <li>PsychicShock</li>
+                  <li>PsychicBreakdown</li>
+                </appliedHediffs>
+              </li>
+              <li Class="Polarisbloc.HediffCompProperties_DrawPsyfocus">
+                <drawFactor>0.15</drawFactor>
+                <psyfocusGainMulti>true</psyfocusGainMulti>
+              </li>
+            </comps>
+          </HediffDef>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName = "PolarisSecretArchives"]</xpath>
+        <value>
+          <techprintCount>1</techprintCount>
+          <techprintCommonality>0.3</techprintCommonality>
+          <techprintMarketValue>3680</techprintMarketValue>
+          <heldByFactionCategoryTags>
+            <li>Outlander</li>
+          </heldByFactionCategoryTags>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName = "PolarisRestoreMissingPartSurgery"]</xpath>
+        <value>
+          <techprintCount>1</techprintCount>
+          <techprintCommonality>0.3</techprintCommonality>
+          <techprintMarketValue>2380</techprintMarketValue>
+          <heldByFactionCategoryTags>
+            <li>Outlander</li>
+          </heldByFactionCategoryTags>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName = "PolarisTraitreleaserProduction"]</xpath>
+        <value>
+          <techprintCount>1</techprintCount>
+          <techprintCommonality>0.2</techprintCommonality>
+          <techprintMarketValue>1880</techprintMarketValue>
+          <heldByFactionCategoryTags>
+            <li>Outlander</li>
+          </heldByFactionCategoryTags>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

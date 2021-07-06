@@ -32,7 +32,7 @@ namespace Polarisbloc
                     return;
                 }
                 TaleRecorder.RecordTale(TaleDefOf.DidSurgery, billDoer, pawn);
-                ThoughtUtility.GiveThoughtsForPawnExecuted(pawn, PawnExecutionKind.OrganHarvesting);
+                ThoughtUtility.GiveThoughtsForPawnExecuted(pawn, billDoer, PawnExecutionKind.OrganHarvesting);
                 GenSpawn.Spawn(PolarisblocDefOf.PolarisCartridge, billDoer.Position, billDoer.Map);
                 pawn.apparel.DropAll(billDoer.Position);
                 pawn.DeSpawn();

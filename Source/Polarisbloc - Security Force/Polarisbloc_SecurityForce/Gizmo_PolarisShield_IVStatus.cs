@@ -24,7 +24,7 @@ namespace Polarisbloc_SecurityForce
             return 140f;
         }
 
-        public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth)
+        public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth, GizmoRenderParms gizmoRenderParms)
         {
 			Rect overRect = new Rect(topLeft.x, topLeft.y, this.GetWidth(maxWidth), 75f);
 			Find.WindowStack.ImmediateWindow(1221393, overRect, WindowLayer.GameUI, delegate

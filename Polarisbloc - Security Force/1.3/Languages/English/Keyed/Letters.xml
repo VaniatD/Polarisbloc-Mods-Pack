@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MessageFailToUnscrambleMemoryStick>{0} has failed to unscramble memory stick.</MessageFailToUnscrambleMemoryStick>
+  <LetterLabelPolarisblocConsolationPrize>Consolation prize</LetterLabelPolarisblocConsolationPrize>
+  <PolarisblocConsolationPrize>Congratulations！ You have received a consolation prize from our company. Please make persistent efforts!\n\n----Polarisbloc.</PolarisblocConsolationPrize>
+  <LetterLabelPolarisblocSurprised>Surprised!</LetterLabelPolarisblocSurprised>
+  <PolarisblocSurprised>Congratulations！ You have received a luxurious gift from our company, one of the immeasurable 666th anniversary commemorative sculptures. Thank you for your support!\n\n----Polarisbloc.</PolarisblocSurprised>
+  <!--<LetterLabelPolarisblocGetDropSupply>Drop supplies arrived</LetterLabelPolarisblocGetDropSupply>-->
+  <!--<PolarisblocGetDropSupply>Thank you for using Polarisbloc's orbiter airdrop service.This is your supplies about a set of equipments of soldiers. Please check it.</PolarisblocGetDropSupply>-->
+  <PlrsNoEnoughEnergyToDoExplosion>It has no enough energy to do an explosion!</PlrsNoEnoughEnergyToDoExplosion>
+  <PlrsDoExplosionLabel>explosion!</PlrsDoExplosionLabel>
+  <PlrsDoExplosionDESC>You can pay 50 energy to do an explosion around you.Don't worry,it won't hurt yourself.</PlrsDoExplosionDESC>
+  <PlrsLightningActiveLabel>Lightning!</PlrsLightningActiveLabel>
+  <PlrsLightningActiveDESC>When you active it,a lightning will strike  back to the damage instigator.</PlrsLightningActiveDESC>
+  <PlrsTextMote_Absorbed>Absorbed</PlrsTextMote_Absorbed>
+</LanguageData>

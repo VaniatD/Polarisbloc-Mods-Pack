@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Cartridge-->
+  <PolarisMessageSomeoneResurrected>{0}成功让{1}捡回了一条命。</PolarisMessageSomeoneResurrected>
+  <PolarisMessageFailedMakeCartridge>{0}必须对{1}有至少60的好感度。</PolarisMessageFailedMakeCartridge>
+  <PolarisFoundNoResearchProject>未找到可用研究项目</PolarisFoundNoResearchProject>
+  <!--CombatChip-->
+  <PolarisConvertCombatChipTitle>选择战术芯片</PolarisConvertCombatChipTitle>
+  <PolarisConvertCombatChipDESC>请在以下条目中选择你想要的芯片种类。</PolarisConvertCombatChipDESC>
+  <PolarisMessageFailedConvertCombatChip>{0}没有可用的战术芯片。</PolarisMessageFailedConvertCombatChip>
+  <PolarisConvertCombatHasNoChip>没有战术芯片</PolarisConvertCombatHasNoChip>
+  <!--orbital trader caller-->
+  <PolarisOrbitalTraderCouldNotArrival>附近的轨道没有足够的空间来容纳新的轨道商。</PolarisOrbitalTraderCouldNotArrival>
+  <!--heal old wounds-->
+  <PolarisMessageSuccessfullyRemovedHediffIsOld>{0}成功治疗了{1}的{2}。</PolarisMessageSuccessfullyRemovedHediffIsOld>
+  <!--age-->
+  <PolarisMessageSuccessfullyAgeDecrease>{0}的年龄减少了{1}岁。</PolarisMessageSuccessfullyAgeDecrease>
+  <!--Traitreleaser-->
+  <PolarisTraitreleaserEffectDESC>你可以选择直接获取一个新特性或者将使用者的某个特性记录到特性释放器。</PolarisTraitreleaserEffectDESC>
+  <PolarisTraitreleaserAddTraitOption>获取{0}</PolarisTraitreleaserAddTraitOption>
+  <PolarisTraitreleaserAlreadyHadTrait>已拥有</PolarisTraitreleaserAlreadyHadTrait>
+  <PolarisTraitreleaserHasNoEnoughSlots>没有足够槽位</PolarisTraitreleaserHasNoEnoughSlots>
+  <PolarisTraitreleaserRemoveTraitOption>记录特性（ 可用次数：{0} ）</PolarisTraitreleaserRemoveTraitOption>
+  <PolarisTraitreleaserChoseRemoveTrait>你选择的特性会从使用者身上移除。</PolarisTraitreleaserChoseRemoveTrait>
+  <PolarisTraitreleaserUsedRemovedTrait>{0}成功舍弃了{1}</PolarisTraitreleaserUsedRemovedTrait>
+  <PolarisTraitreleaserUsedReplaceConflitTraits>为了获取{1}，{0}不得不放弃了：{2}。</PolarisTraitreleaserUsedReplaceConflitTraits>
+  <PolarisTraitreleaserUsedAddTrait>{0}成功获取了{1}。</PolarisTraitreleaserUsedAddTrait>
+  <PolarisTraitreleaserTraitConflictingTraits>冲突：{0}</PolarisTraitreleaserTraitConflictingTraits>
+  <PolarisTraitreleaserTraitDisabledWorkTypes>无法从事：{0}</PolarisTraitreleaserTraitDisabledWorkTypes>
+  <PolarisTraitreleaserUsedbyHasNullTraits>这个殖民者无法改变特性</PolarisTraitreleaserUsedbyHasNullTraits>
+  <!--momery rester-->
+  <PolarisMomeryResterHaveNoAvaliableOption>*没有可用选项</PolarisMomeryResterHaveNoAvaliableOption>
+  <PolarisMomeryResterStoryDisabledWorkTypes>无法从事：{0}</PolarisMomeryResterStoryDisabledWorkTypes>
+  <PolarisMomeryResterChildhoodModeActiveLabel>模式：幼年背景</PolarisMomeryResterChildhoodModeActiveLabel>
+  <PolarisMomeryResterChildhoodModeActiveDesc>在这个模式下，会改变你的幼年背景故事。点击按钮以切换至成年背景模式。</PolarisMomeryResterChildhoodModeActiveDesc>
+  <PolarisMomeryResterAdulthoodModeActiveLabel>模式：成年背景</PolarisMomeryResterAdulthoodModeActiveLabel>
+  <PolarisMomeryResterAdulthoodModeActiveDesc>在这个模式下，会改变你的成年背景故事。点击按钮以切换至幼年背景模式。</PolarisMomeryResterAdulthoodModeActiveDesc>
+  <PolarisMomeryResterStorySuccessfullyChanged>{0}的{1}已重置为{2}。</PolarisMomeryResterStorySuccessfullyChanged>
+  <PolarisMomeryResterHaveNoAvaliableStory>{0}没有可以改变的背景故事。 背景故事已重置为{1}。</PolarisMomeryResterHaveNoAvaliableStory>
+  <PolarisMomeryResterUnknownError>*未知错误</PolarisMomeryResterUnknownError>
+  <!--curer-->
+  <PolarisCurerApplyToHumanLabel>应用于人类</PolarisCurerApplyToHumanLabel>
+  <PolarisCurerApplyToHumanDESC>如果激活，则治疗器会自动为人类包扎伤口。</PolarisCurerApplyToHumanDESC>
+  <!--restorer-->
+  <PolarisRestorerIngest>{0}注射了北极星恢复剂。</PolarisRestorerIngest>
+  <!--net chip-->
+  <PolarisForceCalmDown>{0}在{1}作用下冷静了</PolarisForceCalmDown>
+  <!--void key-->
+  <PolarisVoidKeyLinkedTo>已连接</PolarisVoidKeyLinkedTo>
+  <PolarisVoidKeyTryLinkGizmoLabel>链接至...</PolarisVoidKeyTryLinkGizmoLabel>
+  <PolarisVoidKeyTryLinkGizmoDesc>尝试获取一个失踪殖民者或者动物的信息。</PolarisVoidKeyTryLinkGizmoDesc>
+  <PolarisVoidKeyWindowTitle>虚空之钥</PolarisVoidKeyWindowTitle>
+  <PolarisVoidKeyWindowInformation>你可以看到曾经是殖民者或者动物的所有生物，然后选择其中你想要复活的一个下载。</PolarisVoidKeyWindowInformation>
+  <PolarisVoidKeyPullVoidPawnData>将这个生物链接至{0}的数据。</PolarisVoidKeyPullVoidPawnData>
+  <PolarisVoidKeyPullDataDone>已获取{0}的数据。</PolarisVoidKeyPullDataDone>
+  <PolarisVoidKeyFoundNoColonist>找不到对象</PolarisVoidKeyFoundNoColonist>
+  <PolarisVoidKeyITabChoosePawn>链接至...</PolarisVoidKeyITabChoosePawn>
+  <PolarisVoidKeyITabPawnInfo>详情</PolarisVoidKeyITabPawnInfo>
+  <!--Change age window-->
+  <PolarisTargetBioAge>目标年龄： {0}</PolarisTargetBioAge>
+  <PolarisMessageSuccessfullyChangeBioAge>{0}的生物年龄已经发生改变。</PolarisMessageSuccessfullyChangeBioAge>
+  <!--decoder-->
+  <PolarisDecoderSuccessedUsedForPawn>成功为{0}向{1}注入生物编码。</PolarisDecoderSuccessedUsedForPawn>
+  <PolarisDecoderFailedUsedForPawn>{0}破译{1}的尝试失败了。</PolarisDecoderFailedUsedForPawn>
+  <PolarisDecoderSelfDestroyed>破译器已经损坏。</PolarisDecoderSelfDestroyed>
+  <PolarisDecoderSkillRequirementNoSatisfies>需要{0}等级{1}</PolarisDecoderSkillRequirementNoSatisfies>
+  <!--extract ability-->
+  <PolarisExtractAbilitySuccessfully>成功提取了{0}的{1}。</PolarisExtractAbilitySuccessfully>
+  <PolarisExtractAbilityFailed>无法提取{0}的能力。</PolarisExtractAbilityFailed>
+  <PolarisGoodwillChangedReason_ExtractedAbility>提取了{0}的能力</PolarisGoodwillChangedReason_ExtractedAbility>
+  <!--remove implant-->
+  <PolarisMessageSuccessfullyRemovedImplants>{1}成功移除了{1}的{2}。</PolarisMessageSuccessfullyRemovedImplants>
+  <!--shield belt-->
+  <PlrsForceResetLabel>强行激活</PlrsForceResetLabel>
+  <PlrsForceResetDESC>消耗一些护盾耐久度强行激活护盾。</PlrsForceResetDESC>
+  <PlrsNoEnoughHitPointsToReset>没有足够的耐久度。</PlrsNoEnoughHitPointsToReset>
+</LanguageData>

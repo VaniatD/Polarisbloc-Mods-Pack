@@ -56,7 +56,7 @@ namespace Polarisbloc
                 CompProperties_Power props = this.compPowerTrader.Props;
                 if (flag)
                 {
-                    this.GetRoomGroup().Temperature += num2;
+                    this.GetRoom(RegionType.Set_All).Temperature += num2;
                     this.compPowerTrader.PowerOutput = -props.basePowerConsumption;
                 }
                 else

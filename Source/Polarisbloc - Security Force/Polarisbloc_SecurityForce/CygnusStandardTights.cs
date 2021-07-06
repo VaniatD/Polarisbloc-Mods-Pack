@@ -31,7 +31,7 @@ namespace Polarisbloc_SecurityForce
                 where x.TendableNow() && (x is Hediff_Injury || x is Hediff_MissingPart)
                 select x).TryRandomElement(out Hediff result))
             {
-                result.Tended_NewTemp(Rand.Range(0.6f, 1f), 1f);
+                result.Tended(Rand.Range(0.6f, 1f), 1f);
             }
         }
 

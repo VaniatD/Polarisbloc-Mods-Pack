@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef>
+    <defName>Polarisbloc_EmergencyFood</defName>
+    <label>emergency food</label>
+    <description>A liquid food that can quickly restore the physical strength of the eater, with the addition of anti-fatigue components that can effectively improve the combat ability of the eater.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>50</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <alwaysHaulable>true</alwaysHaulable>
+    <graphicData>
+      <texPath>PolarisblocSF/Item/EmergencyFood</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <Flammability>0</Flammability>
+      <MaxHitPoints>50</MaxHitPoints>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <MarketValue>21</MarketValue>
+      <Mass>0.2</Mass>
+      <Beauty>0</Beauty>
+      <Nutrition>1</Nutrition>
+    </statBases>
+    <ingestible>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <foodType>Processed, Fluid</foodType>
+      <preferability>MealAwful</preferability>
+      <!--<ingestEffect>EatVegetarian</ingestEffect>-->
+      <ingestSound>Ingest_Beer</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Polarisbloc_EmergencyFood</hediffDef>
+          <severity>1.00</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.3</offset>
+        </li>
+      </outcomeDoers>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <baseIngestTicks>60</baseIngestTicks>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Ingredients" />
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>Polarisbloc_EmergencyFood</defName>
+    <label>military rations</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>A liquid food that can quickly restore the physical strength of the eater, with the addition of anti-fatigue components that can effectively improve the combat ability of the eater.</description>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <hungerRateFactor>0.9</hungerRateFactor>
+        <restFallFactor>0.6</restFallFactor>
+        <statOffsets>
+          <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

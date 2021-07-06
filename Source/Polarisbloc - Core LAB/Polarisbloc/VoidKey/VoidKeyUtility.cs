@@ -72,7 +72,8 @@ namespace Polarisbloc
             GenSpawn.Spawn(pawn, loc, map, WipeMode.Vanish);
             for (int i = 0; i < 10; i++)
             {
-                MoteMaker.ThrowAirPuffUp(pawn.DrawPos, map);
+                //MoteMaker.ThrowAirPuffUp(pawn.DrawPos, map);
+                DebugActionsUtility.DustPuffFrom(pawn);
             }
             if (pawn.Faction != null && pawn.Faction != Faction.OfPlayer && pawn.HostileTo(Faction.OfPlayer))
             {
@@ -129,7 +130,7 @@ namespace Polarisbloc
             }
             if (pawn.Dead)
             {
-                Log.Error("The pawn has died while being resurrected.", false);
+                Log.Error("The pawn has died while being resurrected.");
                 ResurrectionUtility.Resurrect(pawn);
             }
         }

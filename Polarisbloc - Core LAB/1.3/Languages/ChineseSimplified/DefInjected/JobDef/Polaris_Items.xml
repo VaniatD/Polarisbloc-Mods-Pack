@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- orbital trader caller -->
+
+  <UsePolarisOrbitalTraderCaller.reportString>正在使用呼叫器。</UsePolarisOrbitalTraderCaller.reportString>
+
+
+  <!-- traitreleaser -->
+
+  <UsePolarisTraitreleaser.reportString>正在使用特性释放器。</UsePolarisTraitreleaser.reportString>
+
+
+  <!-- momery rester -->
+
+  <UsePolarisMomeryRester.reportString>正在使用记忆重置器。</UsePolarisMomeryRester.reportString>
+
+
+  <PolarisDecode.reportString>正在破译TargetA。</PolarisDecode.reportString>
+
+
+  <!-- combat chip -->
+  <!--<UsePolarisConverter.reportString>正在使用转换器。</UsePolarisConverter.reportString>-->
+
+</LanguageData>

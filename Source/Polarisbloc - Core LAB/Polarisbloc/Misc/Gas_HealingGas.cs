@@ -37,6 +37,7 @@ namespace Polarisbloc
                 foreach (Pawn p in this.Pawns)
                 {
                     this.HealRandomInjury(p, 1f);
+                    this.TendRandomInjury(p, Rand.Value);
                 }
             }
             base.Tick();
@@ -49,6 +50,16 @@ namespace Polarisbloc
                  select x).TryRandomElement(out Hediff_Injury hediff_Injury))
             {
                 hediff_Injury.Heal(points);
+            }
+        }
+
+        private void TendRandomInjury(Pawn pawn, float quality)
+        {
+            if ((from x in pawn.health.hediffSet.GetHediffs<Hediff_Injury>()
+                 where x.TendableNow()
+                 select x).TryRandomElement(out Hediff_Injury hediff_Injury))
+            {
+                hediff_Injury.Tended(quality, 0.65f);
             }
         }
     }

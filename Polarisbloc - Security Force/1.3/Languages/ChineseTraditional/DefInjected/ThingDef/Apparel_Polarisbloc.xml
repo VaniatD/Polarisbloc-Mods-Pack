@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_PolarisShieldBelt_IV.label>北極星IV型護盾腰帶</Apparel_PolarisShieldBelt_IV.label>
+  <Apparel_PolarisShieldBelt_IV.description>天軸集團最新一代的護盾，只為重要人員配備。\n\n這個護盾會在受到攻擊時對攻擊者進行反擊。雖然反擊有間隔，但是仍要小心，反擊是非常精準的。</Apparel_PolarisShieldBelt_IV.description>
+
+  <Polarisbloc_CygnusStandardArmor.label>天鵝座制式裝甲</Polarisbloc_CygnusStandardArmor.label>
+  <Polarisbloc_CygnusStandardArmor.description>安保部隊的標準制式裝甲，僅提供了少量的防禦能力和戰鬥屬性加成。</Polarisbloc_CygnusStandardArmor.description>
+
+  <Polarisbloc_CygnusStandardArmorC.label>天鵝座制式裝甲（指揮官）</Polarisbloc_CygnusStandardArmorC.label>
+  <Polarisbloc_CygnusStandardArmorC.description>指揮官版的天鵝座制式裝甲，在原本的性能基礎上略有提升，但仍然十分有限。</Polarisbloc_CygnusStandardArmorC.description>
+
+  <Polarisbloc_CygnusStandardTights.label>天鵝座制式緊身衣</Polarisbloc_CygnusStandardTights.label>
+  <Polarisbloc_CygnusStandardTights.description>使用高分子材料製作的緊身衣，包含有特殊的生命維持裝置，能夠及時處理使用者的傷口，促進傷口愈合。</Polarisbloc_CygnusStandardTights.description>
+
+
+  <!-- HeadGear -->
+
+  <Polarisbloc_AlkaidStrategyAssistant.label>搖光戰術助理</Polarisbloc_AlkaidStrategyAssistant.label>
+  <Polarisbloc_AlkaidStrategyAssistant.description>通用型作戰輔助設備，能夠協助索敵，預測敵方運動趨勢。</Polarisbloc_AlkaidStrategyAssistant.description>
+
+  <Polarisbloc_ThubanTacticalGoggles.label>右樞戰術目鏡</Polarisbloc_ThubanTacticalGoggles.label>
+  <Polarisbloc_ThubanTacticalGoggles.description>天軸集團生產的通用型作戰目鏡，能夠有效提高使用者的視覺能力。</Polarisbloc_ThubanTacticalGoggles.description>
+
+
+  <!-- Trigger -->
+
+  <Polarisbloc_BodyFixTrigger.label>身體修正觸發器</Polarisbloc_BodyFixTrigger.label>
+  <Polarisbloc_BodyFixTrigger.description>身體修正觸發器</Polarisbloc_BodyFixTrigger.description>
+
+
+  <!-- Alkaid -->
+
+</LanguageData>

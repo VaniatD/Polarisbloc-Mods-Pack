@@ -63,7 +63,7 @@ namespace Polarisbloc
                         pawn.health.RemoveHediff(hediffs[i]);
                         if (hediffs[i].def.spawnThingOnRemoved != null)
                         {
-                            if (hediffs[i] is Hediff_ImplantWithLevel levelHediff)
+                            if (hediffs[i] is Hediff_Level levelHediff)
                             {
                                 int count = levelHediff.level;
                                 for (int j = 0; j < count; j++)
@@ -83,7 +83,7 @@ namespace Polarisbloc
             }
             if (flag)
             {
-                base.ReportViolation(pawn, billDoer, pawn.FactionOrExtraMiniOrHomeFaction, -70, "GoodwillChangedReason_RemovedImplant".Translate(part.LabelShort));
+                base.ReportViolation(pawn, billDoer, pawn.HomeFaction, -70);
             }
         }
     }
