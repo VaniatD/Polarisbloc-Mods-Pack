@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VanyaPK_CAFighter.label>チェイサーアルマダの戦士</VanyaPK_CAFighter.label>
+  <VanyaPK_CAFighter.labelPlural>チェイサーアルマダの戦士達</VanyaPK_CAFighter.labelPlural>
+
+  <VanyaPK_CAGunner.label>チェイサーアルマダの射手</VanyaPK_CAGunner.label>
+  <VanyaPK_CAGunner.labelPlural>チェイサーアルマダの射手達</VanyaPK_CAGunner.labelPlural>
+
+  <VanyaPK_CAElite.label>チェイサーアルマダの精鋭</VanyaPK_CAElite.label>
+  <VanyaPK_CAElite.labelPlural>チェイサーアルマダの精鋭達</VanyaPK_CAElite.labelPlural>
+
+  <VanyaPK_CASlugger.label>チェイサーアルマダの砲兵</VanyaPK_CASlugger.label>
+  <VanyaPK_CASlugger.labelPlural>チェイサーアルマダの砲兵達</VanyaPK_CASlugger.labelPlural>
+
+
+</LanguageData>

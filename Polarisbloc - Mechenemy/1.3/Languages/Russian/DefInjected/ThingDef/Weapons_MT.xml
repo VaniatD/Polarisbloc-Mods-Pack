@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- grenades -->
+
+  <Vanya_Grenade.label>Маленькая импульсная бомба</Vanya_Grenade.label>
+  <Vanya_Grenade.description>Одноразовая импульсная бомба, используемая для деконструирования зданий.</Vanya_Grenade.description>
+  <Vanya_Grenade.verbs.0.label>бросить импульсную бомбу</Vanya_Grenade.verbs.0.label>
+
+  <Proj_Vanya_Grenade.label>Маленькая импульсная бомба</Proj_Vanya_Grenade.label>
+
+
+  <!-- Melees -->
+
+  <Vanya_PlasmaSword.label>Плазменый меч</Vanya_PlasmaSword.label>
+  <Vanya_PlasmaSword.description>Высвобождает энергию, чтобы сформировать стабильный плазменный клинок, наносит большой урон.</Vanya_PlasmaSword.description>
+  <Vanya_PlasmaSword.tools.0.label>рукоять</Vanya_PlasmaSword.tools.0.label>
+  <Vanya_PlasmaSword.tools.1.label>лезвие</Vanya_PlasmaSword.tools.1.label>
+  <Vanya_PlasmaSword.tools.2.label>остриё</Vanya_PlasmaSword.tools.2.label>
+
+  <Vanya_VibrateKnife.label>Электромагнитный вибро-нож</Vanya_VibrateKnife.label>
+  <Vanya_VibrateKnife.description>Нож лезвия вибрирует с высокой частотой, может прорезать любую защиту, вибрация может вызвать массовое кровотечение.</Vanya_VibrateKnife.description>
+  <Vanya_VibrateKnife.tools.0.label>рукоять</Vanya_VibrateKnife.tools.0.label>
+  <Vanya_VibrateKnife.tools.1.label>лезвие</Vanya_VibrateKnife.tools.1.label>
+  <Vanya_VibrateKnife.tools.2.label>остриё</Vanya_VibrateKnife.tools.2.label>
+
+
+  <!-- MechanoidGuns -->
+
+  <Bullet_Vanya_KineticLancer.label>Кинетический улан</Bullet_Vanya_KineticLancer.label>
+
+  <Vanya_KineticLancer.label>Кинетический улан</Vanya_KineticLancer.label>
+  <Vanya_KineticLancer.description>Используйте электромагнитный ускоритель для стрельбы вольфрамовым уланом, который может нанести большой урон бионикам.</Vanya_KineticLancer.description>
+
+  <Bullet_Vanya_SplitRifle.label>Снаряд</Bullet_Vanya_SplitRifle.label>
+
+  <Vanya_SplitRifle.label>Сплит-винтовка</Vanya_SplitRifle.label>
+  <Vanya_SplitRifle.description>Используйте электромагнитный ускоритель для выстрела снаряда, высокая скорость стрельбы, высокая точность.</Vanya_SplitRifle.description>
+
+  <Bullet_Vanya_CTMinigun.label>Снаряд</Bullet_Vanya_CTMinigun.label>
+
+  <Vanya_CTMinigun.label>Ручной миниган</Vanya_CTMinigun.label>
+  <Vanya_CTMinigun.description>Большой диапазон огня на поражение. Он делает свою работу великолепно.</Vanya_CTMinigun.description>
+
+
+  <!-- MechanoidDogsGun -->
+
+  <Bullet_Vanya_BundlingBlaster.label>Бластер</Bullet_Vanya_BundlingBlaster.label>
+
+  <Vanya_BundlingBlaster.label>Пучковый бластер</Vanya_BundlingBlaster.label>
+  <Vanya_BundlingBlaster.description>Одноразовый бластер с несколькими выстрелами, наносящий многократный урон в диком диапазоне.</Vanya_BundlingBlaster.description>
+
+  <Bullet_Vanya_DestoryerShocker.label>Разрушительный шокер</Bullet_Vanya_DestoryerShocker.label>
+
+  <Vanya_DestoryerShocker.label>Разрушительный шокер</Vanya_DestoryerShocker.label>
+  <Vanya_DestoryerShocker.description>Однократное использование большой пушки, наносит большой ущерб.</Vanya_DestoryerShocker.description>
+
+
+  <!-- MechanoidRulerGun -->
+
+  <Bullet_Vanya_RailGun.label>Вольфрамовый снаряд</Bullet_Vanya_RailGun.label>
+
+  <Vanya_RailGun.label>Рельсовая пушка инквизитора</Vanya_RailGun.label>
+  <Vanya_RailGun.description>Использует вольфрамовый снаряд, оружие дальнего действия</Vanya_RailGun.description>
+
+
+  <!-- MechanoidFortressGun -->
+
+  <Bullet_Vanya_CompRocketLauncher.label>Ракета</Bullet_Vanya_CompRocketLauncher.label>
+
+  <Vanya_CompRocketLauncher.label>Композитная пусковая установка</Vanya_CompRocketLauncher.label>
+  <Vanya_CompRocketLauncher.description>Гигантская ракетная установка, поражает ракетами широкий спектр.</Vanya_CompRocketLauncher.description>
+
+
+  <!-- ChaserArmadaGun -->
+
+  <Bullet_Vanya_StalkerRifle.label>Снаряд</Bullet_Vanya_StalkerRifle.label>
+
+  <Vanya_StalkerRifle.label>Винтовка сталкера</Vanya_StalkerRifle.label>
+  <Vanya_StalkerRifle.description>Обычная винтовка армии армады, имеет высокую точность и дальность.</Vanya_StalkerRifle.description>
+  <Vanya_StalkerRifle.tools.0.label>приклвд</Vanya_StalkerRifle.tools.0.label>
+  <Vanya_StalkerRifle.tools.1.label>ствол</Vanya_StalkerRifle.tools.1.label>
+
+  <Bullet_Vanya_HunterSniper.label>Снаряд</Bullet_Vanya_HunterSniper.label>
+
+  <Vanya_HunterSniper.label>Снайперская винтовка армады</Vanya_HunterSniper.label>
+  <Vanya_HunterSniper.description>Передовая снайперская винтовка охотников армады, используемая для охоты на гигантских механоидов.</Vanya_HunterSniper.description>
+  <Vanya_HunterSniper.tools.0.label>приклвд</Vanya_HunterSniper.tools.0.label>
+  <Vanya_HunterSniper.tools.1.label>ствол</Vanya_HunterSniper.tools.1.label>
+
+  <Bullet_Vanya_HellSong.label>Адская песня</Bullet_Vanya_HellSong.label>
+
+  <Vanya_HellSong.label>Песнь ада</Vanya_HellSong.label>
+  <Vanya_HellSong.description>Тяжелое оружие охотников армады с широкой площадью огня используется для охоты на маленьких, но быстрых механоидов.</Vanya_HellSong.description>
+  <Vanya_HellSong.tools.0.label>приклвд</Vanya_HellSong.tools.0.label>
+  <Vanya_HellSong.tools.1.label>ствол</Vanya_HellSong.tools.1.label>
+
+
+</LanguageData>

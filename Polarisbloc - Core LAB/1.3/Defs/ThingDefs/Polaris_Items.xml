@@ -97,7 +97,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
-    <tickerType>Normal</tickerType>
+    <tickerType>Never</tickerType>
     <statBases>
       <Mass>7</Mass>
       <MarketValue>1200</MarketValue>
@@ -126,7 +126,9 @@
     <alwaysHaulable>True</alwaysHaulable>
     <comps>
       <li Class="CompProperties_Forbiddable" />
-      <li Class="Polarisbloc.CompProperties_Cartridge" />
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>Hediff_PloarisCartridge</hediff>
+      </li>
       <li Class="CompProperties_Usable">
         <useJob>UseItem</useJob>
         <useLabel>Use cartridge</useLabel>
@@ -509,7 +511,7 @@
     </comps>
     <stackLimit>25</stackLimit>
     <thingSetMakerTags>
-      <li>RewardStandardMidFreq</li>
+      <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
     <tradeTags>
       <li>ExoticMisc</li>
@@ -711,7 +713,7 @@
     </statBases>
     <!--<techHediffsTags><li>Advanced</li></techHediffsTags>-->
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
     <descriptionHyperlinks>
       <RecipeDef>InstallPolarisVirtualNetChip</RecipeDef>
@@ -830,7 +832,7 @@
       <li>ExoticMisc</li>
     </tradeTags>
     <thingSetMakerTags>
-      <li>RewardStandardMidFreq</li>
+      <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
   </ThingDef>
   <JobDef>

@@ -17,36 +17,30 @@ namespace Polarisbloc
             }
         }
 
-        private int checkTicks = GenDate.TicksPerHour;
-
-        private int tick;
-
-        public override void CompPostTick(ref float severityAdjustment)
+        public HediffComp_RemoveIfApparelDropped HediffApparel
         {
-            base.CompPostTick(ref severityAdjustment);
-            this.tick++;
-            if (this.tick >= this.checkTicks)
+            get
             {
-                if (base.Pawn.apparel.WornApparel.Find(x => x.TryGetComp<CompCartridge>() != null) == null)
-                {
-                    base.Pawn.health.RemoveHediff(base.parent);
-                }
-                this.tick = 0;
+                return this.parent.TryGetComp<HediffComp_RemoveIfApparelDropped>();
             }
         }
 
         public override void Notify_PawnDied()
         {
             base.Notify_PawnDied();
-            Apparel ap = base.Pawn.apparel.WornApparel.Find(x => x.TryGetComp<CompCartridge>() != null);
-            if (ap != null)
+            if (this.HediffApparel != null)
             {
-                ap.Destroy(DestroyMode.Vanish);
-                base.Pawn.apparel.Remove(ap);
-                ResurrectionUtility.Resurrect(base.Pawn);
-                Messages.Message("PolarisMessageSomeoneResurrected".Translate(ap.LabelShort, base.Pawn.LabelShort), MessageTypeDefOf.PositiveEvent);
+                Apparel ap = this.HediffApparel.wornApparel;
+                if (ap != null)
+                {
+                    ap.Destroy(DestroyMode.Vanish);
+                    //base.Pawn.apparel.Remove(ap);
+                    ResurrectionUtility.Resurrect(base.Pawn);
+                    Messages.Message("PolarisMessageSomeoneResurrected".Translate(ap.LabelShort, base.Pawn.LabelShort), MessageTypeDefOf.PositiveEvent);
+                }
+                base.Pawn.health.RemoveHediff(base.parent);
             }
-            base.Pawn.health.RemoveHediff(base.parent);
+            
         }
     }
 

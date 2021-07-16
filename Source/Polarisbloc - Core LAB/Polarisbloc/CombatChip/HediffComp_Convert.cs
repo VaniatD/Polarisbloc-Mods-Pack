@@ -35,7 +35,8 @@ namespace Polarisbloc
 				{
 					return base.CompLabelInBracketsExtra;
 				}
-				return this.ticksToConvert.TicksToSeconds().ToString("0.0");
+				//return this.ticksToConvert.TicksToSeconds().ToString("0.0");
+				return this.ticksToConvert.ToStringTicksToPeriod(true, true, true, true);
 			}
 		}
 

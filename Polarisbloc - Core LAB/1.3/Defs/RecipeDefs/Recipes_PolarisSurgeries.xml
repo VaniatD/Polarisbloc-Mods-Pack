@@ -389,4 +389,50 @@
       <li>Human</li>
     </recipeUsers>
   </RecipeDef>
+  <!--extract ability-->
+  <RecipeDef ParentName="PolarisSurgerybase" MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>PolarisExtractAbility</defName>
+    <label>extract ability</label>
+    <description>Use a psytrainer to extract ability on pawn's brain.</description>
+    <workerClass>Polarisbloc.Recipe_ExtractAbility</workerClass>
+    <jobString>extracting ability.</jobString>
+    <workAmount>1800</workAmount>
+    <changesHediffLevel>PsychicAmplifier</changesHediffLevel>
+    <surgerySuccessChanceFactor>0.80</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>NeurotrainersPsycast</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>NeurotrainersPsycast</li>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <researchPrerequisite>PolarisExtractAbility</researchPrerequisite>
+    <isViolation>true</isViolation>
+  </RecipeDef>
 </Defs>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RaidStrategyDef>
+    <defName>Vanya_Expressage</defName>
+    <workerClass>RaidStrategyWorker_ImmediateAttack</workerClass>
+    <letterLabelEnemy>Raid</letterLabelEnemy>
+    <arrivalTextEnemy>Hey!Your expressage.</arrivalTextEnemy>
+    <letterLabelFriendly>Friendlies</letterLabelFriendly>
+    <arrivalTextFriendly>Your good neibour is coming to help.</arrivalTextFriendly>
+    <arriveModes>
+      <li>CenterDrop</li>
+    </arriveModes>
+    <selectionWeightPerPointsCurve>
+      <points>
+        <li>(2000,0)</li>
+        <li>(2700,0.25)</li>
+        <li>(3200,0.5)</li>
+      </points>
+    </selectionWeightPerPointsCurve>
+    <pointsFactorCurve>
+      <points>
+        <li>0, 0.9</li>
+      </points>
+    </pointsFactorCurve>
+  </RaidStrategyDef>
+</Defs>

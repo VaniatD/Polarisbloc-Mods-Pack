@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_DroidAlpha.label>Droide suicidia alfa</Vanya_DroidAlpha.label>
+  <Vanya_DroidAlpha.corePart.parts.0.parts.0.parts.1.customLabel>Sensor fotosensible izquierdo</Vanya_DroidAlpha.corePart.parts.0.parts.0.parts.1.customLabel>
+  <Vanya_DroidAlpha.corePart.parts.0.parts.0.parts.2.customLabel>Sensores fotosensibles izquierdo y derecho</Vanya_DroidAlpha.corePart.parts.0.parts.0.parts.2.customLabel>
+  <Vanya_DroidAlpha.corePart.parts.0.parts.0.parts.3.customLabel>Sensor de sonido izquierdo</Vanya_DroidAlpha.corePart.parts.0.parts.0.parts.3.customLabel>
+  <Vanya_DroidAlpha.corePart.parts.0.parts.0.parts.4.customLabel>Sensor de sonido derecho</Vanya_DroidAlpha.corePart.parts.0.parts.0.parts.4.customLabel>
+
+  <Vanya_DroidBeta.label>Beta-humanoide</Vanya_DroidBeta.label>
+  <Vanya_DroidBeta.corePart.parts.0.parts.0.parts.1.customLabel>Sensor fotosensible izquierdo</Vanya_DroidBeta.corePart.parts.0.parts.0.parts.1.customLabel>
+  <Vanya_DroidBeta.corePart.parts.0.parts.0.parts.2.customLabel>Sensores fotosensibles izquierdo y derecho</Vanya_DroidBeta.corePart.parts.0.parts.0.parts.2.customLabel>
+  <Vanya_DroidBeta.corePart.parts.0.parts.0.parts.3.customLabel>Sensor de sonido izquierdo</Vanya_DroidBeta.corePart.parts.0.parts.0.parts.3.customLabel>
+  <Vanya_DroidBeta.corePart.parts.0.parts.0.parts.4.customLabel>Sensor de sonido derecho</Vanya_DroidBeta.corePart.parts.0.parts.0.parts.4.customLabel>
+  <Vanya_DroidBeta.corePart.parts.1.customLabel>Hombro izquierdo</Vanya_DroidBeta.corePart.parts.1.customLabel>
+  <Vanya_DroidBeta.corePart.parts.1.parts.0.customLabel>Brazo izquierdo</Vanya_DroidBeta.corePart.parts.1.parts.0.customLabel>
+  <Vanya_DroidBeta.corePart.parts.1.parts.0.parts.0.customLabel>Hoja izquierda</Vanya_DroidBeta.corePart.parts.1.parts.0.parts.0.customLabel>
+  <Vanya_DroidBeta.corePart.parts.1.parts.0.parts.1.customLabel>Mano izquierda</Vanya_DroidBeta.corePart.parts.1.parts.0.parts.1.customLabel>
+  <Vanya_DroidBeta.corePart.parts.1.parts.0.parts.1.parts.0.customLabel>Dedo meñique izquierdo</Vanya_DroidBeta.corePart.parts.1.parts.0.parts.1.parts.0.customLabel>
+  <Vanya_DroidBeta.corePart.parts.1.parts.0.parts.1.parts.1.customLabel>Dedo medio izquierdo</Vanya_DroidBeta.corePart.parts.1.parts.0.parts.1.parts.1.customLabel>
+  <Vanya_DroidBeta.corePart.parts.1.parts.0.parts.1.parts.2.customLabel>Dedo índice izquierdo</Vanya_DroidBeta.corePart.parts.1.parts.0.parts.1.parts.2.customLabel>
+  <Vanya_DroidBeta.corePart.parts.1.parts.0.parts.1.parts.3.customLabel>Pulgar izquierdo</Vanya_DroidBeta.corePart.parts.1.parts.0.parts.1.parts.3.customLabel>
+  <Vanya_DroidBeta.corePart.parts.2.customLabel>Hombro derecho</Vanya_DroidBeta.corePart.parts.2.customLabel>
+  <Vanya_DroidBeta.corePart.parts.2.parts.0.customLabel>Brazo derecho</Vanya_DroidBeta.corePart.parts.2.parts.0.customLabel>
+  <Vanya_DroidBeta.corePart.parts.2.parts.0.parts.0.customLabel>Hoja derecha</Vanya_DroidBeta.corePart.parts.2.parts.0.parts.0.customLabel>
+  <Vanya_DroidBeta.corePart.parts.2.parts.0.parts.1.customLabel>Mano derecha</Vanya_DroidBeta.corePart.parts.2.parts.0.parts.1.customLabel>
+  <Vanya_DroidBeta.corePart.parts.2.parts.0.parts.1.parts.0.customLabel>Dedo meñique derecho</Vanya_DroidBeta.corePart.parts.2.parts.0.parts.1.parts.0.customLabel>
+  <Vanya_DroidBeta.corePart.parts.2.parts.0.parts.1.parts.1.customLabel>Dedo medio derecho</Vanya_DroidBeta.corePart.parts.2.parts.0.parts.1.parts.1.customLabel>
+  <Vanya_DroidBeta.corePart.parts.2.parts.0.parts.1.parts.2.customLabel>Dedo índice derecho</Vanya_DroidBeta.corePart.parts.2.parts.0.parts.1.parts.2.customLabel>
+  <Vanya_DroidBeta.corePart.parts.2.parts.0.parts.1.parts.3.customLabel>Pulgar derecho</Vanya_DroidBeta.corePart.parts.2.parts.0.parts.1.parts.3.customLabel>
+  <Vanya_DroidBeta.corePart.parts.4.customLabel>Pierna izquierda</Vanya_DroidBeta.corePart.parts.4.customLabel>
+  <Vanya_DroidBeta.corePart.parts.4.parts.0.customLabel>Pie izquierdo</Vanya_DroidBeta.corePart.parts.4.parts.0.customLabel>
+  <Vanya_DroidBeta.corePart.parts.5.customLabel>Pierna derecha</Vanya_DroidBeta.corePart.parts.5.customLabel>
+  <Vanya_DroidBeta.corePart.parts.5.parts.0.customLabel>Pie derecho</Vanya_DroidBeta.corePart.parts.5.parts.0.customLabel>
+
+  <Vanya_DroidBetaEX.label>Beta-humanoide 2 blindado</Vanya_DroidBetaEX.label>
+  <Vanya_DroidBetaEX.corePart.parts.0.parts.0.parts.1.customLabel>Sensor fotosensible izquierdo</Vanya_DroidBetaEX.corePart.parts.0.parts.0.parts.1.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.0.parts.0.parts.2.customLabel>Sensores fotosensibles izquierdo y derecho</Vanya_DroidBetaEX.corePart.parts.0.parts.0.parts.2.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.0.parts.0.parts.3.customLabel>Sensor de sonido izquierdo</Vanya_DroidBetaEX.corePart.parts.0.parts.0.parts.3.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.0.parts.0.parts.4.customLabel>Sensor de sonido derecho</Vanya_DroidBetaEX.corePart.parts.0.parts.0.parts.4.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.1.customLabel>Hombro izquierdo</Vanya_DroidBetaEX.corePart.parts.1.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.1.parts.0.customLabel>Brazo izquierdo</Vanya_DroidBetaEX.corePart.parts.1.parts.0.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.1.parts.0.parts.0.customLabel>Hoja izquierda</Vanya_DroidBetaEX.corePart.parts.1.parts.0.parts.0.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.1.parts.0.parts.1.customLabel>Mano izquierda</Vanya_DroidBetaEX.corePart.parts.1.parts.0.parts.1.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.1.parts.0.parts.1.parts.0.customLabel>Dedo meñique izquierdo</Vanya_DroidBetaEX.corePart.parts.1.parts.0.parts.1.parts.0.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.1.parts.0.parts.1.parts.1.customLabel>Dedo medio izquierdo</Vanya_DroidBetaEX.corePart.parts.1.parts.0.parts.1.parts.1.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.1.parts.0.parts.1.parts.2.customLabel>Dedo índice izquierdo</Vanya_DroidBetaEX.corePart.parts.1.parts.0.parts.1.parts.2.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.1.parts.0.parts.1.parts.3.customLabel>Pulgar izquierdo</Vanya_DroidBetaEX.corePart.parts.1.parts.0.parts.1.parts.3.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.2.customLabel>Hombro derecho</Vanya_DroidBetaEX.corePart.parts.2.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.2.parts.0.customLabel>Brazo derecho</Vanya_DroidBetaEX.corePart.parts.2.parts.0.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.2.parts.0.parts.0.customLabel>Hoja derecha</Vanya_DroidBetaEX.corePart.parts.2.parts.0.parts.0.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.2.parts.0.parts.1.customLabel>Mano derecha</Vanya_DroidBetaEX.corePart.parts.2.parts.0.parts.1.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.2.parts.0.parts.1.parts.0.customLabel>Dedo meñique derecho</Vanya_DroidBetaEX.corePart.parts.2.parts.0.parts.1.parts.0.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.2.parts.0.parts.1.parts.1.customLabel>Dedo medio derecho</Vanya_DroidBetaEX.corePart.parts.2.parts.0.parts.1.parts.1.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.2.parts.0.parts.1.parts.2.customLabel>Dedo índice derecho</Vanya_DroidBetaEX.corePart.parts.2.parts.0.parts.1.parts.2.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.2.parts.0.parts.1.parts.3.customLabel>Pulgar derecho</Vanya_DroidBetaEX.corePart.parts.2.parts.0.parts.1.parts.3.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.3.customLabel>Pierna izquierda</Vanya_DroidBetaEX.corePart.parts.3.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.3.parts.0.customLabel>Pie izquierdo</Vanya_DroidBetaEX.corePart.parts.3.parts.0.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.4.customLabel>Pierna derecha</Vanya_DroidBetaEX.corePart.parts.4.customLabel>
+  <Vanya_DroidBetaEX.corePart.parts.4.parts.0.customLabel>Pie derecho</Vanya_DroidBetaEX.corePart.parts.4.parts.0.customLabel>
+
+  <Vanya_DroidGamma.label>Droide lobo gamma</Vanya_DroidGamma.label>
+  <Vanya_DroidGamma.corePart.parts.0.parts.0.parts.1.customLabel>Sensor fotosensible izquierdo</Vanya_DroidGamma.corePart.parts.0.parts.0.parts.1.customLabel>
+  <Vanya_DroidGamma.corePart.parts.0.parts.0.parts.2.customLabel>Sensores fotosensibles izquierdo y derecho</Vanya_DroidGamma.corePart.parts.0.parts.0.parts.2.customLabel>
+  <Vanya_DroidGamma.corePart.parts.0.parts.0.parts.3.customLabel>Sensor de sonido izquierdo</Vanya_DroidGamma.corePart.parts.0.parts.0.parts.3.customLabel>
+  <Vanya_DroidGamma.corePart.parts.0.parts.0.parts.4.customLabel>Sensor de sonido derecho</Vanya_DroidGamma.corePart.parts.0.parts.0.parts.4.customLabel>
+
+  <Vanya_DroidGammaEX.label>Droide lobo gamma 2 blindado</Vanya_DroidGammaEX.label>
+  <Vanya_DroidGammaEX.corePart.parts.0.parts.0.parts.1.customLabel>Sensor fotosensible izquierdo</Vanya_DroidGammaEX.corePart.parts.0.parts.0.parts.1.customLabel>
+  <Vanya_DroidGammaEX.corePart.parts.0.parts.0.parts.2.customLabel>Sensores fotosensibles izquierdo y derecho</Vanya_DroidGammaEX.corePart.parts.0.parts.0.parts.2.customLabel>
+  <Vanya_DroidGammaEX.corePart.parts.0.parts.0.parts.3.customLabel>Sensor de sonido izquierdo</Vanya_DroidGammaEX.corePart.parts.0.parts.0.parts.3.customLabel>
+  <Vanya_DroidGammaEX.corePart.parts.0.parts.0.parts.4.customLabel>Sensor de sonido derecho</Vanya_DroidGammaEX.corePart.parts.0.parts.0.parts.4.customLabel>
+
+  <Vanya_DroidRuler.label>Inquisidor</Vanya_DroidRuler.label>
+  <Vanya_DroidRuler.corePart.parts.0.parts.0.parts.1.customLabel>Sensor fotosensible izquierdo</Vanya_DroidRuler.corePart.parts.0.parts.0.parts.1.customLabel>
+  <Vanya_DroidRuler.corePart.parts.0.parts.0.parts.2.customLabel>Sensor de sonido derecho</Vanya_DroidRuler.corePart.parts.0.parts.0.parts.2.customLabel>
+  <Vanya_DroidRuler.corePart.parts.0.parts.0.parts.3.customLabel>Sensor de sonido izquierdo</Vanya_DroidRuler.corePart.parts.0.parts.0.parts.3.customLabel>
+  <Vanya_DroidRuler.corePart.parts.0.parts.0.parts.4.customLabel>Sensor de sonido derecho</Vanya_DroidRuler.corePart.parts.0.parts.0.parts.4.customLabel>
+  <Vanya_DroidRuler.corePart.parts.1.customLabel>Hombro izquierdo</Vanya_DroidRuler.corePart.parts.1.customLabel>
+  <Vanya_DroidRuler.corePart.parts.1.parts.0.customLabel>Brazo izquierdo</Vanya_DroidRuler.corePart.parts.1.parts.0.customLabel>
+  <Vanya_DroidRuler.corePart.parts.1.parts.0.parts.0.customLabel>Hoja izquierda</Vanya_DroidRuler.corePart.parts.1.parts.0.parts.0.customLabel>
+  <Vanya_DroidRuler.corePart.parts.1.parts.0.parts.1.customLabel>Mano izquierda</Vanya_DroidRuler.corePart.parts.1.parts.0.parts.1.customLabel>
+  <Vanya_DroidRuler.corePart.parts.1.parts.0.parts.1.parts.0.customLabel>Dedo meñique izquierdo</Vanya_DroidRuler.corePart.parts.1.parts.0.parts.1.parts.0.customLabel>
+  <Vanya_DroidRuler.corePart.parts.1.parts.0.parts.1.parts.1.customLabel>Dedo medio izquierdo</Vanya_DroidRuler.corePart.parts.1.parts.0.parts.1.parts.1.customLabel>
+  <Vanya_DroidRuler.corePart.parts.1.parts.0.parts.1.parts.2.customLabel>Dedo índice izquierdo</Vanya_DroidRuler.corePart.parts.1.parts.0.parts.1.parts.2.customLabel>
+  <Vanya_DroidRuler.corePart.parts.1.parts.0.parts.1.parts.3.customLabel>Pulgar izquierdo</Vanya_DroidRuler.corePart.parts.1.parts.0.parts.1.parts.3.customLabel>
+  <Vanya_DroidRuler.corePart.parts.2.customLabel>Hombro derecho</Vanya_DroidRuler.corePart.parts.2.customLabel>
+  <Vanya_DroidRuler.corePart.parts.2.parts.0.customLabel>Brazo derecho</Vanya_DroidRuler.corePart.parts.2.parts.0.customLabel>
+  <Vanya_DroidRuler.corePart.parts.2.parts.0.parts.0.customLabel>Hoja derecha</Vanya_DroidRuler.corePart.parts.2.parts.0.parts.0.customLabel>
+  <Vanya_DroidRuler.corePart.parts.2.parts.0.parts.1.customLabel>Mano derecha</Vanya_DroidRuler.corePart.parts.2.parts.0.parts.1.customLabel>
+  <Vanya_DroidRuler.corePart.parts.2.parts.0.parts.1.parts.0.customLabel>Dedo meñique derecho</Vanya_DroidRuler.corePart.parts.2.parts.0.parts.1.parts.0.customLabel>
+  <Vanya_DroidRuler.corePart.parts.2.parts.0.parts.1.parts.1.customLabel>Dedo medio derecho</Vanya_DroidRuler.corePart.parts.2.parts.0.parts.1.parts.1.customLabel>
+  <Vanya_DroidRuler.corePart.parts.2.parts.0.parts.1.parts.2.customLabel>Dedo índice derecho</Vanya_DroidRuler.corePart.parts.2.parts.0.parts.1.parts.2.customLabel>
+  <Vanya_DroidRuler.corePart.parts.2.parts.0.parts.1.parts.3.customLabel>Pulgar derecho</Vanya_DroidRuler.corePart.parts.2.parts.0.parts.1.parts.3.customLabel>
+  <Vanya_DroidRuler.corePart.parts.3.customLabel>Pierna izquierda</Vanya_DroidRuler.corePart.parts.3.customLabel>
+  <Vanya_DroidRuler.corePart.parts.3.parts.0.customLabel>Pie izquierdo</Vanya_DroidRuler.corePart.parts.3.parts.0.customLabel>
+  <Vanya_DroidRuler.corePart.parts.4.customLabel>Pierna derecha</Vanya_DroidRuler.corePart.parts.4.customLabel>
+  <Vanya_DroidRuler.corePart.parts.4.parts.0.customLabel>Pie derecho</Vanya_DroidRuler.corePart.parts.4.parts.0.customLabel>
+
+  <Vanya_DroidFortress.label>Bastión</Vanya_DroidFortress.label>
+  <Vanya_DroidFortress.corePart.parts.0.parts.0.parts.1.customLabel>Sensor fotosensible izquierdo</Vanya_DroidFortress.corePart.parts.0.parts.0.parts.1.customLabel>
+  <Vanya_DroidFortress.corePart.parts.0.parts.0.parts.2.customLabel>Sensor de sonido derecho</Vanya_DroidFortress.corePart.parts.0.parts.0.parts.2.customLabel>
+  <Vanya_DroidFortress.corePart.parts.0.parts.0.parts.3.customLabel>Sensor de sonido izquierdo</Vanya_DroidFortress.corePart.parts.0.parts.0.parts.3.customLabel>
+  <Vanya_DroidFortress.corePart.parts.0.parts.0.parts.4.customLabel>Sensor de sonido derecho</Vanya_DroidFortress.corePart.parts.0.parts.0.parts.4.customLabel>
+
+
+</LanguageData>

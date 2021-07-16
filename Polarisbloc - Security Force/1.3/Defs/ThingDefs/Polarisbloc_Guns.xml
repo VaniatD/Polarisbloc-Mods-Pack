@@ -211,7 +211,7 @@
     </tools>
     <equippedAngleOffset>47</equippedAngleOffset>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardHighFreq</li>
       <li>WeaponBladelink</li>
     </thingSetMakerTags>
   </ThingDef>

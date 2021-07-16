@@ -6,7 +6,7 @@
     <selectable>True</selectable>
     <pathCost>10</pathCost>
     <useHitPoints>True</useHitPoints>
-    <techLevel>Medieval</techLevel>
+    <techLevel>Spacer</techLevel>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
@@ -43,7 +43,7 @@
       <Mass>3</Mass>
       <EnergyShieldRechargeRate>0.13</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>1.1</EnergyShieldEnergyMax>
-      <MarketValue>1400</MarketValue>
+      <!--<MarketValue>1400</MarketValue>-->
       <MaxHitPoints>180</MaxHitPoints>
       <EquipDelay>1.6</EquipDelay>
     </statBases>
@@ -63,6 +63,15 @@
         <li>PolarisApparel</li>
       </tags>
     </apparel>
-    <generateCommonality>0.7</generateCommonality>
+    <generateCommonality>0.6</generateCommonality>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>50</Plasteel>
+      <Gold>8</Gold>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
   </ThingDef>
 </Defs>

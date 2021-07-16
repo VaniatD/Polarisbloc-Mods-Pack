@@ -153,8 +153,9 @@ namespace Polarisbloc
                     {
                         Trait reTrait = new Trait(trait.def, trait.Degree);
                         PolarisUtility.GainSkillsExtra(usedBy, trait.CurrentData.skillGains, false);
-                        usedBy.story.traits.allTraits.Remove(trait);
-                        PolarisUtility.RefreshPawnStat(usedBy);
+                        //usedBy.story.traits.allTraits.Remove(trait);
+                        usedBy.story.traits.RemoveTrait(trait);
+                        //PolarisUtility.RefreshPawnStat(usedBy);
                         this.parent.GetComp<CompTraitreleaser>().trait = reTrait;
                         this.parent.GetComp<CompTraitreleaser>().availableTimes--;
                         Messages.Message("PolarisTraitreleaserUsedRemovedTrait".Translate(usedBy.LabelShort, trait.LabelCap), usedBy, MessageTypeDefOf.PositiveEvent);

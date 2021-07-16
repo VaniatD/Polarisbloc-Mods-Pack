@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/TipSetDef[defName = "RoyaltyTips"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/FactionDef[defName = "Empire"]/permanentEnemyToEveryoneExcept</xpath>
+        <value>
+          <li>Polaribloc_SecuirityForce</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+          <RoyalTitlePermitDef>
+            <defName>Polaris_CallSFSquad</defName>
+            <label>call security force squad</label>
+            <description>Call a group of 4 security force squad to aid you in battle.</description>
+            <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+            <minTitle>Count</minTitle>
+            <faction>Empire</faction>
+            <permitPointCost>1</permitPointCost>
+            <uiPosition>(1,0)</uiPosition>
+            <royalAid>
+              <favorCost>8</favorCost>
+              <pawnKindDef>Polarisbloc_SFSoldier</pawnKindDef>
+              <pawnCount>4</pawnCount>
+              <targetingRange>39.9</targetingRange>
+            </royalAid>
+            <cooldownDays>30</cooldownDays>
+          </RoyalTitlePermitDef>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

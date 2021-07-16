@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VCNoEnoughHitPointsToReset>Para desplegar el escudo, necesitas suficiente durabilidad.</VCNoEnoughHitPointsToReset>
+  <VCForceResetLabel>Despliegue forzado</VCForceResetLabel>
+  <VCForceResetDESC>El escudo se puede reiniciar consumiendo 20 durabilidad.</VCForceResetDESC>
+  <VCReboundLabel>Reflexion</VCReboundLabel>
+  <VCReboundDESC>Cuando se activa, este escudo puede reflejar las balas que recibe al atacante.</VCReboundDESC>
+
+</LanguageData>

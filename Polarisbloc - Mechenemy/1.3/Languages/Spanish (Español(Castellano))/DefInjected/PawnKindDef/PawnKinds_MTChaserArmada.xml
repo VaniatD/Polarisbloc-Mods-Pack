@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VanyaPK_CAFighter.label>Guerrero Chaser Armada </VanyaPK_CAFighter.label>
+  <VanyaPK_CAFighter.labelPlural>Guerreros Chaser Armada </VanyaPK_CAFighter.labelPlural>
+
+  <VanyaPK_CAGunner.label>Cazador Chaser Armada</VanyaPK_CAGunner.label>
+  <VanyaPK_CAGunner.labelPlural>Cazadores Chaser Armada</VanyaPK_CAGunner.labelPlural>
+
+  <VanyaPK_CAElite.label>Elite Chaser Armada </VanyaPK_CAElite.label>
+  <VanyaPK_CAElite.labelPlural>La élite de Chaser Armada</VanyaPK_CAElite.labelPlural>
+
+  <VanyaPK_CASlugger.label>Artillería Chaser Armada</VanyaPK_CASlugger.label>
+  <VanyaPK_CASlugger.labelPlural>Artillerías Chaser Armada</VanyaPK_CASlugger.labelPlural>
+
+
+</LanguageData>

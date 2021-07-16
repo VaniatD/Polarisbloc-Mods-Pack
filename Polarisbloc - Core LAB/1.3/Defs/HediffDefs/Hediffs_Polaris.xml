@@ -14,6 +14,7 @@
     <description>The cartridge can be worn by a pawn and protects the wearer from a certain death. The wearer will be resurrected immediatly upon death. Administered to a corpse, the cartridge will repair and kickstart the body back to life.\n\nSo, is life equal? Is it really good to exchange one's life for another person's life?</description>
     <maxSeverity>1.0</maxSeverity>
     <comps>
+      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
       <li Class="Polarisbloc.HediffCompProperties_Cartridge" />
     </comps>
     <stages>

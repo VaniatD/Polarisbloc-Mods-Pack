@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_DroidAlpha.label>Droide suicida alfa</Vanya_DroidAlpha.label>
+  <Vanya_DroidAlpha.description>Un pequeño droide ágil cargado con una bomba de impacto primaria, lanza una bomba cuando se acerca a un objetivo y explota cuando se destruye la máquina.</Vanya_DroidAlpha.description>
+  <Vanya_DroidAlpha.tools.0.label>Cuchilla</Vanya_DroidAlpha.tools.0.label>
+  <Vanya_DroidAlpha.tools.1.label>Cabeza</Vanya_DroidAlpha.tools.1.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidAlpha_Corpse.label>Cadáver droide suicida alfa</Vanya_DroidAlpha_Corpse.label>
+  <Vanya_DroidAlpha_Corpse.description>El cadáver de un droide suicida alfa</Vanya_DroidAlpha_Corpse.description>
+
+  <Vanya_DroidBeta.label>Beta-humanoide</Vanya_DroidBeta.label>
+  <Vanya_DroidBeta.description>Un droide humanoide de uso general en combate equipado con varias armas.</Vanya_DroidBeta.description>
+  <Vanya_DroidBeta.tools.0.label>Hoja izquierda</Vanya_DroidBeta.tools.0.label>
+  <Vanya_DroidBeta.tools.1.label>Hoja derecha</Vanya_DroidBeta.tools.1.label>
+  <Vanya_DroidBeta.tools.2.label>Cabeza</Vanya_DroidBeta.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidBeta_Corpse.label>Cadáver beta-humanoide</Vanya_DroidBeta_Corpse.label>
+  <Vanya_DroidBeta_Corpse.description>Cadáver beta-humanoide</Vanya_DroidBeta_Corpse.description>
+
+  <Vanya_DroidBetaEX.label>Beta-humanoide 2 blindado</Vanya_DroidBetaEX.label>
+  <Vanya_DroidBetaEX.description>Un robot humanoide de uso general protegido por una armadura pesada y equipado con una variedad de armas para luchar.</Vanya_DroidBetaEX.description>
+  <Vanya_DroidBetaEX.tools.0.label>Hoja izquierda</Vanya_DroidBetaEX.tools.0.label>
+  <Vanya_DroidBetaEX.tools.1.label>Hoja derecha</Vanya_DroidBetaEX.tools.1.label>
+  <Vanya_DroidBetaEX.tools.2.label>Cabeza</Vanya_DroidBetaEX.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidBetaEX_Corpse.label>Cadáver Beta-humanoide 2 blindado </Vanya_DroidBetaEX_Corpse.label>
+  <Vanya_DroidBetaEX_Corpse.description>Cadáver Beta-humanoide 2 blindado </Vanya_DroidBetaEX_Corpse.description>
+
+  <Vanya_DroidGamma.label>Droide lobo gamma</Vanya_DroidGamma.label>
+  <Vanya_DroidGamma.description>Un droide en forma de lobo con un arma explosiva de un solo disparo.</Vanya_DroidGamma.description>
+  <Vanya_DroidGamma.tools.0.label>Garra izquierda</Vanya_DroidGamma.tools.0.label>
+  <Vanya_DroidGamma.tools.1.label>Garra derecha</Vanya_DroidGamma.tools.1.label>
+  <Vanya_DroidGamma.tools.2.label>Cabeza</Vanya_DroidGamma.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidGamma_Corpse.label>Cadáver Droide lobo gamma</Vanya_DroidGamma_Corpse.label>
+  <Vanya_DroidGamma_Corpse.description>Cadáver Droide lobo gamma</Vanya_DroidGamma_Corpse.description>
+
+  <Vanya_DroidGammaEX.label>Droide lobo Gamma 2 blindado</Vanya_DroidGammaEX.label>
+  <Vanya_DroidGammaEX.description>Un droide en forma de lobo, equipado con blindaje y con un arma explosiva de un solo disparo</Vanya_DroidGammaEX.description>
+  <Vanya_DroidGammaEX.tools.0.label>Garra izquierda</Vanya_DroidGammaEX.tools.0.label>
+  <Vanya_DroidGammaEX.tools.1.label>Garra derecha</Vanya_DroidGammaEX.tools.1.label>
+  <Vanya_DroidGammaEX.tools.2.label>Cabeza</Vanya_DroidGammaEX.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidGammaEX_Corpse.label>Cadáver Droide lobo Gamma 2 blindado</Vanya_DroidGammaEX_Corpse.label>
+  <Vanya_DroidGammaEX_Corpse.description>Cadáver Droide lobo Gamma 2 blindado</Vanya_DroidGammaEX_Corpse.description>
+
+  <Vanya_DroidRuler.label>Inquisidor</Vanya_DroidRuler.label>
+  <Vanya_DroidRuler.description>Una unidad mecanoide de élite es un robot humanoide potente y ágil con armas precisas de largo alcance.</Vanya_DroidRuler.description>
+  <Vanya_DroidRuler.tools.0.label>Hoja izquierda</Vanya_DroidRuler.tools.0.label>
+  <Vanya_DroidRuler.tools.1.label>Hoja derecha</Vanya_DroidRuler.tools.1.label>
+  <Vanya_DroidRuler.tools.2.label>Cabeza</Vanya_DroidRuler.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidRuler_Corpse.label>Cadáver Inquisidor</Vanya_DroidRuler_Corpse.label>
+  <Vanya_DroidRuler_Corpse.description>Inquisidor muerto</Vanya_DroidRuler_Corpse.description>
+
+  <Vanya_DroidFortress.label>Bastión</Vanya_DroidFortress.label>
+  <Vanya_DroidFortress.description>Una máquina de guerra gigante, las armas a bordo pueden causar una explosión de medio alcance y destruir completamente a los enemigos.</Vanya_DroidFortress.description>
+  <Vanya_DroidFortress.tools.0.label>rueda</Vanya_DroidFortress.tools.0.label>
+  <Vanya_DroidFortress.tools.1.label>Rastreador</Vanya_DroidFortress.tools.1.label>
+  <!-- Flesh Type: Mechanoid -->
+  <Vanya_DroidFortress_Corpse.label>Cadáver del bastión</Vanya_DroidFortress_Corpse.label>
+  <Vanya_DroidFortress_Corpse.description>Cadáver del bastión</Vanya_DroidFortress_Corpse.description>
+
+
+</LanguageData>

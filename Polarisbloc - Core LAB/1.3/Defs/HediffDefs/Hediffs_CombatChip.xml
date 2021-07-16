@@ -161,4 +161,35 @@
       </li>
     </comps>
   </HediffDef>
+  <HediffDef ParentName="PolarisCombatChipHediffBase" MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>PolarisCombatChip_Psycaster</defName>
+    <label>combat chip (psycaster)</label>
+    <labelNoun>a combat chip</labelNoun>
+    <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.\n\nThis one will let you out of psychic hangover.</description>
+    <stages>
+      <li>
+        <!--<painOffset>0.2</painOffset>-->
+        <partEfficiencyOffset>0.2</partEfficiencyOffset>
+        <statFactors>
+          <PsychicSensitivity>1.2</PsychicSensitivity>
+          <MeditationFocusGain>1.2</MeditationFocusGain>
+          <PsychicEntropyGain>0.8</PsychicEntropyGain>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="Polarisbloc.HediffCompProperties_RemoveHediff">
+        <appliedHediffs>
+          <li>CatatonicBreakdown</li>
+          <!--<li>PsychicHangover</li>-->
+          <li>PsychicShock</li>
+          <li>PsychicBreakdown</li>
+        </appliedHediffs>
+      </li>
+      <li Class="Polarisbloc.HediffCompProperties_DrawPsyfocus">
+        <drawFactor>0.15</drawFactor>
+        <psyfocusGainMulti>true</psyfocusGainMulti>
+      </li>
+    </comps>
+  </HediffDef>
 </Defs>

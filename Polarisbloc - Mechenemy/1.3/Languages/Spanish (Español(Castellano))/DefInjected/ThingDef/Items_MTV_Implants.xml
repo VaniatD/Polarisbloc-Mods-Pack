@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_StabPowerCore.label>Núcleo de energía estable</Vanya_StabPowerCore.label>
+  <Vanya_StabPowerCore.description>Un núcleo de energía estable extraído de Bastion, que almacena una gran cantidad de energía. La energía puede ser extraída por el equipo. También se puede usar como un dispositivo de asistencia cardíaca para suministrar energía a los organismos vivos.</Vanya_StabPowerCore.description>
+
+  <Vanya_ConsciousnessCube.label>Calculadora de pensamiento</Vanya_ConsciousnessCube.label>
+  <Vanya_ConsciousnessCube.description>Calculadora inicializada sacada de la cabeza del inquisidor. Se puede implantar en la columna cervical para ayudar a pensar.</Vanya_ConsciousnessCube.description>
+
+
+</LanguageData>

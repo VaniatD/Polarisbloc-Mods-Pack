@@ -18,7 +18,23 @@ namespace Polarisbloc
             }
         }
 
-        private float Capacity
+        public override void Notify_EntropyGained(float baseAmount, float finalAmount, Thing source = null)
+        {
+            base.Notify_EntropyGained(baseAmount, finalAmount, source);
+            float amount = Mathf.Max(0f, baseAmount - finalAmount);
+            float psyfocusOffset = amount * 0.01f * this.Props.drawFactor;
+            if (this.Props.psyfocusGainMulti)
+            {
+                psyfocusOffset *= this.Pawn.GetStatValue(StatDefOf.MeditationFocusGain);
+            }
+            else
+            {
+                psyfocusOffset *= 0.5f;
+            }
+            this.Pawn.psychicEntropy.OffsetPsyfocusDirectly(psyfocusOffset);
+        }
+
+        /*private float Capacity
         {
             get
             {
@@ -48,20 +64,22 @@ namespace Polarisbloc
 
         private float CalculateSavingPsyfocus(Pawn pawn)
         {
-            float savingFocus = 0f;
+            float savingFocus = -1f;
             float num1 = this.Capacity - this.PsyfocusPool;
-            float num2 = Mathf.Max(0.5f, pawn.psychicEntropy.TargetPsyfocus);
+            float num2 = Mathf.Max(0.5f, pawn.psychicEntropy.TargetPsyfocus) + 0.02f;
+
             if (pawn.psychicEntropy.CurrentPsyfocus > num2)
             {
                 savingFocus = pawn.psychicEntropy.CurrentPsyfocus - num2;
-            }
-            if (savingFocus > num1)
-            {
-                savingFocus = num1;
-            }
-            else if (savingFocus < 0.1f && pawn.psychicEntropy.CurrentPsyfocus > 0.1f)
-            {
-                savingFocus = 0.1f;
+                if (savingFocus < 0.05f && pawn.psychicEntropy.CurrentPsyfocus > 0.25f)
+                {
+                    savingFocus = 0.05f;
+                }
+                if (savingFocus > num1)
+                {
+                    savingFocus = num1;
+                }
+                
             }
             return savingFocus;
         }
@@ -151,7 +169,7 @@ namespace Polarisbloc
             this.OffsetPsyfocusPool(psyfocusOffset);
             this.TryOutPsyfocus(this.Pawn);
 
-        }
+        }*/
 
 
 

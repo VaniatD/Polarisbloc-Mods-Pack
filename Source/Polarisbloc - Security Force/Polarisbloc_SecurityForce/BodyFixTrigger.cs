@@ -28,7 +28,7 @@ namespace Polarisbloc_SecurityForce
                 this.Destroy(DestroyMode.Vanish);
                 return;
             }
-            if (this.Wearer.Faction.def != PSFDefOf.Polaribloc_SecuirityForce)
+            if (this.Wearer.kindDef.defaultFactionType != PSFDefOf.Polaribloc_SecuirityForce)
             {
                 this.Destroy(DestroyMode.Vanish);
                 return;

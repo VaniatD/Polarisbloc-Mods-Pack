@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanya_IgnoreBleed.label>Кровотечение</Vanya_IgnoreBleed.label>
+  <Vanya_IgnoreBleed.comps.0.labelTendedWell>Перевязано</Vanya_IgnoreBleed.comps.0.labelTendedWell>
+  <Vanya_IgnoreBleed.comps.0.labelTendedWellInner>Зашито</Vanya_IgnoreBleed.comps.0.labelTendedWellInner>
+  <Vanya_IgnoreBleed.comps.0.labelSolidTendedWell>Готово</Vanya_IgnoreBleed.comps.0.labelSolidTendedWell>
+  <Vanya_IgnoreBleed.comps.2.oldLabel>Шрам от пореза</Vanya_IgnoreBleed.comps.2.oldLabel>
+  <Vanya_IgnoreBleed.injuryProps.destroyedLabel>Вырезано</Vanya_IgnoreBleed.injuryProps.destroyedLabel>
+  <Vanya_IgnoreBleed.injuryProps.destroyedOutLabel>Отрезано</Vanya_IgnoreBleed.injuryProps.destroyedOutLabel>
+
+
+</LanguageData>

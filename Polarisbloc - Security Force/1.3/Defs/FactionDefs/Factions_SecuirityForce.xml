@@ -126,6 +126,7 @@
     <configurationListOrderPriority>65</configurationListOrderPriority>
     <raidLootMaker>Polaribloc_SecuirityForceLootMaker</raidLootMaker>
     <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <classicIdeo>true</classicIdeo>
   </FactionDef>
   <ThingSetMakerDef>
     <defName>Polaribloc_SecuirityForceLootMaker</defName>

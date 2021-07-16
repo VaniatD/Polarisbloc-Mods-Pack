@@ -1,70 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="BuildingBase">
-    <defName>PolarisLyraeCurer</defName>
-    <label>lyrae curer</label>
-    <thingClass>Polarisbloc.Building_Curer</thingClass>
-    <graphicData>
-      <texPath>Polarisbloc/Building/Curer</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shadowData>
-        <volume>(0.8, 0.3, 0.3)</volume>
-        <offset>(0,0,-0.25)</offset>
-      </shadowData>
-      <drawSize>(2.7,2.7)</drawSize>
-    </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToBuild>2500</WorkToBuild>
-      <Flammability>1.0</Flammability>
-      <Mass>8</Mass>
-      <Beauty>6</Beauty>
-    </statBases>
-    <description>The lyrae curer will tend wounds to nearby creatures but the quality won't be good.</description>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <fillPercent>0.15</fillPercent>
-    <costList>
-      <Steel>50</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
-    </costList>
-    <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>400</basePowerConsumption>
-        <shortCircuitInRain>false</shortCircuitInRain>
-      </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>8.0</fuelConsumptionRate>
-        <fuelCapacity>24.0</fuelCapacity>
-        <fuelFilter>
-          <thingDefs>
-            <li>MedicineHerbal</li>
-          </thingDefs>
-        </fuelFilter>
-      </li>
-      <li Class="CompProperties_Glower">
-        <glowRadius>10</glowRadius>
-        <glowColor>(217,217,240,0)</glowColor>
-      </li>
-    </comps>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <pathCost>8</pathCost>
-    <designationCategory>Misc</designationCategory>
-    <rotatable>false</rotatable>
-    <specialDisplayRadius>4.9</specialDisplayRadius>
-    <tickerType>Normal</tickerType>
-    <researchPrerequisites>
-      <li>PolarisLyraeCurer</li>
-    </researchPrerequisites>
-    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
-    <thingCategories>
-      <li>BuildingsMisc</li>
-    </thingCategories>
-  </ThingDef>
+  <!--<ThingDef ParentName="BuildingBase"><defName>PolarisLyraeCurer</defName><label>lyrae curer</label><thingClass>Polarisbloc.Building_Curer</thingClass><graphicData><texPath>Polarisbloc/Building/Curer</texPath><graphicClass>Graphic_Single</graphicClass><shadowData><volume>(0.8, 0.3, 0.3)</volume><offset>(0,0,-0.25)</offset></shadowData><drawSize>(2.7,2.7)</drawSize></graphicData><altitudeLayer>Building</altitudeLayer><minifiedDef>MinifiedThing</minifiedDef><statBases><MaxHitPoints>80</MaxHitPoints><WorkToBuild>2500</WorkToBuild><Flammability>1.0</Flammability><Mass>8</Mass><Beauty>6</Beauty></statBases><description>The lyrae curer will tend wounds to nearby creatures but the quality won't be good.</description><drawerType>MapMeshAndRealTime</drawerType><drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected><fillPercent>0.15</fillPercent><costList><Steel>50</Steel><ComponentIndustrial>4</ComponentIndustrial></costList><comps><li Class="CompProperties_Power"><compClass>CompPowerTrader</compClass><basePowerConsumption>400</basePowerConsumption><shortCircuitInRain>false</shortCircuitInRain></li><li Class="CompProperties_Flickable" /><li Class="CompProperties_Refuelable"><fuelConsumptionRate>8.0</fuelConsumptionRate><fuelCapacity>24.0</fuelCapacity><fuelFilter><thingDefs><li>MedicineHerbal</li></thingDefs></fuelFilter></li><li Class="CompProperties_Glower"><glowRadius>10</glowRadius><glowColor>(217,217,240,0)</glowColor></li></comps><leaveResourcesWhenKilled>false</leaveResourcesWhenKilled><pathCost>8</pathCost><designationCategory>Misc</designationCategory><rotatable>false</rotatable><specialDisplayRadius>4.9</specialDisplayRadius><tickerType>Normal</tickerType><researchPrerequisites><li>PolarisLyraeCurer</li></researchPrerequisites><constructionSkillPrerequisite>7</constructionSkillPrerequisite><thingCategories><li>BuildingsMisc</li></thingCategories></ThingDef>-->
   <ThingDef ParentName="BuildingBase">
     <defName>PolarisShipReactor</defName>
     <label>Machinoid ship reactor</label>
@@ -133,6 +69,7 @@
     </thingCategories>
     <thingSetMakerTags>
       <li>RewardStandardMidFreq</li>
+      <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">

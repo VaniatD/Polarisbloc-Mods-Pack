@@ -61,6 +61,7 @@
     <Compile Include="Buildings\Building_Thermostat.cs" />
     <Compile Include="CombatChip\HediffComp_DrawPsyfocus.cs" />
     <Compile Include="CombatChip\HediffComp_RemoveHediff.cs" />
+    <Compile Include="Misc\DebugTools_Polaris.cs" />
     <Compile Include="Decoder\CompTargetable_BiocodableWeapon.cs" />
     <Compile Include="Decoder\CompTargetEffect_Recode.cs" />
     <Compile Include="Decoder\CompUseEffect_SkillRequirementCheck.cs" />
@@ -77,8 +78,6 @@
     <Compile Include="CombatChip\Verb_CastUseEffect.cs" />
     <Compile Include="VoidKey\ChooseVoidPawnWindow.cs" />
     <Compile Include="CombatChip\HediffComp_Inspire.cs" />
-    <Compile Include="Buildings\Building_Curer.cs" />
-    <Compile Include="Cartridge\CompCartridge.cs" />
     <Compile Include="Cartridge\CompUseEffect_FinishCartridgeResearchProject.cs" />
     <Compile Include="Cartridge\HediffComp_Cartridge.cs" />
     <Compile Include="Buildings\CompMendingShelf.cs" />
