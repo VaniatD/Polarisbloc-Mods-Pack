@@ -236,7 +236,30 @@ namespace Polarisbloc
         private bool ConflictingTraitsWith(Trait trait, out List<Trait> ctlist)
         {
             ctlist = new List<Trait>();
-            if (trait.def.conflictingTraits.Count > 0 || trait.def.degreeDatas.Count > 1)
+            bool result = false;
+            if (trait.def.degreeDatas.Count > 1)
+            {
+                foreach (TraitDegreeData sdata in trait.def.degreeDatas)
+                {
+                    if (sdata.degree != trait.Degree)
+                    {
+                        ctlist.Add(new Trait(trait.def, sdata.degree, false));
+                    }
+                }
+                result = true;
+            }
+            foreach (TraitDef traitDef in DefDatabase<TraitDef>.AllDefs)
+            {
+                if (trait.def.ConflictsWith(traitDef) && traitDef != trait.def)
+                {
+                    foreach (TraitDegreeData ddata in traitDef.degreeDatas)
+                    {
+                        ctlist.Add(new Trait(traitDef, ddata.degree, false));
+                    }
+                    result = true;
+                }
+            }
+            /*if (trait.def.conflictingTraits.Count > 0 || trait.def.degreeDatas.Count > 1)
             {
                 if (trait.def.conflictingTraits.Count > 0)
                 {
@@ -259,8 +282,8 @@ namespace Polarisbloc
                     }
                 }
                 return true;
-            }
-            return false;
+            }*/
+            return result;
         }
 
         private float GetTraitSpecificCommonality(TraitDef traitDef)

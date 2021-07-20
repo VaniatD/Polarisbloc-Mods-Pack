@@ -18,7 +18,7 @@ namespace Polarisbloc
             }
         }
 
-        public override void Notify_EntropyGained(float baseAmount, float finalAmount, Thing source = null)
+        /*public override void Notify_EntropyGained(float baseAmount, float finalAmount, Thing source = null)
         {
             base.Notify_EntropyGained(baseAmount, finalAmount, source);
             float amount = Mathf.Max(0f, baseAmount - finalAmount);
@@ -32,9 +32,9 @@ namespace Polarisbloc
                 psyfocusOffset *= 0.5f;
             }
             this.Pawn.psychicEntropy.OffsetPsyfocusDirectly(psyfocusOffset);
-        }
+        }*/
 
-        /*private float Capacity
+        private float Capacity
         {
             get
             {
@@ -46,11 +46,13 @@ namespace Polarisbloc
 
         private int tick = 0;
 
+        private bool isActive = false;
+
         public override string CompLabelInBracketsExtra
         {
             get
             {
-                return this.PsyfocusPool.ToString("0%") + "/" + this.Capacity.ToString("0%");
+                return this.PsyfocusPool.ToString("P1") + "/" + this.Capacity.ToString("P0");
             }
         }
 
@@ -132,13 +134,15 @@ namespace Polarisbloc
             base.CompExposeData();
             Scribe_Values.Look<float>(ref this.psyfocusInit, "psyfocusInit", 0f, false);
             Scribe_Values.Look<int>(ref this.tick, "tick", 0, false);
+            Scribe_Values.Look<bool>(ref this.isActive, "isActive", false, false);
         }
 
         public override void CompPostTick(ref float severityAdjustment)
         {
             base.CompPostTick(ref severityAdjustment);
             this.tick--;
-            if (this.tick <= 0)
+            this.OffsetPsyfocusPool(this.Props.collectPsyfocusPerTick);
+            if (!this.isActive && this.tick <= 0)
             {
                 if (this.TrySavePsyfocus(this.Pawn))
                 {
@@ -167,9 +171,32 @@ namespace Polarisbloc
             }
             //this.Pawn.psychicEntropy.OffsetPsyfocusDirectly(psyfocusOffset);
             this.OffsetPsyfocusPool(psyfocusOffset);
-            this.TryOutPsyfocus(this.Pawn);
+            if (this.isActive)
+            {
+                this.TryOutPsyfocus(this.Pawn);
+            }
+        }
 
-        }*/
+        public override IEnumerable<Gizmo> CompGetGizmos()
+        {
+            if (this.Pawn.Drafted)
+            {
+                yield return new Command_Toggle
+                {
+                    defaultDesc = "PolarisPsyChipDesc".Translate(),
+                    defaultDescPostfix = this.isActive? "PolarisPsyChipActived".Translate() : "PolarisPsyChipNotActived".Translate(),
+                    defaultLabel = "PolarisPsyChipLabel".Translate(),
+                    icon = this.parent.def.spawnThingOnRemoved.uiIcon,
+                    isActive = () => this.isActive,
+                    toggleAction = delegate
+                    {
+                        this.isActive = !this.isActive;
+                    }
+                };
+            }
+            yield break;
+            //return base.CompGetGizmos();
+        }
 
 
 
@@ -187,5 +214,7 @@ namespace Polarisbloc
         public bool psyfocusGainMulti = false;
 
         public float psyfocusCapacity = 3f;
+
+        public float collectPsyfocusPerTick = 0.000008f;
     }
 }
