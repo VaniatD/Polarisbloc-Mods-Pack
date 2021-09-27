@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using RimWorld;
 using Verse;
+using Verse.AI.Group;
 
 namespace Polarisbloc
 {
@@ -30,6 +31,12 @@ namespace Polarisbloc
             base.Notify_PawnDied();
             if (this.HediffApparel != null)
             {
+                Hediff combatChip = this.Pawn.health.hediffSet.hediffs.Find(x => x is Hediff_CombatChip);
+                if (combatChip != null)
+                {
+                    this.Pawn.health.RemoveHediff(combatChip);
+                    this.Pawn.health.AddHediff(PolarisblocDefOf.PolarisCombatChip_Assassin, this.Pawn.health.hediffSet.GetBrain());
+                }
                 Apparel ap = this.HediffApparel.wornApparel;
                 if (ap != null)
                 {
@@ -37,6 +44,24 @@ namespace Polarisbloc
                     //base.Pawn.apparel.Remove(ap);
                     ResurrectionUtility.Resurrect(base.Pawn);
                     Messages.Message("PolarisMessageSomeoneResurrected".Translate(ap.LabelShort, base.Pawn.LabelShort), MessageTypeDefOf.PositiveEvent);
+                }
+                if (!this.Pawn.Faction.IsPlayer)
+                {
+                    List<Lord> lords = base.Pawn.Map.lordManager.lords;
+                    foreach (Lord lord in lords)
+                    {
+                        lord.RemovePawn(this.Pawn);
+                    }
+                    this.Pawn.mindState.exitMapAfterTick = Find.TickManager.TicksGame + 150;
+                    IntVec3 invalid = IntVec3.Invalid;
+                    if (!RCellFinder.TryFindRandomCellOutsideColonyNearTheCenterOfTheMap(this.Pawn.Position, this.Pawn.Map, 10f, out invalid))
+                    {
+                        invalid = IntVec3.Invalid;
+                    }
+                    if (invalid.IsValid)
+                    {
+                        this.Pawn.mindState.forcedGotoPosition = CellFinder.RandomClosewalkCellNear(invalid, this.Pawn.Map, 10, null);
+                    }
                 }
                 base.Pawn.health.RemoveHediff(base.parent);
             }

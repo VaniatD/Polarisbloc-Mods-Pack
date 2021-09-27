@@ -237,10 +237,6 @@
           <max>20</max>
         </countRange>
       </li>
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>Art</tag>
-      </li>
-      <li Class="StockGenerator_BuyExpensiveSimple" />
       <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
       </li>
@@ -248,13 +244,14 @@
         <categoryDef>ResourcesRaw</categoryDef>
       </li>
       <li Class="StockGenerator_WeaponsRanged" />
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>ImplantEmpireCommon</tag>
-      </li>
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>ImplantEmpireCommon</tag>
-      </li>
       <!--Extra-->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisDecoder</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>1</max>
+        </countRange>
+      </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PolarisMechSerumTraitreleaser</thingDef>
         <countRange>
@@ -348,7 +345,7 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>ExoticMisc</tradeTag>
-        <thingDefCountRange>3~5</thingDefCountRange>
+        <thingDefCountRange>4~7</thingDefCountRange>
         <countRange>1~2</countRange>
         <excludedThingDefs>
           <li>Luciferium</li>
@@ -377,6 +374,20 @@
             <chance>0.3</chance>
           </li>
         </countChances>
+      </li>
+      <!--buy-->
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>Art</tag>
+      </li>
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>ImplantEmpireCommon</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>ImplantEmpireRoyal</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>MusicalInstrument</tag>
       </li>
     </stockGenerators>
   </TraderKindDef>

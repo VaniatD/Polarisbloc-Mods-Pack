@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: install combat chip -->
+  <InstallPolarisCombatChip.label>植入战术芯片</InstallPolarisCombatChip.label>
+  <!-- EN: install combat chip. -->
+  <InstallPolarisCombatChip.description>植入的战术芯片会处于未激活状态。</InstallPolarisCombatChip.description>
+  <!-- EN: installing combat chip. -->
+  <InstallPolarisCombatChip.jobString>正在植入战术芯片</InstallPolarisCombatChip.jobString>
+  
+  <!-- EN: install psionwire -->
+  <InstallPolarisPsionwire.label>植入灵能芯片</InstallPolarisPsionwire.label>
+  <!-- EN: install psionwire. -->
+  <InstallPolarisPsionwire.description>植入灵能芯片。</InstallPolarisPsionwire.description>
+  <!-- EN: installing psionwire. -->
+  <InstallPolarisPsionwire.jobString>正在植入灵能芯片</InstallPolarisPsionwire.jobString>
+  
+  <!-- EN: install virtual net chip -->
+  <InstallPolarisVirtualNetChip.label>植入虚拟网络芯片</InstallPolarisVirtualNetChip.label>
+  <!-- EN: install virtual net chip. -->
+  <InstallPolarisVirtualNetChip.description>植入虚拟网络芯片。</InstallPolarisVirtualNetChip.description>
+  <!-- EN: installing virtual net chip. -->
+  <InstallPolarisVirtualNetChip.jobString>正在植入虚拟网络芯片</InstallPolarisVirtualNetChip.jobString>
+  
+  <!-- EN: make cartridge -->
+  <MakePolarisCartridgeSurgery.label>制作弹药包</MakePolarisCartridgeSurgery.label>
+  <!-- EN: make cartridge -->
+  <MakePolarisCartridgeSurgery.description>这个目标会因此而死亡。</MakePolarisCartridgeSurgery.description>
+  <!-- EN: making cartridge. -->
+  <MakePolarisCartridgeSurgery.jobString>正在制作弹药包。</MakePolarisCartridgeSurgery.jobString>
+  
+  <!-- EN: administer traitreleaser mech serum -->
+  <PolarisAdministerMechSerumTraitreleaser.label>施用特性释放器</PolarisAdministerMechSerumTraitreleaser.label>
+  <!-- EN: Administer a healer mech serum. -->
+  <PolarisAdministerMechSerumTraitreleaser.description>施用特性释放器。</PolarisAdministerMechSerumTraitreleaser.description>
+  <!-- EN: Administering traitreleaser mech serum. -->
+  <PolarisAdministerMechSerumTraitreleaser.jobString>正在施用特性释放器。</PolarisAdministerMechSerumTraitreleaser.jobString>
+  
+  <!-- EN: cure scars -->
+  <PolarisCureScars.label>治疗疤痕</PolarisCureScars.label>
+  <!-- EN: cure scars. -->
+  <PolarisCureScars.description>治疗疤痕。</PolarisCureScars.description>
+  <!-- EN: curing scars. -->
+  <PolarisCureScars.jobString>正在治疗疤痕。</PolarisCureScars.jobString>
+  
+  <!-- EN: extract ability -->
+  <PolarisExtractAbility.label>提取能力</PolarisExtractAbility.label>
+  <!-- EN: Use a psytrainer to extract ability on pawn's brain. -->
+  <PolarisExtractAbility.description>使用心灵训练器提取目标的特定能力。</PolarisExtractAbility.description>
+  <!-- EN: extracting ability. -->
+  <PolarisExtractAbility.jobString>正在提取能力。</PolarisExtractAbility.jobString>
+  
+  <!-- EN: remove implant -->
+  <PolarisRemoveImplant.label>移除植入物</PolarisRemoveImplant.label>
+  <!-- EN: remove all implants in the same body part. -->
+  <PolarisRemoveImplant.description>一次性移除同一个身体部位的全部植入物。</PolarisRemoveImplant.description>
+  <!-- EN: removing implants. -->
+  <PolarisRemoveImplant.jobString>正在移除植入物。</PolarisRemoveImplant.jobString>
+  
+  <!-- EN: restore -->
+  <PolarisRestoreMissingBodyPart.label>修复</PolarisRestoreMissingBodyPart.label>
+  <!-- EN: restore missing body part. -->
+  <PolarisRestoreMissingBodyPart.description>修复缺失的身体部位。</PolarisRestoreMissingBodyPart.description>
+  <!-- EN: restoring. -->
+  <PolarisRestoreMissingBodyPart.jobString>正在修复。</PolarisRestoreMissingBodyPart.jobString>
+  
+  <!-- EN: change age -->
+  <PolarisSurgeryChangeBioAge.label>改变年龄</PolarisSurgeryChangeBioAge.label>
+  <!-- EN: change age -->
+  <PolarisSurgeryChangeBioAge.description>能够定向改变年龄，范围从0到一个特定值之间。</PolarisSurgeryChangeBioAge.description>
+  <!-- EN: doing age Decrease surgery -->
+  <PolarisSurgeryChangeBioAge.jobString>正在进行改变年龄的手术。</PolarisSurgeryChangeBioAge.jobString>
+  
+  <!-- EN: trans gender -->
+  <PolarisTransGenderSurgery.label>变性</PolarisTransGenderSurgery.label>
+  <!-- EN: trans gender. -->
+  <PolarisTransGenderSurgery.description>会改变目标的性别。</PolarisTransGenderSurgery.description>
+  <!-- EN: doing trans gender surgery. -->
+  <PolarisTransGenderSurgery.jobString>正在进行变性手术。</PolarisTransGenderSurgery.jobString>
+  
+</LanguageData>

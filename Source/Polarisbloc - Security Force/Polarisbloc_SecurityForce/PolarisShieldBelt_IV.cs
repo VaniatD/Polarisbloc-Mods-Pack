@@ -44,7 +44,7 @@ namespace Polarisbloc_SecurityForce
 
         private int LightningColdDownTicks = 120;
 
-        private float absorbMeleeDamageFactor = 2f;
+        //private float absorbMeleeDamageFactor = 2f;
 
         private float maxDamageTakeOnce = 10f;
 
@@ -60,7 +60,16 @@ namespace Polarisbloc_SecurityForce
             }
         }
 
-		private float EnergyMax
+        private bool CanForceActive
+        {
+            get
+            {
+                return this.HitPoints > 20;
+
+            }
+        }
+
+        private float EnergyMax
 		{
 			get
 			{
@@ -133,25 +142,28 @@ namespace Polarisbloc_SecurityForce
                 };
                 if (this.ShieldState == ShieldState.Active)
                 {
-                    yield return new Command_Action
+                    if (this.energy > 0.5f)
                     {
-                        action = delegate
+                        yield return new Command_Action
                         {
-                            if (this.energy <= 0.5f)
+                            action = delegate
                             {
-                                Messages.Message("PlrsNoEnoughEnergyToDoExplosion".Translate(), this.Wearer, MessageTypeDefOf.NegativeEvent);
-                            }
-                            else
-                            {
-                                this.energy -= 0.5f;
-                                GenExplosion.DoExplosion(this.Wearer.PositionHeld, this.Wearer.MapHeld, 2.2f, DamageDefOf.Bomb, this.Wearer, 20, -1f, DamageDefOf.Bomb.soundExplosion, null, null, null, null, 0, 1, false, null, 0, 1, 0, false);
-                            }
-                        },
-                        defaultLabel = "PlrsDoExplosionLabel".Translate(),
-                        defaultDesc = "PlrsDoExplosionDESC".Translate(),
-                        icon = base.def.uiIcon,
-                        hotKey = KeyBindingDefOf.Misc6,
-                    };
+                                if (this.energy <= 0.5f)
+                                {
+                                    Messages.Message("PlrsNoEnoughEnergyToDoExplosion".Translate(), this.Wearer, MessageTypeDefOf.NegativeEvent);
+                                }
+                                else
+                                {
+                                    this.energy -= 0.5f;
+                                    GenExplosion.DoExplosion(this.Wearer.PositionHeld, this.Wearer.MapHeld, 2.2f, DamageDefOf.Bomb, this.Wearer, 20, -1f, DamageDefOf.Bomb.soundExplosion, null, null, null, null, 0, 1, false, null, 0, 1, 0, false);
+                                }
+                            },
+                            defaultLabel = "PlrsDoExplosionLabel".Translate(),
+                            defaultDesc = "PlrsDoExplosionDESC".Translate(),
+                            icon = base.def.uiIcon,
+                            hotKey = KeyBindingDefOf.Misc6,
+                        };
+                    }
                 }
                 if (this.ShieldState != ShieldState.Active)
                 {
@@ -159,20 +171,22 @@ namespace Polarisbloc_SecurityForce
                     {
                         action = delegate
                         {
-                            if (this.HitPoints <= 20)
-                            {
-                                Messages.Message("PlrsNoEnoughHitPointsToReset".Translate(), this.Wearer, MessageTypeDefOf.NegativeEvent);
-                            }
-                            else
+                            if (this.CanForceActive)
                             {
                                 this.HitPoints -= 20;
                                 this.Reset();
+                            }
+                            else
+                            {
+                                Messages.Message("PlrsNoEnoughHitPointsToReset".Translate(), this.Wearer, MessageTypeDefOf.NegativeEvent);
                             }
                         },
                         defaultLabel = "PlrsForceResetLabel".Translate(),
                         defaultDesc = "PlrsForceResetDESC".Translate(),
                         icon = TexCommand.DesirePower,
                         hotKey = KeyBindingDefOf.Misc7,
+                        disabled = !this.CanForceActive,
+                        disabledReason = "PlrsNoEnoughHitPointsToReset".Translate()
                     };
                 }
             }
@@ -220,35 +234,26 @@ namespace Polarisbloc_SecurityForce
 
         public override bool CheckPreAbsorbDamage(DamageInfo dinfo)
         {
-            if (dinfo.Instigator == base.Wearer) return true;
-            if (dinfo.Def == DamageDefOf.Extinguish) return true;
             if (dinfo.Def == DamageDefOf.SurgicalCut) return false;
-            if (dinfo.Def == DamageDefOf.Smoke) return true;
+            if (dinfo.Instigator == base.Wearer)
+            {
+                this.AbsorbedDamage(dinfo);
+                return true;
+            }
+            if (!dinfo.Def.harmsHealth && dinfo.Def != DamageDefOf.EMP)
+            {
+                this.AbsorbedDamage(dinfo);
+                return true;
+            }
             if (this.ShieldState == ShieldState.Active)
             {
                 this.TryShotLightning(dinfo);
-                if (dinfo.Instigator != null && dinfo.Instigator.Position.AdjacentTo8WayOrInside(base.Wearer.Position))
+                float amount = dinfo.Amount;
+                if (amount > this.maxDamageTakeOnce)
                 {
-                    if (dinfo.Amount > this.maxDamageTakeOnce)
-                    {
-                        this.energy -= this.maxDamageTakeOnce * this.EnergyLossPerDamage * this.absorbMeleeDamageFactor;
-                    }
-                    else
-                    {
-                        this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage * this.absorbMeleeDamageFactor;
-                    }
+                    amount = this.maxDamageTakeOnce;
                 }
-                else
-                {
-                    if (dinfo.Amount > this.maxDamageTakeOnce)
-                    {
-                        this.energy -= this.maxDamageTakeOnce * this.EnergyLossPerDamage;
-                    }
-                    else
-                    {
-                        this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage;
-                    }
-                }
+                this.energy -= amount * this.EnergyLossPerDamage;
                 if (this.energy < 0f )
                 {
                     this.Break();

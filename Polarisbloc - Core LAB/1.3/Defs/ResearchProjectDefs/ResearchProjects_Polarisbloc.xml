@@ -253,6 +253,23 @@
       <li>PolarisSpecialDevice</li>
       <li>Cryptosleep</li>
     </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2.25</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+  <ResearchProjectDef MayRequire="Ludeon.RimWorld.Royalty">
+    <tab>Polarisbloc</tab>
+    <defName>PolarisBladelinkTraitAdjust</defName>
+    <label>persona weapons adjust</label>
+    <description>Learn to adjust the traits on persona weapons, you can put a persona weapon on fabrication bench to do it.</description>
+    <baseCost>1750</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>PolarisTraitreleaserProduction</li>
+    </prerequisites>
     <researchViewX>3</researchViewX>
     <researchViewY>2.25</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>

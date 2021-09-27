@@ -27,6 +27,8 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Biocodable" />
+      <!--<li><compClass>CompColorable</compClass></li>-->
+      <li Class="CompProperties_Styleable"></li>
     </comps>
     <tradeability>Sellable</tradeability>
     <tradeTags>
@@ -71,6 +73,7 @@
       <tags>
         <li>PolarisSFApparel</li>
       </tags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
     </apparel>
     <generateCommonality>0.4</generateCommonality>
   </ThingDef>
@@ -259,9 +262,9 @@
     </statBases>
     <equippedStatOffsets>
       <AimingDelayFactor>-0.05</AimingDelayFactor>
-      <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
-      <MeleeDodgeChance>0.5</MeleeDodgeChance>
-      <MeleeHitChance>0.5</MeleeHitChance>
+      <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+      <MeleeDodgeChance>2</MeleeDodgeChance>
+      <MeleeHitChance>2</MeleeHitChance>
       <PsychicSensitivity>-0.8</PsychicSensitivity>
     </equippedStatOffsets>
     <generateCommonality>0.4</generateCommonality>
@@ -281,6 +284,7 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
     </apparel>
   </ThingDef>
   <ThingDef ParentName="PolarisblocApparelBase">
@@ -308,8 +312,8 @@
     <equippedStatOffsets>
       <AimingDelayFactor>-0.1</AimingDelayFactor>
       <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
-      <MeleeDodgeChance>0.5</MeleeDodgeChance>
-      <MeleeHitChance>0.5</MeleeHitChance>
+      <MeleeDodgeChance>1</MeleeDodgeChance>
+      <MeleeHitChance>1</MeleeHitChance>
     </equippedStatOffsets>
     <generateCommonality>0.4</generateCommonality>
     <apparel>
@@ -329,6 +333,7 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
     </apparel>
   </ThingDef>
   <!--Trigger-->

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: military rations -->
+  <Vanya_CombatRations.label>战斗口粮</Vanya_CombatRations.label>
+  <!-- EN: Chaser comp's rations. Taste average, but easy to get full. -->
+  <Vanya_CombatRations.description>猎人公司的量产型口粮，口感很一般，但是吃饱了不太容易饿。</Vanya_CombatRations.description>
+  
+</LanguageData>

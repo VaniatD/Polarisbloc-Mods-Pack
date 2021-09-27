@@ -94,6 +94,7 @@
     </techHediffsRequired>
     <initialResistanceRange>30~50</initialResistanceRange>
     <initialWillRange>3~6</initialWillRange>
+    <requiredWorkTags>AllWork</requiredWorkTags>
   </PawnKindDef>
   <PawnKindDef ParentName="Polarisbloc_SFBase">
     <defName>Polarisbloc_SFSoldier</defName>

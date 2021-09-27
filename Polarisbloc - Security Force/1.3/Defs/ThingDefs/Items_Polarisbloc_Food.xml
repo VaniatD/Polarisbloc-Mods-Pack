@@ -34,8 +34,8 @@
     </statBases>
     <ingestible>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-      <foodType>Processed, Fluid</foodType>
-      <preferability>MealAwful</preferability>
+      <foodType>Meal, Processed, Fluid</foodType>
+      <preferability>MealSimple</preferability>
       <!--<ingestEffect>EatVegetarian</ingestEffect>-->
       <ingestSound>Ingest_Beer</ingestSound>
       <outcomeDoers>
@@ -52,6 +52,8 @@
       <baseIngestTicks>60</baseIngestTicks>
       <ingestCommandString>Drink {0}</ingestCommandString>
       <ingestReportString>Drinking {0}.</ingestReportString>
+      <optimalityOffsetHumanlikes>-8</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-15</optimalityOffsetFeedingAnimals>
     </ingestible>
     <comps>
       <li Class="CompProperties_Forbiddable" />

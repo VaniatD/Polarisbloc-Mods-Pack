@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: charge shot -->
+  <Bullet_CaniculaRifle.label>电荷弹</Bullet_CaniculaRifle.label>
+  
+  <!-- EN: charge shot -->
+  <Bullet_CaniculaSniper.label>电荷弹</Bullet_CaniculaSniper.label>
+  
+  <!-- EN: canicula - II universal rifle -->
+  <Polarisbloc_CaniculaRifle.label>天狼星II型通用步枪</Polarisbloc_CaniculaRifle.label>
+  <!-- EN: The universal rifle, produced by Polarisbloc has a specially treated energy release device that can fire bullets that are extremely threatening to live bodies. -->
+  <Polarisbloc_CaniculaRifle.description>天轴集团生产的制式通用步枪，特别制作的能量释放装置能够发射出对生命体极具威胁的子弹。</Polarisbloc_CaniculaRifle.description>
+  <!-- EN: stock -->
+  <Polarisbloc_CaniculaRifle.tools.stock.label>弹匣</Polarisbloc_CaniculaRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Polarisbloc_CaniculaRifle.tools.barrel.label>枪管</Polarisbloc_CaniculaRifle.tools.barrel.label>
+  <!-- EN: canicula - II universal rifle -->
+  <Polarisbloc_CaniculaRifle.verbs.Verb_Shoot.label>射击</Polarisbloc_CaniculaRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: canicula - III sniper rifle -->
+  <Polarisbloc_CaniculaSniper.label>天狼星III型狙击步枪</Polarisbloc_CaniculaSniper.label>
+  <!-- EN: The sniper rifle, produced by Polarisbloc has a specially treated energy release device that can fire bullets that are extremely threatening to live bodies. -->
+  <Polarisbloc_CaniculaSniper.description>天轴集团生产的制式狙击步枪，特别制作的能量释放装置能够发射出对生命体极具威胁的子弹。</Polarisbloc_CaniculaSniper.description>
+  <!-- EN: stock -->
+  <Polarisbloc_CaniculaSniper.tools.stock.label>弹匣</Polarisbloc_CaniculaSniper.tools.stock.label>
+  <!-- EN: barrel -->
+  <Polarisbloc_CaniculaSniper.tools.barrel.label>枪管</Polarisbloc_CaniculaSniper.tools.barrel.label>
+  <!-- EN: canicula - III sniper rifle -->
+  <Polarisbloc_CaniculaSniper.verbs.Verb_Shoot.label>射击</Polarisbloc_CaniculaSniper.verbs.Verb_Shoot.label>
+  
+</LanguageData>

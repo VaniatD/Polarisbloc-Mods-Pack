@@ -69,6 +69,9 @@
     <Compile Include="CombatChip\HediffComp_Convert.cs" />
     <Compile Include="Misc\Gas_HealingGas.cs" />
     <Compile Include="Decoder\ModExtension_DecoderConfigcs.cs" />
+    <Compile Include="Misc\StartUpDefPatch.cs" />
+    <Compile Include="BladelinkWeaponAdjust\Recipe_AddWeaponTrait.cs" />
+    <Compile Include="BladelinkWeaponAdjust\Recipe_RemoveWeaponTrait.cs" />
     <Compile Include="Surgeries\Recipe_ExtractAbility.cs" />
     <Compile Include="Surgeries\Dialog_ChangeAge.cs" />
     <Compile Include="Medicines\HediffComp_ReceptorAntagonist.cs" />
@@ -117,4 +120,9 @@
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_DetectChanges="False" BuildVersion_UpdateFileVersion="True" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" BuildVersion_UseUniversalClock="True" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

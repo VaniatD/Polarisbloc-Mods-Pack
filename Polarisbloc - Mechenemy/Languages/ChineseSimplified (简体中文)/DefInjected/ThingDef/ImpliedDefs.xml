@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Alpha型自爆机器人尸体 -->
+  <Corpse_Vanya_DroidAlpha.label>Alpha型自爆机器人尸体</Corpse_Vanya_DroidAlpha.label>
+  <!-- EN: Alpha型自爆机器人的尸体。 -->
+  <Corpse_Vanya_DroidAlpha.description>Alpha型自爆机器人尸体。</Corpse_Vanya_DroidAlpha.description>
+  
+  <!-- EN: Beta型人形机械尸体 -->
+  <Corpse_Vanya_DroidBeta.label>Beta型人形机械尸体</Corpse_Vanya_DroidBeta.label>
+  <!-- EN: Beta型人形机械的尸体。 -->
+  <Corpse_Vanya_DroidBeta.description>Beta型人形机械尸体。</Corpse_Vanya_DroidBeta.description>
+  
+  <!-- EN: Beta-2型重装人形机械尸体 -->
+  <Corpse_Vanya_DroidBetaEX.label>Beta-2型重装人形机械尸体</Corpse_Vanya_DroidBetaEX.label>
+  <!-- EN: Beta-2型重装人形机械的尸体。 -->
+  <Corpse_Vanya_DroidBetaEX.description>Beta-2型重装人形机械尸体。</Corpse_Vanya_DroidBetaEX.description>
+  
+  <!-- EN: 堡垒尸体 -->
+  <Corpse_Vanya_DroidFortress.label>堡垒尸体</Corpse_Vanya_DroidFortress.label>
+  <!-- EN: 堡垒的尸体。 -->
+  <Corpse_Vanya_DroidFortress.description>堡垒尸体。</Corpse_Vanya_DroidFortress.description>
+  
+  <!-- EN: Gamma型兽型机械尸体 -->
+  <Corpse_Vanya_DroidGamma.label>Gamma型兽型机械尸体</Corpse_Vanya_DroidGamma.label>
+  <!-- EN: Gamma型兽型机械的尸体。 -->
+  <Corpse_Vanya_DroidGamma.description>Gamma型兽型机械尸体。</Corpse_Vanya_DroidGamma.description>
+  
+  <!-- EN: Gamma-2型重装兽型机械尸体 -->
+  <Corpse_Vanya_DroidGammaEX.label>Gamma型兽型机械重装尸体</Corpse_Vanya_DroidGammaEX.label>
+  <!-- EN: Gamma-2型重装兽型机械的尸体。 -->
+  <Corpse_Vanya_DroidGammaEX.description>Gamma型兽型机械重装尸体。</Corpse_Vanya_DroidGammaEX.description>
+  
+  <!-- EN: 裁决者尸体 -->
+  <Corpse_Vanya_DroidRuler.label>裁决者尸体</Corpse_Vanya_DroidRuler.label>
+  <!-- EN: 裁决者的尸体。 -->
+  <Corpse_Vanya_DroidRuler.description>裁决者尸体。</Corpse_Vanya_DroidRuler.description>
+  
+</LanguageData>

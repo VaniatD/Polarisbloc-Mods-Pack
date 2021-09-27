@@ -32,5 +32,11 @@ namespace Polarisbloc_SecurityForce
         public static ThingDef Polarisbloc_CaniculaRifle;
 
         public static ThingDef Polarisbloc_EmergencyFood;
+
+        public static ThingDef Apparel_PolarisShieldBelt_IV;
+
+        public static ThingDef Polarisbloc_CygnusStandardArmorC;
+
+        public static ThingDef Polarisbloc_CaniculaSniper;
     }
 }

@@ -5,7 +5,6 @@ using System.Text;
 using RimWorld;
 using Verse;
 using Verse.AI;
-using System.Reflection;
 
 namespace Polarisbloc
 {
@@ -77,35 +76,8 @@ namespace Polarisbloc
 			//CompBiocodableWeapon biocodableWeapon = this.CodableThing.TryGetComp<CompBiocodableWeapon>();
 
 			CompBiocodable biocodableThing = this.CodableThing.TryGetComp<CompBiocodable>();
-			CompBladelinkWeapon bladelinkWeapon = this.CodableThing.TryGetComp<CompBladelinkWeapon>();
+			//CompBladelinkWeapon bladelinkWeapon = this.CodableThing.TryGetComp<CompBladelinkWeapon>();
 			bool selfDestory = false;
-			/*if (Rand.Value > this.SuccessChance)
-			{
-				Messages.Message("PolarisDecoderFailedUsedForPawn".Translate(this.pawn.NameShortColored, this.CodableThing.Label), MessageTypeDefOf.NegativeEvent, true);
-				if (Rand.Value < this.Configs.selfDestoryOnFailed)
-				{
-					Messages.Message("PolarisDecoderSelfDestroyed".Translate(), MessageTypeDefOf.NegativeEvent, true);
-					this.Item.SplitOff(1).Destroy(DestroyMode.Vanish);
-				}
-				return;
-			}
-			Messages.Message("PolarisDecoderSuccessedUsedForPawn".Translate(this.pawn.NameShortColored, this.CodableThing.Label), this.pawn, MessageTypeDefOf.PositiveEvent, true);*/
-			/*if (biocodableWeapon != null)
-			{
-				if (biocodableWeapon.Biocoded)
-				{
-					biocodableWeapon.CodeFor(this.pawn);
-					if (Rand.Value < this.Configs.selfDestoryOnSuccessed)
-					{
-						selfDestory = true;
-					}
-				}
-				else
-				{
-					biocodableWeapon.CodeFor(this.pawn);
-					
-				}
-			}*/
 			if (biocodableThing != null)
 			{
 
@@ -113,9 +85,8 @@ namespace Polarisbloc
 				{
 					if (this.CheckSuccessOnUsed())
 					{
-						//biocodableThing.CodeFor(this.pawn);
-						typeof(CompBiocodable).GetField("biocoded", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(biocodableThing, false);
-						typeof(CompBiocodable).GetField("codedPawn", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(biocodableThing, null);
+						//this.CodableThing.DecodeBiocoded();
+						biocodableThing.UnCode();
 						if (Rand.Value < this.Configs.selfDestoryOnSuccessed)
 						{
 							selfDestory = true;
@@ -129,16 +100,28 @@ namespace Polarisbloc
 				}
 			}
 
-			if (bladelinkWeapon != null)
+			/*if (bladelinkWeapon != null)
 			{
+				if (bladelinkWeapon.Biocoded)
+                {
+					if (this.CheckSuccessOnUsed())
+                    {
+						bladelinkWeapon.UnCode();
+						if (Rand.Value < this.Configs.selfDestoryOnSuccessed)
+						{
+							selfDestory = true;
+						}
+					}
 
-				Pawn oldBondedPawn = (Pawn)typeof(CompBladelinkWeapon).GetField("oldBondedPawn", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(bladelinkWeapon);
-				if (oldBondedPawn != this.pawn)
+				}
+				
+				if (!this.CodableThing.IsBondedFor(this.pawn))
 				{
 					if (this.CheckSuccessOnUsed())
 					{
-						oldBondedPawn = null;
-						bladelinkWeapon.Notify_Equipped(this.pawn);
+						//oldBondedPawn = null;
+						//bladelinkWeapon.Notify_Equipped(this.pawn);
+						this.CodableThing.UnbondBladelink();
 						if (Rand.Value < this.Configs.selfDestoryOnSuccessed)
 						{
 							selfDestory = true;
@@ -146,9 +129,9 @@ namespace Polarisbloc
 					}
 					
 				}
-			}
+			}*/
 
-			if (biocodableThing == null && bladelinkWeapon == null)
+			if (biocodableThing == null)
 			{
 				throw new ArgumentOutOfRangeException();
 			}

@@ -34,6 +34,8 @@
   <PolarisSpecialDevice.description>這個項目記錄了一些有特殊功能的裝置。</PolarisSpecialDevice.description>
   <PolarisLyraeCurer.label>天琴座治療器</PolarisLyraeCurer.label>
   <PolarisLyraeCurer.description>學會製作能夠治療附近生物的治療器。</PolarisLyraeCurer.description>
+  <PolarisBladelinkTraitAdjust.label>羈絆武器調整</PolarisBladelinkTraitAdjust.label>
+  <PolarisBladelinkTraitAdjust.description>研究如何調整羈絆武器的武器特性，在精密裝配台進行這項操作。</PolarisBladelinkTraitAdjust.description>
   <PolarisThermostat.label>恆溫器</PolarisThermostat.label>
   <PolarisThermostat.description>學會如何製作恆溫器，這個恆溫器能夠將房間內溫度穩定在目標範圍。</PolarisThermostat.description>
   <PolarisTraitreleaserProduction.label>特性釋放器製作</PolarisTraitreleaserProduction.label>

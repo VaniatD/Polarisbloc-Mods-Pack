@@ -27,6 +27,8 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Biocodable" />
+      <li Class="CompProperties_Styleable"></li>
+      <!--<li><compClass>CompColorable</compClass></li>-->
     </comps>
   </ThingDef>
   <ThingDef ParentName="PolarisApparelBase">
@@ -51,6 +53,7 @@
       <li>ApparelUtility</li>
     </thingCategories>
     <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfWornByCorpse>false</careIfWornByCorpse>
       <wearPerDay>0</wearPerDay>
       <bodyPartGroups>

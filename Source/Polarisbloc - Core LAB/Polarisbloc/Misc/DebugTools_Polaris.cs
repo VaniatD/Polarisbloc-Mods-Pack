@@ -5,7 +5,6 @@ using System.Text;
 using Verse;
 using RimWorld;
 using UnityEngine;
-using System.Reflection;
 
 namespace Polarisbloc
 {
@@ -76,43 +75,26 @@ namespace Polarisbloc
         {
             foreach (Thing thing in Find.CurrentMap.thingGrid.ThingsAt(UI.MouseCell()).ToList<Thing>())
             {
-                CompBiocodable biocodableThing = thing.TryGetComp<CompBiocodable>();
-                CompBladelinkWeapon bladelinkWeapon = thing.TryGetComp<CompBladelinkWeapon>();
-                if (biocodableThing != null)
+                CompBiocodable compBiocodable = thing.TryGetComp<CompBiocodable>();
+                if (compBiocodable != null && compBiocodable.Biocoded)
                 {
-
-                    if (biocodableThing.Biocoded)
-                    {
-                        typeof(CompBiocodable).GetField("biocoded", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(biocodableThing, false);
-                        typeof(CompBiocodable).GetField("codedPawn", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(biocodableThing, null);
-                    }
-                }
-                if (bladelinkWeapon != null)
-                {
-                    Pawn oldBondedPawn = (Pawn)typeof(CompBladelinkWeapon).GetField("oldBondedPawn", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(bladelinkWeapon);
-                    if (oldBondedPawn != null)
-                    {
-                        typeof(CompBladelinkWeapon).GetField("bonded", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(bladelinkWeapon, false);
-                        typeof(CompBladelinkWeapon).GetField("oldBondedPawn", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(bladelinkWeapon, null);
-                    }
+                    compBiocodable.UnCode();
                 }
                 DebugActionsUtility.DustPuffFrom(thing);
             }
         }
 
-        [DebugAction("Polaris Tools", "Add Weapon Trait", actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        [DebugAction("Polaris Tools", "Add Weapon Trait", true, false, actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap)]
         private static void AddWeaponTrait()
         {
             foreach (Thing thing in Find.CurrentMap.thingGrid.ThingsAt(UI.MouseCell()).ToList<Thing>())
             {
-                CompBladelinkWeapon compBladelink = thing.TryGetComp<CompBladelinkWeapon>();
-                if (compBladelink != null)
+                if (thing.IsBladelinkWeapon(out CompBladelinkWeapon compBladelink))
                 {
-                    List<WeaponTraitDef> curTraits = compBladelink.TraitsListForReading;
                     List<DebugMenuOption> list = new List<DebugMenuOption>();
                     foreach (WeaponTraitDef traitDef in DefDatabase<WeaponTraitDef>.AllDefs)
                     {
-                        bool canAddTrait = true;
+                        /*bool canAddTrait = true;
                         if (!curTraits.NullOrEmpty<WeaponTraitDef>())
                         {
                             for (int i = 0; i < curTraits.Count; i++)
@@ -122,13 +104,14 @@ namespace Polarisbloc
                                     canAddTrait = false;
                                 }
                             }
-                        }
-                        if (canAddTrait)
+                        }*/
+                        if (compBladelink.CanAddWeaponTrait(traitDef))
                         {
                             list.Add(new DebugMenuOption(traitDef.label, DebugMenuOptionMode.Action, delegate ()
                             {
-                                curTraits.Add(traitDef);
-                                typeof(CompBladelinkWeapon).GetField("traits", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(compBladelink, curTraits);
+                                compBladelink.AddWeaponTrait(traitDef);
+                                /*curTraits.Add(traitDef);
+                                typeof(CompBladelinkWeapon).GetField("traits", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(compBladelink, curTraits);*/
                             }));
                         }
 
@@ -139,13 +122,12 @@ namespace Polarisbloc
             }
         }
 
-        [DebugAction("Polaris Tools", "Remove Weapon Trait", actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        [DebugAction("Polaris Tools", "Remove Weapon Trait", true, false, actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap)]
         private static void RemoveWeaponTrait()
         {
             foreach (Thing thing in Find.CurrentMap.thingGrid.ThingsAt(UI.MouseCell()).ToList<Thing>())
             {
-                CompBladelinkWeapon compBladelink = thing.TryGetComp<CompBladelinkWeapon>();
-                if (compBladelink != null)
+                if (thing.IsBladelinkWeapon(out CompBladelinkWeapon compBladelink))
                 {
                     List<WeaponTraitDef> curTraits = compBladelink.TraitsListForReading;
                     List<DebugMenuOption> list = new List<DebugMenuOption>();
@@ -153,8 +135,9 @@ namespace Polarisbloc
                     {
                         list.Add(new DebugMenuOption(curTrait.label, DebugMenuOptionMode.Action, delegate ()
                         {
-                            curTraits.Remove(curTrait);
-                            typeof(CompBladelinkWeapon).GetField("traits", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(compBladelink, curTraits);
+                            //curTraits.Remove(curTrait);
+                            //typeof(CompBladelinkWeapon).GetField("traits", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(compBladelink, curTraits);
+                            compBladelink.RemoveWeaponTrait(curTrait);
                         }));
                     }
                     Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
@@ -234,6 +217,30 @@ namespace Polarisbloc
             }
             pawn.Drawer.renderer.graphics.ResolveAllGraphics();
             DebugActionsUtility.DustPuffFrom(pawn);
+        }
+
+        [DebugAction("Polaris Tools", "Change Body...", actionType = DebugActionType.Action, allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        private static void ChangeBodyType()
+        {
+            List<DebugMenuOption> list = new List<DebugMenuOption>();
+            foreach (BodyTypeDef bodyType in DefDatabase<BodyTypeDef>.AllDefs)
+            {
+                list.Add(new DebugMenuOption(bodyType.defName, DebugMenuOptionMode.Tool, delegate ()
+                {
+                    foreach (Pawn pawn in (from t in Find.CurrentMap.thingGrid.ThingsAt(UI.MouseCell())
+                                           where t is Pawn
+                                           select t).Cast<Pawn>())
+                    {
+                        pawn.story.bodyType = bodyType;
+                        PortraitsCache.SetDirty(pawn);
+                        PortraitsCache.PortraitsCacheUpdate();
+                        pawn.Drawer.renderer.graphics.SetAllGraphicsDirty();
+                        pawn.Drawer.renderer.graphics.ResolveAllGraphics();
+                        DebugActionsUtility.DustPuffFrom(pawn);
+                    }
+                }));
+            }
+            Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
         }
 
         [DebugAction("Polaris Tools", "Spawning Miss Pawn Of Player", allowedGameStates = AllowedGameStates.PlayingOnMap)]

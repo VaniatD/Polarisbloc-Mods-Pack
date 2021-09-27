@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using RimWorld;
 using Verse;
-using System.Reflection;
 
 namespace Polarisbloc
 {

@@ -38,6 +38,8 @@
           <AimingDelayFactor>-0.1</AimingDelayFactor>
           <MedicalTendQuality>0.1</MedicalTendQuality>
           <SocialImpact>0.1</SocialImpact>
+          <ShootingAccuracyOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</ShootingAccuracyOutdoorsDarkOffset>
+          <MeleeHitChanceOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</MeleeHitChanceOutdoorsDarkOffset>
         </statOffsets>
       </li>
     </stages>
@@ -54,6 +56,8 @@
         <statOffsets>
           <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
           <AimingDelayFactor>-0.2</AimingDelayFactor>
+          <ShootingAccuracyOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.25</ShootingAccuracyOutdoorsDarkOffset>
+          <ShootingAccuracyOutdoorsLitOffset MayRequire="Ludeon.RimWorld.Ideology">0.25</ShootingAccuracyOutdoorsLitOffset>
         </statOffsets>
       </li>
     </stages>
@@ -72,6 +76,10 @@
           <MeleeDodgeChance>8</MeleeDodgeChance>
           <MeleeHitChance>4</MeleeHitChance>
           <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <MeleeHitChanceOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.25</MeleeHitChanceOutdoorsDarkOffset>
+          <MeleeHitChanceOutdoorsLitOffset MayRequire="Ludeon.RimWorld.Ideology">0.25</MeleeHitChanceOutdoorsLitOffset>
+          <MeleeDodgeChanceIndoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.25</MeleeDodgeChanceIndoorsDarkOffset>
+          <MeleeDodgeChanceIndoorsLitOffset MayRequire="Ludeon.RimWorld.Ideology">0.25</MeleeDodgeChanceIndoorsLitOffset>
         </statOffsets>
       </li>
     </stages>
@@ -142,11 +150,13 @@
         <capMods>
           <li>
             <capacity>Moving</capacity>
-            <setMax>0.7</setMax>
+            <setMax>0.85</setMax>
           </li>
         </capMods>
         <statOffsets>
-          <AimingDelayFactor>0.4</AimingDelayFactor>
+          <AimingDelayFactor>0.2</AimingDelayFactor>
+          <ShootingAccuracyOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</ShootingAccuracyOutdoorsDarkOffset>
+          <ShootingAccuracyOutdoorsLitOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</ShootingAccuracyOutdoorsLitOffset>
         </statOffsets>
       </li>
     </stages>
@@ -174,6 +184,8 @@
           <PsychicSensitivity>1.2</PsychicSensitivity>
           <MeditationFocusGain>1.2</MeditationFocusGain>
           <PsychicEntropyGain>0.8</PsychicEntropyGain>
+          <MeleeDodgeChanceOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</MeleeDodgeChanceOutdoorsDarkOffset>
+          <MeleeDodgeChanceOutdoorsLitOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</MeleeDodgeChanceOutdoorsLitOffset>
         </statFactors>
       </li>
     </stages>
@@ -189,6 +201,8 @@
       <li Class="Polarisbloc.HediffCompProperties_DrawPsyfocus">
         <drawFactor>0.15</drawFactor>
         <psyfocusGainMulti>true</psyfocusGainMulti>
+        <collectPsyfocusPerTick>0.000003</collectPsyfocusPerTick>
+        <psyfocusCapacity>3</psyfocusCapacity>
       </li>
     </comps>
   </HediffDef>

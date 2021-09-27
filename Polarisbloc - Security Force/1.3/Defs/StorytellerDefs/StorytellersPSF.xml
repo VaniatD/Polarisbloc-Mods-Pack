@@ -253,7 +253,7 @@
         <onDays>4.2</onDays>
         <offDays>9.1</offDays>
         <minSpacingDays>0.8</minSpacingDays>
-        <numIncidentsRange>2.5~4.5</numIncidentsRange>
+        <numIncidentsRange>1.5~3.5</numIncidentsRange>
         <forceRaidEnemyBeforeDaysPassed>25</forceRaidEnemyBeforeDaysPassed>
         <disallowedTargetTags>
           <li>Map_RaidBeacon</li>

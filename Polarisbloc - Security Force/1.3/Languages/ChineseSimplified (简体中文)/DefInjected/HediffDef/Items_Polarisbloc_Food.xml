@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: military rations -->
+  <Polarisbloc_EmergencyFood.label>应急食品</Polarisbloc_EmergencyFood.label>
+  <!-- EN: A liquid food that can quickly restore the physical strength of the eater, with the addition of anti-fatigue components that can effectively improve the combat ability of the eater. -->
+  <Polarisbloc_EmergencyFood.description>一种能在任何环境中快速恢复体力的液体食物，添加抗疲劳成分，可以有效地提高食用者的持续作战能力。</Polarisbloc_EmergencyFood.description>
+  
+</LanguageData>

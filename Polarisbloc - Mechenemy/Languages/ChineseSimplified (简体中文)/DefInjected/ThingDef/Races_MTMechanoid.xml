@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Alpha-Self Explode Droid -->
+  <Vanya_DroidAlpha.label>Alpha型自爆机器人</Vanya_DroidAlpha.label>
+  <!-- EN: A small and swift small droid with a single use pulse bomb, will throw bombs after get close to target, and will self explode in death. -->
+  <Vanya_DroidAlpha.description>携带一次性小型冲击炸弹的高速移动型小型机器人，在靠近目标之后会投掷小型炸弹，而且该机型在死亡时会启动自毁装置。</Vanya_DroidAlpha.description>
+  <!-- EN: blade -->
+  <Vanya_DroidAlpha.tools.blade.label>刃</Vanya_DroidAlpha.tools.blade.label>
+  <!-- EN: head -->
+  <Vanya_DroidAlpha.tools.head.label>头部</Vanya_DroidAlpha.tools.head.label>
+  
+  <!-- EN: Beta-Humanoid -->
+  <Vanya_DroidBeta.label>Beta型人形机械</Vanya_DroidBeta.label>
+  <!-- EN: A advanced humanoid, can equip various weapons to fight. -->
+  <Vanya_DroidBeta.description>泛用型高级人形机械体，能够携带各种武器作战。</Vanya_DroidBeta.description>
+  <!-- EN: left blade -->
+  <Vanya_DroidBeta.tools.left_blade.label>左刃</Vanya_DroidBeta.tools.left_blade.label>
+  <!-- EN: right blade -->
+  <Vanya_DroidBeta.tools.right_blade.label>右刃</Vanya_DroidBeta.tools.right_blade.label>
+  <!-- EN: head -->
+  <Vanya_DroidBeta.tools.head.label>头部</Vanya_DroidBeta.tools.head.label>
+  
+  <!-- EN: Beta-2-Heavy Armor Humanoid -->
+  <Vanya_DroidBetaEX.label>Beta-2型重装人形机械</Vanya_DroidBetaEX.label>
+  <!-- EN: Advanced humanoid with heavy armor, can fight with various weapons. -->
+  <Vanya_DroidBetaEX.description>增加了反应装甲和护甲的泛用型高级人形机械体，能够携带各种武器作战。</Vanya_DroidBetaEX.description>
+  <!-- EN: left blade -->
+  <Vanya_DroidBetaEX.tools.left_blade.label>左刃</Vanya_DroidBetaEX.tools.left_blade.label>
+  <!-- EN: right blade -->
+  <Vanya_DroidBetaEX.tools.right_blade.label>右刃</Vanya_DroidBetaEX.tools.right_blade.label>
+  <!-- EN: head -->
+  <Vanya_DroidBetaEX.tools.head.label>头部</Vanya_DroidBetaEX.tools.head.label>
+  
+  <!-- EN: bastion -->
+  <Vanya_DroidFortress.label>堡垒</Vanya_DroidFortress.label>
+  <!-- EN: Giant war machine, move with caterpillar band, do mid range suppression fire. -->
+  <Vanya_DroidFortress.description>大体形的战争机器，通过履带移动，中距离火力压制。</Vanya_DroidFortress.description>
+  <!-- EN: Hub -->
+  <Vanya_DroidFortress.tools.Hub.label>轮毂</Vanya_DroidFortress.tools.Hub.label>
+  <!-- EN: Track -->
+  <Vanya_DroidFortress.tools.Track.label>履带</Vanya_DroidFortress.tools.Track.label>
+  
+  <!-- EN: Gamma-Wolf Droid -->
+  <Vanya_DroidGamma.label>Gamma型兽型机械</Vanya_DroidGamma.label>
+  <!-- EN: Wolf shape droid, can equip single use weapons. -->
+  <Vanya_DroidGamma.description>泛用型兽型机械，可以搭载一次性武器。</Vanya_DroidGamma.description>
+  <!-- EN: left claw -->
+  <Vanya_DroidGamma.tools.left_claw.label>左爪</Vanya_DroidGamma.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Vanya_DroidGamma.tools.right_claw.label>右爪</Vanya_DroidGamma.tools.right_claw.label>
+  <!-- EN: head -->
+  <Vanya_DroidGamma.tools.head.label>head</Vanya_DroidGamma.tools.head.label>
+  
+  <!-- EN: Gamma-2-Heavy Armor Wolf Droid -->
+  <Vanya_DroidGammaEX.label>Gamma-2型重装兽型机械</Vanya_DroidGammaEX.label>
+  <!-- EN: Heavy armored wolf shape droid, can equip single use weapons. -->
+  <Vanya_DroidGammaEX.description>重装型兽型机械，可以搭载一次性武器。</Vanya_DroidGammaEX.description>
+  <!-- EN: left claw -->
+  <Vanya_DroidGammaEX.tools.left_claw.label>左爪</Vanya_DroidGammaEX.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Vanya_DroidGammaEX.tools.right_claw.label>右爪</Vanya_DroidGammaEX.tools.right_claw.label>
+  <!-- EN: head -->
+  <Vanya_DroidGammaEX.tools.head.label>head</Vanya_DroidGammaEX.tools.head.label>
+  
+  <!-- EN: inquisitor -->
+  <Vanya_DroidRuler.label>裁决者</Vanya_DroidRuler.label>
+  <!-- EN: Strong and swift humanoid, use accurate long range weapons, elite among mechanoids. -->
+  <Vanya_DroidRuler.description>高强度高灵活性的人形机器人，使用精度极高的远程武器，是机械中的精英。</Vanya_DroidRuler.description>
+  <!-- EN: left blade -->
+  <Vanya_DroidRuler.tools.left_blade.label>左刃</Vanya_DroidRuler.tools.left_blade.label>
+  <!-- EN: right blade -->
+  <Vanya_DroidRuler.tools.right_blade.label>右刃</Vanya_DroidRuler.tools.right_blade.label>
+  <!-- EN: head -->
+  <Vanya_DroidRuler.tools.head.label>头部</Vanya_DroidRuler.tools.head.label>
+  
+</LanguageData>

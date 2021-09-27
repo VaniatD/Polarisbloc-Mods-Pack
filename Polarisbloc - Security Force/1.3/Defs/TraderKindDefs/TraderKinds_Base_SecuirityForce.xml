@@ -94,8 +94,8 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
         <countRange>
-          <min>8</min>
-          <max>18</max>
+          <min>15</min>
+          <max>30</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -115,8 +115,8 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Plasteel</thingDef>
         <countRange>
-          <min>0</min>
-          <max>200</max>
+          <min>50</min>
+          <max>300</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -129,29 +129,29 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
         <countRange>
-          <min>0</min>
-          <max>200</max>
+          <min>100</min>
+          <max>300</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>
         <countRange>
-          <min>50</min>
-          <max>200</max>
+          <min>80</min>
+          <max>300</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chemfuel</thingDef>
         <countRange>
           <min>300</min>
-          <max>500</max>
+          <max>700</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chocolate</thingDef>
         <countRange>
           <min>20</min>
-          <max>70</max>
+          <max>150</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -165,21 +165,21 @@
         <thingDef>MedicineUltratech</thingDef>
         <countRange>
           <min>10</min>
-          <max>30</max>
+          <max>40</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
         <countRange>
           <min>25</min>
-          <max>60</max>
+          <max>75</max>
         </countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>MortarShell</tradeTag>
         <thingDefCountRange>
-          <min>1</min>
-          <max>2</max>
+          <min>2</min>
+          <max>3</max>
         </thingDefCountRange>
         <countRange>
           <min>20</min>
@@ -189,23 +189,23 @@
       <li Class="StockGenerator_Category">
         <categoryDef>Textiles</categoryDef>
         <thingDefCountRange>
-          <min>1</min>
-          <max>2</max>
+          <min>2</min>
+          <max>5</max>
         </thingDefCountRange>
         <totalPriceRange>
-          <min>200</min>
-          <max>800</max>
+          <min>400</min>
+          <max>1200</max>
         </totalPriceRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>ResourcesRaw</categoryDef>
         <thingDefCountRange>
           <min>2</min>
-          <max>4</max>
+          <max>5</max>
         </thingDefCountRange>
         <totalPriceRange>
-          <min>200</min>
-          <max>800</max>
+          <min>400</min>
+          <max>1200</max>
         </totalPriceRange>
       </li>
       <li Class="StockGenerator_Category">
@@ -225,8 +225,8 @@
       <li Class="StockGenerator_Category">
         <categoryDef>FoodMeals</categoryDef>
         <thingDefCountRange>
-          <min>1</min>
-          <max>2</max>
+          <min>2</min>
+          <max>4</max>
         </thingDefCountRange>
         <countRange>
           <min>12</min>
@@ -276,7 +276,7 @@
         <categoryDef>Drugs</categoryDef>
         <thingDefCountRange>
           <min>3</min>
-          <max>4</max>
+          <max>5</max>
         </thingDefCountRange>
         <totalPriceRange>
           <min>700</min>
@@ -309,8 +309,19 @@
       <li Class="StockGenerator_Tag">
         <tradeTag>TechHediff</tradeTag>
         <thingDefCountRange>
-          <min>2</min>
-          <max>8</max>
+          <min>3</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>2</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>BodyPartsArchotech</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>4</max>
         </thingDefCountRange>
         <countRange>
           <min>1</min>
@@ -381,8 +392,14 @@
           <li>Polarisbloc_EmergencyFood</li>
         </thingDefs>
       </li>
-      <li Class="StockGenerator_BuyExpensiveSimple" />
       <!--Extra-->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisDecoder</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>2</max>
+        </countRange>
+      </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PolarisMechSerumTraitreleaser</thingDef>
         <countRange>
@@ -460,15 +477,6 @@
           <max>1</max>
         </countRange>
       </li>
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>ImplantEmpireCommon</tag>
-      </li>
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>ImplantEmpireCommon</tag>
-      </li>
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>Art</tag>
-      </li>
       <li Class="StockGenerator_Techprints">
         <countChances>
           <li>
@@ -480,6 +488,20 @@
             <chance>0.4</chance>
           </li>
         </countChances>
+      </li>
+      <!--buy-->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>ImplantEmpireCommon</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>Art</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>ImplantEmpireRoyal</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>MusicalInstrument</tag>
       </li>
     </stockGenerators>
   </TraderKindDef>

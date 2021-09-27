@@ -35,7 +35,7 @@
     <ingestible>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
       <foodType>Meal</foodType>
-      <preferability>MealAwful</preferability>
+      <preferability>MealSimple</preferability>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
       <outcomeDoers>
@@ -46,6 +46,8 @@
       </outcomeDoers>
       <ingestHoldUsesTable>false</ingestHoldUsesTable>
       <baseIngestTicks>60</baseIngestTicks>
+      <optimalityOffsetHumanlikes>-7</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-13</optimalityOffsetFeedingAnimals>
     </ingestible>
     <comps>
       <li Class="CompProperties_Forbiddable" />

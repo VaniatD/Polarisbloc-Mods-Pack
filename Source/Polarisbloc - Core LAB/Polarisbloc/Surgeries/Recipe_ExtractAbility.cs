@@ -54,13 +54,13 @@ namespace Polarisbloc
 				});
 				
 			}
-			CompNeurotrainer compNeurotrainer = ingredients[0].TryGetComp<CompNeurotrainer>();
-			if (compNeurotrainer != null && !pawn.abilities.abilities.NullOrEmpty())
+			//CompNeurotrainer compNeurotrainer = ingredients[0].TryGetComp<CompNeurotrainer>();
+			if (!pawn.abilities.abilities.NullOrEmpty())
 			{
 				List<DebugMenuOption> list = new List<DebugMenuOption>();
 				foreach (Ability ability in pawn.abilities.abilities)
 				{
-					compNeurotrainer.ability = ability.def;
+					//compNeurotrainer.ability = ability.def;
 					string thingDefName = ThingDefGenerator_Neurotrainer.PsytrainerDefPrefix + "_" + ability.def.defName;
 					ThingDef thingDef = DefDatabase<ThingDef>.AllDefsListForReading.Find(x => x.defName.Equals(thingDefName));
 					if (thingDef != null)

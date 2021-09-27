@@ -43,5 +43,102 @@ namespace Polarisbloc
                 }
             }
         }
+
+
+        /*public static void DecodeBiocoded(this Thing thing)
+        {
+            CompBiocodable biocodableThing = thing.TryGetComp<CompBiocodable>();
+            
+            if (biocodableThing != null)
+            {
+
+                if (biocodableThing.Biocoded)
+                {
+                    typeof(CompBiocodable).GetField("biocoded", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(biocodableThing, false);
+                    typeof(CompBiocodable).GetField("codedPawn", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(biocodableThing, null);
+                }
+            }
+            
+        }
+
+        public static void UnbondBladelink(this Thing thing)
+        {
+            CompBladelinkWeapon bladelinkWeapon = thing.TryGetComp<CompBladelinkWeapon>();
+            if (bladelinkWeapon != null)
+            {
+                Pawn oldBondedPawn = (Pawn)typeof(CompBladelinkWeapon).GetField("oldBondedPawn", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(bladelinkWeapon);
+                if (oldBondedPawn != null)
+                {
+                    typeof(CompBladelinkWeapon).GetField("bonded", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(bladelinkWeapon, false);
+                    typeof(CompBladelinkWeapon).GetField("oldBondedPawn", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(bladelinkWeapon, null);
+                }
+            }
+        }*/
+
+        public static bool IsBiocodableThing(this Thing thing)
+        {
+            if (thing.TryGetComp<CompBiocodable>() != null)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool IsBladelinkWeapon(this Thing weapon, out CompBladelinkWeapon compBladelink)
+        {
+            compBladelink = weapon.TryGetComp<CompBladelinkWeapon>();
+            if (compBladelink != null)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool CanAddWeaponTrait(this CompBladelinkWeapon compBladelink, WeaponTraitDef traitDef)
+        {
+            List<WeaponTraitDef> curTraits = compBladelink.TraitsListForReading;
+            if (curTraits.NullOrEmpty<WeaponTraitDef>())
+            {
+                return true;
+            }
+            for (int i = 0; i < curTraits.Count; i++)
+            {
+                if (traitDef.Overlaps(curTraits[i]))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        public static void AddWeaponTrait(this CompBladelinkWeapon compBladelink, WeaponTraitDef traitDef)
+        {
+            List<WeaponTraitDef> curTraits = compBladelink.TraitsListForReading;
+            if (!curTraits.Contains(traitDef))
+            {
+                curTraits.Add(traitDef);
+            }
+            typeof(CompBladelinkWeapon).GetField("traits", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(compBladelink, curTraits);
+        }
+
+        public static void RemoveWeaponTrait(this CompBladelinkWeapon compBladelink, WeaponTraitDef traitDef)
+        {
+            List<WeaponTraitDef> curTraits = compBladelink.TraitsListForReading;
+            curTraits.Remove(traitDef);
+            typeof(CompBladelinkWeapon).GetField("traits", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(compBladelink, curTraits);
+        }
+
+        public static bool IsBondedFor(this Thing weapon, Pawn pawn)
+        {
+            return pawn.equipment.bondedWeapon == weapon;
+        }
+
+        public static float GetTraitSpecificCommonality(this TraitDef traitDef)
+        {
+            float commonality = (float)typeof(TraitDef).GetField("commonality", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(traitDef);
+            float commonalityFemale = (float)typeof(TraitDef).GetField("commonalityFemale", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(traitDef);
+            if (commonalityFemale > 0) commonality = (commonalityFemale + commonality) / 2;
+            return commonality;
+        }
     }
 }

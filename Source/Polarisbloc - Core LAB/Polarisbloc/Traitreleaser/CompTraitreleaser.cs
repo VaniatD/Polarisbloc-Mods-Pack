@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Reflection;
 using System.Linq;
 using System.Text;
 using RimWorld;
@@ -288,10 +287,7 @@ namespace Polarisbloc
 
         private float GetTraitSpecificCommonality(TraitDef traitDef)
         {
-            float commonality = (float)typeof(TraitDef).GetField("commonality", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(traitDef);
-            float commonalityFemale = (float)typeof(TraitDef).GetField("commonalityFemale", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(traitDef);
-            if (commonalityFemale > 0) commonality = (commonalityFemale + commonality) / 2;
-            return commonality;
+            return traitDef.GetTraitSpecificCommonality();
         }
 
         private int GetRandomTraitDegree(TraitDef tdef)

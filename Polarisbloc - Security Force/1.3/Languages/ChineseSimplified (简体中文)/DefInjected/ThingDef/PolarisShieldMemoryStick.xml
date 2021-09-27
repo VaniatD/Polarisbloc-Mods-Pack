@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: polaris shield memory stick -->
+  <PolarisShieldMemoryStick.label>北极星护盾记忆棒</PolarisShieldMemoryStick.label>
+  <!-- EN: The Polarisbloc makes and sells Memory Sticks containing the shield manufacturing technology. Due to the complicated level of data encryption, the data in the Memory Stick can not be obtained easily.\n\nTips:\nYou have a 9% chance to acquire the shield technology of the Memory Stick.\nIf you didn't get the technology, you have 30% chance to get a consolation prize from Polarisbloc.\nIf neither of the above were available, there is still a 1% chance to get a luxurious gift.\nUmmm... if you didn't get any of them, it's a pity. -->
+  <PolarisShieldMemoryStick.description>由天轴集团制作并出售包含有护盾制作技术的记忆棒，由于具有一定等级的数据加密，你可能无法顺利获取记录的科技。\n\n你有9%的几率能够成功取得记忆棒里的科技。\n如果没有顺利取得科技，有30%的几率会得到天轴集团送出的一份安慰奖。\n如果以上二者都没有拿到，那么还有1%的几率会得到一份豪华大礼。\nEmmmm.....如果你什么都没拿到，那可真是遗憾。</PolarisShieldMemoryStick.description>
+  <!-- EN: Unscramble memory stick -->
+  <PolarisShieldMemoryStick.comps.CompUsable.useLabel>解读记忆棒</PolarisShieldMemoryStick.comps.CompUsable.useLabel>
+  
+</LanguageData>

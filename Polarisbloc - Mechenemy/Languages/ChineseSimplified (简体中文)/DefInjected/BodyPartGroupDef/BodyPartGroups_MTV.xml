@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Consciousness Cube -->
+  <Vanya_ConsciousnessCube.label>思维魔方</Vanya_ConsciousnessCube.label>
+  
+  <!-- EN: Wheel Hub -->
+  <Vanya_DroidHub.label>轮毂</Vanya_DroidHub.label>
+  
+  <!-- EN: Mechanic Jaw -->
+  <Vanya_DroidJaw.label>机械颌</Vanya_DroidJaw.label>
+  
+  <!-- EN: Front Left Foot -->
+  <Vanya_DroidLBFoot.label>左前足</Vanya_DroidLBFoot.label>
+  
+  <!-- EN: Operation Panel -->
+  <Vanya_DroidManipulationTool.label>操作器</Vanya_DroidManipulationTool.label>
+  
+  <!-- EN: Power Core -->
+  <Vanya_DroidPowerCore.label>能量核心</Vanya_DroidPowerCore.label>
+  
+  <!-- EN: Front Right Foot -->
+  <Vanya_DroidRBFoot.label>右前足</Vanya_DroidRBFoot.label>
+  
+  <!-- EN: Caterpillar Band -->
+  <Vanya_DroidTrack.label>履带</Vanya_DroidTrack.label>
+  
+</LanguageData>

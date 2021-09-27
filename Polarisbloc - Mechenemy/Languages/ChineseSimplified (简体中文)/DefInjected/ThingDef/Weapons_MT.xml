@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: blaster -->
+  <Bullet_Vanya_BundlingBlaster.label>电磁炮</Bullet_Vanya_BundlingBlaster.label>
+  
+  <!-- EN: rocket -->
+  <Bullet_Vanya_CompRocketLauncher.label>火箭</Bullet_Vanya_CompRocketLauncher.label>
+  
+  <!-- EN: bullet -->
+  <Bullet_Vanya_CTMinigun.label>子弹</Bullet_Vanya_CTMinigun.label>
+  
+  <!-- EN: Destryer Shocker -->
+  <Bullet_Vanya_DestoryerShocker.label>毁灭者冲击炮</Bullet_Vanya_DestoryerShocker.label>
+  
+  <!-- EN: Kinetic lancer -->
+  <Bullet_Vanya_KineticLancer.label>动能标枪</Bullet_Vanya_KineticLancer.label>
+  
+  <!-- EN: Wolframium Shell -->
+  <Bullet_Vanya_RailGun.label>钨芯高爆弹</Bullet_Vanya_RailGun.label>
+  
+  <!-- EN: bullet -->
+  <Bullet_Vanya_SplitRifle.label>子弹</Bullet_Vanya_SplitRifle.label>
+  
+  <!-- EN: small pulse bomb -->
+  <Proj_Vanya_Grenade.label>小型冲击炸弹</Proj_Vanya_Grenade.label>
+  
+  <!-- EN: bundling blaster -->
+  <Vanya_BundlingBlaster.label>集束电磁炮</Vanya_BundlingBlaster.label>
+  <!-- EN: A single use multiple shot blaster, deal multiple times of damage in a wild range. -->
+  <Vanya_BundlingBlaster.description>一种一次性使用的多发重炮，造成广范围的多次伤害。</Vanya_BundlingBlaster.description>
+  <!-- EN: bundling blaster -->
+  <Vanya_BundlingBlaster.verbs.Verb_ShootOneUse.label>集束电磁炮</Vanya_BundlingBlaster.verbs.Verb_ShootOneUse.label>
+  
+  <!-- EN: composite rocket launcher -->
+  <Vanya_CompRocketLauncher.label>复合火箭巢</Vanya_CompRocketLauncher.label>
+  <!-- EN: giant continous rocket launcher, strike a wild range with rockets. -->
+  <Vanya_CompRocketLauncher.description>大型的连续飞弹发射器，对较大范围进行饱和性打击。</Vanya_CompRocketLauncher.description>
+  <!-- EN: composite rocket launcher -->
+  <Vanya_CompRocketLauncher.verbs.Verb_Shoot.label>复合火箭巢</Vanya_CompRocketLauncher.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Antiriot minigun -->
+  <Vanya_CTMinigun.label>镇暴重机枪</Vanya_CTMinigun.label>
+  <!-- EN: Large mid range fire suppression weapon. It do its job great. -->
+  <Vanya_CTMinigun.description>大型的中距离火力压制武器，就算只有一把也非常有效。</Vanya_CTMinigun.description>
+  <!-- EN: Antiriot minigun -->
+  <Vanya_CTMinigun.verbs.Verb_Shoot.label>镇暴重机枪</Vanya_CTMinigun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Destryer Shocker -->
+  <Vanya_DestoryerShocker.label>毁灭者冲击炮</Vanya_DestoryerShocker.label>
+  <!-- EN: A single use large cannon, deal large area damage. -->
+  <Vanya_DestoryerShocker.description>一种一次性使用的大型单管炮，造成大范围伤害。</Vanya_DestoryerShocker.description>
+  <!-- EN: Destryer Shocker -->
+  <Vanya_DestoryerShocker.verbs.Verb_ShootOneUse.label>毁灭者冲击炮</Vanya_DestoryerShocker.verbs.Verb_ShootOneUse.label>
+  
+  <!-- EN: small pulse bomb -->
+  <Vanya_Grenade.label>小型冲击炸弹</Vanya_Grenade.label>
+  <!-- EN: Single use pulse bomb, used to deconstruct buildings. -->
+  <Vanya_Grenade.description>一次性使用的小型炸弹，用于破坏建筑。</Vanya_Grenade.description>
+  <!-- EN: throw pulse bomb -->
+  <Vanya_Grenade.verbs.throw_pulse_bomb.label>投掷冲击炸弹</Vanya_Grenade.verbs.throw_pulse_bomb.label>
+  
+  <!-- EN: Kinetic lancer -->
+  <Vanya_KineticLancer.label>动能标枪</Vanya_KineticLancer.label>
+  <!-- EN: Use electromagnetic accelerator to shoot wolframium lancer, can deal large damage to bionts. -->
+  <Vanya_KineticLancer.description>以电磁驱动的加速器来发射钨芯标枪，能够对生物造成大面积创伤。</Vanya_KineticLancer.description>
+  <!-- EN: Kinetic lancer -->
+  <Vanya_KineticLancer.verbs.Verb_Shoot.label>动能标枪</Vanya_KineticLancer.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Plasma sword -->
+  <Vanya_PlasmaSword.label>等离子光剑</Vanya_PlasmaSword.label>
+  <!-- EN: Release energy to form stable plasma blade, deal high damage. -->
+  <Vanya_PlasmaSword.description>释放能量形成稳定的等离子体剑刃，伤害非常可观。</Vanya_PlasmaSword.description>
+  <!-- EN: handle -->
+  <Vanya_PlasmaSword.tools.handle.label>剑柄</Vanya_PlasmaSword.tools.handle.label>
+  <!-- EN: blade -->
+  <Vanya_PlasmaSword.tools.blade.label>砍</Vanya_PlasmaSword.tools.blade.label>
+  <!-- EN: point -->
+  <Vanya_PlasmaSword.tools.point.label>刺</Vanya_PlasmaSword.tools.point.label>
+  
+  <!-- EN: Inquisitor railgun -->
+  <Vanya_RailGun.label>裁决者轨道炮</Vanya_RailGun.label>
+  <!-- EN: Use wolframium shell, a long range weapon. -->
+  <Vanya_RailGun.description>使用钨芯高爆弹，一种长距离范围攻击武器。</Vanya_RailGun.description>
+  <!-- EN: Inquisitor railgun -->
+  <Vanya_RailGun.verbs.Verb_Shoot.label>裁决者轨道炮</Vanya_RailGun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: split rifle -->
+  <Vanya_SplitRifle.label>撕裂者步枪</Vanya_SplitRifle.label>
+  <!-- EN: Use electromagnetic accelerator to shoot bullets, high firing speed, high accuracy. -->
+  <Vanya_SplitRifle.description>以电磁驱动的加速器来发射子弹，射速很快，精度很高。</Vanya_SplitRifle.description>
+  <!-- EN: split rifle -->
+  <Vanya_SplitRifle.verbs.Verb_Shoot.label>撕裂者步枪</Vanya_SplitRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Electromagnetic vibrate knife -->
+  <Vanya_VibrateKnife.label>电磁震荡刀</Vanya_VibrateKnife.label>
+  <!-- EN: Knife blade vibrate with high frequency, can cut through any defence, the vibration can cause mass bleeding. -->
+  <Vanya_VibrateKnife.description>刀刃以超高的频率形成震动，能够轻易切开所有防御，震荡形成的破坏会让肉体大量出血。</Vanya_VibrateKnife.description>
+  <!-- EN: handle -->
+  <Vanya_VibrateKnife.tools.handle.label>剑柄</Vanya_VibrateKnife.tools.handle.label>
+  <!-- EN: blade -->
+  <Vanya_VibrateKnife.tools.blade.label>砍</Vanya_VibrateKnife.tools.blade.label>
+  <!-- EN: point -->
+  <Vanya_VibrateKnife.tools.point.label>刺</Vanya_VibrateKnife.tools.point.label>
+  
+</LanguageData>

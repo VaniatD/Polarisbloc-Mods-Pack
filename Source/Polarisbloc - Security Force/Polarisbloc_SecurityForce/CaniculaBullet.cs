@@ -21,7 +21,7 @@ namespace Polarisbloc_SecurityForce
             {
                 DamageInfo dinfo = new DamageInfo(this.def.projectile.damageDef, (float)base.DamageAmount, base.ArmorPenetration, this.ExactRotation.eulerAngles.y, this.launcher, null, this.equipmentDef, DamageInfo.SourceCategory.ThingOrUnknown, this.intendedTarget.Thing);
                 Pawn pawn = hitThing as Pawn;
-
+                
                 if (pawn != null)
                 {
                     if (pawn.RaceProps.FleshType == FleshTypeDefOf.Insectoid)
@@ -38,6 +38,20 @@ namespace Polarisbloc_SecurityForce
                         if (bodyPart != null)
                         {
                             dinfo.SetHitPart(bodyPart);
+                        }
+                    }
+                    if (ModsConfig.IdeologyActive)
+                    {
+                        if (this.Launcher is Pawn caster)
+                        {
+                            Thing weapon = caster.equipment?.Primary;
+                            //CompRelicContainer.IsRelic(weapon)
+                            if (weapon != null && weapon.IsRelic())
+                            {
+                                BodyPartRecord bodyPart = pawn.health.hediffSet.GetBrain();
+                                dinfo.SetHitPart(bodyPart);
+                            }
+                            
                         }
                     }
                 }

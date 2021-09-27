@@ -215,6 +215,6 @@ namespace Polarisbloc
 
         public float psyfocusCapacity = 3f;
 
-        public float collectPsyfocusPerTick = 0.000008f;
+        public float collectPsyfocusPerTick = 0.000003f;
     }
 }

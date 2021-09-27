@@ -80,6 +80,13 @@
       <li Class="StockGenerator_BuyTradeTag">
         <tag>Art</tag>
       </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisDecoder</thingDef>
+        <countRange>
+          <min>-2</min>
+          <max>1</max>
+        </countRange>
+      </li>
     </stockGenerators>
   </TraderKindDef>
 </Defs>

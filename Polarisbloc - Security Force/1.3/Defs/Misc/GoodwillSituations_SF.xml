@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GoodwillSituationDef>
+    <defName>Polaribloc_SFGoodWillOffset</defName>
+    <label>polaris' permit</label>
+    <workerClass>Polarisbloc_SecurityForce.GoodwillSituationWorker_PolarisPermit</workerClass>
+  </GoodwillSituationDef>
+</Defs>

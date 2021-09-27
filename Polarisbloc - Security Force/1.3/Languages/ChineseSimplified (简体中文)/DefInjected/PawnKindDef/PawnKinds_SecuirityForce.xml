@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: captain -->
+  <Polarisbloc_SFCaptain.label>队长</Polarisbloc_SFCaptain.label>
+  <Polarisbloc_SFCaptain.labelPlural>队长</Polarisbloc_SFCaptain.labelPlural>
+  
+  <!-- EN: commander -->
+  <Polarisbloc_SFCommander.label>指挥官</Polarisbloc_SFCommander.label>
+  <Polarisbloc_SFCommander.labelPlural>指挥官</Polarisbloc_SFCommander.labelPlural>
+  
+  <!-- EN: soldier -->
+  <Polarisbloc_SFSoldier.label>士兵</Polarisbloc_SFSoldier.label>
+  <Polarisbloc_SFSoldier.labelPlural>士兵</Polarisbloc_SFSoldier.labelPlural>
+  
+</LanguageData>

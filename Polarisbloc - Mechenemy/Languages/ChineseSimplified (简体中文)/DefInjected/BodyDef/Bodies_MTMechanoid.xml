@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Alpha-Self Explode Droid -->
+  <Vanya_DroidAlpha.label>Alpha型自爆机器人</Vanya_DroidAlpha.label>
+  <!-- EN: left sight sensor -->
+  <Vanya_DroidAlpha.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>左视觉传感器</Vanya_DroidAlpha.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <Vanya_DroidAlpha.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>右视觉传感器</Vanya_DroidAlpha.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <Vanya_DroidAlpha.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>左听觉传感器</Vanya_DroidAlpha.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <Vanya_DroidAlpha.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>右听觉传感器</Vanya_DroidAlpha.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  
+  <!-- EN: Beta-Humanoid -->
+  <Vanya_DroidBeta.label>Beta型人形机械</Vanya_DroidBeta.label>
+  <!-- EN: left sight sensor -->
+  <Vanya_DroidBeta.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>左视觉传感器</Vanya_DroidBeta.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <Vanya_DroidBeta.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>右视觉传感器</Vanya_DroidBeta.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <Vanya_DroidBeta.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>左听觉传感器</Vanya_DroidBeta.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <Vanya_DroidBeta.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>右听觉传感器</Vanya_DroidBeta.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  <!-- EN: left shoulder -->
+  <Vanya_DroidBeta.corePart.parts.left_shoulder.customLabel>左肩</Vanya_DroidBeta.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left arm -->
+  <Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.customLabel>左臂</Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left blade -->
+  <Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.parts.left_blade.customLabel>左刃</Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.parts.left_blade.customLabel>
+  <!-- EN: left hand -->
+  <Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>左手</Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+  <Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>TODO</Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left middle finger -->
+  <Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>TODO</Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+  <Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>TODO</Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+  <Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>TODO</Vanya_DroidBeta.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right shoulder -->
+  <Vanya_DroidBeta.corePart.parts.right_shoulder.customLabel>TODO</Vanya_DroidBeta.corePart.parts.right_shoulder.customLabel>
+  <!-- EN: right arm -->
+  <Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.customLabel>TODO</Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right blade -->
+  <Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.parts.right_blade.customLabel>TODO</Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.parts.right_blade.customLabel>
+  <!-- EN: right hand -->
+  <Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>TODO</Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+  <Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>TODO</Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right middle finger -->
+  <Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>TODO</Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+  <Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>TODO</Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+  <Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>TODO</Vanya_DroidBeta.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: left leg -->
+  <Vanya_DroidBeta.corePart.parts.left_leg.customLabel>TODO</Vanya_DroidBeta.corePart.parts.left_leg.customLabel>
+  <!-- EN: left foot -->
+  <Vanya_DroidBeta.corePart.parts.left_leg.parts.left_foot.customLabel>TODO</Vanya_DroidBeta.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: right leg -->
+  <Vanya_DroidBeta.corePart.parts.right_leg.customLabel>TODO</Vanya_DroidBeta.corePart.parts.right_leg.customLabel>
+  <!-- EN: right foot -->
+  <Vanya_DroidBeta.corePart.parts.right_leg.parts.right_foot.customLabel>TODO</Vanya_DroidBeta.corePart.parts.right_leg.parts.right_foot.customLabel>
+  
+  <!-- EN: Beta-2-Heavy Armor Humanoid -->
+  <Vanya_DroidBetaEX.label>Beta-2型重装人形机械</Vanya_DroidBetaEX.label>
+  <!-- EN: left sight sensor -->
+  <Vanya_DroidBetaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <Vanya_DroidBetaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <Vanya_DroidBetaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <Vanya_DroidBetaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  <!-- EN: left shoulder -->
+  <Vanya_DroidBetaEX.corePart.parts.left_shoulder.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left arm -->
+  <Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left blade -->
+  <Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.parts.left_blade.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.parts.left_blade.customLabel>
+  <!-- EN: left hand -->
+  <Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+  <Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left middle finger -->
+  <Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+  <Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+  <Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right shoulder -->
+  <Vanya_DroidBetaEX.corePart.parts.right_shoulder.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.right_shoulder.customLabel>
+  <!-- EN: right arm -->
+  <Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right blade -->
+  <Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.parts.right_blade.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.parts.right_blade.customLabel>
+  <!-- EN: right hand -->
+  <Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+  <Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right middle finger -->
+  <Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+  <Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+  <Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: left leg -->
+  <Vanya_DroidBetaEX.corePart.parts.left_leg.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.left_leg.customLabel>
+  <!-- EN: left foot -->
+  <Vanya_DroidBetaEX.corePart.parts.left_leg.parts.left_foot.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: right leg -->
+  <Vanya_DroidBetaEX.corePart.parts.right_leg.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.right_leg.customLabel>
+  <!-- EN: right foot -->
+  <Vanya_DroidBetaEX.corePart.parts.right_leg.parts.right_foot.customLabel>TODO</Vanya_DroidBetaEX.corePart.parts.right_leg.parts.right_foot.customLabel>
+  
+  <!-- EN: Bastion -->
+  <Vanya_DroidFortress.label>堡垒</Vanya_DroidFortress.label>
+  <!-- EN: left sight sensor -->
+  <Vanya_DroidFortress.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>TODO</Vanya_DroidFortress.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <Vanya_DroidFortress.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>TODO</Vanya_DroidFortress.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <Vanya_DroidFortress.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>TODO</Vanya_DroidFortress.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <Vanya_DroidFortress.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>TODO</Vanya_DroidFortress.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  
+  <!-- EN: Gamma-Wolf Droid -->
+  <Vanya_DroidGamma.label>Gamma型兽型机械</Vanya_DroidGamma.label>
+  <!-- EN: left sight sensor -->
+  <Vanya_DroidGamma.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>TODO</Vanya_DroidGamma.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <Vanya_DroidGamma.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>TODO</Vanya_DroidGamma.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <Vanya_DroidGamma.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>TODO</Vanya_DroidGamma.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <Vanya_DroidGamma.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>TODO</Vanya_DroidGamma.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  
+  <!-- EN: Gamma-2-Heavy Armor Wolf Droid -->
+  <Vanya_DroidGammaEX.label>Gamma-2型重装兽型机械</Vanya_DroidGammaEX.label>
+  <!-- EN: left sight sensor -->
+  <Vanya_DroidGammaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>TODO</Vanya_DroidGammaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <Vanya_DroidGammaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>TODO</Vanya_DroidGammaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <Vanya_DroidGammaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>TODO</Vanya_DroidGammaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <Vanya_DroidGammaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>TODO</Vanya_DroidGammaEX.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  
+  <!-- EN: Inquisitor -->
+  <Vanya_DroidRuler.label>裁决者</Vanya_DroidRuler.label>
+  <!-- EN: left sight sensor -->
+  <Vanya_DroidRuler.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>TODO</Vanya_DroidRuler.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: right sight sensor -->
+  <Vanya_DroidRuler.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>TODO</Vanya_DroidRuler.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <Vanya_DroidRuler.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>TODO</Vanya_DroidRuler.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <Vanya_DroidRuler.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>TODO</Vanya_DroidRuler.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  <!-- EN: left shoulder -->
+  <Vanya_DroidRuler.corePart.parts.left_shoulder.customLabel>TODO</Vanya_DroidRuler.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left arm -->
+  <Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.customLabel>TODO</Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left blade -->
+  <Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.parts.left_blade.customLabel>TODO</Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.parts.left_blade.customLabel>
+  <!-- EN: left hand -->
+  <Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>TODO</Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+  <Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>TODO</Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left middle finger -->
+  <Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>TODO</Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+  <Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>TODO</Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+  <Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>TODO</Vanya_DroidRuler.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right shoulder -->
+  <Vanya_DroidRuler.corePart.parts.right_shoulder.customLabel>TODO</Vanya_DroidRuler.corePart.parts.right_shoulder.customLabel>
+  <!-- EN: right arm -->
+  <Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.customLabel>TODO</Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right blade -->
+  <Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.parts.right_blade.customLabel>TODO</Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.parts.right_blade.customLabel>
+  <!-- EN: right hand -->
+  <Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>TODO</Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+  <Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>TODO</Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right middle finger -->
+  <Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>TODO</Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+  <Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>TODO</Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+  <Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>TODO</Vanya_DroidRuler.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: left leg -->
+  <Vanya_DroidRuler.corePart.parts.left_leg.customLabel>TODO</Vanya_DroidRuler.corePart.parts.left_leg.customLabel>
+  <!-- EN: left foot -->
+  <Vanya_DroidRuler.corePart.parts.left_leg.parts.left_foot.customLabel>TODO</Vanya_DroidRuler.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: right leg -->
+  <Vanya_DroidRuler.corePart.parts.right_leg.customLabel>TODO</Vanya_DroidRuler.corePart.parts.right_leg.customLabel>
+  <!-- EN: right foot -->
+  <Vanya_DroidRuler.corePart.parts.right_leg.parts.right_foot.customLabel>TODO</Vanya_DroidRuler.corePart.parts.right_leg.parts.right_foot.customLabel>
+  
+</LanguageData>

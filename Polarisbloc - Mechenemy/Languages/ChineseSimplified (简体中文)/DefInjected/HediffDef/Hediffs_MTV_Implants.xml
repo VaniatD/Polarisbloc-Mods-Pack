@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Thinking Processor -->
+  <Vanya_ConsciousnessCube.label>思维魔方</Vanya_ConsciousnessCube.label>
+  <!-- EN: Processor extracted from inquisitor's head, already formatted. Can be implant to cervical vertebra to help thinking. -->
+  <Vanya_ConsciousnessCube.description>一块从机械体中拆出来的魔方，植入到身体里可以提高计算能力。</Vanya_ConsciousnessCube.description>
+  
+  <!-- EN: Stable Powercore -->
+  <Vanya_StabPowerCore.label>稳定能量核心</Vanya_StabPowerCore.label>
+  <!-- EN: Stable energy core taken out from bastion, stored latge amount of energy, need to use other device to draw energy out. Also can be used as heart supporter to provide energy for biont creatures. -->
+  <Vanya_StabPowerCore.description>从堡垒上拆下来的一颗核心，储存了大量的能量，能够帮到人。</Vanya_StabPowerCore.description>
+  
+</LanguageData>

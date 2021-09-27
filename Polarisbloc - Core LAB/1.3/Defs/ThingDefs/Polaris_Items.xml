@@ -28,7 +28,7 @@
     <selectable>true</selectable>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
-      <Flammability>1.0</Flammability>
+      <Flammability>0.6</Flammability>
       <DeteriorationRate>1</DeteriorationRate>
       <Beauty>3</Beauty>
     </statBases>
@@ -37,6 +37,9 @@
     <thingCategories>
       <li>Drugs</li>
     </thingCategories>
+    <tradeTags>
+      <li>Drugs</li>
+    </tradeTags>
     <alwaysHaulable>true</alwaysHaulable>
     <comps>
       <li Class="CompProperties_Forbiddable" />
@@ -55,9 +58,11 @@
       <ingestHoldUsesTable>false</ingestHoldUsesTable>
       <ingestCommandString>Take {0}</ingestCommandString>
       <ingestReportString>Taking {0}.</ingestReportString>
+      <tableDesired>false</tableDesired>
     </ingestible>
     <storedConceptLearnOpportunity>DrugPolicies</storedConceptLearnOpportunity>
-    <socialPropernessMatters>true</socialPropernessMatters>
+    <orderedTakeGroup>Drug</orderedTakeGroup>
+    <socialPropernessMatters>false</socialPropernessMatters>
   </ThingDef>
   <ThingDef Name="PolarisImplantBase" Abstract="True">
     <label>implant</label>
@@ -142,10 +147,11 @@
       <li>
         <compClass>CompTargetEffect_Resurrect</compClass>
       </li>
+      <!--<li><compClass>CompColorable</compClass></li>-->
+      <li Class="CompProperties_Styleable"></li>
     </comps>
     <tradeability>Sellable</tradeability>
     <generateCommonality>0.01</generateCommonality>
-    <!--<defName>PolarisCartridge</defName>-->
     <thingSetMakerTags>
       <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
@@ -374,6 +380,8 @@
         <Crafting>6</Crafting>
       </skillRequirements>
       <bulkRecipeCount>4</bulkRecipeCount>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
     </recipeMaker>
     <costList>
       <MedicineIndustrial>3</MedicineIndustrial>
@@ -404,6 +412,7 @@
           <severity>1.00</severity>
         </li>
       </outcomeDoers>
+      <ingestSound>Ingest_Pill</ingestSound>
     </ingestible>
     <comps>
       <li Class="CompProperties_Drug">
@@ -422,6 +431,8 @@
         <Crafting>6</Crafting>
       </skillRequirements>
       <bulkRecipeCount>4</bulkRecipeCount>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
     </recipeMaker>
     <costList>
       <MedicineIndustrial>2</MedicineIndustrial>
@@ -452,6 +463,7 @@
           <severity>1.00</severity>
         </li>
       </outcomeDoers>
+      <ingestSound>Ingest_Pill</ingestSound>
     </ingestible>
     <comps>
       <li Class="CompProperties_Drug">
@@ -470,6 +482,8 @@
         <Crafting>6</Crafting>
       </skillRequirements>
       <bulkRecipeCount>4</bulkRecipeCount>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
     </recipeMaker>
     <costList>
       <MedicineIndustrial>1</MedicineIndustrial>
@@ -1045,7 +1059,7 @@
       </li>
     </comps>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
     <inspectorTabs>
       <li>Polarisbloc.ITab_VoidPawn_Character</li>

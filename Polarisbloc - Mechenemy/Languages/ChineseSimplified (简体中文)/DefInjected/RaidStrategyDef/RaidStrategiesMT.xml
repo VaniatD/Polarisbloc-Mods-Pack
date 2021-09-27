@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Hey!Your expressage. -->
+  <Vanya_Expressage.arrivalTextEnemy>你有一份包裹！</Vanya_Expressage.arrivalTextEnemy>
+  <!-- EN: Your good neibour is coming to help. -->
+  <Vanya_Expressage.arrivalTextFriendly>你的好邻居来帮你了。</Vanya_Expressage.arrivalTextFriendly>
+  <!-- EN: Raid -->
+  <Vanya_Expressage.letterLabelEnemy>袭击</Vanya_Expressage.letterLabelEnemy>
+  <!-- EN: Friendlies -->
+  <Vanya_Expressage.letterLabelFriendly>友军</Vanya_Expressage.letterLabelFriendly>
+  
+</LanguageData>

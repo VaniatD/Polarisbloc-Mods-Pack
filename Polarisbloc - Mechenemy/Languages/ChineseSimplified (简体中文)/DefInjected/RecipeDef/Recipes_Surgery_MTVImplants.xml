@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Install thinking processor -->
+  <InstallVanya_ConsciousnessCube.label>植入思维魔方</InstallVanya_ConsciousnessCube.label>
+  <!-- EN: Install thinking processor. -->
+  <InstallVanya_ConsciousnessCube.description>植入思维魔方。</InstallVanya_ConsciousnessCube.description>
+  <!-- EN: Installing thinking processor. -->
+  <InstallVanya_ConsciousnessCube.jobString>正在植入思维魔方。</InstallVanya_ConsciousnessCube.jobString>
+  
+  <!-- EN: Install stable energy core -->
+  <InstallVanya_StabPowerCore.label>植入稳定能量核心</InstallVanya_StabPowerCore.label>
+  <!-- EN: Install stable energy core. -->
+  <InstallVanya_StabPowerCore.description>植入稳定能量核心。</InstallVanya_StabPowerCore.description>
+  <!-- EN: Installing stable energy core. -->
+  <InstallVanya_StabPowerCore.jobString>正在植入稳定能量核心。</InstallVanya_StabPowerCore.jobString>
+  
+</LanguageData>

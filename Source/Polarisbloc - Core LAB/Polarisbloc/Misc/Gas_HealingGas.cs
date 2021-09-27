@@ -39,6 +39,11 @@ namespace Polarisbloc
                     this.HealRandomInjury(p, 1f);
                     this.TendRandomInjury(p, Rand.Value);
                 }
+                if (Rand.Chance(0.2f))
+                {
+                    this.DestroyBlight();
+                }
+                
             }
             base.Tick();
         }
@@ -60,6 +65,16 @@ namespace Polarisbloc
                  select x).TryRandomElement(out Hediff_Injury hediff_Injury))
             {
                 hediff_Injury.Tended(quality, 0.65f);
+            }
+        }
+
+        private void DestroyBlight()
+        {
+            //Blight blight = this.PositionHeld.GetPlant(this.MapHeld).Blight;
+            Blight blight = this.PositionHeld.GetFirstBlight(this.MapHeld);
+            if (blight != null)
+            {
+                blight.Destroy(DestroyMode.Vanish);
             }
         }
     }

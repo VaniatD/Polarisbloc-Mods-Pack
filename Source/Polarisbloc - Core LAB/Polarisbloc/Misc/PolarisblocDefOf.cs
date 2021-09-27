@@ -23,6 +23,19 @@ namespace Polarisbloc
 
         public static HediffDef PolarisCombatChip_Charm;
 
+        public static HediffDef PolarisCombatChip_Assassin;
+
         public static JobDef PolarisDecode;
+
+        public static RecipeDef PolarisTransGenderSurgery;
+
+        public static RecipeDef PolarisCureScars;
+
+        public static RecipeDef PolarisRestoreMissingBodyPart;
+
+        public static RecipeDef PolarisRemoveImplant;
+
+        public static RecipeDef PolarisSurgeryChangeBioAge;
+
     }
 }

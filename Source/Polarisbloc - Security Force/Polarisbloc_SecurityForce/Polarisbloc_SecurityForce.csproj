@@ -69,6 +69,7 @@
     <Compile Include="CygnusStandardArmor.cs" />
     <Compile Include="CygnusStandardTights.cs" />
     <Compile Include="Gizmo_PolarisShield_IVStatus.cs" />
+    <Compile Include="GoodwillSituationWorker_PolarisPermit.cs" />
     <Compile Include="PolarisShieldBelt_IV.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PSFDefOf.cs" />

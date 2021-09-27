@@ -74,4 +74,9 @@
   <PlrsForceResetLabel>強行激活</PlrsForceResetLabel>
   <PlrsForceResetDESC>消耗一些護盾耐久度強行激活護盾。</PlrsForceResetDESC>
   <PlrsNoEnoughHitPointsToReset>沒有足夠的耐久度。</PlrsNoEnoughHitPointsToReset>
+  <!--combat chip psycaster-->
+  <PolarisPsyChipLabel>靈質芯片</PolarisPsyChipLabel>
+  <PolarisPsyChipDesc>這種戰術芯片可以在沒有使用心靈能力的時候存儲精神力，並且在釋放技能的時候將存儲的精神力提取出來。\n在釋放心靈能力的時候也會將少量心靈熵轉化為精神力。</PolarisPsyChipDesc>
+  <PolarisPsyChipActived>\n\n當前不會存儲精神力，它會在每次釋放心靈能力的時候提取已存儲的精神力。</PolarisPsyChipActived>
+  <PolarisPsyChipNotActived>\n\n當前會每小時將空余的精神力存儲至芯片池。</PolarisPsyChipNotActived>
 </LanguageData>

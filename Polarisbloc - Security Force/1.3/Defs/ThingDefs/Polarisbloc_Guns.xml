@@ -24,6 +24,7 @@
         <compClass>CompEquippable</compClass>
       </li>
       <li Class="CompProperties_Biocodable" />
+      <li Class="CompProperties_Styleable"></li>
     </comps>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
@@ -32,9 +33,13 @@
   <ThingDef Name="PolarisblocBaseGun" Abstract="True" ParentName="PolarisblocBaseWeapon">
     <techLevel>Industrial</techLevel>
     <smeltable>false</smeltable>
+    <relicChance>1</relicChance>
     <thingCategories>
       <li>WeaponsRanged</li>
     </thingCategories>
+    <weaponClasses>
+      <li>Ranged</li>
+    </weaponClasses>
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>

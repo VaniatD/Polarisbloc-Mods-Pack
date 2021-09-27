@@ -74,4 +74,9 @@
   <PlrsForceResetLabel>force reset</PlrsForceResetLabel>
   <PlrsForceResetDESC>Reset the shield status forcedly, this action will cost some hitpoints.</PlrsForceResetDESC>
   <PlrsNoEnoughHitPointsToReset>Has no enough hit points for reset.</PlrsNoEnoughHitPointsToReset>
+  <!--combat chip psycaster-->
+  <PolarisPsyChipLabel>psycaster</PolarisPsyChipLabel>
+  <PolarisPsyChipDesc>This combat chip could store psyfocus when you won't use abilities, and draw out psycocus when you need.\nIt could also convert few psyfocus every time you cast ablity.</PolarisPsyChipDesc>
+  <PolarisPsyChipActived>\n\nIn this way, the chip won't store psyfocus, and it will give back focus when you release ability if it has stored.</PolarisPsyChipActived>
+  <PolarisPsyChipNotActived>\n\nIn this way, the chip will store redundant psyfocus per hour.</PolarisPsyChipNotActived>
 </LanguageData>

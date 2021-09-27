@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Bearing -->
+  <Vanya_DroidBearing.label>轴承</Vanya_DroidBearing.label>
+  
+  <!-- EN: Underpan -->
+  <Vanya_DroidChassis.label>底盘</Vanya_DroidChassis.label>
+  
+  <!-- EN: Thinking Processor -->
+  <Vanya_DroidCube.label>思维魔方</Vanya_DroidCube.label>
+  
+  <!-- EN: Wheel Hub -->
+  <Vanya_DroidHub.label>轮毂</Vanya_DroidHub.label>
+  
+  <!-- EN: Mechanic Jaw -->
+  <Vanya_DroidJaw.label>机械颌</Vanya_DroidJaw.label>
+  
+  <!-- EN: Front Left Foot -->
+  <Vanya_DroidLBFoot.label>左前足</Vanya_DroidLBFoot.label>
+  
+  <!-- EN: Front Left Leg -->
+  <Vanya_DroidLBLeg.label>左前腿</Vanya_DroidLBLeg.label>
+  
+  <!-- EN: Back Left Foot -->
+  <Vanya_DroidLTFoot.label>左后足</Vanya_DroidLTFoot.label>
+  
+  <!-- EN: Back Left Leg -->
+  <Vanya_DroidLTLeg.label>左后腿</Vanya_DroidLTLeg.label>
+  
+  <!-- EN: Operation Panel -->
+  <Vanya_DroidManipulationTool.label>操作器</Vanya_DroidManipulationTool.label>
+  
+  <!-- EN: Power Core -->
+  <Vanya_DroidPowerCore.label>能量核心</Vanya_DroidPowerCore.label>
+  
+  <!-- EN: Front Right Foot -->
+  <Vanya_DroidRBFoot.label>右前足</Vanya_DroidRBFoot.label>
+  
+  <!-- EN: Front Right Leg -->
+  <Vanya_DroidRBLeg.label>右前腿</Vanya_DroidRBLeg.label>
+  
+  <!-- EN: Reactive Armor -->
+  <Vanya_DroidReactiveArmor.label>反应装甲片</Vanya_DroidReactiveArmor.label>
+  
+  <!-- EN: Reactor -->
+  <Vanya_DroidReactor.label>反应炉</Vanya_DroidReactor.label>
+  
+  <!-- EN: Back Right Foot -->
+  <Vanya_DroidRTFoot.label>右后足</Vanya_DroidRTFoot.label>
+  
+  <!-- EN: Back Right Leg -->
+  <Vanya_DroidRTLeg.label>右后腿</Vanya_DroidRTLeg.label>
+  
+  <!-- EN: Thruster -->
+  <Vanya_DroidThruster.label>悬浮推进器</Vanya_DroidThruster.label>
+  
+  <!-- EN: Caterpillar Band -->
+  <Vanya_DroidTrack.label>履带</Vanya_DroidTrack.label>
+  
+</LanguageData>

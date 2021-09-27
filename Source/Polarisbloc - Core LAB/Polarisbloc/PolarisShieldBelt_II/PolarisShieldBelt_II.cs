@@ -78,6 +78,15 @@ namespace Polarisbloc
 			}
 		}
 
+		private bool CanForceActive
+        {
+			get
+            {
+				return this.HitPoints > 20;
+
+			}
+        }
+
 		private bool ShouldDisplay
 		{
 			get
@@ -105,19 +114,21 @@ namespace Polarisbloc
                 {
                     action = delegate
                     {
-                        if (this.HitPoints <= 20)
+                        if (this.CanForceActive)
                         {
-                            Messages.Message("PlrsNoEnoughHitPointsToReset".Translate(), this.Wearer, MessageTypeDefOf.NegativeEvent);
+							this.HitPoints -= 20;
+							this.Reset();
                         }
                         else
                         {
-                            this.HitPoints -= 20;
-                            this.Reset();
-                        }
+							Messages.Message("PlrsNoEnoughHitPointsToReset".Translate(), this.Wearer, MessageTypeDefOf.NegativeEvent);
+						}
                     },
                     defaultLabel = "PlrsForceResetLabel".Translate(),
                     defaultDesc = "PlrsForceResetDESC".Translate(),
-                    icon = TexCommand.DesirePower,
+					disabled = !this.CanForceActive,
+					disabledReason = "PlrsNoEnoughHitPointsToReset".Translate(),
+					icon = TexCommand.DesirePower,
                     hotKey = KeyBindingDefOf.Misc7,
                 };
             }
@@ -160,20 +171,19 @@ namespace Polarisbloc
 
         public override bool CheckPreAbsorbDamage(DamageInfo dinfo)
         {
-            if (dinfo.Instigator == base.Wearer) return true;
-			if (dinfo.Def == DamageDefOf.Extinguish) return true;
-            if (dinfo.Def == DamageDefOf.SurgicalCut) return false;
-			if (dinfo.Def == DamageDefOf.Smoke) return true;
+			if (dinfo.Def == DamageDefOf.SurgicalCut) return false;
+			if (dinfo.Instigator == base.Wearer)
+			{
+				this.AbsorbedDamage(dinfo);
+				return true;
+			}
+			if (!dinfo.Def.harmsHealth && dinfo.Def != DamageDefOf.EMP)
+            {
+				this.AbsorbedDamage(dinfo);
+				return true;
+			}
 			if (this.ShieldState == ShieldState.Active)
             {
-                /*if (dinfo.Instigator != null && dinfo.Instigator.Position.AdjacentTo8WayOrInside(base.Wearer.Position))
-                {
-                    this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage * 2f;
-                }
-                else
-                {
-                    this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage;
-                }*/
 				this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage;
 				if (this.energy < 0f)
                 {

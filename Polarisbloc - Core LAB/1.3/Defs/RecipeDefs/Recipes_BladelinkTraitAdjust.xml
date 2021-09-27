@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>PolarisAddWeaponTrait</defName>
+    <label>add weapon trait</label>
+    <description>Add a weapon trait to persona weapon.</description>
+    <jobString>Adjusting bladelink weapon.</jobString>
+    <workerClass>Polarisbloc.Recipe_AddWeaponTrait</workerClass>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>WeaponsMeleeBladelink</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Luciferium</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Luciferium</li>
+      </thingDefs>
+      <categories>
+        <li>WeaponsMeleeBladelink</li>
+      </categories>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PolarisBladelinkTraitAdjust</researchPrerequisite>
+    <skillRequirements>
+      <Intellectual>8</Intellectual>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>PolarisRemoveWeaponTrait</defName>
+    <label>remove weapon trait</label>
+    <description>Remove a weapon trait on persona weapon.</description>
+    <jobString>Adjusting bladelink weapon.</jobString>
+    <workerClass>Polarisbloc.Recipe_RemoveWeaponTrait</workerClass>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>2500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>WeaponsMeleeBladelink</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Luciferium</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Luciferium</li>
+      </thingDefs>
+      <categories>
+        <li>WeaponsMeleeBladelink</li>
+      </categories>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PolarisBladelinkTraitAdjust</researchPrerequisite>
+    <skillRequirements>
+      <Intellectual>8</Intellectual>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

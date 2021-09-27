@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: add weapon trait -->
+  <PolarisAddWeaponTrait.label>賦予武器特性</PolarisAddWeaponTrait.label>
+  <!-- EN: Add a weapon trait to bladelink weapon. -->
+  <PolarisAddWeaponTrait.description>為羈絆武器添加一個武器特性。</PolarisAddWeaponTrait.description>
+  <!-- EN: Adjusting bladelink weapon. -->
+  <PolarisAddWeaponTrait.jobString>調整羈絆武器。</PolarisAddWeaponTrait.jobString>
+  
+  <!-- EN: remove weapon trait -->
+  <PolarisRemoveWeaponTrait.label>剝離武器特性</PolarisRemoveWeaponTrait.label>
+  <!-- EN: Remove a weapon trait to bladelink weapon. -->
+  <PolarisRemoveWeaponTrait.description>為羈絆武器剝離一個武器特性。</PolarisRemoveWeaponTrait.description>
+  <!-- EN: Adjusting bladelink weapon. -->
+  <PolarisRemoveWeaponTrait.jobString>調整羈絆武器。</PolarisRemoveWeaponTrait.jobString>
+  
+</LanguageData>

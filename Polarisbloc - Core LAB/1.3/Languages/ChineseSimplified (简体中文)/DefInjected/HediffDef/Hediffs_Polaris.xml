@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cartridge -->
+  <Hediff_PloarisCartridge.label>弹药包</Hediff_PloarisCartridge.label>
+  <!-- EN: The cartridge can be worn by a pawn and protects the wearer from a certain death. The wearer will be resurrected immediatly upon death. Administered to a corpse, the cartridge will repair and kickstart the body back to life.\n\nSo, is life equal? Is it really good to exchange one's life for another person's life? -->
+  <Hediff_PloarisCartridge.description>穿着弹药包后，死亡时会立刻复活。也可以直接使用它来复活别人。\n\n人与人的生命真的等价么？用一个人的生命去换取另一个人的生存，真的可以么？</Hediff_PloarisCartridge.description>
+  
+  <!-- EN: combined antibiotic -->
+  <PolarisAntibiotic.label>联合抗生素</PolarisAntibiotic.label>
+  <!-- EN: A combination of multiple antibiotics that can cure most common diseases. -->
+  <PolarisAntibiotic.description>多种抗生素和干扰素的联合用药，可以治疗大部分常见疾病。</PolarisAntibiotic.description>
+  
+  <!-- EN: potent healing potion -->
+  <PolarisHealingPotion.label>强效治疗药水</PolarisHealingPotion.label>
+  <!-- EN: A quick recovery and healing potion that automatically heals wounds. The effect of this potion are very powerful. -->
+  <PolarisHealingPotion.description>一种自动治愈伤口的药物，效果强劲。</PolarisHealingPotion.description>
+  
+  <!-- EN: psionwire -->
+  <PolarisPsionwire.label>灵能芯片</PolarisPsionwire.label>
+  <!-- EN: A chip capable of stimulating psionic abilities. Using this chip can enhance biological consciousness and fire resistance. -->
+  <PolarisPsionwire.description>能够激发潜在能力的一种芯片，使用这种芯片可以增强生物的意识，并且具有防火的能力。</PolarisPsionwire.description>
+  <!-- EN: a psionwire -->
+  <PolarisPsionwire.labelNoun>一块灵能芯片</PolarisPsionwire.labelNoun>
+  
+  <!-- EN: receptor antagonist -->
+  <PolarisReceptorAntagonist.label>受体拮抗剂</PolarisReceptorAntagonist.label>
+  <!-- EN: The receptor antagonist is a drug that blocks drugs needs by binding to and blocking any drugs receptor rather than activating it like an agonist. So this drug will satisfy chemical needs, and ease the drug addiction at the same time. -->
+  <PolarisReceptorAntagonist.description>有机分子通过与特定药物受体结合，从而有效满足化学品依赖，同时缓解成瘾性和药物抗药性。</PolarisReceptorAntagonist.description>
+  
+  <!-- EN: virtual net chip -->
+  <PolarisVirtualNetChip.label>虚拟网络芯片</PolarisVirtualNetChip.label>
+  <!-- EN: A chip connected to a Virtual Network that can be used for entertainment whenever needed. Moreover, it will calm down the user if they ever have a mental breakdown. -->
+  <PolarisVirtualNetChip.description>一块能够连接虚拟网络的芯片，能够让你随时进行娱乐。</PolarisVirtualNetChip.description>
+  <!-- EN: a virtual net chip -->
+  <PolarisVirtualNetChip.labelNoun>一块虚拟网络芯片</PolarisVirtualNetChip.labelNoun>
+  
+</LanguageData>

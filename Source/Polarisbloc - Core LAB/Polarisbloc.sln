@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polarisbloc", "Polarisbloc\Polarisbloc.csproj", "{77A627DC-7BD5-49E6-8097-A98239DC7D27}"
 EndProject
@@ -20,6 +20,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		BuildVersion_DetectChanges = False
+		BuildVersion_UseGlobalSettings = True
+		BuildVersion_StartDate = 2000/1/1
 		SolutionGuid = {B671AC40-33F7-4632-81AB-F69CB21E156B}
 	EndGlobalSection
 EndGlobal

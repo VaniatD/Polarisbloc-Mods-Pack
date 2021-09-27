@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Bleeding -->
+  <Vanya_IgnoreBleed.label>流血</Vanya_IgnoreBleed.label>
+  <!-- EN: Bleeding -->
+  <Vanya_IgnoreBleed.description>流血</Vanya_IgnoreBleed.description>
+  <!-- EN: Set -->
+  <Vanya_IgnoreBleed.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Vanya_IgnoreBleed.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: Bandaged -->
+  <Vanya_IgnoreBleed.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Vanya_IgnoreBleed.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: Sutured -->
+  <Vanya_IgnoreBleed.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Vanya_IgnoreBleed.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: Cut scar -->
+  <Vanya_IgnoreBleed.comps.HediffComp_GetsPermanent.permanentLabel>割伤疤痕</Vanya_IgnoreBleed.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut out -->
+  <Vanya_IgnoreBleed.injuryProps.destroyedLabel>被切除</Vanya_IgnoreBleed.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <Vanya_IgnoreBleed.injuryProps.destroyedOutLabel>被切除</Vanya_IgnoreBleed.injuryProps.destroyedOutLabel>
+  <!-- EN: {0} in the {1} -->
+  <Vanya_IgnoreBleed.labelNounPretty>{0}在{1}</Vanya_IgnoreBleed.labelNounPretty>
+  
+</LanguageData>
