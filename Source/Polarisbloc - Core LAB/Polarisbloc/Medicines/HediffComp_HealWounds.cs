@@ -41,7 +41,7 @@ namespace Polarisbloc
         {
             get
             {
-                if (base.Pawn.health.hediffSet.hediffs.Find((Hediff x) => x is Hediff_Injury && !x.IsPermanent()) != null)
+                if (base.Pawn.health.hediffSet.hediffs.Find((Hediff x) => x is Hediff_Injury y && (y.CanHealNaturally() || y.CanHealFromTending())) != null)
                     return true;
                 else return false;
             }

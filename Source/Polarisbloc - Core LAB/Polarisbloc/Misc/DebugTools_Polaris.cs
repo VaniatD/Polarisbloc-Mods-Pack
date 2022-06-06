@@ -89,35 +89,23 @@ namespace Polarisbloc
         {
             foreach (Thing thing in Find.CurrentMap.thingGrid.ThingsAt(UI.MouseCell()).ToList<Thing>())
             {
-                if (thing.IsBladelinkWeapon(out CompBladelinkWeapon compBladelink))
+                /*if (thing.IsBladelinkWeapon(out CompBladelinkWeapon compBladelink))
                 {
                     List<DebugMenuOption> list = new List<DebugMenuOption>();
                     foreach (WeaponTraitDef traitDef in DefDatabase<WeaponTraitDef>.AllDefs)
                     {
-                        /*bool canAddTrait = true;
-                        if (!curTraits.NullOrEmpty<WeaponTraitDef>())
-                        {
-                            for (int i = 0; i < curTraits.Count; i++)
-                            {
-                                if (traitDef.Overlaps(curTraits[i]))
-                                {
-                                    canAddTrait = false;
-                                }
-                            }
-                        }*/
                         if (compBladelink.CanAddWeaponTrait(traitDef))
                         {
                             list.Add(new DebugMenuOption(traitDef.label, DebugMenuOptionMode.Action, delegate ()
                             {
                                 compBladelink.AddWeaponTrait(traitDef);
-                                /*curTraits.Add(traitDef);
-                                typeof(CompBladelinkWeapon).GetField("traits", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(compBladelink, curTraits);*/
                             }));
                         }
 
                     }
                     Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
-                }
+                }*/
+                PolarisUtility.ThingAddWeaponTrait(thing);
                 DebugActionsUtility.DustPuffFrom(thing);
             }
         }
@@ -127,7 +115,7 @@ namespace Polarisbloc
         {
             foreach (Thing thing in Find.CurrentMap.thingGrid.ThingsAt(UI.MouseCell()).ToList<Thing>())
             {
-                if (thing.IsBladelinkWeapon(out CompBladelinkWeapon compBladelink))
+                /*if (thing.IsBladelinkWeapon(out CompBladelinkWeapon compBladelink))
                 {
                     List<WeaponTraitDef> curTraits = compBladelink.TraitsListForReading;
                     List<DebugMenuOption> list = new List<DebugMenuOption>();
@@ -141,7 +129,8 @@ namespace Polarisbloc
                         }));
                     }
                     Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
-                }
+                }*/
+                PolarisUtility.ThingRemoveWeaponTrait(thing);
                 DebugActionsUtility.DustPuffFrom(thing);
             }
         }

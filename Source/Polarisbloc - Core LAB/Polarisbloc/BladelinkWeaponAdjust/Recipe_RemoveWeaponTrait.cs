@@ -11,7 +11,7 @@ namespace Polarisbloc
     {
         public override void ConsumeIngredient(Thing ingredient, RecipeDef recipe, Map map)
         {
-            if (ingredient.IsBladelinkWeapon(out CompBladelinkWeapon compBladelink))
+            /*if (ingredient.IsBladelinkWeapon(out CompBladelinkWeapon compBladelink))
             {
                 List<WeaponTraitDef> curTraits = compBladelink.TraitsListForReading;
                 List<DebugMenuOption> list = new List<DebugMenuOption>();
@@ -25,6 +25,10 @@ namespace Polarisbloc
                     }));
                 }
                 Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
+            }*/
+            if (PolarisUtility.ThingRemoveWeaponTrait(ingredient))
+            {
+                return;
             }
             else
             {

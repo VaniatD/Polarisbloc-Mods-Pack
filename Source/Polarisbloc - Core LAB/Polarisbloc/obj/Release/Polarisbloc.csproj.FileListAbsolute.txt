@@ -332,3 +332,4 @@ D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Core LAB\Polarisbloc\obj\Rel
 D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Core LAB\Polarisbloc\obj\Release\Polarisbloc.csproj.CopyComplete
 D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Core LAB\Polarisbloc\obj\Release\Polarisbloc.dll
 D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Core LAB\Polarisbloc\obj\Release\Polarisbloc.pdb
+D:\VSGit\Polarisbloc-Mods-Pack\Source\Polarisbloc - Core LAB\Polarisbloc\obj\Release\Polarisbloc.csproj.AssemblyReference.cache

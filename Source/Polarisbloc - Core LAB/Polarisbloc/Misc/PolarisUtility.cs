@@ -140,5 +140,51 @@ namespace Polarisbloc
             if (commonalityFemale > 0) commonality = (commonalityFemale + commonality) / 2;
             return commonality;
         }
+
+        public static bool ThingAddWeaponTrait(Thing weapon)
+        {
+            if (weapon.IsBladelinkWeapon(out CompBladelinkWeapon compBladelink))
+            {
+                List<DebugMenuOption> list = new List<DebugMenuOption>();
+                foreach (WeaponTraitDef traitDef in DefDatabase<WeaponTraitDef>.AllDefs)
+                {
+                    if (compBladelink.CanAddWeaponTrait(traitDef))
+                    {
+                        list.Add(new DebugMenuOption(traitDef.label, DebugMenuOptionMode.Action, delegate ()
+                        {
+                            compBladelink.AddWeaponTrait(traitDef);
+                        }));
+                    }
+
+                }
+                Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
+                return true;
+            }
+            return false;
+        }
+
+        public static bool ThingRemoveWeaponTrait(Thing thing)
+        {
+            if (thing.IsBladelinkWeapon(out CompBladelinkWeapon compBladelink))
+            {
+                List<WeaponTraitDef> curTraits = compBladelink.TraitsListForReading;
+                List<DebugMenuOption> list = new List<DebugMenuOption>();
+                foreach (WeaponTraitDef curTrait in curTraits)
+                {
+                    list.Add(new DebugMenuOption(curTrait.label, DebugMenuOptionMode.Action, delegate ()
+                    {
+                        //curTraits.Remove(curTrait);
+                        //typeof(CompBladelinkWeapon).GetField("traits", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(compBladelink, curTraits);
+                        compBladelink.RemoveWeaponTrait(curTrait);
+                    }));
+                }
+                Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
+                return true;
+            }
+            return false;
+        }
+
+
+
     }
 }
