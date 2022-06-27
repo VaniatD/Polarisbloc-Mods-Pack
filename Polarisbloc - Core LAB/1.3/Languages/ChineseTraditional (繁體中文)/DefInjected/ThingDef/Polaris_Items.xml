@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: healing potion belt -->
+  <Polaris_HealingPotionBelt.label>治療藥水腰帶</Polaris_HealingPotionBelt.label>
+  <!-- EN: A nomal belt boned some healing potions, let you could to throw the bottle to make a lot of healing smoking pop to heal people. -->
+  <Polaris_HealingPotionBelt.description>一個簡單的腰帶，能夠固定治療藥水，必要的時候將治療藥水投擲出去形成一片煙霧。</Polaris_HealingPotionBelt.description>
+  <!-- EN: bottle -->
+  <Polaris_HealingPotionBelt.comps.CompReloadable.chargeNoun>TODO</Polaris_HealingPotionBelt.comps.CompReloadable.chargeNoun>
+  <!-- EN: throw healing potion -->
+  <Polaris_HealingPotionBelt.verbs.throw_healing_potion.label>投擲治療藥水</Polaris_HealingPotionBelt.verbs.throw_healing_potion.label>
+  
+  <!-- EN: combined antibiotic -->
+  <PolarisAntibiotic.label>聯合抗生素</PolarisAntibiotic.label>
+  <!-- EN: A combination of multiple antibiotics that can cure most common diseases. -->
+  <PolarisAntibiotic.description>多種抗生素和干擾素的聯合用藥，可以治療大部分常見疾病。</PolarisAntibiotic.description>
+  <!-- EN: Take {0} -->
+  <PolarisAntibiotic.ingestible.ingestCommandString>TODO</PolarisAntibiotic.ingestible.ingestCommandString>
+  <!-- EN: Taking {0}. -->
+  <PolarisAntibiotic.ingestible.ingestReportString>TODO</PolarisAntibiotic.ingestible.ingestReportString>
+  
+  <!-- EN: Bondorudo's diary -->
+  <PolarisBondorudoDiary.label>黎明卿的日記</PolarisBondorudoDiary.label>
+  <!-- EN: "It is ... terrific..." -->
+  <PolarisBondorudoDiary.description>“真是。。。太棒了。。。”</PolarisBondorudoDiary.description>
+  <!-- EN: Unscramble Dawn's diary -->
+  <PolarisBondorudoDiary.comps.CompUsable.useLabel>解讀黎明卿的日記</PolarisBondorudoDiary.comps.CompUsable.useLabel>
+  
+  <!-- EN: cartridge -->
+  <PolarisCartridge.label>彈藥包</PolarisCartridge.label>
+  <!-- EN: The cartridge can be worn by a pawn and protects the wearer from a certain death. The wearer will be resurrected immediatly upon death. Administered to a corpse, the cartridge will repair and kickstart the body back to life.\n\nSo, is life equal? Is it really good to exchange one's life for another person's life? -->
+  <PolarisCartridge.description>穿著彈藥包後，死亡時會立刻復活。也可以直接使用它來復活別人。\n\n人與人的生命真的等價麼？用一個人的生命去換取另一個人的生存，真的可以麼？</PolarisCartridge.description>
+  <!-- EN: Use cartridge -->
+  <PolarisCartridge.comps.CompUsable.useLabel>TODO</PolarisCartridge.comps.CompUsable.useLabel>
+  
+  <!-- EN: combat chip -->
+  <PolarisCombatChip.label>戰術芯片</PolarisCombatChip.label>
+  <!-- EN: A universal combat chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
+  <PolarisCombatChip.description>通用型戰術芯片，能夠增強各方面的能力。</PolarisCombatChip.description>
+  
+  <!-- EN: converter(planed to remove) -->
+  <PolarisCombatChipConverter.label>戰術芯片轉換器</PolarisCombatChipConverter.label>
+  <!-- EN: A tactical chip converter to convert one's combat chip installed in someone's head. The converter will activate and convert the chip mode to the one recorded in the converter. It is reusable. -->
+  <PolarisCombatChipConverter.description>一個適用於已安裝戰術芯片的轉換器。能夠將已安裝的戰術芯片轉換至記錄的類型。</PolarisCombatChipConverter.description>
+  <!-- EN: Use converter -->
+  <PolarisCombatChipConverter.comps.CompUsable.useLabel>使用轉換器</PolarisCombatChipConverter.comps.CompUsable.useLabel>
+  <!-- EN: charge -->
+  <PolarisCombatChipConverter.comps.CompReloadable.chargeNoun>TODO</PolarisCombatChipConverter.comps.CompReloadable.chargeNoun>
+  <!-- EN: use converter -->
+  <PolarisCombatChipConverter.verbs.use_converter.label>使用轉換器</PolarisCombatChipConverter.verbs.use_converter.label>
+  
+  <!-- EN: biocode decoder -->
+  <PolarisDecoder.label>破譯器</PolarisDecoder.label>
+  <!-- EN: A decoder to decode the biocode in the special weapon.\nIt has a chance to change the biocode depends on the user's Intellectual level and the item quality.\nThere is a chance that the recoder will destroy after used. Other, if a weapon could be coded, this decoder will also could code the biocode and never destroy. -->
+  <PolarisDecoder.description>一種能夠破解特定武器中生物識別代碼的設備。使用它需要一些智識等級，同時會根據使用者的智識能力和武器品質來決定破解生物編碼的幾率。\n使用時，這個破譯器有一定幾率會損壞。另一方面，如果想要注入編碼的武器並沒有記錄生物編碼，那麼破譯器不會損壞。</PolarisDecoder.description>
+  <!-- EN: Use biocode decoder -->
+  <PolarisDecoder.comps.CompUsable.useLabel>使用破譯器</PolarisDecoder.comps.CompUsable.useLabel>
+  
+  <!-- EN: devil cookie -->
+  <PolarisDevilCookie.label>惡魔曲奇</PolarisDevilCookie.label>
+  <!-- EN: Would you bargain with the devil just because you are hungry?\n\nThis is a mysterious cookie and no one knows how it appeared in the world. And it will not vanish even once eaten.\n\nAccording to the records of the researcher from Polarisbloc, this cookie will take some life force from who ate it. Maybe this was the reason why it could feed the hunger fully.\n\n- -&lt;No.666 file of Polarisbloc> #public version -->
+  <PolarisDevilCookie.description>當你饑餓的時候會想著和惡魔做個交易麼？\n\n這是一塊神秘的曲奇，沒有人知道它是怎麼出現在世界上的。當你吃下它的時候它會重新完整地出現在你手裡。\n\n根據天軸集團的研究記錄，這塊曲奇會奪取食用者的壽命，或許這就是它能暫時讓你填飽肚子的緣故。\n\n——&lt;天軸集團666號文件> #公開版本</PolarisDevilCookie.description>
+  
+  <!-- EN: healing smoke -->
+  <PolarisGas_Healing.label>治療煙霧</PolarisGas_Healing.label>
+  
+  <!-- EN: potent healing potion -->
+  <PolarisHealingPotion.label>強效治療藥水</PolarisHealingPotion.label>
+  <!-- EN: A quick recovery and healing potion that automatically heals wounds. The effect of this potion are very powerful. -->
+  <PolarisHealingPotion.description>一種自動治愈傷口的藥物，效果強勁。</PolarisHealingPotion.description>
+  <!-- EN: Drink {0} -->
+  <PolarisHealingPotion.ingestible.ingestCommandString>飲用{0}</PolarisHealingPotion.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PolarisHealingPotion.ingestible.ingestReportString>正在飲用{0}。</PolarisHealingPotion.ingestible.ingestReportString>
+  
+  <!-- EN: traitreleaser -->
+  <PolarisMechSerumTraitreleaser.label>特性釋放器</PolarisMechSerumTraitreleaser.label>
+  <!-- EN: A one-use super-dose of mechanites tuned to gain a specific trait. The subject choose to get the recorded trait or remove a trait from them. By removing a trait, the mechanites will record it and replace the pre-existing trait. However, this feature is only feasible 3 times. -->
+  <PolarisMechSerumTraitreleaser.description>調整為獲取特定特性的一次性超級藥劑納米機器人。你可以選擇獲取指定特性或者將使用者的某個特性記錄到特性釋放器。</PolarisMechSerumTraitreleaser.description>
+  <!-- EN: Use traitreleaser mech serum to get {0} -->
+  <PolarisMechSerumTraitreleaser.comps.CompTraitreleaser.useLabel>使用特性釋放器（{0}）</PolarisMechSerumTraitreleaser.comps.CompTraitreleaser.useLabel>
+  
+  <!-- EN: momery rester -->
+  <PolarisMomeryRester.label>記憶重置器</PolarisMomeryRester.label>
+  <!-- EN: A one-use super-dose of mechanites tuned to change the subject's backstory into the recorded ones. -->
+  <PolarisMomeryRester.description>調整為獲取特定背景故事的一次性超級藥劑納米機器人。可以在改變幼年故事或者成年故事之間切換功能。</PolarisMomeryRester.description>
+  <!-- EN: Use momery rester to get {0} -->
+  <PolarisMomeryRester.comps.CompMomeryRester.useLabel>使用記憶重置器（{0}）</PolarisMomeryRester.comps.CompMomeryRester.useLabel>
+  
+  <!-- EN: orbital trader caller -->
+  <PolarisOrbitalTraderCaller.label>軌道商尋呼器</PolarisOrbitalTraderCaller.label>
+  <!-- EN: It will launch a broadcast containing coordinate information and will direct the specified nearest orbital trader to the origin of the broadcast. -->
+  <PolarisOrbitalTraderCaller.description>它會向附近空間廣播一道包含當前坐標信息的消息，如果有軌道商收到這條信息就會抵達附近來交易。</PolarisOrbitalTraderCaller.description>
+  <!-- EN: Use caller to call {0} -->
+  <PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>使用尋呼器呼叫{0}</PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>
+  
+  <!-- EN: potent healing potion -->
+  <PolarisProj_HealingPotion.label>強效治療藥水</PolarisProj_HealingPotion.label>
+  
+  <!-- EN: psionwire -->
+  <PolarisPsionwire.label>靈能芯片</PolarisPsionwire.label>
+  <!-- EN: A chip capable of stimulating psionic abilities. Using this chip can enhance biological consciousness and fire resistance. -->
+  <PolarisPsionwire.description>能夠激發潛在能力的一種芯片，使用這種芯片可以增強生物的意識，並且具有防火的能力。</PolarisPsionwire.description>
+  
+  <!-- EN: psychic berserk pulser -->
+  <PolarisPsychicBerserkPulser.label>狂暴脈衝發射器</PolarisPsychicBerserkPulser.label>
+  <!-- EN: A one-use artifact that generate a strong psychic pulse that make all human go berserk (not included colonists). -->
+  <PolarisPsychicBerserkPulser.description>一次性使用的神器，能夠發射一道強勁的精神衝擊波使整個區域的人陷入狂暴狀態。（不包括殖民者）</PolarisPsychicBerserkPulser.description>
+  <!-- EN: Activate -->
+  <PolarisPsychicBerserkPulser.comps.CompUsable.useLabel>TODO</PolarisPsychicBerserkPulser.comps.CompUsable.useLabel>
+  
+  <!-- EN: receptor antagonist -->
+  <PolarisReceptorAntagonist.label>受體拮抗劑</PolarisReceptorAntagonist.label>
+  <!-- EN: The receptor antagonist is a drug that blocks drugs needs by binding to and blocking any drugs receptor rather than activating it like an agonist. So this drug will satisfy chemical needs, and ease the drug addiction at the same time. -->
+  <PolarisReceptorAntagonist.description>有機分子通過與特定藥物受體結合，從而有效滿足化學品依賴，同時緩解成癮性和藥物抗藥性。</PolarisReceptorAntagonist.description>
+  <!-- EN: Take {0} -->
+  <PolarisReceptorAntagonist.ingestible.ingestCommandString>TODO</PolarisReceptorAntagonist.ingestible.ingestCommandString>
+  <!-- EN: Taking {0}. -->
+  <PolarisReceptorAntagonist.ingestible.ingestReportString>TODO</PolarisReceptorAntagonist.ingestible.ingestReportString>
+  
+  <!-- EN: polaris restorer -->
+  <PolarisRestorer.label>北極星恢復劑</PolarisRestorer.label>
+  <!-- EN: Mysterious drugs from the Polarisbloc that can free you from all sorts of bad situations. -->
+  <PolarisRestorer.description>一種可以解除幾乎所有負面影響的藥劑，藥物效果過強，可能會有不可預測的結果。</PolarisRestorer.description>
+  <!-- EN: Inject {0} -->
+  <PolarisRestorer.ingestible.ingestCommandString>注射{0}</PolarisRestorer.ingestible.ingestCommandString>
+  <!-- EN: Injecting {0}. -->
+  <PolarisRestorer.ingestible.ingestReportString>正在注射{0}。</PolarisRestorer.ingestible.ingestReportString>
+  
+  <!-- EN: virtual net chip -->
+  <PolarisVirtualNetChip.label>虛擬網絡芯片</PolarisVirtualNetChip.label>
+  <!-- EN: A chip connected to a Virtual Network that can be used for entertainment whenever needed. Moreover, it will calm down the user if they ever have a mental breakdown. -->
+  <PolarisVirtualNetChip.description>一塊能夠連接虛擬網絡的芯片，能夠讓你隨時進行娛樂。</PolarisVirtualNetChip.description>
+  
+  <!-- EN: void key -->
+  <PolarisVoidKey.label>虛空之鑰</PolarisVoidKey.label>
+  <!-- EN: Project.193\n\nAt first, we made something that can link the soul of the dead, although the dead one must be in our knowledge.\nAnd then we thought, why can't we resurrect the lost soul?\nWe tried to use the Proj.013"cartridge" to do this, but it failed.\nSome additional attemps were made but all failed, even when we used living subjects. All of them couldn't provide the life force and power needed to resurrect the lost soul.\nFinally, we had no choice but to use the Philosopher's stone to get our colleague back (although he was a little bit unconscious).\n\n- -&lt;No.193 file of Polarisbloc> #public version -->
+  <PolarisVoidKey.description>項目193\n\n最初，我們製造了一個能夠鏈接死者靈魂的東西，儘管必須是我們所認識的。\n然後，我們想到，為什麼我們不能復活死者迷失的靈魂呢？\n我們嘗試使用項目013“彈藥包”來做這件事，但是這失敗了。\n一些額外的嘗試也失敗了，我們甚至用上了活著的人，但是這些都無法提供一個迷失靈魂回歸所需的模因和能量。\n最後，我們無可奈何地使用了賢者之石，這種萬能的等價物成功地換回了我們死去的同伴（儘管他好像有些神志不清）。\n\n——&lt;天軸集團193號文件> #公開版本</PolarisVoidKey.description>
+  <!-- EN: Use void key -->
+  <PolarisVoidKey.comps.CompUsable.useLabel>使用虛空之鑰</PolarisVoidKey.comps.CompUsable.useLabel>
+  
+  <!-- EN: white flute -->
+  <PolarisWhiteFlute.label>白笛</PolarisWhiteFlute.label>
+  
+  <!-- EN: data center -->
+  <VanyaDataCenter.label>數據中心</VanyaDataCenter.label>
+  
+</LanguageData>

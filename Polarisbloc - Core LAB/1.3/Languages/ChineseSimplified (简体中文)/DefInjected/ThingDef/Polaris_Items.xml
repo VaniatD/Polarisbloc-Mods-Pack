@@ -35,12 +35,12 @@
   
   <!-- EN: combat chip -->
   <PolarisCombatChip.label>战术芯片</PolarisCombatChip.label>
-  <!-- EN: A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
+  <!-- EN: A universal combat chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
   <PolarisCombatChip.description>通用型战术芯片，能够增强各方面的能力。</PolarisCombatChip.description>
   
-  <!-- EN: converter -->
-  <PolarisCombatChipConverter.label>战术芯片转换器</PolarisCombatChipConverter.label>
-  <!-- EN: A tactical chip converter to convert one's tactical chip installed in someone's head. The converter will activate and convert the chip mode to the one recorded in the converter. It is reusable. -->
+  <!-- EN: converter(planed to remove) -->
+  <PolarisCombatChipConverter.label>芯片转换器（计划移除）</PolarisCombatChipConverter.label>
+  <!-- EN: A tactical chip converter to convert one's combat chip installed in someone's head. The converter will activate and convert the chip mode to the one recorded in the converter. It is reusable. -->
   <PolarisCombatChipConverter.description>一个适用于已安装战术芯片的转换器。能够将已安装的战术芯片转换至记录的类型。</PolarisCombatChipConverter.description>
   <!-- EN: Use converter -->
   <PolarisCombatChipConverter.comps.CompUsable.useLabel>使用转换器</PolarisCombatChipConverter.comps.CompUsable.useLabel>

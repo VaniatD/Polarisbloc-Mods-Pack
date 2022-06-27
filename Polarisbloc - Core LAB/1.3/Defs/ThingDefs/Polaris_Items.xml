@@ -204,7 +204,7 @@
     <thingClass>ThingWithComps</thingClass>
     <defName>PolarisCombatChip</defName>
     <label>combat chip</label>
-    <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
+    <description>A universal combat chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
     <category>Item</category>
     <useHitPoints>true</useHitPoints>
     <selectable>true</selectable>
@@ -246,8 +246,8 @@
   </ThingDef>
   <ThingDef>
     <defName>PolarisCombatChipConverter</defName>
-    <label>converter</label>
-    <description>A tactical chip converter to convert one's tactical chip installed in someone's head. The converter will activate and convert the chip mode to the one recorded in the converter. It is reusable.</description>
+    <label>converter(planed to remove)</label>
+    <description>A tactical chip converter to convert one's combat chip installed in someone's head. The converter will activate and convert the chip mode to the one recorded in the converter. It is reusable.</description>
     <thingClass>Apparel</thingClass>
     <category>Item</category>
     <selectable>True</selectable>
@@ -585,6 +585,7 @@
       <li>
         <label>throw healing potion</label>
         <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <violent>false</violent>
         <hasStandardCommand>true</hasStandardCommand>
         <onlyManualCast>True</onlyManualCast>
         <range>12.9</range>

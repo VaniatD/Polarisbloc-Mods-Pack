@@ -9,6 +9,13 @@
   <PolarisConvertCombatChipDESC>Please select the mode of the tactical chip you wish to convert into with these following options.</PolarisConvertCombatChipDESC>
   <PolarisMessageFailedConvertCombatChip>{0} doesn't have a tactical chip installed or available.</PolarisMessageFailedConvertCombatChip>
   <PolarisConvertCombatHasNoChip>No combat chip</PolarisConvertCombatHasNoChip>
+  <PolarisResetCombatChipLabel>Reset</PolarisResetCombatChipLabel>
+  <PolarisResetCombatChipDesc>Reset the chip, make it unactive and re-active to another type.</PolarisResetCombatChipDesc>
+  <PolarisResetCombatChipPrecessing>Shutting down({0}).</PolarisResetCombatChipPrecessing>
+  <PolarisActiveCombatChipLabel>Active</PolarisActiveCombatChipLabel>
+  <PolarisActiveCombatChipDesc>Click and select a mode of the chip you wish to convert into with these following options.</PolarisActiveCombatChipDesc>
+  <PolarisActiveCombatChipLimit>Charging({0}).</PolarisActiveCombatChipLimit>
+  <PolarisActiveCombatChipStartingUp>Starting...{0}</PolarisActiveCombatChipStartingUp>
   <!--orbital trader caller-->
   <PolarisOrbitalTraderCouldNotArrival>There isn't enough room to call a new orbital ship.</PolarisOrbitalTraderCouldNotArrival>
   <!--heal old wounds-->

@@ -6,9 +6,9 @@
   <!-- EN: Learn to produce the combined antibiotic. -->
   <PolarisAntibioticProduction.description>学会如何制作联合抗生素。</PolarisAntibioticProduction.description>
   
-  <!-- EN: bladelink trait adjust -->
+  <!-- EN: persona weapons adjust -->
   <PolarisBladelinkTraitAdjust.label>人格武器调整</PolarisBladelinkTraitAdjust.label>
-  <!-- EN: Learn to adjust the traits on bladelink weapons, you can put a bladelink weapon on fabrication bench to do it. -->
+  <!-- EN: Learn to adjust the traits on persona weapons, you can put a persona weapon on fabrication bench to do it. -->
   <PolarisBladelinkTraitAdjust.description>研究如何调整人格武器的武器特性，在精密装配台进行这项操作。</PolarisBladelinkTraitAdjust.description>
   
   <!-- EN: cure scars -->

@@ -3,14 +3,14 @@
   
   <!-- EN: add weapon trait -->
   <PolarisAddWeaponTrait.label>赋予武器特性</PolarisAddWeaponTrait.label>
-  <!-- EN: Add a weapon trait to bladelink weapon. -->
+  <!-- EN: Add a weapon trait to persona weapon. -->
   <PolarisAddWeaponTrait.description>为人格武器添加一个武器特性。</PolarisAddWeaponTrait.description>
   <!-- EN: Adjusting bladelink weapon. -->
   <PolarisAddWeaponTrait.jobString>正在调整人格武器。</PolarisAddWeaponTrait.jobString>
   
   <!-- EN: remove weapon trait -->
   <PolarisRemoveWeaponTrait.label>剥离武器特性</PolarisRemoveWeaponTrait.label>
-  <!-- EN: Remove a weapon trait to bladelink weapon. -->
+  <!-- EN: Remove a weapon trait on persona weapon. -->
   <PolarisRemoveWeaponTrait.description>为人格武器剥离一个武器特性。</PolarisRemoveWeaponTrait.description>
   <!-- EN: Adjusting bladelink weapon. -->
   <PolarisRemoveWeaponTrait.jobString>正在调整人格武器。</PolarisRemoveWeaponTrait.jobString>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: decoding TargetA. -->
+  <PolarisDecode.reportString>TODO</PolarisDecode.reportString>
+  
+  <!-- EN: using momery rester. -->
+  <UsePolarisMomeryRester.reportString>正在使用記憶重置器。</UsePolarisMomeryRester.reportString>
+  
+  <!-- EN: using caller. -->
+  <UsePolarisOrbitalTraderCaller.reportString>正在使用呼叫器。</UsePolarisOrbitalTraderCaller.reportString>
+  
+  <!-- EN: using traitreleaser. -->
+  <UsePolarisTraitreleaser.reportString>正在使用特性釋放器。</UsePolarisTraitreleaser.reportString>
+  
+</LanguageData>

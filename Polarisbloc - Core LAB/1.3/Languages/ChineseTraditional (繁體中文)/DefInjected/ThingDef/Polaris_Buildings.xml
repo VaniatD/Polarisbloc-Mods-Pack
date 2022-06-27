@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: mending shelf -->
+  <PolarisMendingShelf.label>修補架</PolarisMendingShelf.label>
+  <!-- EN: A shelf for storing miscellaneous items. Items stored in this won't deteriorate, even if outside. In addition, the items will be mended if it has fuel. -->
+  <PolarisMendingShelf.description>一個存放物品的物品架，放在上面的物品就算是在室外也不會老化。另外，它還能自動修復受損的物品。</PolarisMendingShelf.description>
+  <!-- EN: Cloth: -->
+  <PolarisMendingShelf.comps.CompRefuelable.fuelGizmoLabel>布：</PolarisMendingShelf.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Cloth -->
+  <PolarisMendingShelf.comps.CompRefuelable.fuelLabel>布</PolarisMendingShelf.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot mend: Needs more cloth -->
+  <PolarisMendingShelf.comps.CompRefuelable.outOfFuelMessage>無法修理：需要更多布</PolarisMendingShelf.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: Machinoid ship reactor -->
+  <PolarisShipReactor.label>機械飛船反應堆</PolarisShipReactor.label>
+  <!-- EN: Machinoid ship reactor -->
+  <PolarisShipReactor.description>機械飛船反應堆。</PolarisShipReactor.description>
+  
+  <!-- EN: thermostat -->
+  <PolarisThermostat.label>恆溫器</PolarisThermostat.label>
+  <!-- EN: A device that can control the temperature near the target value. -->
+  <PolarisThermostat.description>一個可以將溫度控制在目標值附近的溫控設備。</PolarisThermostat.description>
+  
+</LanguageData>

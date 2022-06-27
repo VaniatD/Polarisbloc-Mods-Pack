@@ -9,6 +9,12 @@
     <descriptionHyperlinks>
       <ThingDef>PolarisCombatChip</ThingDef>
     </descriptionHyperlinks>
+    <comps>
+      <li Class="Polarisbloc.HediffCompProperties_ResetChip">
+        <destinationHediff>PolarisCombatChip_NotActive</destinationHediff>
+        <processingTicks>420</processingTicks>
+      </li>
+    </comps>
   </HediffDef>
   <HediffDef ParentName="PolarisCombatChipHediffBase">
     <defName>PolarisCombatChip_NotActive</defName>
@@ -22,6 +28,12 @@
         <partEfficiencyOffset>0.05</partEfficiencyOffset>
       </li>
     </stages>
+    <comps Inherit="False">
+      <li Class="Polarisbloc.HediffCompProperties_ActiveChip">
+        <startingTicks>900</startingTicks>
+        <chargingTicks>2500</chargingTicks>
+      </li>
+    </comps>
   </HediffDef>
   <HediffDef ParentName="PolarisCombatChipHediffBase">
     <defName>PolarisCombatChip_Currency</defName>
@@ -103,6 +115,25 @@
     </stages>
   </HediffDef>
   <HediffDef ParentName="PolarisCombatChipHediffBase">
+    <defName>PolarisCombatChip_Resistance</defName>
+    <label>combat chip (resistance)</label>
+    <labelNoun>a combat chip</labelNoun>
+    <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
+    <stages>
+      <li>
+        <partEfficiencyOffset>0.15</partEfficiencyOffset>
+        <statFactors>
+          <MoveSpeed>0.9</MoveSpeed>
+          <IncomingDamageFactor>0.5</IncomingDamageFactor>
+          <Flammability>0</Flammability>
+        </statFactors>
+        <statOffsets>
+          <ArmorRating_Heat>0.6</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="PolarisCombatChipHediffBase">
     <defName>PolarisCombatChip_Charm</defName>
     <label>combat chip (charm)</label>
     <labelNoun>a combat chip</labelNoun>
@@ -147,6 +178,40 @@
     <description>A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.</description>
     <stages>
       <li>
+        <!--<capMods><li><capacity>Moving</capacity><setMax>0.85</setMax></li></capMods>-->
+        <statOffsets>
+          <ShootingAccuracyOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</ShootingAccuracyOutdoorsDarkOffset>
+          <ShootingAccuracyOutdoorsLitOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</ShootingAccuracyOutdoorsLitOffset>
+        </statOffsets>
+        <partEfficiencyOffset>0.05</partEfficiencyOffset>
+      </li>
+    </stages>
+    <comps>
+      <!--<li Class="HediffCompProperties"><compClass>HediffComp_Invisibility</compClass></li>-->
+      <!--<li Class="Polarisbloc.HediffCompProperties_Convert"><convertAfterTicks>15000~20000</convertAfterTicks><showRemainingTime>true</showRemainingTime><destinationHediff>PolarisCombatChip_NotActive</destinationHediff></li>-->
+      <li Class="Polarisbloc.HediffCompProperties_ToggleHediff">
+        <hediff>PolarisCombatChip_Assassin_Invisibility</hediff>
+        <gizmoLabel>Optical camouflage</gizmoLabel>
+        <gizmoDesc>This will toggle the user's invisibility.</gizmoDesc>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef>
+    <defName>PolarisCombatChip_Assassin_Invisibility</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>optical camouflage</label>
+    <description>-</description>
+    <maxSeverity>1.0</maxSeverity>
+    <defaultLabelColor>(1, 0.8, 0.4)</defaultLabelColor>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties">
+        <compClass>HediffComp_Invisibility</compClass>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
         <capMods>
           <li>
             <capacity>Moving</capacity>
@@ -155,21 +220,9 @@
         </capMods>
         <statOffsets>
           <AimingDelayFactor>0.2</AimingDelayFactor>
-          <ShootingAccuracyOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</ShootingAccuracyOutdoorsDarkOffset>
-          <ShootingAccuracyOutdoorsLitOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</ShootingAccuracyOutdoorsLitOffset>
         </statOffsets>
       </li>
     </stages>
-    <comps>
-      <li Class="HediffCompProperties">
-        <compClass>HediffComp_Invisibility</compClass>
-      </li>
-      <li Class="Polarisbloc.HediffCompProperties_Convert">
-        <convertAfterTicks>15000~20000</convertAfterTicks>
-        <showRemainingTime>true</showRemainingTime>
-        <destinationHediff>PolarisCombatChip_NotActive</destinationHediff>
-      </li>
-    </comps>
   </HediffDef>
   <HediffDef ParentName="PolarisCombatChipHediffBase" MayRequire="Ludeon.RimWorld.Royalty">
     <defName>PolarisCombatChip_Psycaster</defName>

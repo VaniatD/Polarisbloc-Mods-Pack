@@ -36,7 +36,6 @@ namespace Polarisbloc
                 Pawn tempPawn = this.VoidPawn;
                 VoidKeyUtility.ResurrectPawnFromVoid(this.parent.MapHeld, this.parent.PositionHeld, tempPawn);
                 VoidKeyUtility.GiveSideEffects(tempPawn);
-                
             }
             
         }

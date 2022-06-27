@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!--Cartridge-->
+  <!-- EN: {0} has successfully resurrected {1}. -->
+  <PolarisMessageSomeoneResurrected>{0}成功讓{1}撿回了一條命。</PolarisMessageSomeoneResurrected>
+  <!-- EN: {0} must have more than 60 opinion points with {1}. -->
+  <PolarisMessageFailedMakeCartridge>{0}必須對{1}有至少60的好感度。</PolarisMessageFailedMakeCartridge>
+  <!-- EN: Couldn't find a research project. -->
+  <PolarisFoundNoResearchProject>未找到可用研究項目</PolarisFoundNoResearchProject>
+  <!--CombatChip-->
+  <!-- EN: Choose tactical chip mode -->
+  <PolarisConvertCombatChipTitle>選擇戰術芯片</PolarisConvertCombatChipTitle>
+  <!-- EN: Please select the mode of the tactical chip you wish to convert into with these following options. -->
+  <PolarisConvertCombatChipDESC>請在以下條目中選擇你想要的芯片種類。</PolarisConvertCombatChipDESC>
+  <!-- EN: {0} doesn't have a tactical chip installed or available. -->
+  <PolarisMessageFailedConvertCombatChip>{0}沒有可用的戰術芯片。</PolarisMessageFailedConvertCombatChip>
+  <!-- EN: No combat chip -->
+  <PolarisConvertCombatHasNoChip>沒有戰術芯片</PolarisConvertCombatHasNoChip>
+  <!-- EN: Reset -->
+  <PolarisResetCombatChipLabel>重置</PolarisResetCombatChipLabel>
+  <!-- EN: Reset the chip, make it unactive and re-active to another type. -->
+  <PolarisResetCombatChipDesc>重置芯片，讓它處於未激活狀態，從而可以重新激活成其他類型的戰術芯片。</PolarisResetCombatChipDesc>
+  <!-- EN: Shutting down({0}). -->
+  <PolarisResetCombatChipPrecessing>正在重置（{0}）</PolarisResetCombatChipPrecessing>
+  <!-- EN: Active -->
+  <PolarisActiveCombatChipLabel>激活</PolarisActiveCombatChipLabel>
+  <!-- EN: Click and select a mode of the chip you wish to convert into with these following options. -->
+  <PolarisActiveCombatChipDesc>點擊並選擇你想要激活的戰術芯片類型。</PolarisActiveCombatChipDesc>
+  <!-- EN: Charging({0}). -->
+  <PolarisActiveCombatChipLimit>充能中（{0}）</PolarisActiveCombatChipLimit>
+  <!-- EN: Starting...{0} -->
+  <PolarisActiveCombatChipStartingUp>正在激活...{0}</PolarisActiveCombatChipStartingUp>
+  <!--orbital trader caller-->
+  <!-- EN: There isn't enough room to call a new orbital ship. -->
+  <PolarisOrbitalTraderCouldNotArrival>附近的軌道沒有足夠的空間來容納新的軌道商。</PolarisOrbitalTraderCouldNotArrival>
+  <!--heal old wounds-->
+  <!-- EN: {0} has successfully cured {1}'s {2}. -->
+  <PolarisMessageSuccessfullyRemovedHediffIsOld>{0}成功治療了{1}的{2}。</PolarisMessageSuccessfullyRemovedHediffIsOld>
+  <!--age-->
+  <!--<PolarisMessageSuccessfullyAgeDecrease>{0}'s age has been decreased by {1} years.</PolarisMessageSuccessfullyAgeDecrease>-->
+  <!--Traitreleaser-->
+  <!-- EN: You can choose to get the recorded trait or remove a trait from the subject. By removing a trait, the mechanites will record it and replace the pre-existing trait. -->
+  <PolarisTraitreleaserEffectDESC>你可以選擇直接獲取一個新特性或者將使用者的某個特性記錄到特性釋放器。</PolarisTraitreleaserEffectDESC>
+  <!-- EN: Add {0} -->
+  <PolarisTraitreleaserAddTraitOption>獲取{0}</PolarisTraitreleaserAddTraitOption>
+  <!-- EN: already has -->
+  <PolarisTraitreleaserAlreadyHadTrait>已擁有</PolarisTraitreleaserAlreadyHadTrait>
+  <!-- EN: not enough traits slots -->
+  <PolarisTraitreleaserHasNoEnoughSlots>沒有足夠槽位</PolarisTraitreleaserHasNoEnoughSlots>
+  <!-- EN: Remove a trait (available times: {0}) -->
+  <PolarisTraitreleaserRemoveTraitOption>記錄特性（ 可用次數：{0} ）</PolarisTraitreleaserRemoveTraitOption>
+  <!-- EN: Choose a trait to remove from the subject. -->
+  <PolarisTraitreleaserChoseRemoveTrait>你選擇的特性會從使用者身上移除。</PolarisTraitreleaserChoseRemoveTrait>
+  <!-- EN: {0} lost the trait: {1}. -->
+  <PolarisTraitreleaserUsedRemovedTrait>{0}成功捨棄了{1}</PolarisTraitreleaserUsedRemovedTrait>
+  <!-- EN: In order to get {1}, {0} lost the following trait(s): {2}. -->
+  <PolarisTraitreleaserUsedReplaceConflitTraits>為了獲取{1}，{0}不得不放棄了：{2}。</PolarisTraitreleaserUsedReplaceConflitTraits>
+  <!-- EN: {0} gained the trait: {1}. -->
+  <PolarisTraitreleaserUsedAddTrait>{0}成功獲取了{1}。</PolarisTraitreleaserUsedAddTrait>
+  <!-- EN: Conflicting with: {0} -->
+  <PolarisTraitreleaserTraitConflictingTraits>衝突：{0}</PolarisTraitreleaserTraitConflictingTraits>
+  <!-- EN: Disabled work types: {0} -->
+  <PolarisTraitreleaserTraitDisabledWorkTypes>無法從事：{0}</PolarisTraitreleaserTraitDisabledWorkTypes>
+  <!-- EN: The subject couldn't change traits -->
+  <PolarisTraitreleaserUsedbyHasNullTraits>這個殖民者無法改變特性</PolarisTraitreleaserUsedbyHasNullTraits>
+  <!--momery rester-->
+  <!-- EN: *No available options -->
+  <PolarisMomeryResterHaveNoAvaliableOption>*沒有可用選項</PolarisMomeryResterHaveNoAvaliableOption>
+  <!-- EN: Disabled work types: {0} -->
+  <PolarisMomeryResterStoryDisabledWorkTypes>無法從事：{0}</PolarisMomeryResterStoryDisabledWorkTypes>
+  <!-- EN: Mode: childhood backstory -->
+  <PolarisMomeryResterChildhoodModeActiveLabel>模式：幼年背景</PolarisMomeryResterChildhoodModeActiveLabel>
+  <!-- EN: On this mode, it'll change the subject's childhood backstory. Click on the icon to switch into adulthood backstory mode. -->
+  <PolarisMomeryResterChildhoodModeActiveDesc>在這個模式下，會改變你的幼年背景故事。點擊按鈕以切換至成年背景模式。</PolarisMomeryResterChildhoodModeActiveDesc>
+  <!-- EN: Mode: adulthood backstory -->
+  <PolarisMomeryResterAdulthoodModeActiveLabel>模式：成年背景</PolarisMomeryResterAdulthoodModeActiveLabel>
+  <!-- EN: On this mode, it'll change the subject's adulthood backstory. Click on the icon to switch into childhood backstory mode. -->
+  <PolarisMomeryResterAdulthoodModeActiveDesc>在這個模式下，會改變你的成年背景故事。點擊按鈕以切換至幼年背景模式。</PolarisMomeryResterAdulthoodModeActiveDesc>
+  <!-- EN: {0}'s {1} has been changed to {2}. -->
+  <PolarisMomeryResterStorySuccessfullyChanged>{0}的{1}已重置為{2}。</PolarisMomeryResterStorySuccessfullyChanged>
+  <!-- EN: {0} has no available backstory that could be changed. Set the backstory with {1}. -->
+  <PolarisMomeryResterHaveNoAvaliableStory>{0}沒有可以改變的背景故事。 背景故事已重置為{1}。</PolarisMomeryResterHaveNoAvaliableStory>
+  <!-- EN: *Unknow error -->
+  <PolarisMomeryResterUnknownError>*未知錯誤</PolarisMomeryResterUnknownError>
+  <!--curer-->
+  <!-- EN: apply to human -->
+  <PolarisCurerApplyToHumanLabel>應用於人類</PolarisCurerApplyToHumanLabel>
+  <!-- EN: If actived, the curer will tend humans' wounds. -->
+  <PolarisCurerApplyToHumanDESC>如果激活，則治療器會自動為人類包紮傷口。</PolarisCurerApplyToHumanDESC>
+  <!--restorer-->
+  <!-- EN: {0} has ingested the polaris restorer. -->
+  <PolarisRestorerIngest>{0}注射了北極星恢復劑。</PolarisRestorerIngest>
+  <!--net chip-->
+  <!-- EN: {0} was calmed down by their {1}. -->
+  <PolarisForceCalmDown>{0}在{1}作用下冷靜了</PolarisForceCalmDown>
+  <!--void key-->
+  <!-- EN: Linked -->
+  <PolarisVoidKeyLinkedTo>已連接</PolarisVoidKeyLinkedTo>
+  <!-- EN: Link to... -->
+  <PolarisVoidKeyTryLinkGizmoLabel>鏈接至...</PolarisVoidKeyTryLinkGizmoLabel>
+  <!-- EN: Try to get a missing pawn data that was your colonist or animal. -->
+  <PolarisVoidKeyTryLinkGizmoDesc>嘗試獲取一個失蹤殖民者或者動物的信息。</PolarisVoidKeyTryLinkGizmoDesc>
+  <!-- EN: Void key -->
+  <PolarisVoidKeyWindowTitle>虛空之鑰</PolarisVoidKeyWindowTitle>
+  <!-- EN: You can view all of the missing pawn that were your colonist or animal, and choose which one you want to resurrect. -->
+  <PolarisVoidKeyWindowInformation>你可以看到曾經是殖民者或者動物的所有生物，然後選擇其中你想要復活的一個下載。</PolarisVoidKeyWindowInformation>
+  <!-- EN: Link the Key to {0}'s data. -->
+  <PolarisVoidKeyPullVoidPawnData>將這個生物鏈接至{0}的數據。</PolarisVoidKeyPullVoidPawnData>
+  <!-- EN: Got {0}'s data from void. -->
+  <PolarisVoidKeyPullDataDone>已獲取{0}的數據。</PolarisVoidKeyPullDataDone>
+  <!-- EN: found no data -->
+  <PolarisVoidKeyFoundNoColonist>找不到對象</PolarisVoidKeyFoundNoColonist>
+  <!-- EN: Change the link to... -->
+  <PolarisVoidKeyITabChoosePawn>鏈接至...</PolarisVoidKeyITabChoosePawn>
+  <!-- EN: Details -->
+  <PolarisVoidKeyITabPawnInfo>詳情</PolarisVoidKeyITabPawnInfo>
+  <!--Change age window-->
+  <!-- EN: Target age: {0} -->
+  <PolarisTargetBioAge>目標年齡： {0}</PolarisTargetBioAge>
+  <!-- EN: {0}'s bio age has been changed. -->
+  <PolarisMessageSuccessfullyChangeBioAge>{0}的生物年齡已經發生改變。</PolarisMessageSuccessfullyChangeBioAge>
+  <!--decoder-->
+  <!-- EN: Successfully recoded {1}'s biocode for {0}. -->
+  <PolarisDecoderSuccessedUsedForPawn>成功為{0}向{1}注入生物編碼。</PolarisDecoderSuccessedUsedForPawn>
+  <!-- EN: {0} tried to decode {1}, but failed. -->
+  <PolarisDecoderFailedUsedForPawn>{0}破譯{1}的嘗試失敗了。</PolarisDecoderFailedUsedForPawn>
+  <!-- EN: The biocode decoder has desetroyed. -->
+  <PolarisDecoderSelfDestroyed>破譯器已經損壞。</PolarisDecoderSelfDestroyed>
+  <!-- EN: require {0} level {1} -->
+  <PolarisDecoderSkillRequirementNoSatisfies>需要{0}等級{1}</PolarisDecoderSkillRequirementNoSatisfies>
+  <!--extract ability-->
+  <!-- EN: Successfully to extract {0}'s {1}. -->
+  <PolarisExtractAbilitySuccessfully>成功提取了{0}的{1}。</PolarisExtractAbilitySuccessfully>
+  <!-- EN: Could not to extract {0}'s ability. -->
+  <PolarisExtractAbilityFailed>無法提取{0}的能力。</PolarisExtractAbilityFailed>
+  <!-- EN: extracted {0}'s ability -->
+  <PolarisGoodwillChangedReason_ExtractedAbility>提取了{0}的能力</PolarisGoodwillChangedReason_ExtractedAbility>
+  <!--remove implant-->
+  <!-- EN: {1} has successfully removed {1}'s {2}. -->
+  <PolarisMessageSuccessfullyRemovedImplants>{1}成功移除了{1}的{2}。</PolarisMessageSuccessfullyRemovedImplants>
+  <!--shield belt-->
+  <!-- EN: force reset -->
+  <PlrsForceResetLabel>強行激活</PlrsForceResetLabel>
+  <!-- EN: Reset the shield status forcedly, this action will cost some hitpoints. -->
+  <PlrsForceResetDESC>消耗一些護盾耐久度強行激活護盾。</PlrsForceResetDESC>
+  <!-- EN: Has no enough hit points for reset. -->
+  <PlrsNoEnoughHitPointsToReset>沒有足夠的耐久度。</PlrsNoEnoughHitPointsToReset>
+  <!--combat chip psycaster-->
+  <!-- EN: psycaster -->
+  <PolarisPsyChipLabel>靈質芯片</PolarisPsyChipLabel>
+  <!-- EN: This combat chip could store psyfocus when you won't use abilities, and draw out psycocus when you need.\nIt could also convert few psyfocus every time you cast ablity. -->
+  <PolarisPsyChipDesc>這種戰術芯片可以在沒有使用心靈能力的時候存儲精神力，並且在釋放技能的時候將存儲的精神力提取出來。\n在釋放心靈能力的時候也會將少量心靈熵轉化為精神力。</PolarisPsyChipDesc>
+  <!-- EN: \n\nIn this way, the chip won't store psyfocus, and it will give back focus when you release ability if it has stored. -->
+  <PolarisPsyChipActived>\n\n當前不會存儲精神力，它會在每次釋放心靈能力的時候提取已存儲的精神力。</PolarisPsyChipActived>
+  <!-- EN: \n\nIn this way, the chip will store redundant psyfocus per hour. -->
+  <PolarisPsyChipNotActived>\n\n當前會每小時將空余的精神力存儲至芯片池。</PolarisPsyChipNotActived>
+</LanguageData>

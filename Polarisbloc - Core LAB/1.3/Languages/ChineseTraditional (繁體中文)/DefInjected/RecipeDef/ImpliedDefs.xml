@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 施用聯合抗生素 -->
+  <Administer_PolarisAntibiotic.label>施用聯合抗生素</Administer_PolarisAntibiotic.label>
+  <!-- EN: 正在施用聯合抗生素。 -->
+  <Administer_PolarisAntibiotic.jobString>正在施用聯合抗生素。</Administer_PolarisAntibiotic.jobString>
+  
+  <!-- EN: 施用強效治療藥水 -->
+  <Administer_PolarisHealingPotion.label>施用強效治療藥水</Administer_PolarisHealingPotion.label>
+  <!-- EN: 正在施用強效治療藥水。 -->
+  <Administer_PolarisHealingPotion.jobString>正在施用強效治療藥水。</Administer_PolarisHealingPotion.jobString>
+  
+  <!-- EN: 施用受體拮抗劑 -->
+  <Administer_PolarisReceptorAntagonist.label>施用受體拮抗劑</Administer_PolarisReceptorAntagonist.label>
+  <!-- EN: 正在施用受體拮抗劑。 -->
+  <Administer_PolarisReceptorAntagonist.jobString>正在施用受體拮抗劑。</Administer_PolarisReceptorAntagonist.jobString>
+  
+  <!-- EN: 施用北極星恢復劑 -->
+  <Administer_PolarisRestorer.label>施用北極星恢復劑</Administer_PolarisRestorer.label>
+  <!-- EN: 正在施用北極星恢復劑。 -->
+  <Administer_PolarisRestorer.jobString>正在施用北極星恢復劑。</Administer_PolarisRestorer.jobString>
+  
+  <!-- EN: 製作聯合抗生素 -->
+  <Make_PolarisAntibiotic.label>製作聯合抗生素</Make_PolarisAntibiotic.label>
+  <!-- EN: 製作聯合抗生素 -->
+  <Make_PolarisAntibiotic.description>製作聯合抗生素。</Make_PolarisAntibiotic.description>
+  <!-- EN: 正在製作聯合抗生素。 -->
+  <Make_PolarisAntibiotic.jobString>正在製作聯合抗生素。</Make_PolarisAntibiotic.jobString>
+  
+  <!-- EN: 製作強效治療藥水 -->
+  <Make_PolarisHealingPotion.label>製作強效治療藥水</Make_PolarisHealingPotion.label>
+  <!-- EN: 製作強效治療藥水 -->
+  <Make_PolarisHealingPotion.description>製作強效治療藥水。</Make_PolarisHealingPotion.description>
+  <!-- EN: 正在製作強效治療藥水。 -->
+  <Make_PolarisHealingPotion.jobString>正在製作強效治療藥水。</Make_PolarisHealingPotion.jobString>
+  
+  <!-- EN: 製作特性釋放器 -->
+  <Make_PolarisMechSerumTraitreleaser.label>製作特性釋放器</Make_PolarisMechSerumTraitreleaser.label>
+  <!-- EN: 製作特性釋放器 -->
+  <Make_PolarisMechSerumTraitreleaser.description>製作特性釋放器。</Make_PolarisMechSerumTraitreleaser.description>
+  <!-- EN: 正在製作特性釋放器。 -->
+  <Make_PolarisMechSerumTraitreleaser.jobString>正在製作特性釋放器。</Make_PolarisMechSerumTraitreleaser.jobString>
+  
+  <!-- EN: 製作靈能芯片 -->
+  <Make_PolarisPsionwire.label>製作靈能芯片</Make_PolarisPsionwire.label>
+  <!-- EN: 製作靈能芯片 -->
+  <Make_PolarisPsionwire.description>製作靈能芯片。</Make_PolarisPsionwire.description>
+  <!-- EN: 正在製作靈能芯片。 -->
+  <Make_PolarisPsionwire.jobString>正在製作靈能芯片。</Make_PolarisPsionwire.jobString>
+  
+  <!-- EN: 製作受體拮抗劑 -->
+  <Make_PolarisReceptorAntagonist.label>製作受體拮抗劑</Make_PolarisReceptorAntagonist.label>
+  <!-- EN: 製作受體拮抗劑 -->
+  <Make_PolarisReceptorAntagonist.description>製作受體拮抗劑。</Make_PolarisReceptorAntagonist.description>
+  <!-- EN: 正在製作受體拮抗劑。 -->
+  <Make_PolarisReceptorAntagonist.jobString>正在製作受體拮抗劑。</Make_PolarisReceptorAntagonist.jobString>
+  
+</LanguageData>

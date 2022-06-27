@@ -5,8 +5,17 @@
   <PolarisCombatChip_Assassin.label>战术芯片（潜行）</PolarisCombatChip_Assassin.label>
   <!-- EN: A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
   <PolarisCombatChip_Assassin.description>战术芯片，能够增强各方面的能力。</PolarisCombatChip_Assassin.description>
+  <!-- EN: This will toggle the user's invisibility. -->
+  <PolarisCombatChip_Assassin.comps.HediffComp_ToggleHediff.gizmoDesc>启动或关闭光学迷彩，这可以让你从敌人的视野中消失。</PolarisCombatChip_Assassin.comps.HediffComp_ToggleHediff.gizmoDesc>
+  <!-- EN: Optical camouflage -->
+  <PolarisCombatChip_Assassin.comps.HediffComp_ToggleHediff.gizmoLabel>光学迷彩</PolarisCombatChip_Assassin.comps.HediffComp_ToggleHediff.gizmoLabel>
   <!-- EN: a combat chip -->
   <PolarisCombatChip_Assassin.labelNoun>一块战术芯片</PolarisCombatChip_Assassin.labelNoun>
+  
+  <!-- EN: optical camouflage -->
+  <PolarisCombatChip_Assassin_Invisibility.label>光学迷彩</PolarisCombatChip_Assassin_Invisibility.label>
+  <!-- EN: - -->
+  <PolarisCombatChip_Assassin_Invisibility.description>由战术芯片启动的光学迷彩，可以让你从敌人的视野中消失。</PolarisCombatChip_Assassin_Invisibility.description>
   
   <!-- EN: combat chip (charm) -->
   <PolarisCombatChip_Charm.label>战术芯片（魅惑）</PolarisCombatChip_Charm.label>
@@ -49,6 +58,13 @@
   <PolarisCombatChip_Psycaster.description>战术芯片，能够增强各方面的能力。</PolarisCombatChip_Psycaster.description>
   <!-- EN: a combat chip -->
   <PolarisCombatChip_Psycaster.labelNoun>一块战术芯片</PolarisCombatChip_Psycaster.labelNoun>
+  
+  <!-- EN: combat chip (resistance) -->
+  <PolarisCombatChip_Resistance.label>战术芯片（抗性）</PolarisCombatChip_Resistance.label>
+  <!-- EN: A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
+  <PolarisCombatChip_Resistance.description>战术芯片，能够增强各方面的能力。</PolarisCombatChip_Resistance.description>
+  <!-- EN: a combat chip -->
+  <PolarisCombatChip_Resistance.labelNoun>一块战术芯片</PolarisCombatChip_Resistance.labelNoun>
   
   <!-- EN: combat chip (scouter) -->
   <PolarisCombatChip_Scouter.label>战术芯片（斥候）</PolarisCombatChip_Scouter.label>

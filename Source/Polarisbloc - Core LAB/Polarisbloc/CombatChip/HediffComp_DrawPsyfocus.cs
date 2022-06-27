@@ -179,14 +179,15 @@ namespace Polarisbloc
 
         public override IEnumerable<Gizmo> CompGetGizmos()
         {
-            if (this.Pawn.Drafted)
+            if (Find.Selector.SingleSelectedThing == this.Pawn && this.Pawn.Drafted)
             {
                 yield return new Command_Toggle
                 {
                     defaultDesc = "PolarisPsyChipDesc".Translate(),
                     defaultDescPostfix = this.isActive? "PolarisPsyChipActived".Translate() : "PolarisPsyChipNotActived".Translate(),
                     defaultLabel = "PolarisPsyChipLabel".Translate(),
-                    icon = this.parent.def.spawnThingOnRemoved.uiIcon,
+                    //icon = this.parent.def.spawnThingOnRemoved.uiIcon,
+                    icon = this.isActive? TexCombatChip.CombatChipDrawPsyfocusOn : TexCombatChip.CombatChipDrawPsyfocusOff,
                     isActive = () => this.isActive,
                     toggleAction = delegate
                     {
@@ -194,7 +195,7 @@ namespace Polarisbloc
                     }
                 };
             }
-            yield break;
+            //yield break;
             //return base.CompGetGizmos();
         }
 
