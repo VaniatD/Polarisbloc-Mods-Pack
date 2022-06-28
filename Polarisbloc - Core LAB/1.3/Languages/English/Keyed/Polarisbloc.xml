@@ -52,6 +52,8 @@
   <PolarisRestorerIngest>{0} has ingested the polaris restorer.</PolarisRestorerIngest>
   <!--net chip-->
   <PolarisForceCalmDown>{0} was calmed down by their {1}.</PolarisForceCalmDown>
+  <PolarisForceCalmDownLabel>Calm down</PolarisForceCalmDownLabel>
+  <PolarisForceCalmDownDesc>Someone is in mental state, this action will let them calm down forcely.</PolarisForceCalmDownDesc>
   <!--void key-->
   <PolarisVoidKeyLinkedTo>Linked</PolarisVoidKeyLinkedTo>
   <PolarisVoidKeyTryLinkGizmoLabel>Link to...</PolarisVoidKeyTryLinkGizmoLabel>

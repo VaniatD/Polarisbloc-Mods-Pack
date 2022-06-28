@@ -38,6 +38,7 @@ namespace Polarisbloc
                 pawn.health.RestorePart(part, null, true);
                 float amount = part.def.GetMaxHealth(pawn) * 0.75f;
                 DamageInfo dinfo = new DamageInfo(DamageDefOf.SurgicalCut, amount, 2f, -1f, null, part, null, DamageInfo.SourceCategory.ThingOrUnknown, null);
+                dinfo.SetIgnoreArmor(true);
                 pawn.TakeDamage(dinfo);
             }
         }

@@ -171,14 +171,23 @@ namespace Polarisbloc
 
         public override bool CheckPreAbsorbDamage(DamageInfo dinfo)
         {
-			if (dinfo.Def == DamageDefOf.SurgicalCut) return false;
+			if (dinfo.Def == DamageDefOf.SurgicalCut || dinfo.Def == DamageDefOf.ExecutionCut) return false;
+			if (dinfo.Def == DamageDefOf.EMP)
+			{
+				if (this.ShieldState == ShieldState.Resetting)
+				{
+					this.Reset();
+				}
+				this.energy += dinfo.Amount * 0.002f;
+				//this.AbsorbedDamage(dinfo);
+				//return true;
+			}
+			if (!dinfo.Def.harmsHealth)
+			{
+				return false;
+			}
 			if (dinfo.Instigator == base.Wearer)
 			{
-				this.AbsorbedDamage(dinfo);
-				return true;
-			}
-			if (!dinfo.Def.harmsHealth && dinfo.Def != DamageDefOf.EMP)
-            {
 				this.AbsorbedDamage(dinfo);
 				return true;
 			}

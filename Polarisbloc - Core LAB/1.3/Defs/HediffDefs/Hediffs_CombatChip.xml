@@ -219,7 +219,7 @@
           </li>
         </capMods>
         <statOffsets>
-          <AimingDelayFactor>0.2</AimingDelayFactor>
+          <AimingDelayFactor>0.3</AimingDelayFactor>
         </statOffsets>
       </li>
     </stages>
@@ -237,9 +237,11 @@
           <PsychicSensitivity>1.2</PsychicSensitivity>
           <MeditationFocusGain>1.2</MeditationFocusGain>
           <PsychicEntropyGain>0.8</PsychicEntropyGain>
+        </statFactors>
+        <statOffsets>
           <MeleeDodgeChanceOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</MeleeDodgeChanceOutdoorsDarkOffset>
           <MeleeDodgeChanceOutdoorsLitOffset MayRequire="Ludeon.RimWorld.Ideology">0.2</MeleeDodgeChanceOutdoorsLitOffset>
-        </statFactors>
+        </statOffsets>
       </li>
     </stages>
     <comps>
@@ -254,8 +256,10 @@
       <li Class="Polarisbloc.HediffCompProperties_DrawPsyfocus">
         <drawFactor>0.15</drawFactor>
         <psyfocusGainMulti>true</psyfocusGainMulti>
-        <collectPsyfocusPerTick>0.000003</collectPsyfocusPerTick>
+        <collectPsyfocusPerTick>0.000001</collectPsyfocusPerTick>
         <psyfocusCapacity>3</psyfocusCapacity>
+        <empChargeFactor>0.05</empChargeFactor>
+        <empChargeLimit>6</empChargeLimit>
       </li>
     </comps>
   </HediffDef>

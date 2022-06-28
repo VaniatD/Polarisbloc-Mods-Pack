@@ -118,7 +118,9 @@
     <spawnThingOnRemoved>PolarisVirtualNetChip</spawnThingOnRemoved>
     <comps>
       <li Class="Polarisbloc.HediffCompProperties_JoyFiller"></li>
-      <li Class="Polarisbloc.HediffCompProperties_ForceCalmDown"></li>
+      <li Class="Polarisbloc.HediffCompProperties_ForceCalmDown">
+        <checkTicks>2500</checkTicks>
+      </li>
     </comps>
     <descriptionHyperlinks>
       <ThingDef>PolarisVirtualNetChip</ThingDef>

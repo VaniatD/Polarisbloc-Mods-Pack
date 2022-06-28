@@ -155,6 +155,17 @@ namespace Polarisbloc
             }
         }
 
+        public override void Notify_PawnPostApplyDamage(DamageInfo dinfo, float totalDamageDealt)
+        {
+            base.Notify_PawnPostApplyDamage(dinfo, totalDamageDealt);
+            if (dinfo.Def == DamageDefOf.EMP)
+            {
+                float psyfocusOffset = 0.01f * Mathf.Max(this.Props.empChargeLimit, totalDamageDealt * this.Props.empChargeFactor);
+                this.OffsetPsyfocusPool(psyfocusOffset);
+            }
+        }
+
+
 
         public override void Notify_EntropyGained(float baseAmount, float finalAmount, Thing source = null)
         {
@@ -217,5 +228,9 @@ namespace Polarisbloc
         public float psyfocusCapacity = 3f;
 
         public float collectPsyfocusPerTick = 0.000003f;
+
+        public float empChargeFactor = 0.1f;
+
+        public float empChargeLimit = 10f;
     }
 }
