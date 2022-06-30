@@ -7,9 +7,9 @@
   <PolarisAntibioticProduction.description>學會如何製作聯合抗生素。</PolarisAntibioticProduction.description>
   
   <!-- EN: persona weapons adjust -->
-  <PolarisBladelinkTraitAdjust.label>羈絆武器調整</PolarisBladelinkTraitAdjust.label>
+  <PolarisBladelinkTraitAdjust.label>人格武器調整</PolarisBladelinkTraitAdjust.label>
   <!-- EN: Learn to adjust the traits on persona weapons, you can put a persona weapon on fabrication bench to do it. -->
-  <PolarisBladelinkTraitAdjust.description>研究如何調整羈絆武器的武器特性，在精密裝配台進行這項操作。</PolarisBladelinkTraitAdjust.description>
+  <PolarisBladelinkTraitAdjust.description>研究如何調整人格武器的武器特性，在精密裝配台進行這項操作。</PolarisBladelinkTraitAdjust.description>
   
   <!-- EN: cure scars -->
   <PolarisCureScarsSurgery.label>疤痕治療</PolarisCureScarsSurgery.label>
@@ -65,6 +65,11 @@
   <PolarisSecretArchives.label>檔案副本</PolarisSecretArchives.label>
   <!-- EN: Some special test records were learned from Polarisbloc, maybe it will help us. -->
   <PolarisSecretArchives.description>天軸集團一些特殊實驗的檔案，這些應該能幫到我們。</PolarisSecretArchives.description>
+  
+  <!-- EN: polaris shield tech -->
+  <PolarisShield.label>北極星護盾</PolarisShield.label>
+  <!-- EN: Learn how to craft polaris - II shield belt. -->
+  <PolarisShield.description>允許製作北極星II型護盾腰帶。</PolarisShield.description>
   
   <!-- EN: special device -->
   <PolarisSpecialDevice.label>特殊裝置</PolarisSpecialDevice.label>

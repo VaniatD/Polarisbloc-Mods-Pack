@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <!--Cartridge-->
   <!-- EN: {0} has successfully resurrected {1}. -->
@@ -93,9 +93,9 @@
   <!--net chip-->
   <!-- EN: {0} was calmed down by their {1}. -->
   <PolarisForceCalmDown>{0}在{1}作用下冷靜了。</PolarisForceCalmDown>
-  <!-- EN: Calm down-->
+  <!-- EN: Calm down -->
   <PolarisForceCalmDownLabel>冷靜</PolarisForceCalmDownLabel>
-  <!-- EN: Someone is in mental state, this action will let them calm down forcely.-->
+  <!-- EN: Someone is in mental state, this action will let them calm down forcely. -->
   <PolarisForceCalmDownDesc>此人正處於某種失控狀態，這個選項可以讓他強行冷靜下來。</PolarisForceCalmDownDesc>
   <!--void key-->
   <!-- EN: Linked -->

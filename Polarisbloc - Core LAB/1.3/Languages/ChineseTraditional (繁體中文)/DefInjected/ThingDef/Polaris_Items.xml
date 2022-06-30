@@ -6,7 +6,7 @@
   <!-- EN: A nomal belt boned some healing potions, let you could to throw the bottle to make a lot of healing smoking pop to heal people. -->
   <Polaris_HealingPotionBelt.description>一個簡單的腰帶，能夠固定治療藥水，必要的時候將治療藥水投擲出去形成一片煙霧。</Polaris_HealingPotionBelt.description>
   <!-- EN: bottle -->
-  <Polaris_HealingPotionBelt.comps.CompReloadable.chargeNoun>TODO</Polaris_HealingPotionBelt.comps.CompReloadable.chargeNoun>
+  <Polaris_HealingPotionBelt.comps.CompReloadable.chargeNoun>瓶</Polaris_HealingPotionBelt.comps.CompReloadable.chargeNoun>
   <!-- EN: throw healing potion -->
   <Polaris_HealingPotionBelt.verbs.throw_healing_potion.label>投擲治療藥水</Polaris_HealingPotionBelt.verbs.throw_healing_potion.label>
   
@@ -15,9 +15,9 @@
   <!-- EN: A combination of multiple antibiotics that can cure most common diseases. -->
   <PolarisAntibiotic.description>多種抗生素和干擾素的聯合用藥，可以治療大部分常見疾病。</PolarisAntibiotic.description>
   <!-- EN: Take {0} -->
-  <PolarisAntibiotic.ingestible.ingestCommandString>TODO</PolarisAntibiotic.ingestible.ingestCommandString>
+  <PolarisAntibiotic.ingestible.ingestCommandString>服用{0}</PolarisAntibiotic.ingestible.ingestCommandString>
   <!-- EN: Taking {0}. -->
-  <PolarisAntibiotic.ingestible.ingestReportString>TODO</PolarisAntibiotic.ingestible.ingestReportString>
+  <PolarisAntibiotic.ingestible.ingestReportString>正在服用{0}。</PolarisAntibiotic.ingestible.ingestReportString>
   
   <!-- EN: Bondorudo's diary -->
   <PolarisBondorudoDiary.label>黎明卿的日記</PolarisBondorudoDiary.label>
@@ -31,7 +31,7 @@
   <!-- EN: The cartridge can be worn by a pawn and protects the wearer from a certain death. The wearer will be resurrected immediatly upon death. Administered to a corpse, the cartridge will repair and kickstart the body back to life.\n\nSo, is life equal? Is it really good to exchange one's life for another person's life? -->
   <PolarisCartridge.description>穿著彈藥包後，死亡時會立刻復活。也可以直接使用它來復活別人。\n\n人與人的生命真的等價麼？用一個人的生命去換取另一個人的生存，真的可以麼？</PolarisCartridge.description>
   <!-- EN: Use cartridge -->
-  <PolarisCartridge.comps.CompUsable.useLabel>TODO</PolarisCartridge.comps.CompUsable.useLabel>
+  <PolarisCartridge.comps.CompUsable.useLabel>使用彈藥包</PolarisCartridge.comps.CompUsable.useLabel>
   
   <!-- EN: combat chip -->
   <PolarisCombatChip.label>戰術芯片</PolarisCombatChip.label>
@@ -39,13 +39,13 @@
   <PolarisCombatChip.description>通用型戰術芯片，能夠增強各方面的能力。</PolarisCombatChip.description>
   
   <!-- EN: converter(planed to remove) -->
-  <PolarisCombatChipConverter.label>戰術芯片轉換器</PolarisCombatChipConverter.label>
+  <PolarisCombatChipConverter.label>芯片轉換器（計劃移除）</PolarisCombatChipConverter.label>
   <!-- EN: A tactical chip converter to convert one's combat chip installed in someone's head. The converter will activate and convert the chip mode to the one recorded in the converter. It is reusable. -->
   <PolarisCombatChipConverter.description>一個適用於已安裝戰術芯片的轉換器。能夠將已安裝的戰術芯片轉換至記錄的類型。</PolarisCombatChipConverter.description>
   <!-- EN: Use converter -->
   <PolarisCombatChipConverter.comps.CompUsable.useLabel>使用轉換器</PolarisCombatChipConverter.comps.CompUsable.useLabel>
   <!-- EN: charge -->
-  <PolarisCombatChipConverter.comps.CompReloadable.chargeNoun>TODO</PolarisCombatChipConverter.comps.CompReloadable.chargeNoun>
+  <PolarisCombatChipConverter.comps.CompReloadable.chargeNoun>充能</PolarisCombatChipConverter.comps.CompReloadable.chargeNoun>
   <!-- EN: use converter -->
   <PolarisCombatChipConverter.verbs.use_converter.label>使用轉換器</PolarisCombatChipConverter.verbs.use_converter.label>
   
@@ -91,7 +91,7 @@
   <PolarisOrbitalTraderCaller.label>軌道商尋呼器</PolarisOrbitalTraderCaller.label>
   <!-- EN: It will launch a broadcast containing coordinate information and will direct the specified nearest orbital trader to the origin of the broadcast. -->
   <PolarisOrbitalTraderCaller.description>它會向附近空間廣播一道包含當前坐標信息的消息，如果有軌道商收到這條信息就會抵達附近來交易。</PolarisOrbitalTraderCaller.description>
-  <!-- EN: Use caller to call {0} -->
+  <!-- EN: Call {0} -->
   <PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>呼叫{0}</PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>
   
   <!-- EN: potent healing potion -->
@@ -107,16 +107,16 @@
   <!-- EN: A one-use artifact that generate a strong psychic pulse that make all human go berserk (not included colonists). -->
   <PolarisPsychicBerserkPulser.description>一次性使用的神器，能夠發射一道強勁的精神衝擊波使整個區域的人陷入狂暴狀態。（不包括殖民者）</PolarisPsychicBerserkPulser.description>
   <!-- EN: Activate -->
-  <PolarisPsychicBerserkPulser.comps.CompUsable.useLabel>TODO</PolarisPsychicBerserkPulser.comps.CompUsable.useLabel>
+  <PolarisPsychicBerserkPulser.comps.CompUsable.useLabel>激活</PolarisPsychicBerserkPulser.comps.CompUsable.useLabel>
   
   <!-- EN: receptor antagonist -->
   <PolarisReceptorAntagonist.label>受體拮抗劑</PolarisReceptorAntagonist.label>
   <!-- EN: The receptor antagonist is a drug that blocks drugs needs by binding to and blocking any drugs receptor rather than activating it like an agonist. So this drug will satisfy chemical needs, and ease the drug addiction at the same time. -->
   <PolarisReceptorAntagonist.description>有機分子通過與特定藥物受體結合，從而有效滿足化學品依賴，同時緩解成癮性和藥物抗藥性。</PolarisReceptorAntagonist.description>
   <!-- EN: Take {0} -->
-  <PolarisReceptorAntagonist.ingestible.ingestCommandString>TODO</PolarisReceptorAntagonist.ingestible.ingestCommandString>
+  <PolarisReceptorAntagonist.ingestible.ingestCommandString>服用{0}</PolarisReceptorAntagonist.ingestible.ingestCommandString>
   <!-- EN: Taking {0}. -->
-  <PolarisReceptorAntagonist.ingestible.ingestReportString>TODO</PolarisReceptorAntagonist.ingestible.ingestReportString>
+  <PolarisReceptorAntagonist.ingestible.ingestReportString>正在服用{0}。</PolarisReceptorAntagonist.ingestible.ingestReportString>
   
   <!-- EN: polaris restorer -->
   <PolarisRestorer.label>北極星恢復劑</PolarisRestorer.label>
@@ -141,8 +141,5 @@
   
   <!-- EN: white flute -->
   <PolarisWhiteFlute.label>白笛</PolarisWhiteFlute.label>
-  
-  <!-- EN: data center -->
-  <VanyaDataCenter.label>數據中心</VanyaDataCenter.label>
   
 </LanguageData>

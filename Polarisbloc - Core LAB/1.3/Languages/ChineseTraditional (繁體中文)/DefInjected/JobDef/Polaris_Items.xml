@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: decoding TargetA. -->
-  <PolarisDecode.reportString>TODO</PolarisDecode.reportString>
+  <PolarisDecode.reportString>正在破譯TargetA。</PolarisDecode.reportString>
   
   <!-- EN: using momery rester. -->
   <UsePolarisMomeryRester.reportString>正在使用記憶重置器。</UsePolarisMomeryRester.reportString>

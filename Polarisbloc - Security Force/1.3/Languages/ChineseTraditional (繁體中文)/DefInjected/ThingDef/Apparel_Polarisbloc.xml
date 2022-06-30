@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: polaris - IV shield belt -->
+  <Apparel_PolarisShieldBelt_IV.label>北極星IV型護盾腰帶</Apparel_PolarisShieldBelt_IV.label>
+  <!-- EN: The latest generation of shield from the Polarisbloc, only for important personnel.\n\nThe shield will counter attack the attacker if the wearer is attacked. Although the counterattack have a cooling time, be careful, the counterattack is very precise. -->
+  <Apparel_PolarisShieldBelt_IV.description>天軸集團最新一代的護盾，只為重要人員配備。\n\n這個護盾會在受到攻擊時對攻擊者進行反擊。雖然反擊有間隔，但是仍要小心，反擊是非常精準的。</Apparel_PolarisShieldBelt_IV.description>
+  
+  <!-- EN: Alkaid strategy assistant -->
+  <Polarisbloc_AlkaidStrategyAssistant.label>搖光戰術助理</Polarisbloc_AlkaidStrategyAssistant.label>
+  <!-- EN: The Universal Tactical assistant is a device that can assist the user predict enemy movement trends. -->
+  <Polarisbloc_AlkaidStrategyAssistant.description>通用型作戰輔助設備，能夠協助索敵，預測敵方運動趨勢。</Polarisbloc_AlkaidStrategyAssistant.description>
+  
+  <!-- EN: Body Fix Trigger -->
+  <Polarisbloc_BodyFixTrigger.label>身體修正觸發器</Polarisbloc_BodyFixTrigger.label>
+  <!-- EN: Body Fix Trigger -->
+  <Polarisbloc_BodyFixTrigger.description>身體修正觸發器</Polarisbloc_BodyFixTrigger.description>
+  
+  <!-- EN: cygnus standard armor -->
+  <Polarisbloc_CygnusStandardArmor.label>天鵝座制式裝甲</Polarisbloc_CygnusStandardArmor.label>
+  <!-- EN: The standard Cygnus armor of Security Forces provides a small amount of defensive capabilities and combat attributes. -->
+  <Polarisbloc_CygnusStandardArmor.description>安保部隊的標準制式裝甲，僅提供了少量的防禦能力和戰鬥屬性加成。</Polarisbloc_CygnusStandardArmor.description>
+  
+  <!-- EN: cygnus standard armor (captain) -->
+  <Polarisbloc_CygnusStandardArmorC.label>天鵝座制式裝甲（指揮官）</Polarisbloc_CygnusStandardArmorC.label>
+  <!-- EN: The Captain version of the Cygnus armor is slightly improved of the original, but it is still very limited. -->
+  <Polarisbloc_CygnusStandardArmorC.description>指揮官版的天鵝座制式裝甲，在原本的性能基礎上略有提升，但仍然十分有限。</Polarisbloc_CygnusStandardArmorC.description>
+  
+  <!-- EN: cygnus standard tights -->
+  <Polarisbloc_CygnusStandardTights.label>天鵝座制式緊身衣</Polarisbloc_CygnusStandardTights.label>
+  <!-- EN: The Cygnus tights made of polymer materials contain special life-sustaining devices that can treat the user's wounds in time and promote wound healing. -->
+  <Polarisbloc_CygnusStandardTights.description>使用高分子材料製作的緊身衣，包含有特殊的生命維持裝置，能夠及時處理使用者的傷口，促進傷口愈合。</Polarisbloc_CygnusStandardTights.description>
+  
+  <!-- EN: Thuban tactical goggles -->
+  <Polarisbloc_ThubanTacticalGoggles.label>右樞戰術目鏡</Polarisbloc_ThubanTacticalGoggles.label>
+  <!-- EN: The Universal Tactical goggles produced by the Polarisbloc enhance effectively the sight of the user. -->
+  <Polarisbloc_ThubanTacticalGoggles.description>天軸集團生產的通用型作戰目鏡，能夠有效提高使用者的視覺能力。</Polarisbloc_ThubanTacticalGoggles.description>
+  
+</LanguageData>

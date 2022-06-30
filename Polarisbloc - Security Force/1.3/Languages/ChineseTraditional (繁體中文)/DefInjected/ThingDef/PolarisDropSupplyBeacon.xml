@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: polaris supply pack -->
+  <PolarisDropSupplyBeacon.label>北極星補給包</PolarisDropSupplyBeacon.label>
+  <!-- EN: A supply kit that gives supplies from the Polarisbloc when you active it, giving you a full set of the Security Force's standard soldier equipments. -->
+  <PolarisDropSupplyBeacon.description>它在激活時會被釋放，給予一整套的安保部隊標準士兵裝備。</PolarisDropSupplyBeacon.description>
+  <!-- EN: Release the pack -->
+  <PolarisDropSupplyBeacon.comps.CompUsable.useLabel>釋放補給包</PolarisDropSupplyBeacon.comps.CompUsable.useLabel>
+  
+</LanguageData>
