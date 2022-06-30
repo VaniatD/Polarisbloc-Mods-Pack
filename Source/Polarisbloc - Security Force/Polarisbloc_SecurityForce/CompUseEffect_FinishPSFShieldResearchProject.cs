@@ -57,9 +57,11 @@ namespace RimWorld
 
         public override bool CanBeUsedBy(Pawn p, out string failReason)
         {
-            bool result = this.TryRandomlyUnfinishedResearch(out ResearchProjectDef researchProj);
+            failReason = "PolarisPlannedToRemove".Translate();
+            return false;
+            /*bool result = this.TryRandomlyUnfinishedResearch(out ResearchProjectDef researchProj);
             failReason = "PolarisFoundNoResearchProject".Translate();
-            return result;
+            return result;*/
         }
 
         private bool TryRandomlyUnfinishedResearch(out ResearchProjectDef researchProj)

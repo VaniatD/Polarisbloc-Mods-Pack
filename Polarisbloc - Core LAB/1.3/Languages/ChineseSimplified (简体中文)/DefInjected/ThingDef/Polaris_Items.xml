@@ -91,8 +91,8 @@
   <PolarisOrbitalTraderCaller.label>轨道商寻呼器</PolarisOrbitalTraderCaller.label>
   <!-- EN: It will launch a broadcast containing coordinate information and will direct the specified nearest orbital trader to the origin of the broadcast. -->
   <PolarisOrbitalTraderCaller.description>它会向附近空间广播一道包含当前坐标信息的消息，如果有轨道商收到这条信息就会抵达附近来交易。</PolarisOrbitalTraderCaller.description>
-  <!-- EN: Use caller to call {0} -->
-  <PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>使用寻呼器呼叫{0}</PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>
+  <!-- EN: Call {0} -->
+  <PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>呼叫{0}</PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>
   
   <!-- EN: potent healing potion -->
   <PolarisProj_HealingPotion.label>强效治疗药水</PolarisProj_HealingPotion.label>
@@ -141,8 +141,5 @@
   
   <!-- EN: white flute -->
   <PolarisWhiteFlute.label>白笛</PolarisWhiteFlute.label>
-  
-  <!-- EN: data center -->
-  <VanyaDataCenter.label>数据中心</VanyaDataCenter.label>
   
 </LanguageData>

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using RimWorld;
 using Verse;
+using Verse.AI;
 
 namespace Polarisbloc
 {
@@ -11,18 +12,44 @@ namespace Polarisbloc
     {
         public TraderKindDef traderKindDef;
 
-        protected override string FloatMenuOptionLabel(Pawn pawn)
+        /*protected override string FloatMenuOptionLabel(Pawn pawn)
         {
             return string.Format(base.Props.useLabel, this.traderKindDef.LabelCap);
+        }*/
+
+        private string TryFloatMenuOptionLabel(TraderKindDef traderKindDef)
+        {
+            if (traderKindDef.faction != null)
+            {
+                return string.Format(this.Props.useLabel, traderKindDef.LabelCap + "(" + traderKindDef.faction.LabelCap) + ")";
+            }
+            else
+            {
+                return string.Format(this.Props.useLabel, traderKindDef.LabelCap);
+            }
         }
 
-        /*protected override string FloatMenuOptionLabel
+        private FloatMenuOption GenFloatMenuOption(Pawn pawn, TraderKindDef traderKindDef)
         {
-            get
+            return new FloatMenuOption(this.TryFloatMenuOptionLabel(traderKindDef), delegate
             {
-                return string.Format(base.Props.useLabel, this.traderKindDef.LabelCap);
-            }
-        }*/
+                if (pawn.CanReserveAndReach(parent, PathEndMode.Touch, Danger.Deadly))
+                {
+                    foreach (CompUseEffect comp in parent.GetComps<CompUseEffect>())
+                    {
+                        if (comp.SelectedUseOption(pawn))
+                        {
+                            return;
+                        }
+                    }
+                    this.traderKindDef = traderKindDef;
+                    TryStartUseJob(pawn, LocalTargetInfo.Invalid);
+                }
+            });
+        }
+
+
+
 
         public override void PostExposeData()
         {
@@ -30,7 +57,70 @@ namespace Polarisbloc
             Scribe_Defs.Look<TraderKindDef>(ref this.traderKindDef, "traderKindDef");
         }
 
-        public override void Initialize(CompProperties props)
+        public override IEnumerable<FloatMenuOption> CompFloatMenuOptions(Pawn myPawn)
+        {
+            if (!CanBeUsedBy(myPawn, out var failReason))
+            {
+                //FloatMenuOptionLabel(myPawn) + ((failReason != null) ? (" (" + failReason + ")") : ""), null
+                yield return new FloatMenuOption(failReason ?? "", null);
+                yield break;
+            }
+            if (!myPawn.CanReach(parent, PathEndMode.Touch, Danger.Deadly))
+            {
+                //yield return new FloatMenuOption(FloatMenuOptionLabel(myPawn) + " (" + "NoPath".Translate() + ")", null);
+                yield return new FloatMenuOption("NoPath".Translate(), null);
+                yield break;
+            }
+            if (!myPawn.CanReserve(parent))
+            {
+                //yield return new FloatMenuOption(FloatMenuOptionLabel(myPawn) + " (" + "Reserved".Translate() + ")", null);
+                yield return new FloatMenuOption("Reserved".Translate(), null);
+                yield break;
+            }
+            if (!myPawn.health.capacities.CapableOf(PawnCapacityDefOf.Manipulation))
+            {
+                //yield return new FloatMenuOption(FloatMenuOptionLabel(myPawn) + " (" + "Incapable".Translate() + ")", null);
+                yield return new FloatMenuOption("Incapable".Translate(), null);
+                yield break;
+            }
+            foreach (TraderKindDef traderKind in (from x in DefDatabase<TraderKindDef>.AllDefs
+                                                  where x.orbital
+                                                  select x))
+            {
+                yield return this.GenFloatMenuOption(myPawn, traderKind);
+            }
+
+            /*yield return new FloatMenuOption(FloatMenuOptionLabel(myPawn), delegate
+            {
+                if (myPawn.CanReserveAndReach(parent, PathEndMode.Touch, Danger.Deadly))
+                {
+                    foreach (CompUseEffect comp in parent.GetComps<CompUseEffect>())
+                    {
+                        if (comp.SelectedUseOption(myPawn))
+                        {
+                            return;
+                        }
+                    }
+                    TryStartUseJob(myPawn, LocalTargetInfo.Invalid);
+                }
+            });*/
+        }
+
+        private bool CanBeUsedBy(Pawn p, out string failReason)
+        {
+            List<ThingComp> allComps = parent.AllComps;
+            for (int i = 0; i < allComps.Count; i++)
+            {
+                if (allComps[i] is CompUseEffect compUseEffect && !compUseEffect.CanBeUsedBy(p, out failReason))
+                {
+                    return false;
+                }
+            }
+            failReason = null;
+            return true;
+        }
+
+        /*public override void Initialize(CompProperties props)
         {
             base.Initialize(props);
             if ((from x in DefDatabase<TraderKindDef>.AllDefs
@@ -98,6 +188,6 @@ namespace Polarisbloc
                 };
                 yield return choseTrader;
             }
-        }
+        }*/
     }
 }

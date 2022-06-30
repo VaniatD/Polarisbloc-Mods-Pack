@@ -19,13 +19,6 @@
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>PolarisShieldMemoryStick</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>5</max>
-        </countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
         <thingDef>PolarisOrbitalTraderCaller</thingDef>
         <countRange>
           <min>1</min>

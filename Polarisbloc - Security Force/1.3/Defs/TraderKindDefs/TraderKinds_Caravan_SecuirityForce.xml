@@ -14,13 +14,6 @@
       </li>
       <!--Special-->
       <li Class="StockGenerator_SingleDef">
-        <thingDef>PolarisShieldMemoryStick</thingDef>
-        <countRange>
-          <min>-1</min>
-          <max>2</max>
-        </countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
         <thingDef>Apparel_PolarisShieldBelt_II</thingDef>
         <countRange>
           <min>-1</min>

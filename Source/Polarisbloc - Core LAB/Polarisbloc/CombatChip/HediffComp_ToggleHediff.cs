@@ -60,7 +60,7 @@ namespace Polarisbloc
             this.RemoveDestHediff(this.Pawn);
         }
 
-        private void RemoveDestHediff(Pawn pawn)
+        public void RemoveDestHediff(Pawn pawn)
         {
             Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(this.Props.hediff, false);
             if (hediff != null)
@@ -69,7 +69,7 @@ namespace Polarisbloc
             }
         }
 
-        private void CauseDestHediff(Pawn pawn)
+        public void CauseDestHediff(Pawn pawn)
         {
             if (pawn.health.hediffSet.GetFirstHediffOfDef(this.Props.hediff, false) == null)
             {

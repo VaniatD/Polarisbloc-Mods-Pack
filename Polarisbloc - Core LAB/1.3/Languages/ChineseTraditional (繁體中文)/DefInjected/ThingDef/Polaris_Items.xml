@@ -92,7 +92,7 @@
   <!-- EN: It will launch a broadcast containing coordinate information and will direct the specified nearest orbital trader to the origin of the broadcast. -->
   <PolarisOrbitalTraderCaller.description>它會向附近空間廣播一道包含當前坐標信息的消息，如果有軌道商收到這條信息就會抵達附近來交易。</PolarisOrbitalTraderCaller.description>
   <!-- EN: Use caller to call {0} -->
-  <PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>使用尋呼器呼叫{0}</PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>
+  <PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>呼叫{0}</PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>
   
   <!-- EN: potent healing potion -->
   <PolarisProj_HealingPotion.label>強效治療藥水</PolarisProj_HealingPotion.label>

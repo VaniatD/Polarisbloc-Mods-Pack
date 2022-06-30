@@ -834,7 +834,7 @@
       <li Class="CompProperties_Usable">
         <compClass>Polarisbloc.CompOrbitalTraderCaller</compClass>
         <useJob>UsePolarisOrbitalTraderCaller</useJob>
-        <useLabel>Use caller to call {0}</useLabel>
+        <useLabel>Call {0}</useLabel>
       </li>
       <li Class="CompProperties_UseEffect">
         <compClass>Polarisbloc.CompUseEffect_CallOrbitalTrader</compClass>
@@ -1135,9 +1135,5 @@
     </modExtensions>
   </JobDef>
   <!--special thing-->
-  <ThingDef>
-    <defName>VanyaDataCenter</defName>
-    <label>data center</label>
-    <thingClass>Building</thingClass>
-  </ThingDef>
+  <!--<ThingDef><defName>VanyaDataCenter</defName><label>data center</label><thingClass>Building</thingClass></ThingDef>-->
 </Defs>

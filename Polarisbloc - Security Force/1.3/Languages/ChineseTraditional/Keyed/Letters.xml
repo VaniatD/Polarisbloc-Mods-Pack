@@ -13,8 +13,7 @@
   <PlrsLightningActiveLabel>閃電</PlrsLightningActiveLabel>
   <PlrsLightningActiveDESC>激活時，會對傷害來源進行雷擊。</PlrsLightningActiveDESC>
   <PlrsTextMote_Absorbed>吸收</PlrsTextMote_Absorbed>
-
   <!--<LetterLabelPolarisblocGetDropSupply>空投補給抵達</LetterLabelPolarisblocGetDropSupply>-->
   <!--<PolarisblocGetDropSupply>感謝使用天軸集團軌道空投服務，這是一整套安保部隊標準士兵裝備，請查收。</PolarisblocGetDropSupply>-->
-
+  <PolarisPlannedToRemove>计划移除</PolarisPlannedToRemove>
 </LanguageData>

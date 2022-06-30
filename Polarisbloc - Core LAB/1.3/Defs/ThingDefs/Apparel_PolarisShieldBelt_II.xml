@@ -48,6 +48,7 @@
       <!--<MarketValue>1400</MarketValue>-->
       <MaxHitPoints>180</MaxHitPoints>
       <EquipDelay>1.6</EquipDelay>
+      <WorkToMake>65000</WorkToMake>
     </statBases>
     <thingCategories>
       <li>ApparelUtility</li>
@@ -76,5 +77,20 @@
       <li>RewardStandardMidFreq</li>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisite>PolarisShield</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
   </ThingDef>
 </Defs>

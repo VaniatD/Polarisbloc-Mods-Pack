@@ -66,6 +66,11 @@
   <!-- EN: Some special test records were learned from Polarisbloc, maybe it will help us. -->
   <PolarisSecretArchives.description>天轴集团一些特殊实验的档案，这些应该能帮到我们。</PolarisSecretArchives.description>
   
+  <!-- EN: polaris shield tech -->
+  <PolarisShield.label>北极星护盾</PolarisShield.label>
+  <!-- EN: Learn how to craft polaris - II shield belt. -->
+  <PolarisShield.description>允许制作北极星II型护盾腰带。</PolarisShield.description>
+  
   <!-- EN: special device -->
   <PolarisSpecialDevice.label>特殊装置</PolarisSpecialDevice.label>
   <!-- EN: This project recorded some special devices. -->

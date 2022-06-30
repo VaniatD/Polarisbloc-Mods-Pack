@@ -30,23 +30,23 @@ namespace Polarisbloc_SecurityForce
 
 		private const int JitterDurationTicks = 8;
 
-		private int StartingTicksToReset = 1200;
+		private readonly int StartingTicksToReset = 1200;
 
-		private float EnergyOnReset = 1f;
+		private readonly float EnergyOnReset = 1f;
 
-		private float EnergyLossPerDamage = 0.02f;
+		private readonly float EnergyLossPerDamage = 0.02f;
 
-		private int KeepDisplayingTicks = 600;
+		private readonly int KeepDisplayingTicks = 600;
 
-		private float ApparelScorePerEnergyMax = 0.25f;
+		private readonly float ApparelScorePerEnergyMax = 0.25f;
 
 		private static readonly Material BubbleMat = MaterialPool.MatFrom("PolarisblocSF/UI/PolarisShieldIVBubble", ShaderDatabase.Transparent);
 
-        private int LightningColdDownTicks = 120;
+        private readonly int LightningColdDownTicks = 120;
 
         //private float absorbMeleeDamageFactor = 2f;
 
-        private float maxDamageTakeOnce = 10f;
+        private readonly float maxDamageTakeOnce = 20f;
 
         //private int ColdDownTick;
 
@@ -134,13 +134,13 @@ namespace Polarisbloc_SecurityForce
                 yield return new Command_Toggle
                 {
                     hotKey = KeyBindingDefOf.Command_TogglePower,
-                    icon = TexCommand.ForbidOn,
+                    icon = this.def.uiIcon,
                     defaultLabel = "PlrsLightningActiveLabel".Translate(),
                     defaultDesc = "PlrsLightningActiveDESC".Translate(),
                     isActive = () => this.canLightning,
                     toggleAction = () => { this.canLightning = !this.canLightning; },
                 };
-                if (this.ShieldState == ShieldState.Active)
+                /*if (this.ShieldState == ShieldState.Active)
                 {
                     if (this.energy > 0.5f)
                     {
@@ -164,7 +164,7 @@ namespace Polarisbloc_SecurityForce
                             hotKey = KeyBindingDefOf.Misc6,
                         };
                     }
-                }
+                }*/
                 if (this.ShieldState != ShieldState.Active)
                 {
                     yield return new Command_Action
@@ -234,17 +234,29 @@ namespace Polarisbloc_SecurityForce
 
         public override bool CheckPreAbsorbDamage(DamageInfo dinfo)
         {
-            if (dinfo.Def == DamageDefOf.SurgicalCut) return false;
+            if (dinfo.Def == DamageDefOf.SurgicalCut || dinfo.Def == DamageDefOf.ExecutionCut) return false;
+            if (dinfo.Def == DamageDefOf.EMP)
+            {
+                if (this.ShieldState == ShieldState.Resetting)
+                {
+                    this.Reset();
+                }
+                this.energy += dinfo.Amount * 0.002f;
+            }
+            if (!dinfo.Def.harmsHealth)
+            {
+                return false;
+            }
             if (dinfo.Instigator == base.Wearer)
             {
                 this.AbsorbedDamage(dinfo);
                 return true;
             }
-            if (!dinfo.Def.harmsHealth && dinfo.Def != DamageDefOf.EMP)
+            /*if (!dinfo.Def.harmsHealth && dinfo.Def != DamageDefOf.EMP)
             {
                 this.AbsorbedDamage(dinfo);
                 return true;
-            }
+            }*/
             if (this.ShieldState == ShieldState.Active)
             {
                 this.TryShotLightning(dinfo);
@@ -327,7 +339,7 @@ namespace Polarisbloc_SecurityForce
 				}
 				float angle = (float)Rand.Range(0, 360);
 				Vector3 s = new Vector3(num, 1f, num);
-				Matrix4x4 matrix = default(Matrix4x4);
+				Matrix4x4 matrix = default;
 				matrix.SetTRS(vector, Quaternion.AngleAxis(angle, Vector3.up), s);
 				Graphics.DrawMesh(MeshPool.plane10, matrix, PolarisShieldBelt_IV.BubbleMat, 0);
 			}

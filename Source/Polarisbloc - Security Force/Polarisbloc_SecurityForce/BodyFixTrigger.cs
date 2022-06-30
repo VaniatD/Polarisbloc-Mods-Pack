@@ -51,11 +51,11 @@ namespace Polarisbloc_SecurityForce
                     this.Wearer.health.AddHediff(HediffDef.Named("BionicLeg"), leg, null);
                 }
                 
-                if (this.Wearer.health.hediffSet.hediffs.Find(x => x.TryGetComp<HediffComp_Cartridge>() != null) == null)
+                /*if (this.Wearer.health.hediffSet.hediffs.Find(x => x.TryGetComp<HediffComp_Cartridge>() != null) == null)
                 {
                     Hediff hediff = HediffMaker.MakeHediff(PolarisblocDefOf.Hediff_PloarisCartridge, this.Wearer, null);
                     this.Wearer.health.AddHediff(hediff);
-                }
+                }*/
                 CombatEnhancingDrugsApply(this.Wearer);
                 foreach (Apparel ap in this.Wearer.apparel.WornApparel)
                 {

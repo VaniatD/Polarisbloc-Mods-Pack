@@ -36,6 +36,12 @@ namespace Polarisbloc
                 {
                     this.Pawn.health.RemoveHediff(combatChip);
                     this.Pawn.health.AddHediff(PolarisblocDefOf.PolarisCombatChip_Assassin, this.Pawn.health.hediffSet.GetBrain());
+                    HediffComp_ToggleHediff toggleComp = this.Pawn.health.hediffSet.GetFirstHediffOfDef(PolarisblocDefOf.PolarisCombatChip_Assassin).TryGetComp<HediffComp_ToggleHediff>();
+                    if (toggleComp != null)
+                    {
+                        toggleComp.toggle = true;
+                        toggleComp.CauseDestHediff(this.Pawn);
+                    }
                 }
                 Apparel ap = this.HediffApparel.wornApparel;
                 if (ap != null)

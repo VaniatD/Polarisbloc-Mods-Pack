@@ -295,6 +295,24 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
   </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>Polarisbloc</tab>
+    <defName>PolarisShield</defName>
+    <label>polaris shield tech</label>
+    <description>Learn how to craft polaris - II shield belt.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>PolarisSpecialDevice</li>
+      <li>ShieldBelt</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>3.75</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
   <!--cant research-->
   <ResearchProjectDef>
     <tab>Polarisbloc</tab>
