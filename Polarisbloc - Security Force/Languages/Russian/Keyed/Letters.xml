@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MessageFailToUnscrambleMemoryStick>{0} не удалось расшифровать карту памяти.</MessageFailToUnscrambleMemoryStick>
+  <LetterLabelPolarisblocConsolationPrize>Утешительный приз</LetterLabelPolarisblocConsolationPrize>
+  <PolarisblocConsolationPrize>Поздравляем! Вы получили утешительный приз от нашей компании. Просим будьте более упорными!\n\n---- Polarisbloc.</PolarisblocConsolationPrize>
+  <LetterLabelPolarisblocSurprised>Удивленный!</LetterLabelPolarisblocSurprised>
+  <PolarisblocSurprised>Поздравляем! Вы получили роскошный подарок от нашей компании, один из неизмеримых памятников 666-й годовщины. Спасибо за Вашу поддержку!\n\n----Polarisbloc.</PolarisblocSurprised>
+  <LetterLabelPolarisblocGetDropSupply>Прибыл воздушный груз</LetterLabelPolarisblocGetDropSupply>
+  <PolarisblocGetDropSupply>Благодарим вас за использование воздушного груза Polarisbloc. Это ваши материалы: наборы экипировки солдат. Пожалуйста, проверьте их.</PolarisblocGetDropSupply>
+  <PlrsNoEnoughEnergyToDoExplosion>У него недостаточно энергии, чтобы взорваться!</PlrsNoEnoughEnergyToDoExplosion>
+  <PlrsDoExplosionLabel>Взрыв!</PlrsDoExplosionLabel>
+  <PlrsDoExplosionDESC>Вы можете заплатить 50 энергии, чтобы произвести взрыв вокруг вас. Не беспокойтесь, это не повредит вам.</PlrsDoExplosionDESC>
+
+</LanguageData>

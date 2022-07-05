@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PolarisDropSupplyBeacon.label>маяк воздушного груза полярис</PolarisDropSupplyBeacon.label>
+  <PolarisDropSupplyBeacon.description>Он подключит ближайший орбитальный корабль polarisbloc , когда вы его активируете. И корабль даст вам полное снаряжение солдата в силах безопасности.</PolarisDropSupplyBeacon.description>
+  <PolarisDropSupplyBeacon.comps.1.useLabel>запросить воздушный груз</PolarisDropSupplyBeacon.comps.1.useLabel>
+
+
+</LanguageData>

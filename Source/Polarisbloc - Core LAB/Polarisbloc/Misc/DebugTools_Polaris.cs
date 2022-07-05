@@ -5,6 +5,8 @@ using System.Text;
 using Verse;
 using RimWorld;
 using UnityEngine;
+using Verse.AI;
+using Verse.AI.Group;
 
 namespace Polarisbloc
 {
@@ -84,7 +86,7 @@ namespace Polarisbloc
             }
         }
 
-        [DebugAction("Polaris Tools", "Add Weapon Trait", true, false, actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        [DebugAction("Polaris Tools", "Add Weapon Trait", true, false, actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap, requiresRoyalty = true)]
         private static void AddWeaponTrait()
         {
             foreach (Thing thing in Find.CurrentMap.thingGrid.ThingsAt(UI.MouseCell()).ToList<Thing>())
@@ -110,7 +112,7 @@ namespace Polarisbloc
             }
         }
 
-        [DebugAction("Polaris Tools", "Remove Weapon Trait", true, false, actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        [DebugAction("Polaris Tools", "Remove Weapon Trait", true, false, actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap, requiresRoyalty = true)]
         private static void RemoveWeaponTrait()
         {
             foreach (Thing thing in Find.CurrentMap.thingGrid.ThingsAt(UI.MouseCell()).ToList<Thing>())
@@ -135,7 +137,7 @@ namespace Polarisbloc
             }
         }
 
-        [DebugAction("Polaris Tools", "Done Abilities Cooldown", actionType = DebugActionType.ToolMapForPawns, allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        [DebugAction("Polaris Tools", "Done Abilities Cooldown", actionType = DebugActionType.ToolMapForPawns, allowedGameStates = AllowedGameStates.PlayingOnMap, requiresRoyalty = true)]
         private static void DoneAbilitiesCooldown(Pawn pawn)
         {
             foreach (Ability ability in pawn.abilities.abilities)
@@ -148,7 +150,7 @@ namespace Polarisbloc
         }
 
 
-        [DebugAction("Polaris Tools", "Remove Ability...", actionType = DebugActionType.ToolMapForPawns, allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        [DebugAction("Polaris Tools", "Remove Ability...", actionType = DebugActionType.ToolMapForPawns, allowedGameStates = AllowedGameStates.PlayingOnMap, requiresRoyalty = true)]
         private static void RemoveAbility(Pawn pawn)
         {
             List<DebugMenuOption> list = new List<DebugMenuOption>();
@@ -253,5 +255,17 @@ namespace Polarisbloc
 
             Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
         }
+
+        [DebugAction("Polaris Tools", "Force suppress", false, false, actionType = DebugActionType.ToolMapForPawns, allowedGameStates = AllowedGameStates.PlayingOnMap, requiresIdeology = true)]
+        private static void ForceSuppress(Pawn slave)
+        {
+            slave.GetLord().Notify_PawnLost(slave, PawnLostCondition.MadeSlave);
+            slave.Notify_LordDestroyed();
+            //slave.guest.SetGuestStatus(Faction.OfPlayer, GuestStatus.Slave);
+            //GenGuest.EnslavePrisoner(this.Pawn.Map.mapPawns.FreeColonists.RandomElement(), this.Pawn);
+            slave.needs.TryGetNeed<Need_Suppression>().CurLevelPercentage = 1;
+            DebugActionsUtility.DustPuffFrom(slave);
+        }
+
     }
 }

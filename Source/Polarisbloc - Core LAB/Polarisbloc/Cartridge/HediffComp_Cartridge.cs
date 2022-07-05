@@ -53,11 +53,12 @@ namespace Polarisbloc
                 }
                 if (!this.Pawn.Faction.IsPlayer)
                 {
-                    List<Lord> lords = base.Pawn.Map.lordManager.lords;
+                    /*List<Lord> lords = base.Pawn.Map.lordManager.lords;
                     foreach (Lord lord in lords)
                     {
                         lord.RemovePawn(this.Pawn);
-                    }
+                    }*/
+                    this.Pawn.GetLord()?.Notify_PawnLost(this.Pawn, PawnLostCondition.InMentalState);
                     this.Pawn.mindState.exitMapAfterTick = Find.TickManager.TicksGame + 150;
                     IntVec3 invalid = IntVec3.Invalid;
                     if (!RCellFinder.TryFindRandomCellOutsideColonyNearTheCenterOfTheMap(this.Pawn.Position, this.Pawn.Map, 10f, out invalid))

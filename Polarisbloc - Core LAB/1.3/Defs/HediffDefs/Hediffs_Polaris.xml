@@ -134,9 +134,12 @@
     <stages>
       <li>
         <statOffsets>
-          <Flammability>-1</Flammability>
           <ComfyTemperatureMin>-20</ComfyTemperatureMin>
         </statOffsets>
+        <statFactors>
+          <!--<SlaveSuppressionFallRate>0</SlaveSuppressionFallRate>-->
+          <Flammability>0</Flammability>
+        </statFactors>
       </li>
     </stages>
     <spawnThingOnRemoved>PolarisPsionwire</spawnThingOnRemoved>

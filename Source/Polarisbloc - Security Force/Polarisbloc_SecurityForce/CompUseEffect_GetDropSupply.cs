@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using RimWorld;
 using Verse;
+using UnityEngine;
 
 namespace Polarisbloc_SecurityForce
 {
@@ -144,7 +145,72 @@ namespace Polarisbloc_SecurityForce
             {
                 GenPlace.TryPlaceThing(thing, usedBy.PositionHeld, usedBy.MapHeld, ThingPlaceMode.Near);
             }
+            bool spawnGundam = false;
+            if (this.captain)
+            {
+                if (Rand.Chance(0.1f))
+                {
+                    spawnGundam = true;
+                }
+            }
+            else
+            {
+                if (Rand.Chance(0.03f))
+                {
+                    spawnGundam = true;
+                }
+            }
+            if (spawnGundam)
+            {
+                Thing gundamSculpture = ThingMaker.MakeThing(PSFDefOf.PolarisBunnyGundamSculpture, ThingDefOf.Gold);
+                gundamSculpture.TryGetComp<CompQuality>()?.SetQuality(QualityCategory.Legendary, ArtGenerationContext.Outsider);
+                MinifiedThing miniGundam = gundamSculpture.MakeMinified();
+                GenPlace.TryPlaceThing(miniGundam, usedBy.PositionHeld, usedBy.MapHeld, ThingPlaceMode.Near);
+            }
+            this.GenPlaceOtherRewards(usedBy);
             return;
+        }
+
+        private void GenPlaceOtherRewards(Pawn usedBy)
+        {
+            int amountValue = Rand.Range(800, 1500);
+            List<Thing> otherRewards = new List<Thing>();
+            while(amountValue > 0)
+            {
+                Thing item = this.TrySpawnRandomReward(amountValue);
+                otherRewards.Add(item);
+                amountValue -= Mathf.RoundToInt(item.MarketValue * item.stackCount);
+            }
+            foreach (Thing item in otherRewards)
+            {
+                GenPlace.TryPlaceThing(item, usedBy.PositionHeld, usedBy.MapHeld, ThingPlaceMode.Near);
+            }
+        }
+
+
+
+        private Thing TrySpawnRandomReward(int amountValue)
+        {
+            IEnumerable<ThingDef> rewardThingDefs = from x in DefDatabase<ThingDef>.AllDefs
+                                                    where x.thingSetMakerTags != null && x.BaseMarketValue >= 50 && x.recipeMaker == null
+                                                    select x;
+            rewardThingDefs.TryRandomElementByWeight((ThingDef x) => x.generateCommonality, out ThingDef randomRewardThingDef);
+            ThingDef stuff = GenStuff.RandomStuffFor(randomRewardThingDef);
+            Thing rewardThing = ThingMaker.MakeThing(randomRewardThingDef, stuff);
+            rewardThing.TryGetComp<CompQuality>()?.SetQuality(QualityUtility.GenerateQualityReward(), ArtGenerationContext.Colony);
+            if (rewardThing.def.Minifiable)
+            {
+                rewardThing = rewardThing.MakeMinified();
+            }
+            rewardThing.stackCount = 1;
+            if (rewardThing.def.stackLimit > 1)
+            {
+                if (rewardThing.MarketValue < amountValue)
+                {
+                    rewardThing.stackCount = Mathf.CeilToInt(amountValue / rewardThing.MarketValue);
+                }
+            }
+            return rewardThing;
         }
     }
 }

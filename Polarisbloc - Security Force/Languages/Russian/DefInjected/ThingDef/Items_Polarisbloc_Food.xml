@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Polarisbloc_EmergencyFood.label>аварийная еда</Polarisbloc_EmergencyFood.label>
+  <Polarisbloc_EmergencyFood.description>Пища, которая может быстро восстанавливать физическую энергию в любой среде, добавляя компоненты анти-усталости, может эффективно повысить устойчивость пожиранию.</Polarisbloc_EmergencyFood.description>
+  <Polarisbloc_EmergencyFood.ingestible.ingestCommandString>пить {0}</Polarisbloc_EmergencyFood.ingestible.ingestCommandString>
+  <Polarisbloc_EmergencyFood.ingestible.ingestReportString>пьёт {0}.</Polarisbloc_EmergencyFood.ingestible.ingestReportString>
+
+
+</LanguageData>

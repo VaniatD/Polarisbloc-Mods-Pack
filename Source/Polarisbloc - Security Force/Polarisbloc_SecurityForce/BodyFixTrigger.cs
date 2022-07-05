@@ -37,6 +37,14 @@ namespace Polarisbloc_SecurityForce
             {
                 if (ModLister.GetActiveModWithIdentifier("Vanya.Polarisbloc.CoreLab") != null)
                 {
+                    if (!this.Wearer.health.hediffSet.GetHediffs<Hediff_CombatChip>().EnumerableNullOrEmpty())
+                    {
+                        List<Hediff_CombatChip> chips = this.Wearer.health.hediffSet.GetHediffs<Hediff_CombatChip>().ToList();
+                        foreach (Hediff_CombatChip chip in chips)
+                        {
+                            this.Wearer.health.RemoveHediff(chip);
+                        }
+                    }
                     this.Wearer.health.AddHediff(HediffDef.Named("PolarisCombatChip_Currency"), this.Wearer.health.hediffSet.GetBrain(), null);
                 }
                     

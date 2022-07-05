@@ -37,7 +37,9 @@
       <li>ITab_Art</li>
     </inspectorTabs>
     <comps>
-      <!--<li><compClass>CompQuality</compClass></li>-->
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
       <li Class="CompProperties_Art">
         <nameMaker>NamerArtSculpture</nameMaker>
         <descriptionMaker>ArtDescription_Sculpture</descriptionMaker>

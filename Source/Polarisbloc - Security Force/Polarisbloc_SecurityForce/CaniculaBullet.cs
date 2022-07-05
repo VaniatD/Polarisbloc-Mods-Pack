@@ -21,16 +21,14 @@ namespace Polarisbloc_SecurityForce
             {
                 DamageInfo dinfo = new DamageInfo(this.def.projectile.damageDef, (float)base.DamageAmount, base.ArmorPenetration, this.ExactRotation.eulerAngles.y, this.launcher, null, this.equipmentDef, DamageInfo.SourceCategory.ThingOrUnknown, this.intendedTarget.Thing);
                 Pawn pawn = hitThing as Pawn;
-                
+
+                dinfo.SetIgnoreInstantKillProtection(true);
+                dinfo.SetIgnoreArmor(true);
                 if (pawn != null)
                 {
                     if (pawn.RaceProps.FleshType == FleshTypeDefOf.Insectoid)
                     {
                         dinfo.SetAmount(dinfo.Amount * 6);
-                    }
-                    else
-                    {
-                        dinfo.SetAmount(dinfo.Amount * 2);
                     }
                     if (this.def.projectile.speed >= 150 && Rand.Chance(0.25f))
                     {

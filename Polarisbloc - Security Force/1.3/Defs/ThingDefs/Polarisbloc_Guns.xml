@@ -75,9 +75,9 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>5</damageAmountBase>
+      <damageAmountBase>8</damageAmountBase>
       <speed>105</speed>
-      <armorPenetrationBase>0.8</armorPenetrationBase>
+      <armorPenetrationBase>0.52</armorPenetrationBase>
       <stoppingPower>0.9</stoppingPower>
     </projectile>
   </ThingDef>
@@ -95,7 +95,7 @@
       <AccuracyShort>0.83</AccuracyShort>
       <AccuracyMedium>0.68</AccuracyMedium>
       <AccuracyLong>0.53</AccuracyLong>
-      <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.72</RangedWeapon_Cooldown>
       <MarketValue>1400</MarketValue>
       <Flammability>0.4</Flammability>
     </statBases>
@@ -109,7 +109,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_CaniculaRifle</defaultProjectile>
-        <warmupTime>2</warmupTime>
+        <warmupTime>2.2</warmupTime>
         <range>33.4</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <burstShotCount>4</burstShotCount>
@@ -151,9 +151,9 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>10</damageAmountBase>
+      <damageAmountBase>16</damageAmountBase>
       <speed>190</speed>
-      <armorPenetrationBase>1.20</armorPenetrationBase>
+      <armorPenetrationBase>0.9</armorPenetrationBase>
       <stoppingPower>2</stoppingPower>
     </projectile>
   </ThingDef>
@@ -171,7 +171,7 @@
       <AccuracyShort>0.8</AccuracyShort>
       <AccuracyMedium>0.92</AccuracyMedium>
       <AccuracyLong>0.88</AccuracyLong>
-      <RangedWeapon_Cooldown>1.17</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
       <MarketValue>1800</MarketValue>
       <Flammability>0.4</Flammability>
     </statBases>
@@ -185,7 +185,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_CaniculaSniper</defaultProjectile>
-        <warmupTime>4.2</warmupTime>
+        <warmupTime>4.45</warmupTime>
         <range>47.7</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>ChargeLance_Fire</soundCast>

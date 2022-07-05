@@ -89,8 +89,29 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>PolarisOrbitalTraderCaller</thingDef>
         <countRange>
-          <min>1</min>
-          <max>1</max>
+          <min>0</min>
+          <max>4</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef" MayRequire="Ludeon.RimWorld.Ideology">
+        <thingDef>PolarisIdeoCode</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>2</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef" MayRequire="Ludeon.RimWorld.Ideology">
+        <thingDef>PolarisIdeoCode</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>2</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef" MayRequire="Ludeon.RimWorld.Ideology">
+        <thingDef>PolarisIdeoCode</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>2</max>
         </countRange>
       </li>
       <!--vanilla-->
@@ -277,27 +298,6 @@
         <thingDef>PolarisMechSerumTraitreleaser</thingDef>
         <countRange>
           <min>-1</min>
-          <max>1</max>
-        </countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>PolarisOrbitalTraderCaller</thingDef>
-        <countRange>
-          <min>0</min>
-          <max>1</max>
-        </countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>PolarisOrbitalTraderCaller</thingDef>
-        <countRange>
-          <min>0</min>
-          <max>1</max>
-        </countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>PolarisOrbitalTraderCaller</thingDef>
-        <countRange>
-          <min>-2</min>
           <max>1</max>
         </countRange>
       </li>

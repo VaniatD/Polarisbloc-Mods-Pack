@@ -73,6 +73,19 @@
   <!-- EN: Drinking {0}. -->
   <PolarisHealingPotion.ingestible.ingestReportString>正在饮用{0}。</PolarisHealingPotion.ingestible.ingestReportString>
   
+  <!-- EN: ideo code mech serum -->
+  <PolarisIdeoCode.label>法典</PolarisIdeoCode.label>
+  <!-- EN: A one-use super-dose of mechanites tuned to convert ideo certainty. People could write their ideo's information in the code. When someone used it, if user's ideo as same as in code, their ideo certainty will be offset, else will be reduce. -->
+  <PolarisIdeoCode.description>调整为影响使用者文化认可度的一次性超级药剂纳米机器人。可以将自己文化的信息写入法典，当其他人使用时，如果文化与法典相同则提高认可度，若不同则降低认可度。</PolarisIdeoCode.description>
+  <!-- EN: Successed to inject {0}'s imformation to ideo code. -->
+  <PolarisIdeoCode.comps.CompIdeoCode.injectCompletedMessage>成功写入 {0} 文化数据。</PolarisIdeoCode.comps.CompIdeoCode.injectCompletedMessage>
+  <!-- EN: inject {0} -->
+  <PolarisIdeoCode.comps.CompIdeoCode.injectIdeoOptionText>写入 {0}</PolarisIdeoCode.comps.CompIdeoCode.injectIdeoOptionText>
+  <!-- EN: writable -->
+  <PolarisIdeoCode.comps.CompIdeoCode.nullIdeoLabel>空白</PolarisIdeoCode.comps.CompIdeoCode.nullIdeoLabel>
+  <!-- EN: Use {0} -->
+  <PolarisIdeoCode.comps.CompIdeoCode.useLabel>使用 {0}</PolarisIdeoCode.comps.CompIdeoCode.useLabel>
+  
   <!-- EN: traitreleaser -->
   <PolarisMechSerumTraitreleaser.label>特性释放器</PolarisMechSerumTraitreleaser.label>
   <!-- EN: A one-use super-dose of mechanites tuned to gain a specific trait. The subject choose to get the recorded trait or remove a trait from them. By removing a trait, the mechanites will record it and replace the pre-existing trait. However, this feature is only feasible 3 times. -->

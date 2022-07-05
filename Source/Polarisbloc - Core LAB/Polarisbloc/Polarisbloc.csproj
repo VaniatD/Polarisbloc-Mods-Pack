@@ -73,12 +73,13 @@
     <Compile Include="CombatChip\HediffComp_ResetChip.cs" />
     <Compile Include="CombatChip\HediffComp_ToggleHediff.cs" />
     <Compile Include="CombatChip\TexCombatChip.cs" />
+    <Compile Include="IdeoCode\CompIdeoCode.cs" />
+    <Compile Include="IdeoCode\CompUseEffect_UseIdeoCode.cs" />
     <Compile Include="Misc\DebugTools_Polaris.cs" />
     <Compile Include="Decoder\CompTargetable_BiocodableWeapon.cs" />
     <Compile Include="Decoder\CompTargetEffect_Recode.cs" />
     <Compile Include="Decoder\CompUseEffect_SkillRequirementCheck.cs" />
     <Compile Include="Decoder\JobDriver_Decode.cs" />
-    <Compile Include="CombatChip\HediffComp_Convert.cs" />
     <Compile Include="Medicines\Gas_HealingGas.cs" />
     <Compile Include="Decoder\ModExtension_DecoderConfigcs.cs" />
     <Compile Include="Misc\StartUpDefPatch.cs" />

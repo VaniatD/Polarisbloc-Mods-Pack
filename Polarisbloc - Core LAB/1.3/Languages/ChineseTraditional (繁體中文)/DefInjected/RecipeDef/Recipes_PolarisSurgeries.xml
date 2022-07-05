@@ -29,9 +29,16 @@
   <!-- EN: making cartridge. -->
   <MakePolarisCartridgeSurgery.jobString>正在製作彈藥包。</MakePolarisCartridgeSurgery.jobString>
   
+  <!-- EN: administer ideo code mech serum -->
+  <PolarisAdministerMechSerumIdeoCode.label>施用文化法典</PolarisAdministerMechSerumIdeoCode.label>
+  <!-- EN: Administer a ideo code mech serum. -->
+  <PolarisAdministerMechSerumIdeoCode.description>施用文化法典。</PolarisAdministerMechSerumIdeoCode.description>
+  <!-- EN: Administering ideo code mech serum. -->
+  <PolarisAdministerMechSerumIdeoCode.jobString>正在施用文化法典。</PolarisAdministerMechSerumIdeoCode.jobString>
+  
   <!-- EN: administer traitreleaser mech serum -->
   <PolarisAdministerMechSerumTraitreleaser.label>施用特性釋放器</PolarisAdministerMechSerumTraitreleaser.label>
-  <!-- EN: Administer a healer mech serum. -->
+  <!-- EN: Administer a traitreleaser mech serum. -->
   <PolarisAdministerMechSerumTraitreleaser.description>施用特性釋放器。</PolarisAdministerMechSerumTraitreleaser.description>
   <!-- EN: Administering traitreleaser mech serum. -->
   <PolarisAdministerMechSerumTraitreleaser.jobString>正在施用特性釋放器。</PolarisAdministerMechSerumTraitreleaser.jobString>

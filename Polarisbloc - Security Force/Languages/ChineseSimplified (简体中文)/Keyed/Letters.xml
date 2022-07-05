@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: {0} has failed to unscramble memory stick. -->
+  <MessageFailToUnscrambleMemoryStick>{0}解读记忆棒失败！</MessageFailToUnscrambleMemoryStick>
+  <!-- EN: Consolation prize -->
+  <LetterLabelPolarisblocConsolationPrize>安慰奖</LetterLabelPolarisblocConsolationPrize>
+  <!-- EN: Congratulations！ You have received a consolation prize from our company. Please make persistent efforts!\n\n- - - -Polarisbloc. -->
+  <PolarisblocConsolationPrize>恭喜！您获得了本公司送出的一份安慰奖，请再接再厉！\n\n——天轴集团</PolarisblocConsolationPrize>
+  <!-- EN: Surprised! -->
+  <LetterLabelPolarisblocSurprised>惊喜!</LetterLabelPolarisblocSurprised>
+  <!-- EN: Congratulations！ You have received a luxurious gift from our company, one of the immeasurable 666th anniversary commemorative sculptures. Thank you for your support!\n\n- - - -Polarisbloc. -->
+  <PolarisblocSurprised>恭喜！您获得了本公司准备的豪华大礼！价值不可估量的666周年豪华限定款纪念雕塑！感谢您的支持！\n\n——天轴集团</PolarisblocSurprised>
+  <!--<LetterLabelPolarisblocGetDropSupply>Drop supplies arrived</LetterLabelPolarisblocGetDropSupply>-->
+  <!--<PolarisblocGetDropSupply>Thank you for using Polarisbloc's orbiter airdrop service.This is your supplies about a set of equipments of soldiers. Please check it.</PolarisblocGetDropSupply>-->
+  <!-- EN: It has no enough energy to do an explosion! -->
+  <PlrsNoEnoughEnergyToDoExplosion>没有足够的能量来制造爆炸！</PlrsNoEnoughEnergyToDoExplosion>
+  <!-- EN: explosion! -->
+  <PlrsDoExplosionLabel>爆炸！</PlrsDoExplosionLabel>
+  <!-- EN: You can pay 50 energy to do an explosion around you.Don't worry,it won't hurt yourself. -->
+  <PlrsDoExplosionDESC>你可以消耗50点能量在周围制造小规模的爆炸，别担心，这不会伤到你自己。</PlrsDoExplosionDESC>
+  <!-- EN: Lightning! -->
+  <PlrsLightningActiveLabel>闪电！</PlrsLightningActiveLabel>
+  <!-- EN: When you active it,a lightning will strike  back to the damage instigator. -->
+  <PlrsLightningActiveDESC>激活时，会对伤害来源进行一次闪电反击。</PlrsLightningActiveDESC>
+  <!-- EN: Absorbed -->
+  <PlrsTextMote_Absorbed>吸收</PlrsTextMote_Absorbed>
+  <!-- EN: Planed to remove -->
+  <PolarisPlannedToRemove>计划移除</PolarisPlannedToRemove>
+</LanguageData>

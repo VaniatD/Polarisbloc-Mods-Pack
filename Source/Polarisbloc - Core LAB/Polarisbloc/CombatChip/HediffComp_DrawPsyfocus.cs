@@ -203,6 +203,14 @@ namespace Polarisbloc
                     toggleAction = delegate
                     {
                         this.isActive = !this.isActive;
+                        if (this.isActive)
+                        {
+                            this.TryOutPsyfocus(this.Pawn);
+                        }
+                        else
+                        {
+                            this.TrySavePsyfocus(this.Pawn);
+                        }
                     }
                 };
             }

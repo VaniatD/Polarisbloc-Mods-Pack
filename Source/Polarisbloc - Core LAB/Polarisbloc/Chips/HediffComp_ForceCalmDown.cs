@@ -5,6 +5,7 @@ using System.Text;
 using RimWorld;
 using Verse;
 using Verse.AI;
+using Verse.AI.Group;
 
 namespace Polarisbloc
 {
@@ -56,7 +57,6 @@ namespace Polarisbloc
                 };
                 yield return command_Action;
             }
-            yield break;
         }
 
         private void ForceCalmDown()

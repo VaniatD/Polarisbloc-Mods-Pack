@@ -34,7 +34,7 @@
         <value>
           <techprintCount>1</techprintCount>
           <techprintCommonality>0.2</techprintCommonality>
-          <techprintMarketValue>1880</techprintMarketValue>
+          <techprintMarketValue>2380</techprintMarketValue>
           <heldByFactionCategoryTags>
             <li>Outlander</li>
           </heldByFactionCategoryTags>
@@ -45,7 +45,18 @@
         <value>
           <techprintCount>1</techprintCount>
           <techprintCommonality>0.3</techprintCommonality>
-          <techprintMarketValue>2380</techprintMarketValue>
+          <techprintMarketValue>2880</techprintMarketValue>
+          <heldByFactionCategoryTags>
+            <li>Outlander</li>
+          </heldByFactionCategoryTags>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName = "PolarisIdeoCodeProduction"]</xpath>
+        <value>
+          <techprintCount>1</techprintCount>
+          <techprintCommonality>0.3</techprintCommonality>
+          <techprintMarketValue>1180</techprintMarketValue>
           <heldByFactionCategoryTags>
             <li>Outlander</li>
           </heldByFactionCategoryTags>

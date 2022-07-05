@@ -238,8 +238,8 @@
       <li>PolarisSpecialDevice</li>
       <li>AirConditioning</li>
     </prerequisites>
-    <researchViewX>2</researchViewX>
-    <researchViewY>3</researchViewY>
+    <researchViewX>3</researchViewX>
+    <researchViewY>3.75</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
   <ResearchProjectDef>
@@ -276,6 +276,31 @@
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>0.3</techprintCommonality>
+    <techprintMarketValue>1080</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Outlander</li>
+      <li>Empire</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+  <ResearchProjectDef MayRequire="Ludeon.RimWorld.Ideology">
+    <tab>Polarisbloc</tab>
+    <defName>PolarisIdeoCodeProduction</defName>
+    <label>ideo code production</label>
+    <description>Learn to product ideo code mech serum.A one-use super-dose of mechanites tuned to convert ideo certainty.\n\nYou could product traitreleaser on drug lab.</description>
+    <baseCost>1450</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>PolarisSpecialDevice</li>
+      <li>Cryptosleep</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>3.75</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <tab>Polarisbloc</tab>
@@ -307,7 +332,7 @@
       <li>ShieldBelt</li>
     </prerequisites>
     <researchViewX>2</researchViewX>
-    <researchViewY>3.75</researchViewY>
+    <researchViewY>3</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>

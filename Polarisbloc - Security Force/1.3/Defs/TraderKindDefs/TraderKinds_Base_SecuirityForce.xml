@@ -22,7 +22,7 @@
         <thingDef>PolarisOrbitalTraderCaller</thingDef>
         <countRange>
           <min>1</min>
-          <max>1</max>
+          <max>3</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -60,13 +60,6 @@
         <countRange>
           <min>1</min>
           <max>2</max>
-        </countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>PolarisCombatChipConverter</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>1</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -425,20 +418,6 @@
         <thingDef>PolarisMechSerumTraitreleaser</thingDef>
         <countRange>
           <min>-1</min>
-          <max>1</max>
-        </countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>PolarisOrbitalTraderCaller</thingDef>
-        <countRange>
-          <min>1</min>
-          <max>1</max>
-        </countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>PolarisCombatChipConverter</thingDef>
-        <countRange>
-          <min>1</min>
           <max>1</max>
         </countRange>
       </li>
