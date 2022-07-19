@@ -48,6 +48,13 @@
           <max>15</max>
         </countRange>
       </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisShieldMemoryStick</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
       <!--vanilla-->
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>

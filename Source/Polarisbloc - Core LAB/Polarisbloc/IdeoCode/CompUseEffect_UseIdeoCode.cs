@@ -40,6 +40,7 @@ namespace Polarisbloc
                 {
                     usedBy.ideo.IdeoConversionAttempt(oneEffect.IdeoCode.Props.certaintyOffset, oneEffect.IdeoCode.targetIdeo);
                 }
+                
                 oneEffect.parent.SplitOff(1).Destroy();
             }
         }

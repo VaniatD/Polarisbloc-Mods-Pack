@@ -223,4 +223,101 @@
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
   </ThingDef>
+  <!--nano repair haze-->
+  <GameConditionDef>
+    <defName>PolarisNanoRepairHaze</defName>
+    <conditionClass>Polarisbloc.GameCondition_NanoRepairHaze</conditionClass>
+    <label>repairer nano haze</label>
+    <description>The air is scattered with tiny nanomachines that automatically repair damaged objects.</description>
+    <endMessage>The nanomechanical haze has disappeared.</endMessage>
+    <letterText>The air is scattered with tiny nanomachines that automatically repair damaged objects.</letterText>
+    <letterDef>PositiveEvent</letterDef>
+    <canBePermanent>true</canBePermanent>
+  </GameConditionDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>PolarisNanoRepairHazeGenerator</defName>
+    <label>repairer nano haze generator</label>
+    <description>A device that generates special nanomachines. It creates nanobots that can self-proliferate and actively repair damaged objects nearby.</description>
+    <graphicData>
+      <texPath>Polarisbloc/Building/NanoRepairHazeGenerator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+      <shadowData>
+        <volume>(5.03,1.0,4.65)</volume>
+        <offset>(0,0,-0.25)</offset>
+      </shadowData>
+    </graphicData>
+    <size>(5,5)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <canOverlapZones>false</canOverlapZones>
+    <fillPercent>0.8</fillPercent>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild>12000</WorkToBuild>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <building>
+      <!--<soundAmbient>EMIDynamo_Ambience</soundAmbient>-->
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+      <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <comps>
+      <li Class="CompProperties_CausesGameCondition">
+        <conditionDef>PolarisNanoRepairHaze</conditionDef>
+        <worldRange>1</worldRange>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>9.9</explosiveRadius>
+        <explosiveDamageType>EMP</explosiveDamageType>
+        <explodeOnKilled>true</explodeOnKilled>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-16000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(105,204,204,0)</glowColor>
+      </li>
+    </comps>
+    <damageMultipliers>
+      <li>
+        <damageDef>Flame</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+    </damageMultipliers>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <drawerType>MapMeshOnly</drawerType>
+    <castEdgeShadows>True</castEdgeShadows>
+    <constructEffect>ConstructMetal</constructEffect>
+    <repairEffect>ConstructMetal</repairEffect>
+    <designationCategory>Misc</designationCategory>
+    <placeWorkers>
+      <li>Polarisbloc.PlaceWorker_OneInMap</li>
+    </placeWorkers>
+    <costList>
+      <TechprofSubpersonaCore>1</TechprofSubpersonaCore>
+      <ComponentSpacer>6</ComponentSpacer>
+      <Luciferium>25</Luciferium>
+      <Plasteel>150</Plasteel>
+    </costList>
+    <researchPrerequisites>
+      <li>PolarisNanoRepairHazeGenerator</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+  </ThingDef>
 </Defs>

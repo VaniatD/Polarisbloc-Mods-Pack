@@ -16,6 +16,11 @@
   <PolarisActiveCombatChipDesc>Click and select a mode of the chip you wish to convert into with these following options.</PolarisActiveCombatChipDesc>
   <PolarisActiveCombatChipLimit>Charging({0}).</PolarisActiveCombatChipLimit>
   <PolarisActiveCombatChipStartingUp>Starting...{0}</PolarisActiveCombatChipStartingUp>
+  <!--combat chip psycaster-->
+  <PolarisPsyChipLabel>psycaster</PolarisPsyChipLabel>
+  <PolarisPsyChipDesc>This combat chip could store psyfocus when you won't use abilities, and draw out psycocus when you need.\nIt could also convert few psyfocus every time you cast ablity.</PolarisPsyChipDesc>
+  <PolarisPsyChipActived>\n\nIn this way, the chip won't store psyfocus, and it will give back focus when you release ability if it has stored.</PolarisPsyChipActived>
+  <PolarisPsyChipNotActived>\n\nIn this way, the chip will store redundant psyfocus per hour.</PolarisPsyChipNotActived>
   <!--orbital trader caller-->
   <PolarisOrbitalTraderCouldNotArrival>There isn't enough room to call a new orbital ship.</PolarisOrbitalTraderCouldNotArrival>
   <!--heal old wounds-->
@@ -26,7 +31,8 @@
   <PolarisTraitreleaserEffectDESC>You can choose to get the recorded trait or remove a trait from the subject. By removing a trait, the mechanites will record it and replace the pre-existing trait.</PolarisTraitreleaserEffectDESC>
   <PolarisTraitreleaserAddTraitOption>Add {0}</PolarisTraitreleaserAddTraitOption>
   <PolarisTraitreleaserAlreadyHadTrait>already has</PolarisTraitreleaserAlreadyHadTrait>
-  <PolarisTraitreleaserHasNoEnoughSlots>not enough traits slots</PolarisTraitreleaserHasNoEnoughSlots>
+  <PolarisTraitreleaserHasConflictTraits>(removal:{0})</PolarisTraitreleaserHasConflictTraits>
+  <!--<PolarisTraitreleaserHasNoEnoughSlots>not enough traits slots</PolarisTraitreleaserHasNoEnoughSlots>-->
   <PolarisTraitreleaserRemoveTraitOption>Remove a trait (available times: {0})</PolarisTraitreleaserRemoveTraitOption>
   <PolarisTraitreleaserChoseRemoveTrait>Choose a trait to remove from the subject.</PolarisTraitreleaserChoseRemoveTrait>
   <PolarisTraitreleaserUsedRemovedTrait>{0} lost the trait: {1}.</PolarisTraitreleaserUsedRemovedTrait>
@@ -83,9 +89,12 @@
   <PlrsForceResetLabel>force reset</PlrsForceResetLabel>
   <PlrsForceResetDESC>Reset the shield status forcedly, this action will cost some hitpoints.</PlrsForceResetDESC>
   <PlrsNoEnoughHitPointsToReset>Has no enough hit points for reset.</PlrsNoEnoughHitPointsToReset>
-  <!--combat chip psycaster-->
-  <PolarisPsyChipLabel>psycaster</PolarisPsyChipLabel>
-  <PolarisPsyChipDesc>This combat chip could store psyfocus when you won't use abilities, and draw out psycocus when you need.\nIt could also convert few psyfocus every time you cast ablity.</PolarisPsyChipDesc>
-  <PolarisPsyChipActived>\n\nIn this way, the chip won't store psyfocus, and it will give back focus when you release ability if it has stored.</PolarisPsyChipActived>
-  <PolarisPsyChipNotActived>\n\nIn this way, the chip will store redundant psyfocus per hour.</PolarisPsyChipNotActived>
+  <PlrsShieldPsyModeLabel>psychic shield</PlrsShieldPsyModeLabel>
+  <PlrsShieldPsyModeDesc>If this mode actived, the shield belt will convert the damage to neural heat and give it to the wearer.</PlrsShieldPsyModeDesc>
+  <PlrsShieldPsyEntropyOverflow>This wearer has a neural heat limit, neural heat would overflow. Disable the neural heat limiter to active it.</PlrsShieldPsyEntropyOverflow>
+  <!--Thermostat-->
+  <PolarisThermostatEfficientModeLabel>Efficient mode</PolarisThermostatEfficientModeLabel>
+  <PolarisThermostatEfficientModeDesc>If active this mode, the power consumption and effection are fourfold.</PolarisThermostatEfficientModeDesc>
+  <!--placeworkers-->
+  <PolarisPlaceOnlyOneInMap>This building is only can be constructed on the map singlely.</PolarisPlaceOnlyOneInMap>
 </LanguageData>

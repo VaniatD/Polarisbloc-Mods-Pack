@@ -30,17 +30,29 @@ namespace Polarisbloc
 
 		private const int JitterDurationTicks = 8;
 
-		private int StartingTicksToReset = 1800;
+		private readonly int StartingTicksToReset = 1800;
 
-		private float EnergyOnReset = 0.2f;
+		private readonly float EnergyOnReset = 0.2f;
 
-		private float EnergyLossPerDamage = 0.03f;
+		private readonly float EnergyLossPerDamage = 0.03f;
 
-		private int KeepDisplayingTicks = 600;
+		private readonly int KeepDisplayingTicks = 600;
 
-		private float ApparelScorePerEnergyMax = 0.25f;
+		private readonly float ApparelScorePerEnergyMax = 0.25f;
 
 		private static readonly Material BubbleMat = MaterialPool.MatFrom("Polarisbloc/UI/PolarisShieldIIBubble", ShaderDatabase.Transparent);
+
+		private bool psyMode = false;
+
+		private readonly float entropyGainPerDamage = 2f;
+
+		private Pawn_PsychicEntropyTracker EntropyTracker
+        {
+			get
+            {
+				return this.Wearer.psychicEntropy;
+            }
+        }
 
 		private float EnergyMax
 		{
@@ -102,36 +114,57 @@ namespace Polarisbloc
 			Scribe_Values.Look<float>(ref this.energy, "energy", 0f, false);
 			Scribe_Values.Look<int>(ref this.ticksToReset, "ticksToReset", -1, false);
 			Scribe_Values.Look<int>(ref this.lastKeepDisplayTick, "lastKeepDisplayTick", 0, false);
+			Scribe_Values.Look<bool>(ref this.psyMode, "psyMode", false, false);
 		}
 
         public override IEnumerable<Gizmo> GetWornGizmos()
         {
             if (Find.Selector.SingleSelectedThing != base.Wearer)
                 yield break;
-            if (this.ShieldState != ShieldState.Active && this.Wearer.Drafted)
+			if (this.Wearer.Drafted)
             {
-                yield return new Command_Action
-                {
-                    action = delegate
-                    {
-                        if (this.CanForceActive)
-                        {
-							this.HitPoints -= 20;
-							this.Reset();
-                        }
-                        else
-                        {
-							Messages.Message("PlrsNoEnoughHitPointsToReset".Translate(), this.Wearer, MessageTypeDefOf.NegativeEvent);
+				if (this.ShieldState != ShieldState.Active)
+				{
+					yield return new Command_Action
+					{
+						action = delegate
+						{
+							if (this.CanForceActive)
+							{
+								this.HitPoints -= 20;
+								this.Reset();
+							}
+							else
+							{
+								Messages.Message("PlrsNoEnoughHitPointsToReset".Translate(), this.Wearer, MessageTypeDefOf.NegativeEvent);
+							}
+						},
+						defaultLabel = "PlrsForceResetLabel".Translate(),
+						defaultDesc = "PlrsForceResetDESC".Translate(),
+						disabled = !this.CanForceActive,
+						disabledReason = "PlrsNoEnoughHitPointsToReset".Translate(),
+						icon = TexCommand.DesirePower,
+						hotKey = KeyBindingDefOf.Misc7,
+					};
+				}
+				if (ModLister.RoyaltyInstalled && this.Wearer.health.hediffSet.HasHediff(HediffDefOf.PsychicAmplifier) && this.EntropyTracker.MaxEntropy > 0f)
+				{
+					yield return new Command_Toggle
+					{
+						defaultLabel = "PlrsShieldPsyModeLabel".Translate(),
+						defaultDesc = "PlrsShieldPsyModeDesc".Translate(),
+						icon = this.def.uiIcon,
+						hotKey = KeyBindingDefOf.Misc5,
+						isActive = () => this.psyMode,
+						disabled = (this.EntropyTracker.limitEntropyAmount && this.EntropyTracker.EntropyValue >= this.EntropyTracker.MaxEntropy),
+						disabledReason = "PlrsShieldPsyEntropyOverflow".Translate(),
+						toggleAction = delegate
+						{
+							this.PsyModeToggle();
 						}
-                    },
-                    defaultLabel = "PlrsForceResetLabel".Translate(),
-                    defaultDesc = "PlrsForceResetDESC".Translate(),
-					disabled = !this.CanForceActive,
-					disabledReason = "PlrsNoEnoughHitPointsToReset".Translate(),
-					icon = TexCommand.DesirePower,
-                    hotKey = KeyBindingDefOf.Misc7,
-                };
-            }
+					};
+				}
+			}
             yield return (Gizmo)new Gizmo_PolarisShield_IIStatus
             {
                 shield = this
@@ -191,6 +224,20 @@ namespace Polarisbloc
 				this.AbsorbedDamage(dinfo);
 				return true;
 			}
+			if (this.psyMode)
+            {
+				float entropyGain = (float)dinfo.Amount * this.entropyGainPerDamage;
+				if (this.EntropyTracker.WouldOverflowEntropy(entropyGain))
+                {
+					this.PsyModeToggle();
+                }
+				else
+                {
+					this.EntropyTracker.TryAddEntropy(entropyGain);
+					this.AbsorbedDamage(dinfo);
+					return true;
+				}
+            }
 			if (this.ShieldState == ShieldState.Active)
             {
 				this.energy -= (float)dinfo.Amount * this.EnergyLossPerDamage;
@@ -246,6 +293,16 @@ namespace Polarisbloc
 			}
 			this.ticksToReset = -1;
 			this.energy = this.EnergyOnReset;
+		}
+
+		private void PsyModeToggle()
+        {
+			if (base.Wearer.Spawned)
+			{
+				SoundDefOf.EnergyShield_Reset.PlayOneShot(new TargetInfo(base.Wearer.Position, base.Wearer.Map, false));
+				FleckMaker.ThrowLightningGlow(base.Wearer.TrueCenter(), base.Wearer.Map, 3f);
+			}
+			this.psyMode = !this.psyMode;
 		}
 
 		public override void DrawWornExtras()

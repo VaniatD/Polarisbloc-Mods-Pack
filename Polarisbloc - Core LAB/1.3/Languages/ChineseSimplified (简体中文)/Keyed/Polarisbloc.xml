@@ -30,6 +30,15 @@
   <PolarisActiveCombatChipLimit>充能中（{0}）</PolarisActiveCombatChipLimit>
   <!-- EN: Starting...{0} -->
   <PolarisActiveCombatChipStartingUp>正在激活...{0}</PolarisActiveCombatChipStartingUp>
+  <!--combat chip psycaster-->
+  <!-- EN: psycaster -->
+  <PolarisPsyChipLabel>灵质芯片</PolarisPsyChipLabel>
+  <!-- EN: This combat chip could store psyfocus when you won't use abilities, and draw out psycocus when you need.\nIt could also convert few psyfocus every time you cast ablity. -->
+  <PolarisPsyChipDesc>这种战术芯片可以在没有使用心灵能力的时候存储精神力，并且在释放技能的时候将存储的精神力提取出来。\n在释放心灵能力的时候也会将少量心灵熵转化为精神力。</PolarisPsyChipDesc>
+  <!-- EN: \n\nIn this way, the chip won't store psyfocus, and it will give back focus when you release ability if it has stored. -->
+  <PolarisPsyChipActived>\n\n当前不会存储精神力，它会在每次释放心灵能力的时候提取已存储的精神力。</PolarisPsyChipActived>
+  <!-- EN: \n\nIn this way, the chip will store redundant psyfocus per hour. -->
+  <PolarisPsyChipNotActived>\n\n当前会每小时将空余的精神力存储至芯片池。</PolarisPsyChipNotActived>
   <!--orbital trader caller-->
   <!-- EN: There isn't enough room to call a new orbital ship. -->
   <PolarisOrbitalTraderCouldNotArrival>附近的轨道没有足够的空间来容纳新的轨道商。</PolarisOrbitalTraderCouldNotArrival>
@@ -45,8 +54,9 @@
   <PolarisTraitreleaserAddTraitOption>获取{0}</PolarisTraitreleaserAddTraitOption>
   <!-- EN: already has -->
   <PolarisTraitreleaserAlreadyHadTrait>已拥有</PolarisTraitreleaserAlreadyHadTrait>
-  <!-- EN: not enough traits slots -->
-  <PolarisTraitreleaserHasNoEnoughSlots>没有足够槽位</PolarisTraitreleaserHasNoEnoughSlots>
+  <!-- EN: (removal:{0}) -->
+  <PolarisTraitreleaserHasConflictTraits>（将移除：{0}）</PolarisTraitreleaserHasConflictTraits>
+  <!--<PolarisTraitreleaserHasNoEnoughSlots>not enough traits slots</PolarisTraitreleaserHasNoEnoughSlots>-->
   <!-- EN: Remove a trait (available times: {0}) -->
   <PolarisTraitreleaserRemoveTraitOption>记录特性（ 可用次数：{0} ）</PolarisTraitreleaserRemoveTraitOption>
   <!-- EN: Choose a trait to remove from the subject. -->
@@ -149,13 +159,18 @@
   <PlrsForceResetDESC>消耗一些护盾耐久度强行激活护盾。</PlrsForceResetDESC>
   <!-- EN: Has no enough hit points for reset. -->
   <PlrsNoEnoughHitPointsToReset>没有足够的耐久度。</PlrsNoEnoughHitPointsToReset>
-  <!--combat chip psycaster-->
-  <!-- EN: psycaster -->
-  <PolarisPsyChipLabel>灵质芯片</PolarisPsyChipLabel>
-  <!-- EN: This combat chip could store psyfocus when you won't use abilities, and draw out psycocus when you need.\nIt could also convert few psyfocus every time you cast ablity. -->
-  <PolarisPsyChipDesc>这种战术芯片可以在没有使用心灵能力的时候存储精神力，并且在释放技能的时候将存储的精神力提取出来。\n在释放心灵能力的时候也会将少量心灵熵转化为精神力。</PolarisPsyChipDesc>
-  <!-- EN: \n\nIn this way, the chip won't store psyfocus, and it will give back focus when you release ability if it has stored. -->
-  <PolarisPsyChipActived>\n\n当前不会存储精神力，它会在每次释放心灵能力的时候提取已存储的精神力。</PolarisPsyChipActived>
-  <!-- EN: \n\nIn this way, the chip will store redundant psyfocus per hour. -->
-  <PolarisPsyChipNotActived>\n\n当前会每小时将空余的精神力存储至芯片池。</PolarisPsyChipNotActived>
+  <!-- EN: psychic shield -->
+  <PlrsShieldPsyModeLabel>心灵护盾</PlrsShieldPsyModeLabel>
+  <!-- EN: If this mode actived, the shield belt will convert the damage to neural heat and give it to the wearer. -->
+  <PlrsShieldPsyModeDesc>启用心灵护盾模式，护盾腰带会将伤害转化成心灵熵传递给穿戴者。</PlrsShieldPsyModeDesc>
+  <!-- EN: This wearer has a neural heat limit, neural heat would overflow. Disable the neural heat limiter to active it. -->
+  <PlrsShieldPsyEntropyOverflow>穿戴者的心灵熵限制开启，继续传递心灵熵会使其过载。解除心灵熵限制器能够继续启用心灵护盾模式。</PlrsShieldPsyEntropyOverflow>
+  <!--Thermostat-->
+  <!-- EN: Efficient mode -->
+  <PolarisThermostatEfficientModeLabel>高效模式</PolarisThermostatEfficientModeLabel>
+  <!-- EN: If active this mode, the power consumption and effection are fourfold. -->
+  <PolarisThermostatEfficientModeDesc>激活高效模式后，功率消耗和温控效率都以4倍计算。</PolarisThermostatEfficientModeDesc>
+  <!--placeworkers-->
+  <!-- EN: This building is only can be constructed on the map singlely. -->
+  <PolarisPlaceOnlyOneInMap>这个建筑在此地图上只能有一个。</PolarisPlaceOnlyOneInMap>
 </LanguageData>

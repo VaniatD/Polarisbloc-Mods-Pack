@@ -50,11 +50,11 @@ namespace Polarisbloc
             {
                 if (this.targetIdeo != null)
                 {
-                    this.CompColorable.SetColor(this.targetIdeo.Color);
+                    this.parent.SetColor(this.targetIdeo.Color);
                 }
                 else
                 {
-                    this.CompColorable.SetColor(Color.white);
+                    this.parent.SetColor(Color.white);
                 }
             }
             //Log.Message(this.targetIdeo.Color.ToString());

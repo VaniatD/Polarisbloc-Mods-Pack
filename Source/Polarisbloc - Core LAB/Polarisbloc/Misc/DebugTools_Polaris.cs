@@ -89,52 +89,35 @@ namespace Polarisbloc
         [DebugAction("Polaris Tools", "Add Weapon Trait", true, false, actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap, requiresRoyalty = true)]
         private static void AddWeaponTrait()
         {
-            foreach (Thing thing in Find.CurrentMap.thingGrid.ThingsAt(UI.MouseCell()).ToList<Thing>())
+            Thing weapon = Find.CurrentMap?.thingGrid.ThingsAt(UI.MouseCell()).FirstOrDefault((Thing x) => x.IsBladelinkWeapon(out _));
+            if (weapon != null)
             {
-                /*if (thing.IsBladelinkWeapon(out CompBladelinkWeapon compBladelink))
-                {
-                    List<DebugMenuOption> list = new List<DebugMenuOption>();
-                    foreach (WeaponTraitDef traitDef in DefDatabase<WeaponTraitDef>.AllDefs)
-                    {
-                        if (compBladelink.CanAddWeaponTrait(traitDef))
-                        {
-                            list.Add(new DebugMenuOption(traitDef.label, DebugMenuOptionMode.Action, delegate ()
-                            {
-                                compBladelink.AddWeaponTrait(traitDef);
-                            }));
-                        }
-
-                    }
-                    Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
-                }*/
+                PolarisUtility.ThingAddWeaponTrait(weapon);
+                DebugActionsUtility.DustPuffFrom(weapon);
+            }
+            
+            /*foreach (Thing thing in Find.CurrentMap.thingGrid.ThingsAt(UI.MouseCell()).ToList<Thing>())
+            {
                 PolarisUtility.ThingAddWeaponTrait(thing);
                 DebugActionsUtility.DustPuffFrom(thing);
-            }
+            }*/
         }
 
         [DebugAction("Polaris Tools", "Remove Weapon Trait", true, false, actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap, requiresRoyalty = true)]
         private static void RemoveWeaponTrait()
         {
-            foreach (Thing thing in Find.CurrentMap.thingGrid.ThingsAt(UI.MouseCell()).ToList<Thing>())
+            Thing weapon = Find.CurrentMap?.thingGrid.ThingsAt(UI.MouseCell()).FirstOrDefault((Thing x) => x.IsBladelinkWeapon(out _));
+            if (weapon != null)
             {
-                /*if (thing.IsBladelinkWeapon(out CompBladelinkWeapon compBladelink))
-                {
-                    List<WeaponTraitDef> curTraits = compBladelink.TraitsListForReading;
-                    List<DebugMenuOption> list = new List<DebugMenuOption>();
-                    foreach (WeaponTraitDef curTrait in curTraits)
-                    {
-                        list.Add(new DebugMenuOption(curTrait.label, DebugMenuOptionMode.Action, delegate ()
-                        {
-                            //curTraits.Remove(curTrait);
-                            //typeof(CompBladelinkWeapon).GetField("traits", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(compBladelink, curTraits);
-                            compBladelink.RemoveWeaponTrait(curTrait);
-                        }));
-                    }
-                    Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));
-                }*/
+                PolarisUtility.ThingRemoveWeaponTrait(weapon);
+                DebugActionsUtility.DustPuffFrom(weapon);
+            }
+            
+            /*foreach (Thing thing in Find.CurrentMap.thingGrid.ThingsAt(UI.MouseCell()).ToList<Thing>())
+            {
                 PolarisUtility.ThingRemoveWeaponTrait(thing);
                 DebugActionsUtility.DustPuffFrom(thing);
-            }
+            }*/
         }
 
         [DebugAction("Polaris Tools", "Done Abilities Cooldown", actionType = DebugActionType.ToolMapForPawns, allowedGameStates = AllowedGameStates.PlayingOnMap, requiresRoyalty = true)]

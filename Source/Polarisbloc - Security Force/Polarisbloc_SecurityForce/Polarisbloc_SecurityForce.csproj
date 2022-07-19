@@ -72,6 +72,7 @@
     <Compile Include="BodyFixTrigger.cs" />
     <Compile Include="CaniculaBullet.cs" />
     <Compile Include="CompUseEffect_FinishPSFShieldResearchProject.cs" />
+    <Compile Include="CompUseEffect_GenQuestInPoints.cs" />
     <Compile Include="CompUseEffect_GetDropSupply.cs" />
     <Compile Include="CygnusStandardArmor.cs" />
     <Compile Include="CygnusStandardTights.cs" />

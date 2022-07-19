@@ -73,6 +73,7 @@
     <Compile Include="CombatChip\HediffComp_ResetChip.cs" />
     <Compile Include="CombatChip\HediffComp_ToggleHediff.cs" />
     <Compile Include="CombatChip\TexCombatChip.cs" />
+    <Compile Include="Buildings\GameCondition_NanoRepairHaze.cs" />
     <Compile Include="IdeoCode\CompIdeoCode.cs" />
     <Compile Include="IdeoCode\CompUseEffect_UseIdeoCode.cs" />
     <Compile Include="Misc\DebugTools_Polaris.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Misc\StartUpDefPatch.cs" />
     <Compile Include="BladelinkWeaponAdjust\Recipe_AddWeaponTrait.cs" />
     <Compile Include="BladelinkWeaponAdjust\Recipe_RemoveWeaponTrait.cs" />
+    <Compile Include="Buildings\PlaceWorker_OneInMap.cs" />
     <Compile Include="Surgeries\Recipe_ExtractAbility.cs" />
     <Compile Include="Surgeries\Dialog_ChangeAge.cs" />
     <Compile Include="Medicines\HediffComp_ReceptorAntagonist.cs" />
@@ -135,7 +137,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_DetectChanges="False" BuildVersion_UpdateFileVersion="True" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_UseGlobalSettings="True" BuildVersion_StartDate="2000/1/1" BuildVersion_UseUniversalClock="True" />
+      <UserProperties BuildVersion_UseUniversalClock="True" BuildVersion_StartDate="2000/1/1" BuildVersion_UseGlobalSettings="True" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_UpdateFileVersion="True" BuildVersion_DetectChanges="False" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

@@ -32,7 +32,7 @@
   <PolarisHealingPotionProduction.description>學會如何製作強效治療藥水。</PolarisHealingPotionProduction.description>
   
   <!-- EN: ideo code production -->
-  <PolarisIdeoCodeProduction.label>理念法典製作</PolarisIdeoCodeProduction.label>
+  <PolarisIdeoCodeProduction.label>文化法典製作</PolarisIdeoCodeProduction.label>
   <!-- EN: Learn to product ideo code mech serum.A one-use super-dose of mechanites tuned to convert ideo certainty.\n\nYou could product traitreleaser on drug lab. -->
   <PolarisIdeoCodeProduction.description>學會製作文化法典，一種調整為影響使用者文化認可度的一次性機械液。\n\n*在藥物實驗台進行製作。</PolarisIdeoCodeProduction.description>
   
@@ -43,8 +43,13 @@
   
   <!-- EN: mending shelf -->
   <PolarisMendingShelf.label>修補架</PolarisMendingShelf.label>
-  <!-- EN: Learn to build a special shelf to mend some damaged items -->
+  <!-- EN: Learn to build a special shelf to mend some damaged items. -->
   <PolarisMendingShelf.description>學會建造一個能夠修理受損物品的特殊物品架。</PolarisMendingShelf.description>
+  
+  <!-- EN: repairer nano haze -->
+  <PolarisNanoRepairHazeGenerator.label>納米修復塵埃</PolarisNanoRepairHazeGenerator.label>
+  <!-- EN: A device that generates special nanomachines. It creates nanobots that can self-proliferate and actively repair damaged objects nearby. -->
+  <PolarisNanoRepairHazeGenerator.description>一個能產生特殊納米機械的裝置。它製造的納米機器人可以自我增殖並主動修復附近的受損物體。</PolarisNanoRepairHazeGenerator.description>
   
   <!-- EN: psionwire -->
   <PolarisPsionwire.label>靈能芯片</PolarisPsionwire.label>

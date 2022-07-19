@@ -327,6 +327,7 @@
         </targetParams>
       </li>
     </verbs>
+    <tradeability>Sellable</tradeability>
   </ThingDef>
   <!--medicines-->
   <ThingDef ParentName="PolarisDrugBase">

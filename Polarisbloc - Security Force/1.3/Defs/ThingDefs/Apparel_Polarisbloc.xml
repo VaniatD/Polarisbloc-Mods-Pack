@@ -208,7 +208,7 @@
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
       <ArmorRating_Heat>0.1</ArmorRating_Heat>
-      <Insulation_Cold>45</Insulation_Cold>
+      <Insulation_Cold>60</Insulation_Cold>
       <Insulation_Heat>25</Insulation_Heat>
       <Flammability>0.4</Flammability>
       <Beauty>6</Beauty>
@@ -227,6 +227,8 @@
         <li>Shoulders</li>
         <li>Arms</li>
         <li>Legs</li>
+        <li>Hands</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>PolarisblocSF/Apparel/CygnusStandardTights/CygnusStandardTights</wornGraphicPath>
       <layers>
@@ -238,6 +240,7 @@
       <tags>
         <li>PolarisSFApparel</li>
         <li>RoyalCombatGear</li>
+        <li>EVA</li>
       </tags>
     </apparel>
     <tickerType>Normal</tickerType>

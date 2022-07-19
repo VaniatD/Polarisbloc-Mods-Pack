@@ -461,6 +461,27 @@
           </li>
         </countChances>
       </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisShieldMemoryStick</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisShieldMemoryStick</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PolarisShieldMemoryStick</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>1</max>
+        </countRange>
+      </li>
       <!--buy-->
       <li Class="StockGenerator_BuyExpensiveSimple" />
       <li Class="StockGenerator_BuyTradeTag">

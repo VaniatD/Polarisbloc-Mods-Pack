@@ -69,9 +69,9 @@
     </apparel>
     <generateCommonality>0.6</generateCommonality>
     <costList>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Plasteel>50</Plasteel>
-      <Gold>8</Gold>
+      <Plasteel>40</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Shell_EMP>2</Shell_EMP>
     </costList>
     <thingSetMakerTags>
       <li>RewardStandardMidFreq</li>

@@ -44,6 +44,18 @@ namespace Polarisbloc
                 diaOptionAddTrait.disabled = true;
                 diaOptionAddTrait.disabledReason = "PolarisTraitreleaserAlreadyHadTrait".Translate();
             }
+            List<Trait> conflictPawnTraits = this.ConflictTraits(traits, trait);
+            if (!conflictPawnTraits.NullOrEmpty())
+            {
+                
+                string conflictTraitsString = string.Empty;
+                foreach (Trait item in conflictPawnTraits)
+                {
+                    conflictTraitsString += (" " + item.Label);
+                }
+                diaOptionAddTrait.SetText("PolarisTraitreleaserAddTraitOption".Translate(trait.LabelCap) + "PolarisTraitreleaserHasConflictTraits".Translate(conflictTraitsString));
+                //diaOptionAddTrait.disabledReason = "PolarisTraitreleaserHasConflictTraits".Translate(conflictTraitsString);
+            }
             diaNode.options.Add(diaOptionAddTrait);
 
             DiaOption diaOptionRemoveTrait = new DiaOption("PolarisTraitreleaserRemoveTraitOption".Translate(this.parent.GetComp<CompTraitreleaser>().availableTimes))
@@ -51,7 +63,7 @@ namespace Polarisbloc
                 action = delegate
                 {
                     List<DebugMenuOption> list = new List<DebugMenuOption>();
-                    foreach (DebugMenuOption option in this.GenDebugMenuOptions(usedBy))
+                    foreach (DebugMenuOption option in this.GenRemoveTraitMenuOptions(usedBy))
                     {
                         list.Add(option);
                     }
@@ -87,38 +99,46 @@ namespace Polarisbloc
             Find.WindowStack.Add(new Dialog_NodeTree(diaNode, true, true, base.parent.LabelCap));
         }
 
-        private void AddTrait (Pawn usedBy, Trait trait, List<Trait> traits)
+        private void AddTrait (Pawn usedBy, Trait targetTrait, List<Trait> usersTraits)
         {
-            List<Trait> ctraits = this.ConflictTraits(traits, trait);
+            List<Trait> ctraits = this.ConflictTraits(usersTraits, targetTrait);
             if (!ctraits.NullOrEmpty())
             {
                 string textConflitTraits = string.Empty;
-                for (int i = 0; i < traits.Count; i++)
+                /*for (int i = 0; i < usersTraits.Count; i++)
                 {
-                    if (ctraits.Contains(traits[i]))
+                    if (ctraits.Contains(usersTraits[i]))
                     {
-                        textConflitTraits += traits[i].LabelCap + " ";
-                        traits.Remove(traits[i]);
+                        textConflitTraits += usersTraits[i].LabelCap + " ";
+                        usersTraits.Remove(usersTraits[i]);
                         i--;
                     }
+                }*/
+                for (int i = usersTraits.Count -1; i >= 0 ; i--)
+                {
+                    if (ctraits.Contains(usersTraits[i]))
+                    {
+                        textConflitTraits += usersTraits[i].LabelCap + " ";
+                        usersTraits.Remove(usersTraits[i]);
+                    }
                 }
-                usedBy.story.traits.GainTrait(trait);
-                Messages.Message("PolarisTraitreleaserUsedReplaceConflitTraits".Translate(usedBy.LabelShort, trait.LabelCap, textConflitTraits), usedBy, MessageTypeDefOf.PositiveEvent);
+                usedBy.story.traits.GainTrait(targetTrait);
+                Messages.Message("PolarisTraitreleaserUsedReplaceConflitTraits".Translate(usedBy.LabelShort, targetTrait.LabelCap, textConflitTraits), usedBy, MessageTypeDefOf.PositiveEvent);
             }
             else
             {
-                usedBy.story.traits.GainTrait(trait);
-                Messages.Message("PolarisTraitreleaserUsedAddTrait".Translate(usedBy.LabelShort, trait.LabelCap), usedBy, MessageTypeDefOf.PositiveEvent);
+                usedBy.story.traits.GainTrait(targetTrait);
+                Messages.Message("PolarisTraitreleaserUsedAddTrait".Translate(usedBy.LabelShort, targetTrait.LabelCap), usedBy, MessageTypeDefOf.PositiveEvent);
             }
-            PolarisUtility.GainSkillsExtra(usedBy, trait.CurrentData.skillGains, true);
+            PolarisUtility.GainSkillsExtra(usedBy, targetTrait.CurrentData.skillGains, true);
         }
 
-        private List<Trait> ConflictTraits(List<Trait> traits, Trait trait)
+        private List<Trait> ConflictTraits(List<Trait> usersTraits, Trait targetTrait)
         {
             List<Trait> clist = new List<Trait>();
-            foreach (Trait temp in traits)
+            foreach (Trait temp in usersTraits)
             {
-                if((temp.def.defName == trait.def.defName && temp.Degree != trait.Degree) || temp.def.ConflictsWith(trait))
+                if((temp.def.defName == targetTrait.def.defName && temp.Degree != targetTrait.Degree) || temp.def.ConflictsWith(targetTrait))
                 {
                     clist.Add(temp);
                 }
@@ -126,11 +146,11 @@ namespace Polarisbloc
             return clist;
         }
 
-        private bool HasSameTrait(List<Trait> traits, Trait trait)
+        private bool HasSameTrait(List<Trait> usersTraits, Trait targetTrait)
         {
-            foreach(Trait temp in traits)
+            foreach(Trait temp in usersTraits)
             {
-                if (temp.def.defName == trait.def.defName && temp.Degree == trait.Degree)
+                if (temp.def.defName == targetTrait.def.defName && temp.Degree == targetTrait.Degree)
                 {
                     return true;
                 } 
@@ -138,7 +158,7 @@ namespace Polarisbloc
             return false;
         }
 
-        private IEnumerable<DebugMenuOption> GenDebugMenuOptions(Pawn usedBy)
+        private IEnumerable<DebugMenuOption> GenRemoveTraitMenuOptions(Pawn usedBy)
         {
             foreach (Trait trait in usedBy.story.traits.allTraits)
             {

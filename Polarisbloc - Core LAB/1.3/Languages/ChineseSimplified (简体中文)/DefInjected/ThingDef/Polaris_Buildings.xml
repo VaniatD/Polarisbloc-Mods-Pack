@@ -12,6 +12,11 @@
   <!-- EN: Cannot mend: Needs more cloth -->
   <PolarisMendingShelf.comps.CompRefuelable.outOfFuelMessage>无法修理：需要更多布</PolarisMendingShelf.comps.CompRefuelable.outOfFuelMessage>
   
+  <!-- EN: repairer nano haze generator -->
+  <PolarisNanoRepairHazeGenerator.label>纳米修复装置</PolarisNanoRepairHazeGenerator.label>
+  <!-- EN: A device that generates special nanomachines. It creates nanobots that can self-proliferate and actively repair damaged objects nearby. -->
+  <PolarisNanoRepairHazeGenerator.description>一个能产生特殊纳米机械的装置。它制造的纳米机器人可以自我增殖并主动修复附近的受损物体。</PolarisNanoRepairHazeGenerator.description>
+  
   <!-- EN: Machinoid ship reactor -->
   <PolarisShipReactor.label>机械飞船反应堆</PolarisShipReactor.label>
   <!-- EN: Machinoid ship reactor -->

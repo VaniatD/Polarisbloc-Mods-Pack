@@ -43,8 +43,13 @@
   
   <!-- EN: mending shelf -->
   <PolarisMendingShelf.label>修补架</PolarisMendingShelf.label>
-  <!-- EN: Learn to build a special shelf to mend some damaged items -->
+  <!-- EN: Learn to build a special shelf to mend some damaged items. -->
   <PolarisMendingShelf.description>学会建造一个能够修理受损物品的特殊物品架。</PolarisMendingShelf.description>
+  
+  <!-- EN: repairer nano haze -->
+  <PolarisNanoRepairHazeGenerator.label>纳米修复尘埃</PolarisNanoRepairHazeGenerator.label>
+  <!-- EN: A device that generates special nanomachines. It creates nanobots that can self-proliferate and actively repair damaged objects nearby. -->
+  <PolarisNanoRepairHazeGenerator.description>一个能产生特殊纳米机械的装置。它制造的纳米机器人可以自我增殖并主动修复附近的受损物体。</PolarisNanoRepairHazeGenerator.description>
   
   <!-- EN: psionwire -->
   <PolarisPsionwire.label>灵能芯片</PolarisPsionwire.label>

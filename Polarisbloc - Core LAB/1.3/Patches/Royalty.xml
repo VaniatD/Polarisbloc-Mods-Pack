@@ -62,6 +62,17 @@
           </heldByFactionCategoryTags>
         </value>
       </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName = "PolarisNanoRepairHazeGenerator"]</xpath>
+        <value>
+          <techprintCount>1</techprintCount>
+          <techprintCommonality>0.2</techprintCommonality>
+          <techprintMarketValue>4560</techprintMarketValue>
+          <heldByFactionCategoryTags>
+            <li>Outlander</li>
+          </heldByFactionCategoryTags>
+        </value>
+      </li>
     </operations>
   </Operation>
 </Patch>

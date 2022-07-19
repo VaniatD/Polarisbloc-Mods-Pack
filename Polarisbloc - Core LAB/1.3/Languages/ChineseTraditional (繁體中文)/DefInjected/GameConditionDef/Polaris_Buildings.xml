@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: repairer nano haze -->
+  <PolarisNanoRepairHaze.label>納米修復塵埃</PolarisNanoRepairHaze.label>
+  <!-- EN: The air is scattered with tiny nanomachines that automatically repair damaged objects. -->
+  <PolarisNanoRepairHaze.description>空氣中散布著微小的納米機器人，它們能夠自我增殖並修復受損的物體。</PolarisNanoRepairHaze.description>
+  <!-- EN: The nanomechanical haze has disappeared. -->
+  <PolarisNanoRepairHaze.endMessage>納米修復塵埃消失了。</PolarisNanoRepairHaze.endMessage>
+  <!-- EN: The air is scattered with tiny nanomachines that automatically repair damaged objects. -->
+  <PolarisNanoRepairHaze.letterText>空氣中散布著微小的納米機器人，它們能夠自我增殖並修復受損的物體。</PolarisNanoRepairHaze.letterText>
+  
+</LanguageData>

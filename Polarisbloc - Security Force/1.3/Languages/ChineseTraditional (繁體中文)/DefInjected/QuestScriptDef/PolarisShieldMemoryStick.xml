@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A list of supplies from headquarters, please select one you want.\n\nSupplies will be delivered immediately.</li>
+  -->
+  <PolarisMemoryStickQuest.questDescriptionRules.rulesStrings><li>questDescription->由總部發來的物資清單，請選擇你想要的一項。\n\n物資將會立即送達。</li></PolarisMemoryStickQuest.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Optional supplies</li>
+  -->
+  <PolarisMemoryStickQuest.questNameRules.rulesStrings><li>questName->可選物資</li></PolarisMemoryStickQuest.questNameRules.rulesStrings>
+  
+</LanguageData>
