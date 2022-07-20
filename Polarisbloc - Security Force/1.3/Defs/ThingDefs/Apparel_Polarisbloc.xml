@@ -29,6 +29,7 @@
       <li Class="CompProperties_Biocodable" />
       <!--<li><compClass>CompColorable</compClass></li>-->
       <li Class="CompProperties_Styleable"></li>
+      <li Class="Polarisbloc.CompProperties_AntiDeterioration"></li>
     </comps>
     <tradeability>Sellable</tradeability>
     <tradeTags>
@@ -191,7 +192,7 @@
     <defName>Polarisbloc_CygnusStandardTights</defName>
     <label>cygnus standard tights</label>
     <description>The Cygnus tights made of polymer materials contain special life-sustaining devices that can treat the user's wounds in time and promote wound healing.</description>
-    <thingClass>Polarisbloc_SecurityForce.CygnusStandardTights</thingClass>
+    <!--<thingClass>Polarisbloc_SecurityForce.CygnusStandardTights</thingClass>-->
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
@@ -205,11 +206,11 @@
       <DeteriorationRate>0</DeteriorationRate>
       <MaxHitPoints>200</MaxHitPoints>
       <MarketValue>1000</MarketValue>
-      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.1</ArmorRating_Heat>
+      <!--<ArmorRating_Blunt>0.1</ArmorRating_Blunt>-->
+      <!--<ArmorRating_Sharp>0.15</ArmorRating_Sharp>-->
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
       <Insulation_Cold>60</Insulation_Cold>
-      <Insulation_Heat>25</Insulation_Heat>
+      <Insulation_Heat>30</Insulation_Heat>
       <Flammability>0.4</Flammability>
       <Beauty>6</Beauty>
       <EquipDelay>3</EquipDelay>
@@ -240,11 +241,54 @@
       <tags>
         <li>PolarisSFApparel</li>
         <li>RoyalCombatGear</li>
-        <li>EVA</li>
+        <!--<li>EVA</li>-->
       </tags>
     </apparel>
-    <tickerType>Normal</tickerType>
+    <!--<tickerType>Normal</tickerType>-->
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>Polarisbloc_CygnusGel</hediff>
+      </li>
+    </comps>
   </ThingDef>
+  <HediffDef>
+    <defName>Polarisbloc_CygnusGel</defName>
+    <label>cygnus gel</label>
+    <description>A gel that repairs body tissues.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <stages>
+      <li></li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+      <li Class="Polarisbloc.HediffCompProperties_TendPostDamage">
+        <tendQuality>0.75</tendQuality>
+      </li>
+      <li Class="Polarisbloc.HediffCompProperties_TempRestoreMissingPart">
+        <addedPartDef>Polarisbloc_CygnusGelSolid</addedPartDef>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+    <defaultLabelColor>(1, 0.8, 0.4)</defaultLabelColor>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Polarisbloc_CygnusGelSolid</defName>
+    <label>cygnus gel (solid)</label>
+    <labelNoun>cygnus gel (solid)</labelNoun>
+    <description>A gel that has temporarily cured will re-liquefy after a period of time.</description>
+    <priceImpact>false</priceImpact>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.80</partEfficiency>
+    </addedPartProps>
+    <comps>
+      <li Class="Polarisbloc.HediffCompProperties_DestroyPartWhenRemoved">
+        <showRemainingTime>True</showRemainingTime>
+        <disappearsAfterTicks>15000~20000</disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+  </HediffDef>
   <!--HeadGear-->
   <ThingDef ParentName="PolarisblocApparelBase">
     <defName>Polarisbloc_AlkaidStrategyAssistant</defName>
@@ -350,7 +394,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
-    <tickerType>Normal</tickerType>
+    <!--<tickerType>Normal</tickerType>-->
     <statBases>
       <Mass>0.1</Mass>
       <Beauty>9</Beauty>

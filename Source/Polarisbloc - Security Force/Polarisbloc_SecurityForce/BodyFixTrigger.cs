@@ -11,7 +11,7 @@ namespace Polarisbloc_SecurityForce
     //[StaticConstructorOnStartup]
     public class BodyFixTrigger : Apparel
     {
-        public override void Tick()
+        /*public override void Tick()
         {
             base.Tick();
             if (base.Wearer == null)
@@ -58,12 +58,6 @@ namespace Polarisbloc_SecurityForce
                 {
                     this.Wearer.health.AddHediff(HediffDef.Named("BionicLeg"), leg, null);
                 }
-                
-                /*if (this.Wearer.health.hediffSet.hediffs.Find(x => x.TryGetComp<HediffComp_Cartridge>() != null) == null)
-                {
-                    Hediff hediff = HediffMaker.MakeHediff(PolarisblocDefOf.Hediff_PloarisCartridge, this.Wearer, null);
-                    this.Wearer.health.AddHediff(hediff);
-                }*/
                 CombatEnhancingDrugsApply(this.Wearer);
                 foreach (Apparel ap in this.Wearer.apparel.WornApparel)
                 {
@@ -76,6 +70,53 @@ namespace Polarisbloc_SecurityForce
                 this.Wearer.apparel.Remove(this);
                 this.Destroy(DestroyMode.Vanish);
                 return;
+            }
+        }*/
+
+        public override void Notify_Equipped(Pawn pawn)
+        {
+            base.Notify_Equipped(pawn);
+            if (this.Wearer.kindDef == PawnKindDefOf.WildMan || this.Wearer.Faction == null || this.Wearer.kindDef.defaultFactionType != PSFDefOf.Polaribloc_SecuirityForce)
+            {
+                this.Destroy(DestroyMode.Vanish);
+                return;
+            }
+            if (this.Wearer != null)
+            {
+                if (ModLister.GetActiveModWithIdentifier("Vanya.Polarisbloc.CoreLab") != null)
+                {
+                    if (!this.Wearer.health.hediffSet.GetHediffs<Hediff_CombatChip>().EnumerableNullOrEmpty())
+                    {
+                        List<Hediff_CombatChip> chips = this.Wearer.health.hediffSet.GetHediffs<Hediff_CombatChip>().ToList();
+                        foreach (Hediff_CombatChip chip in chips)
+                        {
+                            this.Wearer.health.RemoveHediff(chip);
+                        }
+                    }
+                    this.Wearer.health.AddHediff(HediffDef.Named("PolarisCombatChip_Currency"), this.Wearer.health.hediffSet.GetBrain(), null);
+                }
+
+                /*BodyPartRecord eye = this.GetEye();
+                if (eye != null)
+                {
+                    this.Wearer.health.AddHediff(HediffDef.Named("BionicEye"), eye, null);
+                }
+                BodyPartRecord leg = this.GetLeg();
+                if (leg != null)
+                {
+                    this.Wearer.health.AddHediff(HediffDef.Named("BionicLeg"), leg, null);
+                }*/
+                this.CombatEnhancingDrugsApply(this.Wearer);
+                foreach (Apparel ap in this.Wearer.apparel.WornApparel)
+                {
+                    CompBiocodable compBiocodable = ap.TryGetComp<CompBiocodable>();
+                    if (compBiocodable != null && !compBiocodable.Biocoded)
+                    {
+                        compBiocodable.CodeFor(this.Wearer);
+                    }
+                }
+                this.Wearer.apparel.Remove(this);
+                this.Destroy(DestroyMode.Vanish);
             }
         }
 
@@ -98,7 +139,7 @@ namespace Polarisbloc_SecurityForce
             }
         }
 
-        private BodyPartRecord GetLeg()
+        /*private BodyPartRecord GetLeg()
         {
             foreach (BodyPartRecord notMissingPart in this.Wearer.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined))
             {
@@ -120,6 +161,6 @@ namespace Polarisbloc_SecurityForce
                 }
             }
             return null;
-        }
+        }*/
     }
 }

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cygnus gel -->
+  <Polarisbloc_CygnusGel.label>天鹅座凝胶</Polarisbloc_CygnusGel.label>
+  <!-- EN: A gel that repairs body tissues. -->
+  <Polarisbloc_CygnusGel.description>这种凝胶能够帮助修复伤口。</Polarisbloc_CygnusGel.description>
+  
+  <!-- EN: cygnus gel (solid) -->
+  <Polarisbloc_CygnusGelSolid.label>天鹅座凝胶（固化）</Polarisbloc_CygnusGelSolid.label>
+  <!-- EN: A gel that has temporarily cured will re-liquefy after a period of time. -->
+  <Polarisbloc_CygnusGelSolid.description>暂时固化的凝胶在一段时间后会重新液化。</Polarisbloc_CygnusGelSolid.description>
+  <!-- EN: cygnus gel (solid) -->
+  <Polarisbloc_CygnusGelSolid.labelNoun>天鹅座凝胶（固化）</Polarisbloc_CygnusGelSolid.labelNoun>
+  
+</LanguageData>

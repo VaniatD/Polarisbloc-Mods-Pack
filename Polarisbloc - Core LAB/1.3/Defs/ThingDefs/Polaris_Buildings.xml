@@ -249,7 +249,7 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
       <shadowData>
-        <volume>(5.03,1.0,4.65)</volume>
+        <volume>(5.0,0.8,4.5)</volume>
         <offset>(0,0,-0.25)</offset>
       </shadowData>
     </graphicData>
@@ -298,10 +298,8 @@
       </li>
     </damageMultipliers>
     <rotatable>false</rotatable>
-    <selectable>true</selectable>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <drawerType>MapMeshOnly</drawerType>
     <castEdgeShadows>True</castEdgeShadows>
     <constructEffect>ConstructMetal</constructEffect>
     <repairEffect>ConstructMetal</repairEffect>

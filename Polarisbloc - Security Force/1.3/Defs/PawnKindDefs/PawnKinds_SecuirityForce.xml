@@ -26,8 +26,8 @@
       <li>AdvancedWeapon</li>
     </techHediffsTags>
     <techHediffsMoney>
-      <min>3000</min>
-      <max>10000</max>
+      <min>2000</min>
+      <max>6000</max>
     </techHediffsMoney>
     <combatEnhancingDrugsCount>
       <min>0</min>
@@ -87,10 +87,12 @@
       </li>
     </skills>
     <biocodeWeaponChance>1</biocodeWeaponChance>
-    <techHediffsMaxAmount>10</techHediffsMaxAmount>
+    <techHediffsMaxAmount>4</techHediffsMaxAmount>
     <techHediffsRequired>
       <li>ArchotechEye</li>
+      <li>ArchotechEye</li>
       <li>ArchotechLeg</li>
+      <li>ArchotechArm</li>
     </techHediffsRequired>
     <initialResistanceRange>30~50</initialResistanceRange>
     <initialWillRange>3~6</initialWillRange>
