@@ -87,6 +87,7 @@
     <addsHediff>PolarisCombatChip_NotActive</addsHediff>
     <recipeUsers>
       <li>Human</li>
+      <li MayRequire="kentington.saveourship2">SoSHologramRace</li>
     </recipeUsers>
     <descriptionHyperlinks>
       <ThingDef>PolarisCombatChip</ThingDef>
@@ -137,6 +138,7 @@
     <addsHediff>PolarisVirtualNetChip</addsHediff>
     <recipeUsers>
       <li>Human</li>
+      <li MayRequire="kentington.saveourship2">SoSHologramRace</li>
     </recipeUsers>
     <descriptionHyperlinks>
       <ThingDef>PolarisVirtualNetChip</ThingDef>

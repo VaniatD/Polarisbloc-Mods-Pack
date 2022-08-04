@@ -30,7 +30,7 @@
       <MarketValue>21</MarketValue>
       <Mass>0.2</Mass>
       <Beauty>0</Beauty>
-      <Nutrition>1</Nutrition>
+      <Nutrition>0.9</Nutrition>
     </statBases>
     <ingestible>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
@@ -41,7 +41,7 @@
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>Polarisbloc_EmergencyFood</hediffDef>
-          <severity>1.00</severity>
+          <severity>0.6</severity>
         </li>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
           <need>Rest</need>
@@ -76,7 +76,7 @@
     <stages>
       <li>
         <hungerRateFactor>0.9</hungerRateFactor>
-        <restFallFactor>0.6</restFallFactor>
+        <restFallFactor>0.8</restFallFactor>
         <statOffsets>
           <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
         </statOffsets>

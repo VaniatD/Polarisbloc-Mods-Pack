@@ -74,6 +74,7 @@
     <Compile Include="CombatChip\HediffComp_ToggleHediff.cs" />
     <Compile Include="CombatChip\TexCombatChip.cs" />
     <Compile Include="Buildings\GameCondition_NanoRepairHaze.cs" />
+    <Compile Include="Misc\Dialog_RenameGeneratedNamesThing.cs" />
     <Compile Include="MiscHediffs\HediffComp_DestroyPartWhenRemoved.cs" />
     <Compile Include="MiscHediffs\HediffComp_TempRestoreMissingPart.cs" />
     <Compile Include="MiscThings\CompAntiDeterioration.cs" />

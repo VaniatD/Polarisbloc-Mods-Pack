@@ -24,21 +24,20 @@ namespace Polarisbloc
                 }
                 else
                 {
-                    this.TryRepairThing(thing);
-                    this.TryRefreshThing(thing);
+                    if (this.TryRepairThing(thing))
+                    {
+                        continue;
+                    }
+                    if (this.TryRefreshThing(thing))
+                    {
+                        continue;
+                    }
+                    if (this.TryCureBlighted(thing))
+                    {
+                        break;
+                    }
                 }
-                
-                
-                /*bool flag1 = this.TryRepairThing(thing);
-                bool flag2 = this.TryRefreshThing(thing);
-                if (flag1 || flag2)
-                {
-                    Effecter effecter = EffecterDefOf.Mine.Spawn();
-
-                    FleckMaker.Static(c, map, FleckDefOf.ShotFlash, 4);
-                }*/
             }
-
         }
 
         /*public override void GameConditionTick()
@@ -54,14 +53,18 @@ namespace Polarisbloc
             }
         }*/
 
-        private void TryRepairPawnHolder(Pawn pawn)
+        private bool TryRepairPawnHolder(Pawn pawn)
         {
+            bool result = false;
             List<Apparel> apparels = pawn.apparel?.WornApparel;
             if (!apparels.NullOrEmpty())
             {
                 foreach (Apparel ap in apparels)
                 {
-                    this.TryRepairThing(ap);
+                    if (this.TryRepairThing(ap))
+                    {
+                        result = true;
+                    }
                 }
             }
             List<ThingWithComps> equipments = pawn.equipment?.AllEquipmentListForReading;
@@ -69,46 +72,57 @@ namespace Polarisbloc
             {
                 foreach (ThingWithComps eq in equipments)
                 {
-                    this.TryRepairThing(eq);
+                    if (this.TryRepairThing(eq))
+                    {
+                        result = true;
+                    }
                 }
             }
-            List<Thing> things = pawn.inventory?.GetDirectlyHeldThings().ToList();
+            ThingOwner<Thing> things = pawn.inventory?.innerContainer;
             if (!things.NullOrEmpty())
             {
                 foreach (Thing thing in things)
                 {
-                    this.TryRepairThing(thing);
+                    if (this.TryRepairThing(thing))
+                    {
+                        result = true;
+                    }
                 }
             }
+            return result;
         }
 
-        private void TryRepairThing(Thing thing)
+        private bool TryRepairThing(Thing thing)
         {
-            //bool result = false;
-            if (thing.def.useHitPoints && thing.HitPoints < thing.MaxHitPoints)
+            bool result = false;
+            if (thing.def.useHitPoints)
             {
-                thing.HitPoints += Mathf.CeilToInt((thing.MaxHitPoints - thing.HitPoints) * 0.01f);
-                if (thing.HitPoints == thing.MaxHitPoints && thing is Apparel ap && ap.WornByCorpse)
+                if (thing.HitPoints < thing.MaxHitPoints)
+                {
+                    thing.HitPoints += Mathf.CeilToInt((thing.MaxHitPoints - thing.HitPoints) * 0.01f);
+                    result = true;
+                }
+                else if (thing.HitPoints == thing.MaxHitPoints && thing is Apparel ap && ap.WornByCorpse)
                 {
                     ap.Notify_PawnResurrected();
+                    result = true;
                 }
-                //result = true;
+                
             }
-            if (thing is Corpse corpse && corpse.InnerPawn.apparel != null)
+            if (thing is Corpse corpse && corpse.InnerPawn != null)
             {
                 
-                List<Apparel> wornApparel = corpse.InnerPawn.apparel.WornApparel;
-                foreach (Apparel apparel in wornApparel)
+                if (this.TryRepairPawnHolder(corpse.InnerPawn))
                 {
-                    this.TryRepairThing(apparel);
+                    result = true;
                 }
             }
-            //return result;
+            return result;
         }
 
-        private void TryRefreshThing(Thing thing)
+        private bool TryRefreshThing(Thing thing)
         {
-            //bool result = false;
+            bool result = false;
             CompRottable compRottable = thing.TryGetComp<CompRottable>();
             if (compRottable != null)
             {
@@ -117,9 +131,22 @@ namespace Polarisbloc
                 {
                     compRottable.RotProgress = 0;
                 }
-                //result = true;
+                result = true;
             }
-            //return result;
+            return result;
+        }
+
+        private bool TryCureBlighted(Thing thing)
+        {
+            if (thing is Plant plant)
+            {
+                if (plant.Blighted)
+                {
+                    plant.Blight.Destroy();
+                    return true;
+                }
+            }
+            return false;
         }
     }
 

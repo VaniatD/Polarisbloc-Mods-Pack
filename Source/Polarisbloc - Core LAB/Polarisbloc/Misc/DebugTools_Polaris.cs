@@ -86,6 +86,18 @@ namespace Polarisbloc
             }
         }
 
+        [DebugAction("Polaris Tools", "Rename GeneratedNames thing", true, false, actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap, requiresRoyalty = true)]
+        private static void ReNameGeneratedNames()
+        {
+            Thing namedThing = Find.CurrentMap?.thingGrid.ThingsAt(UI.MouseCell()).FirstOrDefault(x => x.TryGetComp<CompGeneratedNames>() != null);
+            if (namedThing != null)
+            {
+                Dialog_RenameGeneratedNamesThing dialog = new Dialog_RenameGeneratedNamesThing(namedThing.TryGetComp<CompGeneratedNames>());
+                Find.WindowStack.Add(dialog);
+                DebugActionsUtility.DustPuffFrom(namedThing);
+            }
+        }
+
         [DebugAction("Polaris Tools", "Add Weapon Trait", true, false, actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap, requiresRoyalty = true)]
         private static void AddWeaponTrait()
         {

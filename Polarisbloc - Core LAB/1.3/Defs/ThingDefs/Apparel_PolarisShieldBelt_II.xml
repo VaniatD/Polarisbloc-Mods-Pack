@@ -13,9 +13,8 @@
     <drawGUIOverlay>true</drawGUIOverlay>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>2</DeteriorationRate>
-      <Beauty>-4</Beauty>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
       <SellPriceFactor>0.70</SellPriceFactor>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
@@ -28,7 +27,10 @@
       </li>
       <li Class="CompProperties_Biocodable" />
       <li Class="CompProperties_Styleable"></li>
-      <!--<li><compClass>CompColorable</compClass></li>-->
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+      <li Class="Polarisbloc.CompProperties_AntiDeterioration"></li>
     </comps>
   </ThingDef>
   <ThingDef ParentName="PolarisApparelBase">
@@ -62,9 +64,11 @@
       </bodyPartGroups>
       <layers>
         <li>Belt</li>
+        <li MayRequire="kentington.saveourship2">Middle</li>
       </layers>
       <tags>
         <li>PolarisApparel</li>
+        <li>EVA</li>
       </tags>
     </apparel>
     <generateCommonality>0.6</generateCommonality>
@@ -89,7 +93,7 @@
       </recipeUsers>
       <useIngredientsForColor>false</useIngredientsForColor>
       <skillRequirements>
-        <Crafting>8</Crafting>
+        <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker>
   </ThingDef>

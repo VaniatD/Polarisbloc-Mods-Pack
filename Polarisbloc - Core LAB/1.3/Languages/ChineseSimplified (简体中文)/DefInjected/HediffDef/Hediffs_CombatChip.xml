@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
   <!-- EN: combat chip (assassin) -->
   <PolarisCombatChip_Assassin.label>战术芯片（潜行）</PolarisCombatChip_Assassin.label>
   <!-- EN: A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
@@ -11,73 +10,62 @@
   <PolarisCombatChip_Assassin.comps.HediffComp_ToggleHediff.gizmoLabel>光学迷彩</PolarisCombatChip_Assassin.comps.HediffComp_ToggleHediff.gizmoLabel>
   <!-- EN: a combat chip -->
   <PolarisCombatChip_Assassin.labelNoun>一块战术芯片</PolarisCombatChip_Assassin.labelNoun>
-  
   <!-- EN: optical camouflage -->
   <PolarisCombatChip_Assassin_Invisibility.label>光学迷彩</PolarisCombatChip_Assassin_Invisibility.label>
   <!-- EN: - -->
   <PolarisCombatChip_Assassin_Invisibility.description>由战术芯片启动的光学迷彩，可以让你从敌人的视野中消失。</PolarisCombatChip_Assassin_Invisibility.description>
-  
   <!-- EN: combat chip (charm) -->
   <PolarisCombatChip_Charm.label>战术芯片（魅惑）</PolarisCombatChip_Charm.label>
   <!-- EN: A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
   <PolarisCombatChip_Charm.description>战术芯片，能够增强各方面的能力。</PolarisCombatChip_Charm.description>
   <!-- EN: a combat chip -->
   <PolarisCombatChip_Charm.labelNoun>一块战术芯片</PolarisCombatChip_Charm.labelNoun>
-  
   <!-- EN: combat chip (currency) -->
   <PolarisCombatChip_Currency.label>战术芯片（通用）</PolarisCombatChip_Currency.label>
   <!-- EN: A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
   <PolarisCombatChip_Currency.description>战术芯片，能够增强各方面的能力。</PolarisCombatChip_Currency.description>
   <!-- EN: a combat chip -->
   <PolarisCombatChip_Currency.labelNoun>一块战术芯片</PolarisCombatChip_Currency.labelNoun>
-  
   <!-- EN: combat chip (inspiration) -->
   <PolarisCombatChip_Inspiration.label>战术芯片（灵感）</PolarisCombatChip_Inspiration.label>
   <!-- EN: A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
   <PolarisCombatChip_Inspiration.description>战术芯片，能够增强各方面的能力。</PolarisCombatChip_Inspiration.description>
   <!-- EN: a combat chip -->
   <PolarisCombatChip_Inspiration.labelNoun>一块战术芯片</PolarisCombatChip_Inspiration.labelNoun>
-  
   <!-- EN: combat chip (medical) -->
   <PolarisCombatChip_Medical.label>战术芯片（医疗）</PolarisCombatChip_Medical.label>
   <!-- EN: A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
   <PolarisCombatChip_Medical.description>战术芯片，能够增强各方面的能力。</PolarisCombatChip_Medical.description>
   <!-- EN: a combat chip -->
   <PolarisCombatChip_Medical.labelNoun>一块战术芯片</PolarisCombatChip_Medical.labelNoun>
-  
   <!-- EN: combat chip (not active) -->
   <PolarisCombatChip_NotActive.label>战术芯片（未激活）</PolarisCombatChip_NotActive.label>
   <!-- EN: A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
   <PolarisCombatChip_NotActive.description>战术芯片，能够增强各方面的能力。</PolarisCombatChip_NotActive.description>
   <!-- EN: a combat chip -->
   <PolarisCombatChip_NotActive.labelNoun>一块战术芯片</PolarisCombatChip_NotActive.labelNoun>
-  
   <!-- EN: combat chip (psycaster) -->
-  <PolarisCombatChip_Psycaster.label>战术芯片（灵质）</PolarisCombatChip_Psycaster.label>
+  <PolarisCombatChip_Psycaster.label>灵质-战术芯片</PolarisCombatChip_Psycaster.label>
   <!-- EN: A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode.\n\nThis one will let you out of psychic hangover. -->
   <PolarisCombatChip_Psycaster.description>战术芯片，能够增强各方面的能力。</PolarisCombatChip_Psycaster.description>
   <!-- EN: a combat chip -->
   <PolarisCombatChip_Psycaster.labelNoun>一块战术芯片</PolarisCombatChip_Psycaster.labelNoun>
-  
   <!-- EN: combat chip (resistance) -->
   <PolarisCombatChip_Resistance.label>战术芯片（抗性）</PolarisCombatChip_Resistance.label>
   <!-- EN: A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
   <PolarisCombatChip_Resistance.description>战术芯片，能够增强各方面的能力。</PolarisCombatChip_Resistance.description>
   <!-- EN: a combat chip -->
   <PolarisCombatChip_Resistance.labelNoun>一块战术芯片</PolarisCombatChip_Resistance.labelNoun>
-  
   <!-- EN: combat chip (scouter) -->
   <PolarisCombatChip_Scouter.label>战术芯片（斥候）</PolarisCombatChip_Scouter.label>
   <!-- EN: A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
   <PolarisCombatChip_Scouter.description>战术芯片，能够增强各方面的能力。</PolarisCombatChip_Scouter.description>
   <!-- EN: a combat chip -->
   <PolarisCombatChip_Scouter.labelNoun>一块战术芯片</PolarisCombatChip_Scouter.labelNoun>
-  
   <!-- EN: combat chip (sniper) -->
   <PolarisCombatChip_Sniper.label>战术芯片（狙击）</PolarisCombatChip_Sniper.label>
   <!-- EN: A universal tactical chip that have the ability to enhance any aspects of the user. Using a converter will activate the tactical chip and also change its mode. -->
   <PolarisCombatChip_Sniper.description>战术芯片，能够增强各方面的能力。</PolarisCombatChip_Sniper.description>
   <!-- EN: a combat chip -->
   <PolarisCombatChip_Sniper.labelNoun>一块战术芯片</PolarisCombatChip_Sniper.labelNoun>
-  
 </LanguageData>

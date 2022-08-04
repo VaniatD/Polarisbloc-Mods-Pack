@@ -75,7 +75,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>8</damageAmountBase>
+      <damageAmountBase>7</damageAmountBase>
       <speed>105</speed>
       <armorPenetrationBase>0.52</armorPenetrationBase>
       <stoppingPower>0.9</stoppingPower>
@@ -110,7 +110,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_CaniculaRifle</defaultProjectile>
         <warmupTime>2.2</warmupTime>
-        <range>33.4</range>
+        <range>32.6</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <burstShotCount>4</burstShotCount>
         <soundCast>Shot_ChargeRifle</soundCast>
@@ -151,7 +151,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>16</damageAmountBase>
+      <damageAmountBase>14</damageAmountBase>
       <speed>190</speed>
       <armorPenetrationBase>0.9</armorPenetrationBase>
       <stoppingPower>2</stoppingPower>
@@ -186,7 +186,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_CaniculaSniper</defaultProjectile>
         <warmupTime>4.45</warmupTime>
-        <range>47.7</range>
+        <range>44.7</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>

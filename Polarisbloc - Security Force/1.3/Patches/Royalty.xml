@@ -34,6 +34,17 @@
           </RoyalTitlePermitDef>
         </value>
       </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName = "PolarisSFKits"]</xpath>
+        <value>
+          <techprintCount>1</techprintCount>
+          <techprintCommonality>0.4</techprintCommonality>
+          <techprintMarketValue>1560</techprintMarketValue>
+          <heldByFactionCategoryTags>
+            <li>Outlander</li>
+          </heldByFactionCategoryTags>
+        </value>
+      </li>
     </operations>
   </Operation>
 </Patch>

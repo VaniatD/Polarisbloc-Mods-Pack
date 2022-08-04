@@ -15,7 +15,6 @@
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>0.6</Flammability>
       <DeteriorationRate>0.2</DeteriorationRate>
-      <Beauty>0</Beauty>
       <SellPriceFactor>0.70</SellPriceFactor>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
@@ -27,7 +26,9 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Biocodable" />
-      <!--<li><compClass>CompColorable</compClass></li>-->
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
       <li Class="CompProperties_Styleable"></li>
       <li Class="Polarisbloc.CompProperties_AntiDeterioration"></li>
     </comps>
@@ -36,6 +37,35 @@
       <li>ExoticMisc</li>
     </tradeTags>
     <smeltable>false</smeltable>
+  </ThingDef>
+  <ThingDef Name="PolarisblocApparelMakeableBase" ParentName="PolarisblocApparelBase" Abstract="True">
+    <smeltable>true</smeltable>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <disallowedThingDefs>
+          <li>Gold</li>
+          <li>Silver</li>
+          <li>Plasteel</li>
+          <li>Jade</li>
+          <li>Uranium</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+      <researchPrerequisite>PolarisSFKits</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="PolarisblocApparelBase">
     <defName>Apparel_PolarisShieldBelt_IV</defName>
@@ -67,26 +97,27 @@
       </bodyPartGroups>
       <layers>
         <li>Belt</li>
+        <li MayRequire="kentington.saveourship2">Middle</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
         <li>PolarisSFApparel</li>
+        <li>EVA</li>
       </tags>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
     </apparel>
     <generateCommonality>0.4</generateCommonality>
   </ThingDef>
-  <ThingDef ParentName="PolarisblocApparelBase">
+  <ThingDef ParentName="PolarisblocApparelMakeableBase">
     <defName>Polarisbloc_CygnusStandardArmor</defName>
     <label>cygnus standard armor</label>
     <description>The standard Cygnus armor of Security Forces provides a small amount of defensive capabilities and combat attributes.</description>
-    <thingClass>Polarisbloc_SecurityForce.CygnusStandardArmor</thingClass>
+    <!--<thingClass>Polarisbloc_SecurityForce.CygnusStandardArmor</thingClass>-->
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
-    <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>PolarisblocSF/Apparel/CygnusStandardArmor/CygnusStandardArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -95,7 +126,7 @@
       <Mass>8</Mass>
       <DeteriorationRate>0</DeteriorationRate>
       <MaxHitPoints>300</MaxHitPoints>
-      <MarketValue>1500</MarketValue>
+      <!--<MarketValue>1500</MarketValue>-->
       <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
       <ArmorRating_Heat>0.2</ArmorRating_Heat>
@@ -109,6 +140,8 @@
       <MoveSpeed>1</MoveSpeed>
       <Flammability>-0.25</Flammability>
       <MeleeDodgeChance>2</MeleeDodgeChance>
+      <Vanya_MeleeCooldownFactor MayRequire="Vanya.Tools.CombatTweak">-0.05</Vanya_MeleeCooldownFactor>
+      <Vanya_RangedCooldownFactor MayRequire="Vanya.Tools.CombatTweak">-0.05</Vanya_RangedCooldownFactor>
     </equippedStatOffsets>
     <generateCommonality>0.4</generateCommonality>
     <apparel>
@@ -121,7 +154,6 @@
       </bodyPartGroups>
       <wornGraphicPath>PolarisblocSF/Apparel/CygnusStandardArmor/CygnusStandardArmor</wornGraphicPath>
       <layers>
-        <!--<li>OnSkin</li>-->
         <li>Shell</li>
       </layers>
       <defaultOutfitTags>
@@ -130,18 +162,23 @@
       <tags>
         <li>PolarisSFApparel</li>
         <li>RoyalCombatGear</li>
+        <li>EVA</li>
       </tags>
     </apparel>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>60</Plasteel>
+      <Shell_EMP>5</Shell_EMP>
+    </costList>
   </ThingDef>
   <ThingDef ParentName="PolarisblocApparelBase">
     <defName>Polarisbloc_CygnusStandardArmorC</defName>
     <label>cygnus standard armor (captain)</label>
     <description>The Captain version of the Cygnus armor is slightly improved of the original, but it is still very limited.</description>
-    <thingClass>Polarisbloc_SecurityForce.CygnusStandardArmor</thingClass>
+    <!--<thingClass>Polarisbloc_SecurityForce.CygnusStandardArmor</thingClass>-->
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
-    <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>PolarisblocSF/Apparel/CygnusStandardArmorC/CygnusStandardArmorC</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -164,6 +201,8 @@
       <MoveSpeed>1.2</MoveSpeed>
       <Flammability>-0.25</Flammability>
       <MeleeDodgeChance>2.5</MeleeDodgeChance>
+      <Vanya_MeleeCooldownFactor MayRequire="Vanya.Tools.CombatTweak">-0.05</Vanya_MeleeCooldownFactor>
+      <Vanya_RangedCooldownFactor MayRequire="Vanya.Tools.CombatTweak">-0.05</Vanya_RangedCooldownFactor>
     </equippedStatOffsets>
     <generateCommonality>0.4</generateCommonality>
     <apparel>
@@ -176,7 +215,6 @@
       </bodyPartGroups>
       <wornGraphicPath>PolarisblocSF/Apparel/CygnusStandardArmorC/CygnusStandardArmorC</wornGraphicPath>
       <layers>
-        <!--<li>OnSkin</li>-->
         <li>Shell</li>
       </layers>
       <defaultOutfitTags>
@@ -185,10 +223,11 @@
       <tags>
         <li>PolarisSFApparel</li>
         <li>RoyalCombatGear</li>
+        <li>EVA</li>
       </tags>
     </apparel>
   </ThingDef>
-  <ThingDef ParentName="PolarisblocApparelBase">
+  <ThingDef ParentName="PolarisblocApparelMakeableBase">
     <defName>Polarisbloc_CygnusStandardTights</defName>
     <label>cygnus standard tights</label>
     <description>The Cygnus tights made of polymer materials contain special life-sustaining devices that can treat the user's wounds in time and promote wound healing.</description>
@@ -196,7 +235,6 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
-    <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>PolarisblocSF/Apparel/CygnusStandardTights/CygnusStandardTights</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -205,7 +243,7 @@
       <Mass>1.3</Mass>
       <DeteriorationRate>0</DeteriorationRate>
       <MaxHitPoints>200</MaxHitPoints>
-      <MarketValue>1000</MarketValue>
+      <!--<MarketValue>1000</MarketValue>-->
       <!--<ArmorRating_Blunt>0.1</ArmorRating_Blunt>-->
       <!--<ArmorRating_Sharp>0.15</ArmorRating_Sharp>-->
       <ArmorRating_Heat>0.2</ArmorRating_Heat>
@@ -218,6 +256,8 @@
     <equippedStatOffsets>
       <Flammability>-0.75</Flammability>
       <ToxicSensitivity>-0.8</ToxicSensitivity>
+      <Vanya_MeleeCooldownFactor MayRequire="Vanya.Tools.CombatTweak">-0.03</Vanya_MeleeCooldownFactor>
+      <Vanya_RangedCooldownFactor MayRequire="Vanya.Tools.CombatTweak">-0.03</Vanya_RangedCooldownFactor>
     </equippedStatOffsets>
     <generateCommonality>0.4</generateCommonality>
     <apparel>
@@ -250,6 +290,12 @@
         <hediff>Polarisbloc_CygnusGel</hediff>
       </li>
     </comps>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Synthread>90</Synthread>
+      <PolarisHealingPotion>3</PolarisHealingPotion>
+      <Shell_Incendiary>1</Shell_Incendiary>
+    </costList>
   </ThingDef>
   <HediffDef>
     <defName>Polarisbloc_CygnusGel</defName>
@@ -312,7 +358,7 @@
       <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
       <MeleeDodgeChance>2</MeleeDodgeChance>
       <MeleeHitChance>2</MeleeHitChance>
-      <PsychicSensitivity>-0.8</PsychicSensitivity>
+      <PsychicSensitivity>-0.5</PsychicSensitivity>
     </equippedStatOffsets>
     <generateCommonality>0.4</generateCommonality>
     <apparel>
@@ -326,6 +372,7 @@
       <tags>
         <li>PolarisblocAlkaid</li>
         <li>RoyalCombatGear</li>
+        <li>EVA</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -334,7 +381,7 @@
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
     </apparel>
   </ThingDef>
-  <ThingDef ParentName="PolarisblocApparelBase">
+  <ThingDef ParentName="PolarisblocApparelMakeableBase">
     <defName>Polarisbloc_ThubanTacticalGoggles</defName>
     <label>Thuban tactical goggles</label>
     <description>The Universal Tactical goggles produced by the Polarisbloc enhance effectively the sight of the user.</description>
@@ -353,7 +400,7 @@
       <ArmorRating_Heat>0.5</ArmorRating_Heat>
       <Insulation_Cold>10</Insulation_Cold>
       <Insulation_Heat>10</Insulation_Heat>
-      <MarketValue>1160</MarketValue>
+      <!--<MarketValue>1160</MarketValue>-->
       <EquipDelay>1.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -375,6 +422,7 @@
       <tags>
         <li>PolarisblocAlkaid</li>
         <li>RoyalCombatGear</li>
+        <li>EVA</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -382,6 +430,11 @@
       <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
     </apparel>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>30</Plasteel>
+      <Shell_EMP>2</Shell_EMP>
+    </costList>
   </ThingDef>
   <!--Trigger-->
   <ThingDef>

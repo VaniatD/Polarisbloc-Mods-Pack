@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <tab>Polarisbloc</tab>
+    <defName>PolarisSFKits</defName>
+    <label>Security force kits</label>
+    <description>Learn how to craft some outfits of securite force.</description>
+    <baseCost>3790</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>ReconArmor</li>
+      <li>Gunlink</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>PolarisHealingPotionProduction</li>
+      <li>PolarisSpecialDevice</li>
+    </hiddenPrerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>5</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+</Defs>

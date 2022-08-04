@@ -21,9 +21,9 @@ namespace Polarisbloc
         public override void Notify_PawnPostApplyDamage(DamageInfo dinfo, float totalDamageDealt)
         {
             base.Notify_PawnPostApplyDamage(dinfo, totalDamageDealt);
-            IEnumerable<Hediff> addedPartHediffs = (from x in this.Pawn.health.hediffSet.hediffs
+            /*IEnumerable<Hediff> addedPartHediffs = (from x in this.Pawn.health.hediffSet.hediffs
                                                    where x is Hediff_AddedPart
-                                                   select x);
+                                                   select x);*/
 
 
             /*Predicate<Hediff> parentPartHasAddedPart = delegate (Hediff missingPartHediff)
@@ -37,7 +37,7 @@ namespace Polarisbloc
                 }
                 return false;
             };*/
-            
+            if (this.Pawn.Dead) return;
             IEnumerable<Hediff> missingPartHediffs = (from x in this.Pawn.health.hediffSet.hediffs
                                                       where x.ageTicks < 1 && x is Hediff_MissingPart && !this.Pawn.health.hediffSet.PartOrAnyAncestorHasDirectlyAddedParts(x.Part.parent) && this.Pawn.health.hediffSet.GetNotMissingParts().Contains(x.Part.parent)
                                                       select x);

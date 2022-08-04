@@ -27,7 +27,7 @@
     </pointsFactorFromDaysPassed>
     <adaptDaysMin>-60</adaptDaysMin>
     <adaptDaysMax>180</adaptDaysMax>
-    <adaptDaysGameStartGraceDays>25</adaptDaysGameStartGraceDays>
+    <adaptDaysGameStartGraceDays>20</adaptDaysGameStartGraceDays>
     <adaptDaysLossFromColonistLostByPostPopulation>
       <points>
         <li>( 0, 30)</li>
@@ -62,9 +62,10 @@
         <li>(  0, 0.9)</li>
         <li>( 30, 1.2)</li>
         <li>( 60, 1.50)</li>
-        <li>(120, 2.00)</li>
-        <li>(150, 2.20)</li>
-        <li>(180, 3.00)</li>
+        <li>(120, 1.70)</li>
+        <li>(150, 1.80)</li>
+        <li>(180, 2.00)</li>
+        <li>(240, 3.00)</li>
       </points>
     </pointsFactorFromAdaptDays>
     <comps>

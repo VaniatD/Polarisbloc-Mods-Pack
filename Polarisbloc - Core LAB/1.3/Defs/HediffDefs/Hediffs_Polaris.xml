@@ -56,13 +56,12 @@
     <isBad>false</isBad>
     <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
-    <maxSeverity>1.0</maxSeverity>
+    <maxSeverity>1.5</maxSeverity>
     <comps>
-      <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>
-          <min>120000</min>
-          <max>180000</max>
-        </disappearsAfterTicks>
+      <!--<li Class="HediffCompProperties_Disappears"><disappearsAfterTicks><min>120000</min><max>180000</max></disappearsAfterTicks></li>-->
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.43</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
       </li>
       <li Class="Polarisbloc.HediffCompProperties_Antibiotic">
         <extraHediffs>
@@ -87,13 +86,12 @@
     <isBad>false</isBad>
     <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
-    <maxSeverity>1.0</maxSeverity>
+    <maxSeverity>1.5</maxSeverity>
     <comps>
-      <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>
-          <min>180000</min>
-          <max>240000</max>
-        </disappearsAfterTicks>
+      <!--<li Class="HediffCompProperties_Disappears"><disappearsAfterTicks><min>180000</min><max>240000</max></disappearsAfterTicks></li>-->
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.29</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
       </li>
       <li Class="Polarisbloc.HediffCompProperties_ReceptorAntagonist">
         <exceptHediffs>
