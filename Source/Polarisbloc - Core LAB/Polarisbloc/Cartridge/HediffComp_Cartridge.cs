@@ -49,7 +49,10 @@ namespace Polarisbloc
                     
                     //base.Pawn.apparel.Remove(ap);
                     ResurrectionUtility.Resurrect(base.Pawn);
-                    Messages.Message("PolarisMessageSomeoneResurrected".Translate(ap.LabelShort, base.Pawn.LabelShort), MessageTypeDefOf.PositiveEvent);
+                    if (base.Pawn.IsColonistPlayerControlled)
+                    {
+                        Messages.Message("PolarisMessageSomeoneResurrected".Translate(ap.LabelShort, base.Pawn.LabelShort), MessageTypeDefOf.PositiveEvent);
+                    }
                     ap.Destroy(DestroyMode.Vanish);
                 }
                 if (!this.Pawn.Faction.IsPlayer)

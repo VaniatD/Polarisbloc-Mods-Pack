@@ -12,10 +12,13 @@ namespace Polarisbloc
     {
         private bool highPower = false;
 
+        private bool staticTemp = false;
+
         public override void ExposeData()
         {
             base.ExposeData();
             Scribe_Values.Look<bool>(ref this.highPower, "highPower");
+            Scribe_Values.Look<bool>(ref this.staticTemp, "staticTemp");
         }
 
         public override IEnumerable<Gizmo> GetGizmos()
@@ -45,6 +48,15 @@ namespace Polarisbloc
                         this.GetRoom(RegionType.Set_All).Temperature = this.compTempControl.targetTemperature;
                     }
                 };
+                yield return new Command_Toggle
+                {
+                    defaultLabel = "Static temp mode",
+                    isActive = () => this.staticTemp,
+                    toggleAction = delegate
+                    {
+                        this.staticTemp = !this.staticTemp;
+                    }
+                };
             }
         }
 
@@ -52,6 +64,11 @@ namespace Polarisbloc
         {
             if (this.compPowerTrader.PowerOn)
             {
+                if (this.staticTemp)
+                {
+                    this.GetRoom(RegionType.Set_All).Temperature = this.compTempControl.targetTemperature;
+                    return;
+                }
                 float ambientTemperature = base.AmbientTemperature;
                 float num;
                 /*if (ambientTemperature > this.compTempControl.targetTemperature - 1 && ambientTemperature < this.compTempControl.targetTemperature + 1)

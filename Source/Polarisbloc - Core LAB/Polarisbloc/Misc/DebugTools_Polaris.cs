@@ -12,6 +12,36 @@ namespace Polarisbloc
 {
     public static class DebugTools_Polaris
     {
+        /*[DebugAction("Polaris Tools", "View thing details", actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        private static void ViewThingDetails()
+        {
+            foreach (Thing thing in Find.CurrentMap.thingGrid.ThingsAt(UI.MouseCell()).ToList<Thing>())
+            {
+                //Debug.Log(thing.ToString());
+                string logText = thing.ToString();
+                
+                if (thing is Plant p)
+                {
+                    logText = p.ToString();
+                }
+                else if (thing is Building building)
+                {
+                    logText = building.ToString();
+                }
+                else if (thing is Apparel ap)
+                {
+                    logText = ap.ToString();
+                }
+                else if (thing is ThingWithComps thingWithComps)
+                {
+                    logText = thingWithComps.ToString();
+                }
+
+                Log.Message(logText);
+                Log.Message(thing.def.ToString());
+            }
+        }*/
+
 
         [DebugAction("Polaris Tools", "Max Hit Points", actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap)]
         private static void MaxHitPoints()

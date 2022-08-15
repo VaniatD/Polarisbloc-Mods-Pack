@@ -17,7 +17,6 @@
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
     <blockWind>false</blockWind>
     <blockLight>false</blockLight>
     <fillPercent>0.5</fillPercent>
@@ -283,7 +282,7 @@
       </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerPlant</compClass>
-        <basePowerConsumption>-16000</basePowerConsumption>
+        <basePowerConsumption>-3600</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Glower">

@@ -64,7 +64,7 @@
       </bodyPartGroups>
       <layers>
         <li>Belt</li>
-        <li MayRequire="kentington.saveourship2">Middle</li>
+        <li>Middle</li>
       </layers>
       <tags>
         <li>PolarisApparel</li>

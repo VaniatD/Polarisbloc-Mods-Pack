@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: polaris memory stick -->
+  <PolarisShieldMemoryStick.label>北极星记忆棒</PolarisShieldMemoryStick.label>
+  <!-- EN: Used to be the Polarisbloc makes and sells Memory Sticks containing the shield manufacturing technology.\n\nNow the shield tech is publicly available. The memory stick will now send a message to Polarisbloc and you can choose some compensation. -->
+  <PolarisShieldMemoryStick.description>曾经是用于获取护盾技术的加密记忆棒。\n\n现在由于护盾技术公开，解读记忆棒会向天轴集团发送一条验证消息，将会给与你一定的补偿。</PolarisShieldMemoryStick.description>
+  <!-- EN: Unscramble memory stick -->
+  <PolarisShieldMemoryStick.comps.CompUsable.useLabel>解读记忆棒</PolarisShieldMemoryStick.comps.CompUsable.useLabel>
+  
+</LanguageData>

@@ -27,7 +27,6 @@
         <useJob>UseItem</useJob>
         <useLabel>Unscramble memory stick</useLabel>
       </li>
-      <!--<li Class="CompProperties_UseEffect"><compClass>CompUseEffect_FinishPSFShieldResearchProject</compClass></li>-->
       <li Class="Polarisbloc_SecurityForce.CompProperties_GenQuestInPoints">
         <quest>PolarisMemoryStickQuest</quest>
         <pointsOffset>-200~300</pointsOffset>
@@ -72,7 +71,7 @@
             <minPointsThreeStar>700</minPointsThreeStar>
           </parms>
         </li>
-        <li Class="QuestNode_GetMap" />
+        <!--<li Class="QuestNode_GetMap" />-->
         <li Class="QuestNode_EvaluateSimpleCurve">
           <value>$points</value>
           <storeAs>pointsRewardFactor</storeAs>

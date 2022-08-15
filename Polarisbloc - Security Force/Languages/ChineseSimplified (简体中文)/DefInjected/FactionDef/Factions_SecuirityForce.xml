@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Security Force -->
+  <Polaribloc_SecuirityForce.label>安保部队</Polaribloc_SecuirityForce.label>
+  <!-- EN: The Security Force, associated with the Polarisbloc, provide security support for the Polarisbloc. At the same time, it is also ordered by Polarisbloc to carry out the untold task. -->
+  <Polaribloc_SecuirityForce.description>隶属于天轴集团的安保部队，为天轴集团提供安全支持。同时也受命于进行各种不可告人的任务。</Polaribloc_SecuirityForce.description>
+  <!-- EN: Security Force -->
+  <Polaribloc_SecuirityForce.fixedName>安保部队</Polaribloc_SecuirityForce.fixedName>
+  <!-- EN: Commander -->
+  <Polaribloc_SecuirityForce.leaderTitle>指挥官</Polaribloc_SecuirityForce.leaderTitle>
+  <!-- EN: Soldier -->
+  <Polaribloc_SecuirityForce.pawnSingular>士兵</Polaribloc_SecuirityForce.pawnSingular>
+  <!-- EN: Soldiers -->
+  <Polaribloc_SecuirityForce.pawnsPlural>士兵</Polaribloc_SecuirityForce.pawnsPlural>
+  
+</LanguageData>

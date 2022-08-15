@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- base -->
+  <PolarisSecretArchives.label>データ解析</PolarisSecretArchives.label>
+  <PolarisSecretArchives.description>ポラリスブロック社内部の特殊実験データを解析する。役に立つ情報を見つけるかもしれない。</PolarisSecretArchives.description>
+  <!-- medicines -->
+  <PolarisDrugFormula.label>薬物合成</PolarisDrugFormula.label>
+  <PolarisDrugFormula.description>薬品の合成方法を記載されたデータを分析する。</PolarisDrugFormula.description>
+  <PolarisAntibioticProduction.label>抗生物質製造</PolarisAntibioticProduction.label>
+  <PolarisAntibioticProduction.description>複合抗生剤を製造する方法を学ぶ。</PolarisAntibioticProduction.description>
+  <PolarisHealingPotionProduction.label>強力回復ポーション</PolarisHealingPotionProduction.label>
+  <PolarisHealingPotionProduction.description>強力回復ポーションを製造する方法を学ぶ。</PolarisHealingPotionProduction.description>
+  <PolarisReceptorAntagonistProduction.label>受容体拮抗薬</PolarisReceptorAntagonistProduction.label>
+  <PolarisReceptorAntagonistProduction.description>受容体拮抗薬を製造する方法を学ぶ。\nこの薬は薬物依存症と藥物耐性を和らげてくれます。</PolarisReceptorAntagonistProduction.description>
+  <!-- surgical program -->
+  <PolarisSurgicalProgram.label>手術プロジェクト</PolarisSurgicalProgram.label>
+  <PolarisSurgicalProgram.description>特殊な手術方法を記載されたデータを分析する。</PolarisSurgicalProgram.description>
+  <PolarisTransGenderSurgery.label>性別転換手術</PolarisTransGenderSurgery.label>
+  <PolarisTransGenderSurgery.description>性別転換手術を実行することが可能にします。</PolarisTransGenderSurgery.description>
+  <PolarisCureScarsSurgery.label>傷跡治療</PolarisCureScarsSurgery.label>
+  <PolarisCureScarsSurgery.description>傷跡を消す方法を研究する</PolarisCureScarsSurgery.description>
+  <PolarisRestoreMissingPartSurgery.label>身体欠損治療</PolarisRestoreMissingPartSurgery.label>
+  <PolarisRestoreMissingPartSurgery.description>身体障害や欠損を癒す方法を研究する</PolarisRestoreMissingPartSurgery.description>
+  <PolarisLongevityResearch.label>生理年齡研究</PolarisLongevityResearch.label>
+  <PolarisLongevityResearch.description>人間の生物学的年齢を操作する方法を学ぶ。</PolarisLongevityResearch.description>
+  <PolarisRemoveImplants.label>インプラント取り除く</PolarisRemoveImplants.label>
+  <PolarisRemoveImplants.description>身体に埋め込んだインプラントを取り除くことができるようになります。</PolarisRemoveImplants.description>
+  <PolarisPsionwire.label>サイオンワイヤー</PolarisPsionwire.label>
+  <PolarisPsionwire.description>サイオンワイヤーを製造する方法を学ぶ。</PolarisPsionwire.description>
+  <!-- special device -->
+  <PolarisSpecialDevice.label>特殊裝置</PolarisSpecialDevice.label>
+  <PolarisSpecialDevice.description>特殊な機能をもつ裝置について記載されたデータを分析する。</PolarisSpecialDevice.description>
+  <PolarisLyraeCurer.label>癒し手「ライラ」</PolarisLyraeCurer.label>
+  <PolarisLyraeCurer.description>周りの人を自動的に治療する機械を作れるようになります。</PolarisLyraeCurer.description>
+  <PolarisThermostat.label>恒温装置</PolarisThermostat.label>
+  <PolarisThermostat.description>室内温度を特定範囲に安定させる機械を作れるようになります。</PolarisThermostat.description>
+  <PolarisTraitreleaserProduction.label>性格矯正ナノマシン</PolarisTraitreleaserProduction.label>
+  <PolarisTraitreleaserProduction.description>性格矯正ナノマシンを調剤できるようになります。\n\n*ドラッグラボで作成できます。</PolarisTraitreleaserProduction.description>
+  <PolarisMendingShelf.label>修繕棚</PolarisMendingShelf.label>
+  <PolarisMendingShelf.description>破損した服や部品を修繕する棚を建設できるようになります。</PolarisMendingShelf.description>
+  <!-- cant research -->
+  <ResearchProject_PolarisCartridge.label>カートリッジ</ResearchProject_PolarisCartridge.label>
+  <ResearchProject_PolarisCartridge.description>カートリッジは着用者が死亡した時に復活させます。\n\n果たして生命の価値は等しいのですか？一人を生き延びるために、もう一人の生命を犠牲するのは本当に許せることでしょうか（これは手術によって得られたものです。）\n\nヒント：この技術はボンドルドの日記を解読することでのみ取得できます。</ResearchProject_PolarisCartridge.description>
+</LanguageData>

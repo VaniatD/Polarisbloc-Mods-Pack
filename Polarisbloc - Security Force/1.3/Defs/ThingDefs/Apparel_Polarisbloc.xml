@@ -97,7 +97,7 @@
       </bodyPartGroups>
       <layers>
         <li>Belt</li>
-        <li MayRequire="kentington.saveourship2">Middle</li>
+        <li>Middle</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -135,6 +135,7 @@
       <Flammability>0.5</Flammability>
       <Beauty>6</Beauty>
       <EquipDelay>8</EquipDelay>
+      <WorkToMake>90000</WorkToMake>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>1</MoveSpeed>
@@ -252,6 +253,7 @@
       <Flammability>0.4</Flammability>
       <Beauty>6</Beauty>
       <EquipDelay>3</EquipDelay>
+      <WorkToMake>65000</WorkToMake>
     </statBases>
     <equippedStatOffsets>
       <Flammability>-0.75</Flammability>
@@ -402,6 +404,7 @@
       <Insulation_Heat>10</Insulation_Heat>
       <!--<MarketValue>1160</MarketValue>-->
       <EquipDelay>1.5</EquipDelay>
+      <WorkToMake>32000</WorkToMake>
     </statBases>
     <equippedStatOffsets>
       <AimingDelayFactor>-0.1</AimingDelayFactor>

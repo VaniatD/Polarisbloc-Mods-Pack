@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Cartridge-->
+  <PolarisMessageSomeoneResurrected>{0} has successfully resurrected {1}.</PolarisMessageSomeoneResurrected>
+  <PolarisMessageFailedMakeCartridge>{0} must have more than 60 opinion points with {1}.</PolarisMessageFailedMakeCartridge>
+  <PolarisFoundNoResearchProject>Couldn't find a research project.</PolarisFoundNoResearchProject>
+  <!--CombatChip-->
+  <PolarisConvertCombatChipTitle>Choose tactical chip mode</PolarisConvertCombatChipTitle>
+  <PolarisConvertCombatChipDESC>Please select the mode of the tactical chip you wish to convert into with these following options.</PolarisConvertCombatChipDESC>
+  <PolarisMessageFailedConvertCombatChip>{0} doesn't have a tactical chip installed or available.</PolarisMessageFailedConvertCombatChip>
+  <PolarisConvertCombatHasNoChip>No combat chip</PolarisConvertCombatHasNoChip>
+  <PolarisResetCombatChipLabel>Reset</PolarisResetCombatChipLabel>
+  <PolarisResetCombatChipDesc>Reset the chip, make it unactive and re-active to another type.</PolarisResetCombatChipDesc>
+  <PolarisResetCombatChipPrecessing>Shutting down({0}).</PolarisResetCombatChipPrecessing>
+  <PolarisActiveCombatChipLabel>Active</PolarisActiveCombatChipLabel>
+  <PolarisActiveCombatChipDesc>Click and select a mode of the chip you wish to convert into with these following options.</PolarisActiveCombatChipDesc>
+  <PolarisActiveCombatChipLimit>Charging({0}).</PolarisActiveCombatChipLimit>
+  <PolarisActiveCombatChipStartingUp>Starting...{0}</PolarisActiveCombatChipStartingUp>
+  <!--combat chip psycaster-->
+  <PolarisPsyChipLabel>psycaster</PolarisPsyChipLabel>
+  <PolarisPsyChipDesc>This combat chip could store psyfocus when you won't use abilities, and draw out psycocus when you need.\nIt could also convert few psyfocus every time you cast ablity.</PolarisPsyChipDesc>
+  <PolarisPsyChipActived>\n\nIn this way, the chip won't store psyfocus, and it will give back focus when you release ability if it has stored.</PolarisPsyChipActived>
+  <PolarisPsyChipNotActived>\n\nIn this way, the chip will store redundant psyfocus per hour.</PolarisPsyChipNotActived>
+  <!--orbital trader caller-->
+  <PolarisOrbitalTraderCouldNotArrival>There isn't enough room to call a new orbital ship.</PolarisOrbitalTraderCouldNotArrival>
+  <!--heal old wounds-->
+  <PolarisMessageSuccessfullyRemovedHediffIsOld>{0} has successfully cured {1}'s {2}.</PolarisMessageSuccessfullyRemovedHediffIsOld>
+  <!--age-->
+  <!--<PolarisMessageSuccessfullyAgeDecrease>{0}'s age has been decreased by {1} years.</PolarisMessageSuccessfullyAgeDecrease>-->
+  <!--Traitreleaser-->
+  <PolarisTraitreleaserEffectDESC>You can choose to get the recorded trait or remove a trait from the subject. By removing a trait, the mechanites will record it and replace the pre-existing trait.</PolarisTraitreleaserEffectDESC>
+  <PolarisTraitreleaserAddTraitOption>Add {0}</PolarisTraitreleaserAddTraitOption>
+  <PolarisTraitreleaserAlreadyHadTrait>already has</PolarisTraitreleaserAlreadyHadTrait>
+  <PolarisTraitreleaserHasConflictTraits>(removal:{0})</PolarisTraitreleaserHasConflictTraits>
+  <!--<PolarisTraitreleaserHasNoEnoughSlots>not enough traits slots</PolarisTraitreleaserHasNoEnoughSlots>-->
+  <PolarisTraitreleaserRemoveTraitOption>Remove a trait (available times: {0})</PolarisTraitreleaserRemoveTraitOption>
+  <PolarisTraitreleaserChoseRemoveTrait>Choose a trait to remove from the subject.</PolarisTraitreleaserChoseRemoveTrait>
+  <PolarisTraitreleaserUsedRemovedTrait>{0} lost the trait: {1}.</PolarisTraitreleaserUsedRemovedTrait>
+  <PolarisTraitreleaserUsedReplaceConflitTraits>In order to get {1}, {0} lost the following trait(s): {2}.</PolarisTraitreleaserUsedReplaceConflitTraits>
+  <PolarisTraitreleaserUsedAddTrait>{0} gained the trait: {1}.</PolarisTraitreleaserUsedAddTrait>
+  <PolarisTraitreleaserTraitConflictingTraits>Conflicting with: {0}</PolarisTraitreleaserTraitConflictingTraits>
+  <PolarisTraitreleaserTraitDisabledWorkTypes>Disabled work types: {0}</PolarisTraitreleaserTraitDisabledWorkTypes>
+  <PolarisTraitreleaserUsedbyHasNullTraits>The subject couldn't change traits</PolarisTraitreleaserUsedbyHasNullTraits>
+  <!--momery rester-->
+  <PolarisMomeryResterHaveNoAvaliableOption>*No available options</PolarisMomeryResterHaveNoAvaliableOption>
+  <PolarisMomeryResterStoryDisabledWorkTypes>Disabled work types: {0}</PolarisMomeryResterStoryDisabledWorkTypes>
+  <PolarisMomeryResterChildhoodModeActiveLabel>Mode: childhood backstory</PolarisMomeryResterChildhoodModeActiveLabel>
+  <PolarisMomeryResterChildhoodModeActiveDesc>On this mode, it'll change the subject's childhood backstory. Click on the icon to switch into adulthood backstory mode.</PolarisMomeryResterChildhoodModeActiveDesc>
+  <PolarisMomeryResterAdulthoodModeActiveLabel>Mode: adulthood backstory</PolarisMomeryResterAdulthoodModeActiveLabel>
+  <PolarisMomeryResterAdulthoodModeActiveDesc>On this mode, it'll change the subject's adulthood backstory. Click on the icon to switch into childhood backstory mode.</PolarisMomeryResterAdulthoodModeActiveDesc>
+  <PolarisMomeryResterStorySuccessfullyChanged>{0}'s {1} has been changed to {2}.</PolarisMomeryResterStorySuccessfullyChanged>
+  <PolarisMomeryResterHaveNoAvaliableStory>{0} has no available backstory that could be changed. Set the backstory with {1}.</PolarisMomeryResterHaveNoAvaliableStory>
+  <PolarisMomeryResterUnknownError>*Unknow error</PolarisMomeryResterUnknownError>
+  <!--curer-->
+  <PolarisCurerApplyToHumanLabel>apply to human</PolarisCurerApplyToHumanLabel>
+  <PolarisCurerApplyToHumanDESC>If actived, the curer will tend humans' wounds.</PolarisCurerApplyToHumanDESC>
+  <!--restorer-->
+  <PolarisRestorerIngest>{0} has ingested the polaris restorer.</PolarisRestorerIngest>
+  <!--net chip-->
+  <PolarisForceCalmDown>{0} was calmed down by their {1}.</PolarisForceCalmDown>
+  <PolarisForceCalmDownLabel>Calm down</PolarisForceCalmDownLabel>
+  <PolarisForceCalmDownDesc>Someone is in mental state, this action will let them calm down forcely.</PolarisForceCalmDownDesc>
+  <!--void key-->
+  <PolarisVoidKeyLinkedTo>Linked</PolarisVoidKeyLinkedTo>
+  <PolarisVoidKeyTryLinkGizmoLabel>Link to...</PolarisVoidKeyTryLinkGizmoLabel>
+  <PolarisVoidKeyTryLinkGizmoDesc>Try to get a missing pawn data that was your colonist or animal.</PolarisVoidKeyTryLinkGizmoDesc>
+  <PolarisVoidKeyWindowTitle>Void key</PolarisVoidKeyWindowTitle>
+  <PolarisVoidKeyWindowInformation>You can view all of the missing pawn that were your colonist or animal, and choose which one you want to resurrect.</PolarisVoidKeyWindowInformation>
+  <PolarisVoidKeyPullVoidPawnData>Link the Key to {0}'s data.</PolarisVoidKeyPullVoidPawnData>
+  <PolarisVoidKeyPullDataDone>Got {0}'s data from void.</PolarisVoidKeyPullDataDone>
+  <PolarisVoidKeyFoundNoColonist>found no data</PolarisVoidKeyFoundNoColonist>
+  <PolarisVoidKeyITabChoosePawn>Change the link to...</PolarisVoidKeyITabChoosePawn>
+  <PolarisVoidKeyITabPawnInfo>Details</PolarisVoidKeyITabPawnInfo>
+  <!--Change age window-->
+  <PolarisTargetBioAge>Target age: {0}</PolarisTargetBioAge>
+  <PolarisMessageSuccessfullyChangeBioAge>{0}'s bio age has been changed.</PolarisMessageSuccessfullyChangeBioAge>
+  <!--decoder-->
+  <PolarisDecoderSuccessedUsedForPawn>Successfully recoded {1}'s biocode for {0}.</PolarisDecoderSuccessedUsedForPawn>
+  <PolarisDecoderFailedUsedForPawn>{0} tried to decode {1}, but failed.</PolarisDecoderFailedUsedForPawn>
+  <PolarisDecoderSelfDestroyed>The biocode decoder has desetroyed.</PolarisDecoderSelfDestroyed>
+  <PolarisDecoderSkillRequirementNoSatisfies>require {0} level {1}</PolarisDecoderSkillRequirementNoSatisfies>
+  <!--extract ability-->
+  <PolarisExtractAbilitySuccessfully>Successfully to extract {0}'s {1}.</PolarisExtractAbilitySuccessfully>
+  <PolarisExtractAbilityFailed>Could not to extract {0}'s ability.</PolarisExtractAbilityFailed>
+  <PolarisGoodwillChangedReason_ExtractedAbility>extracted {0}'s ability</PolarisGoodwillChangedReason_ExtractedAbility>
+  <!--remove implant-->
+  <PolarisMessageSuccessfullyRemovedImplants>{1} has successfully removed {1}'s {2}.</PolarisMessageSuccessfullyRemovedImplants>
+  <!--shield belt-->
+  <PlrsForceResetLabel>force reset</PlrsForceResetLabel>
+  <PlrsForceResetDESC>Reset the shield status forcedly, this action will cost some hitpoints.</PlrsForceResetDESC>
+  <PlrsNoEnoughHitPointsToReset>Has no enough hit points for reset.</PlrsNoEnoughHitPointsToReset>
+  <PlrsShieldPsyModeLabel>psychic shield</PlrsShieldPsyModeLabel>
+  <PlrsShieldPsyModeDesc>If this mode actived, the shield belt will convert the damage to neural heat and give it to the wearer.</PlrsShieldPsyModeDesc>
+  <PlrsShieldPsyEntropyOverflow>This wearer has a neural heat limit, neural heat would overflow. Disable the neural heat limiter to active it.</PlrsShieldPsyEntropyOverflow>
+  <!--Thermostat-->
+  <PolarisThermostatEfficientModeLabel>Efficient mode</PolarisThermostatEfficientModeLabel>
+  <PolarisThermostatEfficientModeDesc>If active this mode, the power consumption and effection are fourfold.</PolarisThermostatEfficientModeDesc>
+  <!--placeworkers-->
+  <PolarisPlaceOnlyOneInMap>This building is only can be constructed on the map singlely.</PolarisPlaceOnlyOneInMap>
+</LanguageData>
